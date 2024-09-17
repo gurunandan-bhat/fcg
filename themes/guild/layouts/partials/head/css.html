@@ -1,0 +1,18 @@
+{{- $cssFiles := (slice "css/bootstrap.css" "css/theme.css") }}
+{{- range $cssFiles }}
+  {{- with resources.Get . }}
+    {{- if eq hugo.Environment
+      "development"
+    }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" />
+    {{- else }}
+      {{- with . | minify | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous" />
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
