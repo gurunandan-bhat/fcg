@@ -1,0 +1,66 @@
+<div
+  id="feature-2024"
+  class="carousel slide carousel-fade"
+  data-bs-ride="carousel">
+  <div class="carousel-inner px-2">
+    {{- range $i, $src := .Site.Data.awards2024.feature.winners }}
+      <div class="carousel-item {{ if not $i }}active{{ end }}">
+        <img
+          src="/images/awards/2024/feature/{{ $src }}"
+          class="d-block w-100"
+          alt="..." />
+      </div>
+    {{ end }}
+  </div>
+  <div class="carousel-indicators" style="margin-bottom: 0">
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="3"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="4"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="5"
+      aria-label="Slide 3"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="6"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="7"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-bs-target="#feature-2024"
+      data-bs-slide-to="8"
+      aria-label="Slide 3"></button>
+  </div>
+</div>

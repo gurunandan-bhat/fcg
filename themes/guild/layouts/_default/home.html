@@ -1,7 +1,221 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <img
+          src="/images/hero.webp"
+          class="d-block mx-lg-auto img-responsive w-100"
+          alt="Side Banner"
+          loading="lazy" />
+      </div>
+      <div class="col-lg-6 lead">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mb-5">
+      <h2 class="fw-bold text-body-emphasis">Critics Choice Awards 2024</h2>
+      <div class="col-lg-6">
+        <p>
+          The Critics' Choice Film Awards is a platform to celebrate diversity
+          and flair in Indian films. It is a space to reward and recognise
+          creativity, ingenuity and quality. As a pan-India award, the Critic' s
+          Choice Film Awards will represent the diverse range of filmmaking in
+          the country. It will honour talent and display the rich culture of
+          films across languages, styles and themes. The Critics' Choice Film
+          Awards was instituted in 2018.
+        </p>
+        <p>
+          In our first edition, the awards recognized short films, in the second
+          we enhanced the awards to include the exciting and burgeoning space of
+          web series and episodic content. This year we aim to continue
+          unearthing and honoring talent from this flourishing space. With a
+          transparent process to identify worthy winners, these awards aim to
+          reward the immense creativity of this industry.
+        </p>
+        <p>View earlier years <a href="#">here</a></p>
+      </div>
+      <div class="col-lg-6">
+        <div class="row mb-3">
+          <h3 class="fw-bold text-body-emphasis text-center mb-4">
+            Special Awards 2024
+          </h3>
+          <div class="col-lg-6 mb-4">
+            <img
+              src="/images/awards/2024/Winner-Extraordinary-Contribution-to-Cinema-Award.jpg"
+              class="img-responsive w-100" />
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="/images/awards/2024/Winner-Gender-Sensitivity-Award.jpg"
+              class="img-responsive w-100" />
+          </div>
+        </div>
+        <div class="row">
+          <p>
+            Add a citation for extraordinary contribution and the gender
+            sensitivity awards here
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-4 mb-5">
+        <h3 class="fw-bold text-body-emphasis text-center mb-4">
+          Feature Films 2024
+        </h3>
+        {{ partial "carousel-2024-feature.html" . }}
+      </div>
+      <div class="col-lg-4 mb-5">
+        <h3 class="fw-bold text-body-emphasis text-center mb-4">
+          Web Series 2024
+        </h3>
+        {{ partial "carousel-2024-web.html" . }}
+      </div>
+      <div class="col-lg-4 mb-5">
+        <h3 class="fw-bold text-body-emphasis text-center mb-4">
+          Short Films 2024
+        </h3>
+        {{ partial "carousel-2024-short.html" . }}
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="fw-bold text-body-emphasis">Latest Member Reviews</h2>
+      <p>
+        Read more reviews by our members <a href="#">here</a><br />
+        Also available from member bios
+      </p>
+      <div class="col-lg-3">
+        <h6 class="fw-bold">
+          Berlin: The Spy Drama Isn't A Run-Of-The-Mill Espionage Thriler
+        </h6>
+        <img
+          src="/images/reviews/Review-1.png"
+          class="img-responsive w-100 mb-2" />
+        <p class="fw-bold small">
+          Member: Saibal Cahtterjee
+          <br />
+          The film deserves kudos for its refusal to kowtow to the current
+          demands of the Bollywood spy movie template
+        </p>
+        <p>
+          New Delhi: Secret agents have been Bollywood action movie staples for
+          some years now. A handful of them played by Mumbai's biggest stars now
+          constitute a full-fledged spy universe rustled up by the industry's
+          leading production house. They are unlikely to disappear from the
+          Hindi showbiz radar anytime soon. Should we be interested in a small,
+          understated cinematic clone built around a bunch of spies who are no
+          patch on the big boys of the game? The answer is yes. Berlin, written
+          and directed by Atul Sabharwal, isn't a run-of-the-mill espionage
+          drama.
+        </p>
+        <p>
+          Not a stirring affair by any stretch of the imagination but a sobering
+          cautionary tale of sorts, the film subverts the genre. If you warm up
+          to it, you might find enough in here to keep you invested.
+        </p>
+        <p>Read full review <a href="#">here</a></p>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="fw-bold">
+          KishKindha Kaandam: A flawless screenplay drives this intriguing
+          mystery drama
+        </h6>
+        <img
+          src="/images/reviews/Review-2.webp"
+          class="img-responsive w-100 mb-2" />
+        <p class="fw-bold small">
+          Member: S. R. Praveen
+          <br />
+          The true sign of any timeless work of art is that hard-to-achieve
+          space of uncertainty, which the film masterfully occupies and easily
+          finds a place among one of the best mystery-dramas Malayalam cinema
+          has ever produced
+        </p>
+        <p>
+          ‘Layered’ is a term we throw around lazily to describe any screenplay
+          that has just a little more depth than meets the eye. But where does
+          one start, when describing a screenplay which gives of the impression
+          of peeling an onion, layer by layer, only for us to end up with an
+          orange? Do we start off with the sheer joy of marvelling at the
+          ingenuity of the writing or about the pains of its three principal
+          characters that slowly seep into us, and stay with us long after?
+        </p>
+        <p>
+          KishKindha Kaandam, directed by Dinjith Ayyathan, is marked by a
+          steady flow of events, almost none of which take the familiar route.
+          It all begins from a routine government order ahead of elections for
+          firearms licence holders to deposit their weapons at the nearest
+          police station.
+        </p>
+        <p>Read full review <a href="#">here</a></p>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="fw-bold">
+          Rebel Ridge: Aaron Pierre Is Commanding In Tense, Satisfying Political
+          Action Thriller
+        </h6>
+        <img
+          src="/images/reviews/Review-3.webp"
+          class="img-responsive w-100 mb-2" />
+        <p class="fw-bold small">
+          Member: Sonal Pandya
+          <br />
+          Writer-director Jeremy Saulnier's standoff tale between a Black man
+          and an entire corrupt town is nail-bitingly good.
+        </p>
+        <p>
+          Jeremy Saulnier's Rebel Ridge doesn't waste a second getting into the
+          thick of it. The Netflix feature opens with the incident that sets up
+          the story. A Black man Terry Richmond (Aaron Pierre) is riding on a
+          bike with headphones when he is abruptly thrown to the ground. Wrongly
+          accused of carrying drug money, the former army man is on his way to
+          bail out his cousin. The altercation goes off the wrong foot, setting
+          the tone for the honourable man to give back to the crooked cops who
+          have gamed the system.
+        </p>
+        <p>
+          When Shelby Springs cops on patrol take advantage of Terry, they don't
+          realise that they've managed to push the wrong guy to the brink. They
+          'legally' seize his money and put up barriers that won't allow him to
+          save his cousin from jail.
+        </p>
+        <p>Read full review <a href="#">here</a></p>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="fw-bold">
+          Call Me Bae: A poor little rich woman’s coming of age is skin-deep
+        </h6>
+        <img
+          src="/images/reviews/Review-4.jpg"
+          class="img-responsive w-100 mb-2" />
+        <p class="fw-bold small">
+          Member: Udita Jhunjhunwala
+          <br />
+          Collin D’Cunha’s comedy, led by Ananya Panday, is out on Prime Video.
+        </p>
+        <p>
+          In the Prime Video series Call Me Bae, Ananya Panday plays Bella
+          Chowdhary, a South Delhi heiress. Bae’s life capsizes when her
+          high-profile marriage to Agastya (Vihaan Samat) ends badly after she’s
+          caught canoodling with her personal trainer Prince (Varun Sood).
+        </p>
+        <p>
+          A disgraced Bae is dumped by her BFFs as well as ejected from family
+          chats, WhatsApp groups and Delhi itself. Like Caroline Channing in the
+          American sitcom Two Broke Girls, Bae finds herself with cancelled
+          credit cards. She has to leave home with only her designer wardrobe
+          and her Gram-fam as her support.
+        </p>
+        <p>
+          A penniless Bae moves to Mumbai, where she befriends Saira (Muskkan
+          Jaferi), a trainee at a hotel. The unskilled Bae’s attempts at getting
+          jobs are unsuccessful until a viral video of her shaming top-rated
+          news anchor Satyajit Sen lands her an internship at the same channel.
+        </p>
+        <p>Read full review <a href="#">here</a></p>
+      </div>
+    </div>
+  </div>
 {{ end }}

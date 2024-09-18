@@ -6,9 +6,10 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    <div class="container my-5">
+    <div class="container-fluid my-5">
       <header>
         {{ partial "header.html" . }}
+        <img src="/images/banner.webp" class="img-responsive w-100" />
       </header>
     </div>
     <div class="container">
@@ -16,10 +17,11 @@
         {{ block "main" . }}{{ end }}
       </main>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <footer>
         {{ partial "footer.html" . }}
       </footer>
     </div>
+    {{ partialCached "head/js.html" . }}
   </body>
 </html>
