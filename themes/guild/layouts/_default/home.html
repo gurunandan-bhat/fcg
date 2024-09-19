@@ -3,10 +3,13 @@
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-lg-6">
         <img
-          src="/images/hero.webp"
-          class="d-block mx-lg-auto img-responsive w-100"
+          src="/images/hero.jpg"
+          class="d-block mx-lg-auto img-responsive w-100 mb-1 pt-5 mt-5"
           alt="Side Banner"
           loading="lazy" />
+        <p class="small">
+          Image used as a filler - may change in the final version
+        </p>
       </div>
       <div class="col-lg-6 lead">
         {{ .Content }}
@@ -15,9 +18,7 @@
   </div>
   <div class="container">
     <div class="row mb-5">
-      <h2 class="fw-bold text-body-emphasis mb-4">
-        Critics Choice Awards 2024
-      </h2>
+      <h2 class="fw-bold mb-4">Critics Choice Awards 2024</h2>
       <div class="col-lg-6">
         <p>
           The Critics' Choice Film Awards is a platform to celebrate diversity
@@ -26,7 +27,7 @@
           Choice Film Awards will represent the diverse range of filmmaking in
           the country. It will honour talent and display the rich culture of
           films across languages, styles and themes. The Critics' Choice Film
-          Awards was instituted in 2018.
+          Awards were instituted in 2018 and have continued every year since.
         </p>
         <p>
           In our first edition, the awards recognized short films, in the second
@@ -40,9 +41,7 @@
       </div>
       <div class="col-lg-6">
         <div class="row mb-3">
-          <h3 class="fw-bold text-body-emphasis text-center mb-4">
-            Special Awards 2024
-          </h3>
+          <h3 class="fw-bold text-center mb-4">Special Awards 2024</h3>
           <div class="col-lg-6 mb-4">
             <img
               src="/images/awards/2024/Winner-Extraordinary-Contribution-to-Cinema-Award.jpg"
@@ -64,30 +63,24 @@
     </div>
     <div class="row mb-5">
       <div class="col-lg-4 mb-5">
-        <h3 class="fw-bold text-body-emphasis text-center mb-4">
-          Feature Films 2024
-        </h3>
+        <h3 class="fw-bold text-center mb-4">Feature Films 2024</h3>
         {{ partial "carousel-2024-feature.html" . }}
       </div>
       <div class="col-lg-4 mb-5">
-        <h3 class="fw-bold text-body-emphasis text-center mb-4">
-          Web Series 2024
-        </h3>
+        <h3 class="fw-bold text-center mb-4">Web Series 2024</h3>
         {{ partial "carousel-2024-web.html" . }}
       </div>
       <div class="col-lg-4 mb-5">
-        <h3 class="fw-bold text-body-emphasis text-center mb-4">
-          Short Films 2024
-        </h3>
+        <h3 class="fw-bold text-center mb-4">Short Films 2024</h3>
         {{ partial "carousel-2024-short.html" . }}
       </div>
     </div>
     <hr class="pb-4" />
     <div class="row">
-      <h2 class="fw-bold text-body-emphasis mb-4">Guild Members in the News</h2>
-      <p class="mb-2">Read older news articles <a href="#">here</a></p>
+      <h2 class="fw-bold mb-4">Guild Members in the News</h2>
+      <p class="mb-4">Read older news articles <a href="#">here</a></p>
       <div class="col-lg-6">
-        <h5 class="mb-4 text-body-emphasis">
+        <h5 class="fw-bold mb-4">
           Senior Journalist & Film Critic Deepak Dua Honored with<br />Best
           Critic Award at 70th National Film Awards
         </h5>
@@ -109,7 +102,7 @@
         </p>
       </div>
       <div class="col-lg-6">
-        <h5 class="mb-4 text-body-emphasis">
+        <h5 class="fw-bold mb-4">
           Bhawana Somaaya launched her book,<br />&ldquo;On Camera Off
           Camera&rdquo;, with Tollywood stars
         </h5>
@@ -132,21 +125,20 @@
     </div>
     <hr class="pb-4" />
     <div class="row">
-      <h2 class="fw-bold text-body-emphasis mb-4">Latest Member Reviews</h2>
-      <p>
+      <h2 class="fw-bold mb-4">Latest Member Reviews</h2>
+      <p class="mb-4">
         Read more reviews by our members <a href="#">here</a><br />
         Individual reviews are also available from member's bio pages
       </p>
-      <div class="col-lg-3">
-        <h6 class="fw-bold">
+      <div class="col-lg-3 px-2">
+        <h6 class="fw-bold pb-2">
           Berlin: The Spy Drama Isn't A Run-Of-The-Mill Espionage Thriler
         </h6>
         <img
           src="/images/reviews/Review-1.png"
           class="img-responsive w-100 mb-2" />
-        <p class="fw-bold small">
-          Member: Saibal Cahtterjee
-          <br />
+        <h6 class="fw-bold small">Member: Saibal Cahtterjee</h6>
+        <p class="summary small">
           The film deserves kudos for its refusal to kowtow to the current
           demands of the Bollywood spy movie template
         </p>
@@ -162,18 +154,18 @@
           drama.
         </p>
         <p>Read full review <a href="#">here</a></p>
+        <hr class="show-on-phone py-2" />
       </div>
       <div class="col-lg-3">
-        <h6 class="fw-bold">
+        <h6 class="fw-bold pb-2">
           KishKindha Kaandam: A flawless screenplay drives this intriguing
           mystery drama
         </h6>
         <img
           src="/images/reviews/Review-2.webp"
           class="img-responsive w-100 mb-2" />
-        <p class="fw-bold small">
-          Member: S. R. Praveen
-          <br />
+        <h6 class="fw-bold small">Member: S. R. Praveen</h6>
+        <p class="summary small">
           The true sign of any timeless work of art is that hard-to-achieve
           space of uncertainty, which the film masterfully occupies and easily
           finds a place among one of the best mystery-dramas Malayalam cinema
@@ -189,18 +181,18 @@
           characters that slowly seep into us, and stay with us long after?
         </p>
         <p>Read full review <a href="#">here</a></p>
+        <hr class="show-on-phone py-2" />
       </div>
       <div class="col-lg-3">
-        <h6 class="fw-bold">
+        <h6 class="fw-bold pb-2">
           Rebel Ridge: Aaron Pierre Is Commanding In Tense, Satisfying Political
           Action Thriller
         </h6>
         <img
           src="/images/reviews/Review-3.webp"
           class="img-responsive w-100 mb-2" />
-        <p class="fw-bold small">
-          Member: Sonal Pandya
-          <br />
+        <h6 class="fw-bold small">Member: Sonal Pandya</h6>
+        <p class="summary small">
           Writer-director Jeremy Saulnier's standoff tale between a Black man
           and an entire corrupt town is nail-bitingly good.
         </p>
@@ -215,17 +207,17 @@
           have gamed the system.
         </p>
         <p>Read full review <a href="#">here</a></p>
+        <hr class="show-on-phone py-2" />
       </div>
       <div class="col-lg-3">
-        <h6 class="fw-bold">
+        <h6 class="fw-bold pb-2">
           Call Me Bae: A poor little rich woman’s coming of age is skin-deep
         </h6>
         <img
           src="/images/reviews/Review-4.jpg"
           class="img-responsive w-100 mb-2" />
-        <p class="fw-bold small">
-          Member: Udita Jhunjhunwala
-          <br />
+        <h6 class="fw-bold small">Member: Udita Jhunjhunwala</h6>
+        <p class="summary small">
           Collin D’Cunha’s comedy, led by Ananya Panday, is out on Prime Video.
         </p>
         <p>

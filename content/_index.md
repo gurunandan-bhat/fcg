@@ -4,9 +4,11 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-The Film Critics Guild, India’s first registered association of film
-critics, is a geographically diverse cross-section of professionals
-who have come together to streamline the ethical and quality standards
+# We are &hellip;
+
+&hellip; India’s first registered association of film
+critics &mdash; a geographically diverse cross-section of professionals
+&mdash; who have come together to streamline the ethical and quality standards
 for film criticism in the country.
 
 With India’s most credible critics &ndash; representing print, radio,

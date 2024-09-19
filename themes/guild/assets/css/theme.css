@@ -1,3 +1,67 @@
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #333333;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora-normal {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #5e5e5e;
+}
+
+.show-on-phone {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .show-on-phone {
+    display: block;
+  }
+}
+
+.lead h1 {
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.summary {
+  font-style: italic;
+  font-weight: 600;
+}
+
 #footer {
   background: #222 url(/images/foot_top.png) repeat;
   padding-top: 30px;
