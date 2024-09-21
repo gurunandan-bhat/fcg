@@ -15,3 +15,5 @@ With India’s most credible critics &ndash; representing print, radio,
 broadcast, and the web &ndash; at its helm, the Guild is dedicated to
 maintaining the highest level of integrity amongst its members and
 evaluating works of cinema that stand apart in their story telling.
+
+Want to [Join Us?]("#")
