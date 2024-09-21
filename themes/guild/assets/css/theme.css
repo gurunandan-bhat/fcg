@@ -42,6 +42,11 @@ h6 {
   color: #5e5e5e;
 }
 
+.nav-item a.active {
+  color: goldenrod !important;
+  border-bottom: 2px solid goldenrod;
+}
+
 .show-on-phone {
   display: none;
 }
