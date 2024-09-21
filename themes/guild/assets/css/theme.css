@@ -3,7 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #333333;
+  color: #3e3e3e;
 }
 
 .fira-sans-light {
@@ -64,6 +64,7 @@ h6 {
 
 .lead p {
   font-style: italic;
+  color: #1d1d1d;
 }
 
 .summary {
