@@ -14,7 +14,7 @@ body {
 
 .fira-sans-regular {
   font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -58,6 +58,10 @@ h2 {
 @media (max-width: 991.98px) {
   .show-on-phone {
     display: block;
+  }
+  .nav-item a.active {
+    color: #a11a0d !important;
+    border-bottom: none;
   }
 }
 
