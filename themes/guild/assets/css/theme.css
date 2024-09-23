@@ -46,6 +46,10 @@ h2 {
   color: #1a3e6d;
 }
 
+.navbar {
+  background-color: #eef5fb;
+}
+
 .nav-item a.active {
   color: #a11a0d !important;
   border-bottom: 2px solid #a11a0d;
