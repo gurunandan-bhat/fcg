@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Film Critics Guild'
 theme = 'guild'
+summaryLength = 20
 
 [[menus.main]]
 name = 'Home'
@@ -19,8 +20,8 @@ pageRef = '/reviews'
 weight = 20
 
 [[menus.main]]
-name = 'Members'
-pageRef = '/members'
+name = 'The Guild'
+pageRef = '/guild'
 weight = 40
 
 [[menus.main]]

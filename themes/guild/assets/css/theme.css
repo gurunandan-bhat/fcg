@@ -52,6 +52,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.highlight {
+  background-color: #eef5fb;
+}
+
 .nav-item a.active {
   color: #a11a0d !important;
   border-bottom: 2px solid #a11a0d;
@@ -64,6 +68,7 @@ h2 {
 @media (max-width: 991.98px) {
   .show-on-phone {
     display: block;
+    padding: 10px, 0;
   }
   .nav-item a.active {
     color: #a11a0d !important;

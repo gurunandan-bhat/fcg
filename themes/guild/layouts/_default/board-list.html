@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <div class="container-fluid">
+    <img src="/images/members/banner.png" class="img-responsive w-100" />
+  </div>
+  <div class="container" style="padding-top:100px;">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="row">
+      {{ range .Pages }}
+        <div class="col-lg-3 col-md-6 mb-3">
+          <h6 style="margin-bottom:0.1rem;">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </h6>
+          {{ with .Params.designations }}
+            <p class="fira-sans-regular small">
+              {{ delimit . ", " " and " }}
+            </p>
+          {{ end }}
+          <img
+            src="{{- .Params.img }}"
+            class="img-responsive w-100 py-2"
+            alt="{{ .Title }}" />
+          <div class="smaller">
+            {{ .Summary }}
+          </div>
+          <hr class="show-on-phone py-2" />
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
