@@ -17,9 +17,12 @@
                 <div class="col-lg-11">
                   <h6>
                     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                    <div class="float-end">
+                      {{ partial "social-media.html" .Params.soc_media }}
+                    </div>
                   </h6>
                   {{ with .Params.designations }}
-                    <p class="fira-sans-regular small">
+                    <p class="fira-sans-regular small mb-0">
                       {{ delimit . ", " " and " }}
                     </p>
                   {{ end }}
@@ -44,9 +47,12 @@
                 <div class="col-xxl-4 col-xl-6 mb-5">
                   <h6>
                     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                    <div class="float-end">
+                      {{ partial "social-media.html" .Params.soc_media }}
+                    </div>
                   </h6>
                   {{ with .Params.designations }}
-                    <p class="fira-sans-regular small">
+                    <p class="fira-sans-regular small mb-0">
                       {{ delimit . ", " " and " }}
                     </p>
                   {{ end }}

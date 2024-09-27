@@ -1,0 +1,11 @@
+winners = [
+    'Winner_Best Feature Film.png',
+    'Winner_Best Director_Feature Film.png',
+    'Winner_Best Actor_Feature Film.png',
+    'Winner_Best Actress_Feature Film.png',
+    'Winner_Best Supporting Actor_Feature Film.png',
+    'Winner_Best Supporting Actress_Feature Film.png',
+    'Winner_Best Editing_Feature Film.png',
+    'Winner_Best Cinematography_Feature Film.png',
+    'Winner_Best Writing_Feature Film.png'
+]
