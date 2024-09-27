@@ -30,9 +30,9 @@
             creativity, ingenuity and quality.
           </p>
           <p>
-            As a pan-India award, the Critic' s Choice Film Awards represents
-            the diverse range of filmmaking in the country. It honours talent
-            and displays the rich culture of films across languages, styles and
+            As a pan-India award, the Critics' Choice Film Awards represents the
+            diverse range of filmmaking in the country. It honours talent and
+            displays the rich culture of films across languages, styles and
             themes. The Critics' Choice Film Awards were instituted in 2018 and
             have continued every year since.
           </p>
@@ -71,15 +71,15 @@
       <div class="row mb-5">
         <div class="col-lg-4 mb-5">
           <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
-          {{ partial "carousel-2024-feature.html" . }}
+          {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
         </div>
         <div class="col-lg-4 mb-5">
           <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
-          {{ partial "carousel-2024-web.html" . }}
+          {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
         </div>
         <div class="col-lg-4 mb-5">
           <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
-          {{ partial "carousel-2024-short.html" . }}
+          {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
         </div>
       </div>
     </div>
