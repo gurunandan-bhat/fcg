@@ -9,29 +9,11 @@
       {{ range .Sections }}
         {{ if eq .LinkTitle "The Board" }}
           <div class="col-lg-4 ps-5 pe-2 py-3 highlight">
-            <h3>
-              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-            </h3>
+            <h3>{{ .LinkTitle }}</h3>
             <div class="row">
               {{ range .Pages }}
                 <div class="col-lg-11">
-                  <h6>
-                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                    <div class="float-end">
-                      {{ partial "social-media.html" .Params.soc_media }}
-                    </div>
-                  </h6>
-                  {{ with .Params.designations }}
-                    <p class="fira-sans-regular small mb-0">
-                      {{ delimit . ", " " and " }}
-                    </p>
-                  {{ end }}
-                  <img
-                    src="{{- .Params.img }}"
-                    class="img-responsive w-100 py-2"
-                    alt="{{ .Title }}" />
-
-                  {{ .Summary }}
+                  {{ block "member" . }}{{ end }}
                   <hr />
                 </div>
               {{ end }}
@@ -39,28 +21,11 @@
           </div>
         {{ else }}
           <div class="col-lg-8 ps-5 py-3">
-            <h3>
-              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-            </h3>
+            <h3>{{ .LinkTitle }}</h3>
             <div class="row">
               {{ range .Pages }}
                 <div class="col-xxl-4 col-xl-6 mb-5">
-                  <h6>
-                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                    <div class="float-end">
-                      {{ partial "social-media.html" .Params.soc_media }}
-                    </div>
-                  </h6>
-                  {{ with .Params.designations }}
-                    <p class="fira-sans-regular small mb-0">
-                      {{ delimit . ", " " and " }}
-                    </p>
-                  {{ end }}
-                  <img
-                    src="{{- .Params.img }}"
-                    class="img-responsive w-100 py-2"
-                    alt="{{ .Title }}" />
-                  {{ .Summary }}
+                  {{ block "member" . }}{{ end }}
                   <hr class="show-on-phone" />
                 </div>
               {{ end }}
@@ -69,5 +34,26 @@
         {{ end }}
       {{ end }}
     </div>
+  </div>
+{{ end }}
+
+{{ define "member" }}
+  <h6>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    <div class="float-end">
+      {{ partial "social-media.html" .Params.soc_media }}
+    </div>
+  </h6>
+  {{ with .Params.designations }}
+    <p class="fira-sans-regular small mb-0">
+      {{ delimit . ", " " and " }}
+    </p>
+  {{ end }}
+  <img
+    src="{{- .Params.img }}"
+    class="img-responsive w-100 py-2"
+    alt="{{ .Title }}" />
+  <div class="small">
+    {{ .Summary }}
   </div>
 {{ end }}
