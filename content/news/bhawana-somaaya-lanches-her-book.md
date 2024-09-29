@@ -7,7 +7,7 @@ opening = 'Veteran film critic and author Bhawana Somaaya launched her book “O
 tags = ['bhawanasomaaya']
 +++
 
-Veteran film critic and author Bhawana Somaaya launched her book “On Camera Off Camera”. Presented by Caring Minds in association with t2. The book was unveiled in the presence of actors Moon Moon Sen, Parambrata Chattopadhyay and Sudipta Chakraborty.
+Veteran film critic and author Bhawana Somaaya launched her book “On Camera Off Camera”. Presented by Caring Minds in association with t2. The book was unveiled in the presence of guests, actors Moon Moon Sen, Parambrata Chattopadhyay and Sudipta Chakraborty.
 
 The guests later sat for an engaging discussion that ranged from an actor-journalist relationship to the responsibility of a film critic and more. Bhawana, who has authored multiple books on cinema apart from writing a few biographies, brings conversations with superstars of the ‘90s like Sridevi, Rajesh Khanna and Asha Parekh in her new book.
 
