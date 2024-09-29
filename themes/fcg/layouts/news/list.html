@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div class="container" style="margin-top: 70px;">
+    <pre class="x-small">{{ debug.Dump .Sections }}</pre>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="row">
+      {{ range first 3 .RegularPages }}
+        <div class="col-lg-4 col-md-4">
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <img src="{{ .Params.img }}" class="img-responsive w-100" />
+          {{ .Summary }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

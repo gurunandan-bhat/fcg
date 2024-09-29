@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="container" style="margin-top: 70px;">
+    <div class="col-lg-7">
+      <h1>{{ .Title }}</h1>
+      <p>Using the default single template</p>
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format ":date_long" }}
+      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+      {{ .Content }}
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+  </div>
+{{ end }}

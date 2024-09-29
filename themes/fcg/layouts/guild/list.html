@@ -4,6 +4,7 @@
   </div>
   <div class="container mt-5 pt-5">
     <h1 class="mb-5">{{ .Title }}</h1>
+    <!-- Using the guild list template -->
     {{ .Content }}
     <div class="row">
       {{ range .Sections }}
@@ -12,7 +13,6 @@
             <h3>{{ .LinkTitle }}</h3>
             <div class="row">
               {{ range .Pages }}
-                {{ debug.Dump . }}
                 <div class="col-lg-11">
                   {{ block "member" . }}{{ end }}
                   <hr />
