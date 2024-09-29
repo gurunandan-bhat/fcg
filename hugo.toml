@@ -4,6 +4,7 @@ title = 'Film Critics Guild'
 theme = 'fcg'
 summaryLength = 20
 
+
 [pagination]
   pagerSize = 6
 

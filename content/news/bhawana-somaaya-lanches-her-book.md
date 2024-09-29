@@ -1,5 +1,5 @@
 +++
-title = 'Bhawana Somaaya Lanches Her Book'
+title = 'Bhawana Somaaya Lanches Book'
 date = 2024-09-29T11:53:12+05:30
 draft = false
 img = 'somaaya-book.jpg'
