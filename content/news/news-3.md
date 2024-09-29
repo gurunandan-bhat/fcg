@@ -1,13 +1,15 @@
 +++
-title = 'News 3'
+title = 'More Fake News'
 date = 2024-09-29T10:04:32+05:30
 draft = false
 tags = ['anupamachopra']
-img = 'https://picsum.photos/600/300'
+img = 'news-3.jpg'
 opening = 'Quisque ullamcorper sodales lectus, ut ultrices leo vestibulum non. Interdum et malesuada fames ac ante.'
 +++
 
-Fusce at consequat nulla, interdum suscipit mauris. Praesent et risus ut urna porta mollis. Cras ut aliquet orci. Phasellus scelerisque erat velit, ut tempus eros efficitur ut. Praesent iaculis nibh sit amet tortor rutrum, quis aliquam nibh luctus. Nulla facilisi. Proin id quam blandit, rhoncus odio id, semper orci. Aenean ultrices pretium nisl. Suspendisse et auctor augue, sit amet pharetra nisl. Pellentesque finibus viverra eros, at ornare elit molestie et.
+Fusce at consequat nulla, interdum suscipit mauris. Praesent et risus ut urna porta mollis. Cras ut aliquet orci. Phasellus scelerisque erat velit, ut tempus eros efficitur ut. Praesent iaculis nibh sit amet tortor rutrum.
+
+Quis aliquam nibh luctus. Nulla facilisi. Proin id quam blandit, rhoncus odio id, semper orci. Aenean ultrices pretium nisl. Suspendisse et auctor augue, sit amet pharetra nisl. Pellentesque finibus viverra eros, at ornare elit molestie et.
 
 Aliquam erat volutpat. In vehicula hendrerit augue. Ut efficitur lorem arcu, sed dapibus mauris vulputate at. Donec risus eros, interdum eu rhoncus sed, semper eget erat. In sagittis turpis et gravida volutpat. In at volutpat diam. Integer ultricies nec quam a tincidunt. Quisque ullamcorper sodales lectus, ut ultrices leo vestibulum non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer turpis quam, placerat sit amet lectus a, euismod dapibus lacus. Quisque tempus quam et eleifend dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut a ante vel erat fermentum vulputate.
 

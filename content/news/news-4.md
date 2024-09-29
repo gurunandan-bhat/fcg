@@ -1,13 +1,15 @@
 +++
-title = 'News 4'
+title = 'Fake News! Fake News!!'
 date = 2024-09-29T10:04:37+05:30
 draft = false
 tags = ['anupamachopra']
-img = 'https://picsum.photos/600/300'
+img = 'news-4.jpg'
 opening = 'Cras at justo vulputate, lacinia nisi faucibus, placerat elit. Curabitur porttitor lorem sit amet elit feugiat.'
 +++
 
-Pellentesque et justo tellus. Duis congue enim eget metus rutrum congue. Maecenas non dapibus dolor. Fusce id finibus metus. Morbi id suscipit dui, in condimentum arcu. Cras ut tristique enim. Donec placerat ligula massa, non egestas tortor euismod non. Praesent sollicitudin, tellus nec semper dapibus, erat velit condimentum ligula, non euismod eros diam non nisi. Nam at libero lectus. Nulla placerat, est congue consequat vestibulum, tortor dolor feugiat magna, nec tempor est mi vel sem.
+Pellentesque et justo tellus. Duis congue enim eget metus rutrum congue. Maecenas non dapibus dolor. Fusce id finibus metus. Morbi id suscipit dui, in condimentum arcu. Cras ut tristique enim.
+
+Donec placerat ligula massa, non egestas tortor euismod non. Praesent sollicitudin, tellus nec semper dapibus, erat velit condimentum ligula, non euismod eros diam non nisi. Nam at libero lectus. Nulla placerat, est congue consequat vestibulum, tortor dolor feugiat magna, nec tempor est mi vel sem.
 
 Proin vitae dolor vitae mauris imperdiet sagittis non id dolor. Mauris feugiat ipsum lacinia dui tristique, vestibulum placerat est ullamcorper. Ut volutpat risus at nunc sodales, imperdiet gravida nibh pulvinar. Etiam leo erat, tincidunt id tortor in, faucibus elementum elit. Sed imperdiet condimentum sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla laoreet elit lacus, sed maximus est tincidunt in. Mauris urna metus, pellentesque quis nisl nec, volutpat posuere nunc.
 

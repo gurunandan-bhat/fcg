@@ -18,121 +18,15 @@
   </div>
   <div class="container">
     {{ partial "navigate.html" . }}
-  </div>
-  <div class="container-fluid pt-5 pb-1 my-5" style="background-color: #eef5fb">
-    <div class="container">
-      <div class="row mt-3 mb-5">
-        <h2 class="fw-bold mb-4">Critics Choice Awards 2024</h2>
-        <div class="col-lg-6">
-          <p class="lead">
-            The Critics' Choice Film Awards is a platform to celebrate diversity
-            and flair in Indian films. It is a space to reward and recognise
-            creativity, ingenuity and quality.
-          </p>
-          <p>
-            As a pan-India award, the Critics' Choice Film Awards represents the
-            diverse range of filmmaking in the country. It honours talent and
-            displays the rich culture of films across languages, styles and
-            themes. The Critics' Choice Film Awards were instituted in 2018 and
-            have continued every year since.
-          </p>
-          <p>
-            In our first edition, the awards recognized short films, in the
-            second we enhanced the awards to include the exciting and burgeoning
-            space of web series and episodic content. This year we aim to
-            continue unearthing and honoring talent from this flourishing space.
-            With a transparent process to identify worthy winners, these awards
-            aim to reward the immense creativity of this industry.
-          </p>
-          <p>View earlier years <a href="#">here</a></p>
-        </div>
-        <div class="col-lg-6">
-          <div class="row mb-3">
-            <h5 class="fw-bold text-center mb-4">Special Awards 2024</h5>
-            <div class="col-lg-6 mb-4">
-              <img
-                src="/images/awards/2024/Winner-Extraordinary-Contribution-to-Cinema-Award.jpg"
-                class="img-responsive w-100" />
-            </div>
-            <div class="col-lg-6">
-              <img
-                src="/images/awards/2024/Winner-Gender-Sensitivity-Award.jpg"
-                class="img-responsive w-100" />
-            </div>
-          </div>
-          <div class="row">
-            <p>
-              Add a citation for extraordinary contribution and the gender
-              sensitivity awards here
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
-        </div>
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
-        </div>
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
-        </div>
-      </div>
-    </div>
+    <hr class="pb-4" />
   </div>
   <div class="container">
-    <div class="row">
-      <h2 class="fw-bold mb-4">Guild Members in the News</h2>
-      <p class="mb-4">Read older news articles <a href="#">here</a></p>
-      <div class="col-lg-6 pe-4">
-        <h6 class="fw-bold mb-4">
-          Senior Journalist & Film Critic Deepak Dua Honored with<br />Best
-          Critic Award at 70th National Film Awards
-        </h6>
-        <p>
-          <img
-            src="/images/news/deepak-dua.jpg"
-            class="img-responsive float-start pt-2 pe-4 pb-3" />
-          In a momentous recognition of his longstanding contributions to film
-          journalism, Senior Journalist and Film Critic Deepak Dua has been
-          honored with the Best Critic Award at the 70th National Film Awards
-          for the year 2022. The prestigious award was announced to Dua by the
-          esteemed Jury members in an event held today. Deepak Dua, who has been
-          a prominent figure in Delhi’s film criticism and travel writing since
-          1993, has made significant contributions to the field through his
-          portal, ‘Cineyatra.com,’ as well as various newspapers, magazines, web
-          portals, TV channels, and radio stations. His insights into cinema and
-          travel have resonated widely, earning him accolades and respect in the
-          industry.
-        </p>
-      </div>
-      <div class="col-lg-6 ps-4">
-        <h6 class="fw-bold mb-4">
-          Bhawana Somaaya launched her book,<br />&ldquo;On Camera Off
-          Camera&rdquo;, with Tollywood stars
-        </h6>
-        <p>
-          <img
-            src="/images/news/somaya-book.jpg"
-            class="img-responsive float-start pt-2 pe-4 pb-3" />
-          Veteran film critic and author Bhawana Somaaya launched her book
-          &ldquo;On Camera Off Camera&rdquo; Presented by Caring Minds in
-          association with t2, the book was unveiled in the presence of actors
-          Moon Moon Sen, Parambrata Chattopadhyay and Sudipta Chakraborty who
-          later sat for an engaging discussion that ranged from an
-          actor-journalist relationship to the responsibility of a film critic
-          and more. Bhawana, who has authored multiple books on cinema apart
-          from writing a few biographies, brings conversations with superstars
-          of the ‘90s like Sridevi, Rajesh Khanna and Asha Parekh in her new
-          book.
-        </p>
-      </div>
-    </div>
+    <h2 class="fw-bold mb-4">Guild Members in the News</h2>
+    <p class="mb-4">Read older news articles <a href="/news">here</a></p>
+    {{ partial "top-n.html" (dict "section" "news" "n" 4) }}
     <hr class="pb-4" />
+  </div>
+  <div class="container">
     <div class="row">
       <h2 class="fw-bold mb-4">Latest Member Reviews</h2>
       <p class="mb-4">
@@ -253,6 +147,71 @@
           credit cards.
         </p>
         <p>Read full review <a href="#">here</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid pt-5 pb-1 my-5" style="background-color: #eef5fb">
+    <div class="container">
+      <div class="row mt-3 mb-5">
+        <h2 class="fw-bold mb-4">Critics Choice Awards 2024</h2>
+        <div class="col-lg-6">
+          <p class="lead">
+            The Critics' Choice Film Awards is a platform to celebrate diversity
+            and flair in Indian films. It is a space to reward and recognise
+            creativity, ingenuity and quality.
+          </p>
+          <p>
+            As a pan-India award, the Critics' Choice Film Awards represents the
+            diverse range of filmmaking in the country. It honours talent and
+            displays the rich culture of films across languages, styles and
+            themes. The Critics' Choice Film Awards were instituted in 2018 and
+            have continued every year since.
+          </p>
+          <p>
+            In our first edition, the awards recognized short films, in the
+            second we enhanced the awards to include the exciting and burgeoning
+            space of web series and episodic content. This year we aim to
+            continue unearthing and honoring talent from this flourishing space.
+            With a transparent process to identify worthy winners, these awards
+            aim to reward the immense creativity of this industry.
+          </p>
+          <p>View earlier years <a href="#">here</a></p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row mb-3">
+            <h5 class="fw-bold text-center mb-4">Special Awards 2024</h5>
+            <div class="col-lg-6 mb-4">
+              <img
+                src="/images/awards/2024/Winner-Extraordinary-Contribution-to-Cinema-Award.jpg"
+                class="img-responsive w-100" />
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="/images/awards/2024/Winner-Gender-Sensitivity-Award.jpg"
+                class="img-responsive w-100" />
+            </div>
+          </div>
+          <div class="row">
+            <p>
+              Add a citation for extraordinary contribution and the gender
+              sensitivity awards here
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-4 mb-5">
+          <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
+          {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
+        </div>
+        <div class="col-lg-4 mb-5">
+          <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
+          {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
+        </div>
+        <div class="col-lg-4 mb-5">
+          <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
+          {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
+        </div>
       </div>
     </div>
   </div>
