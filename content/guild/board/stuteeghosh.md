@@ -6,6 +6,7 @@ title = 'Stutee Ghosh'
 designations = ['Fever FM', 'Vice-Chairperson, FCG']
 img = '/images/members/Stutee-Ghosh.jpg'
 tag = 'stuteeghosh'
+type = 'board'
 
 [soc_media]
 facebook = 'https://www.facebook.com/rjstutee'

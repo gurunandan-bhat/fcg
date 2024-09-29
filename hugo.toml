@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Film Critics Guild'
 theme = 'guild'
 summaryLength = 20
+[pagination]
+  pagerSize = 6
 
 [[menus.main]]
 name = 'Home'
@@ -21,7 +23,7 @@ weight = 20
 
 [[menus.main]]
 name = 'The Guild'
-pageRef = '/guild'
+pageRef = '/guild/members'
 weight = 40
 
 [[menus.main]]

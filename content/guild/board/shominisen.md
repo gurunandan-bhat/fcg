@@ -6,6 +6,7 @@ title = 'Shomini Sen'
 designations = ['Wion', 'Secretary, FCG']
 img = '/images/members/Shomini Sen.png'
 tag = 'shominisen'
+type = 'board'
 
 [soc_media]
 facebook = 'https://www.facebook.com/Shomini-Sen-737117746377475/'

@@ -6,6 +6,7 @@ title = 'Anupama Chopra'
 designations = ['Film Companion', 'Chairperson, FCG']
 img = '/images/members/Anupama Chopra.png'
 tag = 'anupamachopra'
+type = 'board'
 
 [soc_media]
 facebook = 'https://www.facebook.com/anupamachopraofficial'

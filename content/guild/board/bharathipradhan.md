@@ -6,6 +6,7 @@ title = 'Bharathi Pradhan'
 designations = ['Lehren.com', 'Treasurer, FCG']
 img = '/images/members/Bharathi Pradhan.png'
 tag = 'bharathipradhan'
+type = 'board'
 
 [soc_media]
 twitter = 'https://twitter.com/editorbharathi'

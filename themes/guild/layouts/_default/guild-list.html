@@ -12,6 +12,7 @@
             <h3>{{ .LinkTitle }}</h3>
             <div class="row">
               {{ range .Pages }}
+                {{ debug.Dump . }}
                 <div class="col-lg-11">
                   {{ block "member" . }}{{ end }}
                   <hr />
@@ -19,7 +20,8 @@
               {{ end }}
             </div>
           </div>
-        {{ else }}
+        {{ end }}
+        {{ if eq .LinkTitle "Members" }}
           <div class="col-lg-8 ps-5 py-3">
             <h3>{{ .LinkTitle }}</h3>
             <div class="row">

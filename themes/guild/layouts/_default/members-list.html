@@ -3,32 +3,70 @@
     <img src="/images/members/banner.png" class="img-responsive w-100" />
   </div>
   <div class="container" style="padding-top:100px;">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
     <div class="row">
-      {{ range .Pages }}
-        <div class="col-lg-4 col-md-6 mb-3">
-          <h6 style="margin-bottom:0.1rem;">
-            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-            <div class="float-end">
-              {{ partial "social-media.html" .Params.soc_media }}
-            </div>
-          </h6>
-          {{ with .Params.designations }}
-            <p class="fira-sans-regular small mb-0">
-              {{ delimit . ", " " and " }}
-            </p>
-          {{ end }}
-          <img
-            src="{{- .Params.img }}"
-            class="img-responsive w-100 py-2"
-            alt="{{ .Title }}" />
-          <div class="smaller">
-            {{ .Summary }}
-          </div>
-          <hr class="show-on-phone py-2" />
-        </div>
-      {{ end }}
+      <div class="col-8 py-4">
+        {{ .Content }}
+      </div>
     </div>
+    <div class="row" id="pg-top">
+      <div class="col-lg-4 ps-5 pe-4 py-3 highlight">
+        <h3>The Board (2024)</h3>
+        {{ range where .Site.RegularPages "Type" "board" }}
+          <div class="col-xxl-11">
+            {{ block "member" . }}{{ end }}
+            <hr class="py-2" />
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-8 ps-5 py-3">
+        <h3>{{ .Title }}</h3>
+        {{ $paginator := .Paginate .RegularPages }}
+        <div class="d-flex justify-content-center py-3 mb-3">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+        <div class="row">
+          {{ range $paginator.Pages }}
+            <div class="col-xxl-4 col-xl-6 mb-5">
+              {{ block "member" . }}{{ end }}
+              <hr class="show-on-phone py-2" />
+            </div>
+          {{ end }}
+        </div>
+        <div class="d-flex justify-content-center py-3 mb-3">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let url = window.location.href;
+    const mch = url.match(/page\/(\d+)\/$/);
+    if (mch && mch[1] !== 1) {
+      let anch = document.getElementById("pg-top");
+      window.addEventListener("load", function (e) {
+        anch.scrollIntoView();
+      });
+    }
+  </script>
+{{ end }}
+
+{{ define "member" }}
+  <h6>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    <div class="float-end">
+      {{ partial "social-media.html" .Params.soc_media }}
+    </div>
+  </h6>
+  {{ with .Params.designations }}
+    <p class="fira-sans-regular small mb-0">
+      {{ delimit . ", " " and " }}
+    </p>
+  {{ end }}
+  <img
+    src="{{- .Params.img }}"
+    class="img-responsive w-100 py-2"
+    alt="{{ .Title }}" />
+  <div class="small">
+    {{ .Summary }}
   </div>
 {{ end }}
