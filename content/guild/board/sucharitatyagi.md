@@ -1,11 +1,12 @@
 +++
 date = 2024-09-25T12:19:31.456064+05:30
 draft = false
-weight = 43
+weight = 2
 title = 'Sucharita Tyagi'
-designations = ['Independent Film Critic']
+designations = ['Independent Film Critic', 'Vice-Chairperson, FCG']
 img = '/images/members/Sucharita Tyagi.png'
 tag = 'sucharitatyagi'
+type = 'board'
 
 [soc_media]
 facebook = 'http://www.facebook.com/SucharitaKaPage'

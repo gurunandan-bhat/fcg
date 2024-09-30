@@ -1,11 +1,12 @@
 +++
 date = 2024-09-25T12:19:31.453932+05:30
 draft = false
-weight = 28
+weight = 3
 title = 'Rohan Naahar'
-designations = ['The Indian Express']
+designations = ['The Indian Express', 'Secretary, FCG']
 img = '/images/members/ROHANNAHAAR221.jpg'
 tag = 'rohannaahar'
+type = 'board'
 
 [soc_media]
 twitter = 'https://twitter.com/RohanNaahar'

@@ -1,12 +1,11 @@
 +++
 date = 2024-09-25T12:19:31.455911+05:30
 draft = false
-weight = 2
+weight = 42
 title = 'Stutee Ghosh'
 designations = ['Fever FM', 'Vice-Chairperson, FCG']
 img = '/images/members/Stutee-Ghosh.jpg'
 tag = 'stuteeghosh'
-type = 'board'
 
 [soc_media]
 facebook = 'https://www.facebook.com/rjstutee'
