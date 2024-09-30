@@ -5,6 +5,7 @@ draft = false
 subtitle = 'Urvashi’s powerhouse performance carries this haunting drama'
 opening = 'Urvashi and Parvathy Thiruvothu’s effective performances make director Christo Tomy’s debut film a gripping drama on secrets, mistakes, and redemption'
 img = 'ullozukku.jpg'
+author = 'S. R. Praveen'
 +++
 
 Everyone in Ullozhukku is stranded, in one way or the other. Even a dead body remains unburied for days, as flood waters have submerged the burial grounds. The less said of the living, the better. Anju (Parvathy Thiruvothu) and her mother-in-law Leelamma (Urvashi) are in a life not of their choosing.

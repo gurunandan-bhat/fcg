@@ -5,6 +5,7 @@ draft = false
 subtitle = 'Bhuvan Bam Gives The Role His Best Shot'
 opening = "The series certainly isn't a junkpile but it does end up in a puddly heap more often than is good for it. Go in with your eyes open."
 img = 'taaza-khabar-s02.png'
+author = 'Saibal Chatterjee'
 +++
 
 Bhuvan Bam's Vasant Gawde, Mr. Vardaan to the world owing to his ability to see events before they come to pass, is back seeking to make a killing from the prescient news updates that he receives on a mobile phone app.
