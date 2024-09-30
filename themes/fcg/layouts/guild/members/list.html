@@ -9,7 +9,7 @@
         {{ .Content }}
       </div>
     </div>
-    <div class="row" id="pg-top">
+    <div class="row">
       <div class="col-lg-4 ps-4 pe-4 py-3 highlight">
         <h3>The Board</h3>
         <h6 class="mb-3">2024&ndash;2027</h6>
@@ -21,7 +21,7 @@
         {{ end }}
       </div>
       <div class="col-lg-8 ps-5 py-3">
-        <h3>{{ .Title }}</h3>
+        <h3 id="pg-top">{{ .Title }}</h3>
         {{ $paginator := .Paginate .RegularPages 6 }}
         <div class="d-flex justify-content-center py-3 mb-3">
           {{ template "_internal/pagination.html" . }}
