@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.457245+05:30
 draft = false
-weight = 51
+weight = 510
 title = 'Uday Bhatia'
 designations = ['Mint Lounge']
 img = '/images/members/Uday-Bhatia.png'

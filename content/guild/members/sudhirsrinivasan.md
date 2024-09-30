@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.456206+05:30
 draft = false
-weight = 44
+weight = 440
 title = 'Sudhir Srinivasan'
 designations = ['The New Indian Express']
 img = '/images/members/SUDHIR SRINIVASAN.jpg'

@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.452811+05:30
 draft = false
-weight = 20
+weight = 200
 title = 'Kunal Guha'
 designations = ['OTT Play']
 img = '/images/members/kunal.jpg'

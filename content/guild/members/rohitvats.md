@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.454202+05:30
 draft = false
-weight = 30
+weight = 300
 title = 'Rohit Vats'
 designations = ['DNA']
 img = '/images/members/Rohit_vats.jpg'

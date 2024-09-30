@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.451369+05:30
 draft = false
-weight = 10
+weight = 100
 title = 'Avinash Singh Pal'
 designations = ['Bollywood Bubble']
 img = '/images/members/Avinash-Pal.jpeg'

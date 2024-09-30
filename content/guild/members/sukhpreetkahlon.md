@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.456619+05:30
 draft = false
-weight = 47
+weight = 470
 title = 'Sukhpreet Kahlon'
 designations = ['Indian Express Digital']
 img = '/images/members/Sukhpreet-Kahlon.png'

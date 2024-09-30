@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.451192+05:30
 draft = false
-weight = 9
+weight = 90
 title = 'Avinash Ramachandran'
 designations = ['Avinash Ramachandran Talkies']
 img = '/images/members/Avinash-Ramachandran.jpg'

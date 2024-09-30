@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.455603+05:30
 draft = false
-weight = 40
+weight = 400
 title = 'Srinivasa Ramanujam'
 designations = ['The Hindu']
 img = '/images/members/srinivasa-ramanujam.jpeg'

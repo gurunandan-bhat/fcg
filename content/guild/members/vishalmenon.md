@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.457663+05:30
 draft = false
-weight = 54
+weight = 540
 title = 'Vishal Menon'
 designations = ['Film Companion']
 img = '/images/members/Vishal Menon.jpg'

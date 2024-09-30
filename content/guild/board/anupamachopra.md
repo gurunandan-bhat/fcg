@@ -14,4 +14,4 @@ instagram = 'https://www.instagram.com/anupama.chopra/?hl=en'
 twitter = 'https://twitter.com/anupamachopra'
 +++
 
-Anupama Chopra is a film critic, book author and director of the Jio MAMI Mumbai Film Festival with Star. She is also the founder and editor of the digital platform Film Companion,which offers a curated look at entertainment.
+Anupama Chopra is a film critic, national award-winning book author and journalist. She is the editor of The Hollywood Reporter India, founder of Film Companion Studios and chairperson of the Film Critics Guild. She has covered cinema since 1993 in multiple mediums – print, television and digital. She has worked with India Today, NDTV 2/7, Star World. She has also written about cinema for various international publications including The New York Times and Sight and Sound. Anupama has authored several books, including King of Bollywood - Shah Rukh Khan and the Seductive World of Indian Cinema, which was featured on the Editor’s Choice list of the New York Times Sunday book review and translated into German, Indonesian and Polish. Anupama received an M.A. in journalism from Northwestern University.

@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.452539+05:30
 draft = false
-weight = 18
+weight = 180
 title = 'Kriti Tulsiani'
 designations = ['WION']
 img = '/images/members/Kriti Tulsiani.png'

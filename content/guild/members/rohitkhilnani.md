@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.454073+05:30
 draft = false
-weight = 29
+weight = 290
 title = 'Rohit Khilnani'
 designations = ['Bollywood Hungama']
 img = '/images/members/Rohit-Khilnani.png'

@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.454342+05:30
 draft = false
-weight = 31
+weight = 310
 title = 'S.R. Praveen'
 designations = ['The Hindu']
 img = '/images/members/SR Praveen.png'

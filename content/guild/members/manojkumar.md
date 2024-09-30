@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.45294+05:30
 draft = false
-weight = 21
+weight = 210
 title = 'Manoj Kumar'
 designations = ['OTT Play, HT Media']
 img = '/images/members/ManojKumarR.jpg'

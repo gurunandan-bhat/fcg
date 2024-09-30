@@ -7,7 +7,9 @@ opening = "Based on a true story, the feature film tells the courageous journey 
 img = 'young-woman-and-the-sea.webp'
 +++
 
-Young Woman and the Sea is a typical sports drama, like the ones that were made often in Hollywood two to three decades ago. The period drama, directed by Joachim Rønning, follows the real-life story of Trudy Ederle, a young American who set some extraordinary records and inspired a whole generation of women after her. Daisy Ridley, best known for her role in the newer Star Wars trilogy, takes on the physical role of the plucky swimmer who always wanted to push herself. With a compelling supporting cast, director Rønning and screenwriter Jeff Nathanson bring alive the tale of a forgotten woman in sporting history.
+Young Woman and the Sea is a typical sports drama, like the ones that were made often in Hollywood two to three decades ago. The period drama, directed by Joachim Rønning, follows the real-life story of Trudy Ederle, a young American who set some extraordinary records and inspired a whole generation of women after her.
+
+Daisy Ridley, best known for her role in the newer Star Wars trilogy, takes on the physical role of the plucky swimmer who always wanted to push herself. With a compelling supporting cast, director Rønning and screenwriter Jeff Nathanson bring alive the tale of a forgotten woman in sporting history.
 
 While the film is based on Glenn Stout's detailed book Young Woman and the Sea, it does dramatise and embellish certain facts for the sake of cinematic liberty, giving Trudy's journey more of an emotional heft. Young Woman and the Sea establishes the story of the Ederles, a German immigrant family in New York City. Trudy's mother Gertrude (Jeanette Hain) pushes her and her older sister Meg (Tilda Cobham-Hervey) to swim in time when most women were forbidden. Her father Henry (Kim Bodnia) is a butcher with old-fashioned ideas who initially doesn't support her goals.
 

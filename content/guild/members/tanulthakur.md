@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.456896+05:30
 draft = false
-weight = 49
+weight = 490
 title = 'Tanul Thakur'
 designations = ['Outlook']
 img = '/images/members/Tanul-Thakur.png'

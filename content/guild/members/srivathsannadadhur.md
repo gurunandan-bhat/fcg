@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.455748+05:30
 draft = false
-weight = 41
+weight = 410
 title = 'Srivathsan Nadadhur'
 designations = ['South First, Friday Wall']
 img = '/images/members/Srivathsan.png'

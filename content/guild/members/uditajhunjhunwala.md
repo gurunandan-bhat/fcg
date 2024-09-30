@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.457381+05:30
 draft = false
-weight = 52
+weight = 520
 title = 'Udita Jhunjhunwala'
 designations = ['Mint, Scroll.in']
 img = '/images/members/UDITA JHUNJHUNWALA.jpg'

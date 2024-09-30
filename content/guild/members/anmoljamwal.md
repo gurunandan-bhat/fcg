@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.450516+05:30
 draft = false
-weight = 4
+weight = 40
 title = 'Anmol Jamwal'
 designations = ['Tried & Refused Productions (YouTube)']
 img = '/images/members/Anmol.jpg'

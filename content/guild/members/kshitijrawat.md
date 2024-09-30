@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.452676+05:30
 draft = false
-weight = 19
+weight = 190
 title = 'Kshitij Rawat'
 designations = ['Lifestyle Asia']
 img = '/images/members/Kshitij-Rawat.jpg'

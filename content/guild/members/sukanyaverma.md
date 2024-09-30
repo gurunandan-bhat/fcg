@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.456488+05:30
 draft = false
-weight = 46
+weight = 460
 title = 'Sukanya Verma'
 designations = ['rediff.com']
 img = '/images/members/SUKANYA VERMA.jpg'

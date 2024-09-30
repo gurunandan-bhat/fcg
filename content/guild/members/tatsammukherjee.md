@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.457088+05:30
 draft = false
-weight = 50
+weight = 500
 title = 'Tatsam Mukherjee'
 designations = ['The Wire']
 img = '/images/members/Tatsam Mukherjee.jpg'

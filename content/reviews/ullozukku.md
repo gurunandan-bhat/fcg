@@ -7,7 +7,9 @@ opening = 'Urvashi and Parvathy Thiruvothu’s effective performances make direc
 img = 'ullozukku.jpg'
 +++
 
-Everyone in Ullozhukku is stranded, in one way or the other. Even a dead body remains unburied for days, as flood waters have submerged the burial grounds. The less said of the living, the better. Anju (Parvathy Thiruvothu) and her mother-in-law Leelamma (Urvashi) are in a life not of their choosing. One has come to terms with it, tempered by the struggles of family life, and even yearns to protect that way of living, while the other still has some spirit left to fight her way out of it.
+Everyone in Ullozhukku is stranded, in one way or the other. Even a dead body remains unburied for days, as flood waters have submerged the burial grounds. The less said of the living, the better. Anju (Parvathy Thiruvothu) and her mother-in-law Leelamma (Urvashi) are in a life not of their choosing.
+
+One has come to terms with it, tempered by the struggles of family life, and even yearns to protect that way of living, while the other still has some spirit left to fight her way out of it.
 
 They are literally stranded too; at their house on an island in the backwaters, in which the flood waters are rising and the country boat is the only connection to the outside world. At the hands of a writer of lesser sensitivity, this is a situation from which a villain can be unearthed, and fingers pointed at, for both Anju and Leelamma have their grey areas.
 

@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.455473+05:30
 draft = false
-weight = 39
+weight = 390
 title = 'Sonal Pandya'
 designations = ['Times Now & Zoom']
 img = '/images/members/sonal-pandya.jpeg'

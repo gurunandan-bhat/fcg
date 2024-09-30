@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.45752+05:30
 draft = false
-weight = 53
+weight = 530
 title = 'Upma Singh'
 designations = ['Navbharat Times']
 img = '/images/members/Upma Singh.png'

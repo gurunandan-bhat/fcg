@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.454772+05:30
 draft = false
-weight = 34
+weight = 340
 title = 'Sangeetha Devi'
 designations = ['The Hindu']
 img = '/images/members/SANGEETHA DEVI.jpg'
@@ -13,4 +13,4 @@ instagram = 'https://www.instagram.com/sangeetha.devi'
 twitter = 'https://www.twitter.com/Sangeetha_Devi'
 +++
 
-Sangeetha Devi Dundoo is a senior Assistant Editor/Special Correspondent with The Hindu, Hyderabad, and a primary film critic for Telugu cinema. Her 18 years of work have involved 12 years with The Hindu & nearly six years with The Times of India Hyderabad.
+Sangeetha Devi Dundoo is a journalist and film critic with The Hindu, Hyderabad, with a focus on Telugu cinema. She has been reviewing films for nearly 13 years in her 25-year journalism career. She was part of the founding team of The Times of India, Hyderabad, and worked in the features section for nearly six years before moving to The Hindu. Growing up in Coimbatore, Tamil Nadu, she now considers Hyderabad her home. She writes on cinema, fine arts, textiles and handlooms, fashion, environmental issues, city trends and occasionally, books.

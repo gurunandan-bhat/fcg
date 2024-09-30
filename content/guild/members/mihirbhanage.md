@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.453195+05:30
 draft = false
-weight = 23
+weight = 230
 title = 'Mihir Bhanage'
 designations = ['The Times of India']
 img = '/images/members/Mihir-Bhanage.png'

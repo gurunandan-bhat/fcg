@@ -1,7 +1,7 @@
 +++
 date = 2024-09-25T12:19:31.452264+05:30
 draft = false
-weight = 16
+weight = 160
 title = 'Keyur Seta'
 designations = ['Bollywood Hungama']
 img = '/images/members/Keyur Seta.png'

@@ -15,4 +15,4 @@ twitter = 'http://www.twitter.com/su4ita'
 youtube = 'https://www.youtube.com/user/sucharitatyagi'
 +++
 
-Sucharita Tyagi is a prominent film critic with a dedicated fanbase who is best known for her popular movie reviews on YouTube. A unique voice, she reviews films with honesty and passion through a contemporary lens, breaking down complex issues in a way that is relatable and easy to understand.
+Sucharita Tyagi is a prominent Indian film critic who now splits her time between Mumbai and New York. With nearly 10 years of experience as a film critic, she is best known for her popular movie reviews on YouTube, where she has built a community of dedicated fans. Tyagi also has extensive experience in broadcast radio. Utilising her unique voice, she reviews and discusses South Asian pop culture with honesty and passion through a contemporary, feminist lens, breaking down complex issues in relatable ways.
