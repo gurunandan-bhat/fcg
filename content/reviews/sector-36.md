@@ -6,6 +6,7 @@ subtitle = "Revisiting the house of horrors"
 opening = "Vikrant Massey goes dark in this crime thriller based on the Nithari murders"
 img = "sector-36.png"
 author = 'Udita Jhunjhunwala'
+type = 'print'
 +++
 
 Sector 36, based on the gruesome murders of Nithari village in Noida, which were uncovered in 2007, follows a serial killer who lives in plain sight. In Aditya Nimbalkar’s crime drama, Prem (Vikrant Massey) is the house-help of Balbir Bassi (Akash Khurana), an affluent businessman from Karnal. Bassi rarely visits his palatial bungalow in Delhi’s Sector 36, but when he does, his actions are also creepy.

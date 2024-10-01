@@ -6,6 +6,7 @@ subtitle = "Daisy Ridley's Predictable Yet Inspirational Sports Biopic Has Plent
 opening = "Based on a true story, the feature film tells the courageous journey of a young American woman's fight to swim across the English Channel in 1926. Starring Daisy Ridley, the film is streaming on Disney+ Hotstar."
 img = 'young-woman-and-the-sea.webp'
 author = 'Sonal Pandya'
+type = 'print'
 +++
 
 Young Woman and the Sea is a typical sports drama, like the ones that were made often in Hollywood two to three decades ago. The period drama, directed by Joachim Rønning, follows the real-life story of Trudy Ederle, a young American who set some extraordinary records and inspired a whole generation of women after her.
