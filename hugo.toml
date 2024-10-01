@@ -25,7 +25,7 @@ weight = 20
 
 [[menus.main]]
 name = 'The Guild'
-pageRef = '/guild/members'
+pageRef = '/guild'
 weight = 40
 
 [[menus.main]]

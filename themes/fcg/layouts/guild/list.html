@@ -2,41 +2,58 @@
   <div class="container-fluid">
     <img src="/images/members/banner.png" class="img-responsive w-100" />
   </div>
-  <div class="container mt-5 pt-5">
-    <h1 class="mb-5">{{ .Title }}</h1>
-    <!-- Using the guild list template -->
-    {{ .Content }}
+  <div class="container" style="padding-top: 100px;">
     <div class="row">
-      {{ range .Sections }}
-        {{ if eq .LinkTitle "The Board" }}
-          <div class="col-lg-4 ps-5 pe-2 py-3 highlight">
-            <h3>{{ .LinkTitle }}</h3>
-            <div class="row">
-              {{ range .Pages }}
-                <div class="col-lg-11">
-                  {{ block "member" . }}{{ end }}
-                  <hr />
-                </div>
-              {{ end }}
-            </div>
+      <div class="col-8 py-4">
+        <h1 class="mb-5">{{ .Title }}</h1>
+        <!-- Using the guild list template -->
+        {{ .Content }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 ps-4 pe-4 py-3 highlight">
+        <h3>The Board</h3>
+        <h6 class="mb-3">2024&ndash;2027</h6>
+        {{ $sectionBoard := index (where .Sections "Type" "guild/board") 0 }}
+        {{ range  $sectionBoard.Pages }}
+          <div class="col-xxl-11">
+            {{ block "member" . }}{{ end }}
+            <hr class="py-2" />
           </div>
         {{ end }}
-        {{ if eq .LinkTitle "Members" }}
-          <div class="col-lg-8 ps-5 py-3">
-            <h3>{{ .LinkTitle }}</h3>
-            <div class="row">
-              {{ range .Pages }}
-                <div class="col-xxl-4 col-xl-6 mb-5">
-                  {{ block "member" . }}{{ end }}
-                  <hr class="show-on-phone" />
-                </div>
-              {{ end }}
-            </div>
+      </div>
+      <div class="col-lg-8 ps-5 py-3">
+        <h3 id="pg-top">Members</h3>
+        {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
+        {{ $paginator := .Paginate $sectionMembers.Pages  12 }}
+        <div class="row">
+          <div class="d-flex justify-content-center py-3 mb-3">
+            {{ template "_internal/pagination.html" . }}
           </div>
-        {{ end }}
-      {{ end }}
+          {{ range $paginator.Pages }}
+            <div class="col-xxl-4 col-xl-6 mb-5">
+              {{ block "member" . }}{{ end }}
+              <hr class="show-on-phone py-2" />
+            </div>
+          {{ end }}
+          <div class="d-flex justify-content-center py-3 mb-3">
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <script>
+    let url = window.location.href;
+    const mch = url.match(/page\/(\d+)\/$/);
+    if (mch && mch[1] !== 1) {
+      let anch = document.getElementById("pg-top");
+      window.addEventListener("load", function (e) {
+        anch.scrollIntoView();
+      });
+    }
+  </script>
 {{ end }}
 
 {{ define "member" }}
@@ -56,6 +73,6 @@
     class="img-responsive w-100 py-2"
     alt="{{ .Title }}" />
   <div class="small">
-    {{ .Summary }}
+    {{ .Content }}
   </div>
 {{ end }}
