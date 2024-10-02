@@ -1,4 +1,4 @@
-{{ $stories := first 3 (where site.RegularPages "Type" "video") }}
+{{ $stories := first 3 (where (where site.RegularPages "Section" "reviews") "Type" "video") }}
 <div class="row">
   {{ range $stories }}
     {{ if eq .Type "video" }}

@@ -1,6 +1,6 @@
 {{ $n := .n }}
 {{ $colWidth := div 12 $n }}
-{{ $stories := first $n (where site.RegularPages "Type" "print") }}
+{{ $stories := first $n (where (where site.RegularPages "Section" "reviews") "Type" "print") }}
 <div class="row">
   {{ range $stories }}
     {{ if eq .Type "print" }}

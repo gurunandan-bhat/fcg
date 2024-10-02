@@ -10,4 +10,4 @@ subtitle = "Sucharita Tyagi's Honest Review You Need to Hear"
 type = 'video'
 +++
 
-{{< youtube id="THJ0QDTqpDc" >}}
+{{< youtube id="THJ0QDTqpDc" controls="false" >}}
