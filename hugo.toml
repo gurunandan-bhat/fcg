@@ -8,6 +8,7 @@ summaryLength = 23
 [pagination]
   pagerSize = 6
 
+[menus]
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
