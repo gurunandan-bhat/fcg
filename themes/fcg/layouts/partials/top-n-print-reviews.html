@@ -21,7 +21,9 @@
         <div class="small">
           {{ .Summary }}
         </div>
-        <p class="small"><a href="{{ .Permalink }}">Continue reading</a></p>
+        <p class="small">
+          <a target="_blank" href="{{ .Params.source }}">Continue reading</a>
+        </p>
       </div>
     {{ end }}
   {{ end }}
