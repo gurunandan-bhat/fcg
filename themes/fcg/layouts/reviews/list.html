@@ -1,11 +1,24 @@
 {{ define "main" }}
+  <div class="container col-xxl-8 px-2 py-2">
+    <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
+      <div class="col-lg-6">
+        <img
+          src="/images/reviews/banner.png"
+          class="d-block mx-lg-auto img-responsive w-100"
+          alt="Side Banner"
+          loading="lazy" />
+        <!-- <p class="small">
+          Image used as a filler - may change in the final version
+        </p> -->
+      </div>
+      <div class="col-lg-6 lead">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
-  <div class="container-fluid">
-    <img src="{{ .Params.bannerImg }}" class="img-responsive w-100" />
-  </div>
-  <div class="container" style="margin-top: 70px;">
-    <h1 id="pg-top">{{ .Title }}</h1>
+  <div class="container">
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
