@@ -43,7 +43,11 @@ h6 {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #1a3e6d;
 }
 
@@ -63,6 +67,24 @@ h2 {
 
 .show-on-phone {
   display: none;
+}
+
+.bg-news {
+  background: url("/images/bg-news.png") no-repeat;
+  background-size: 3%;
+  padding-left: 46px;
+}
+
+.bg-reviews {
+  background: url("/images/bg-reviews.png") no-repeat;
+  background-size: 3%;
+  padding-left: 46px;
+}
+
+.bg-awards {
+  background: url("/images/bg-awards.png") no-repeat;
+  background-size: 3%;
+  padding-left: 46px;
 }
 
 @media (max-width: 991.98px) {
