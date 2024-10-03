@@ -71,20 +71,17 @@ h6 {
 
 .bg-news {
   background: url("/images/bg-news.png") no-repeat;
-  background-size: 3%;
-  padding-left: 46px;
+  padding-left: 45px;
 }
 
 .bg-reviews {
   background: url("/images/bg-reviews.png") no-repeat;
-  background-size: 3%;
-  padding-left: 46px;
+  padding-left: 45px;
 }
 
 .bg-awards {
   background: url("/images/bg-awards.png") no-repeat;
-  background-size: 3%;
-  padding-left: 46px;
+  padding-left: 45px;
 }
 
 @media (max-width: 991.98px) {
