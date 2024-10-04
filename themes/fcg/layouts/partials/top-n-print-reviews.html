@@ -13,9 +13,9 @@
           src="/images/reviews/{{- .Params.img }}"
           class="img-responsive w-100 mb-3" />
         <h6 class="fw-bold small pb-2">
-          {{ .Params.subtitle }}
+          {{ .Params.subtitle | safeHTML }}
         </h6>
-        <p class="summary small">
+        <p class="summary small text-primary-emphasis">
           {{ .Params.opening }}
         </p>
         <div class="small">
