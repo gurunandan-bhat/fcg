@@ -16,7 +16,7 @@ weight = 10
 
 [[menus.main]]
 name = 'Awards'
-pageRef = '/awards'
+pageRef = '/awards/awards-2024'
 weight = 20
 
 [[menus.main]]

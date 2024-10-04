@@ -1,7 +1,8 @@
 winners = [
-    'Best-Film-Short.png',
-    'Best-Director-Short.png',
-    'Best-Actor-Short.png',
-    'Best-Actress-Short.png',
-    'Best-Writing-Short.png',    
+    'Best-Series-Web.png',
+    'Best-Actor-Web.png',
+    'Best-Actress-Web.png',
+    'Best-Supporting-Actor-Web.png',
+    'Best-Supporting-Actress-Web.png',
+    'Best-Writing-Web.png',    
 ]

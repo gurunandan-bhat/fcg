@@ -1,0 +1,63 @@
+{{ define "main" }}
+  {{ $year := .Params.awardYear }}
+  {{ $awards := index .Site.Data .Params.dataFile }}
+  <div class="container-fluid mt-4">
+    <img src="https://picsum.photos/1600/540" class="img-responsive w-100" />
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-lg-5 offset-lg-1 mt-4 pt-4 highlight">
+        {{ with $awards.special.winners }}
+          <div class="row">
+            {{ range . }}
+              <div class="col-lg-12 pb-4">
+                <h5 class="fw-bold text-center mb-2">
+                  {{ .title }}
+                  {{ $year }}
+                </h5>
+                <img src="{{ .img }}" class="img-responsive w-100 pb-4" />
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-4 pt-4">
+        <div class="row">
+          <div class="col-lg-12 mb-2">
+            <h5 class="fw-bold text-center my-3">Feature Films {{ $year }}</h5>
+            {{- partial "carousel.html" (dict "year" $year "category" "feature" "winners" $awards.feature.winners) -}}
+          </div>
+          <div class="col-lg-12 mb-2">
+            <h5 class="fw-bold text-center my-3">Web Series {{ $year }}</h5>
+            {{- partial "carousel.html" (dict "year" $year "category" "web" "winners" $awards.web.winners) -}}
+          </div>
+          <div class="col-lg-12 mb-2">
+            <h5 class="fw-bold text-center my-3">Short Films {{ $year }}</h5>
+            {{- partial "carousel.html" (dict "year" $year "category" "short" "winners" $awards.short.winners) -}}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 pt-4">
+        {{ with where (where site.RegularPages "Section" "awards") "Permalink" "ne" .Permalink }}
+          <h6 class="mt-3">Other Years</h6>
+          <p>
+            You can browse winners of the Critics Choice awards for other years
+            here:
+          </p>
+          <p>
+            {{ range . }}
+              <a href="{{ .Permalink }}">Awards {{ .Params.awardYear }}</a
+              ><br />
+            {{ end }}
+          </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
