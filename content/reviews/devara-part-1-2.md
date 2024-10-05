@@ -6,4 +6,4 @@ author = 'Bhawana Somaaya'
 type = 'video'
 +++
 
-{{< youtube id="RIc7oIcVs58" controls="false" >}}
+{{< youtube id="RIc7oIcVs58" >}}

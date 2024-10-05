@@ -10,4 +10,4 @@ tags = ['avinashramachandran']
 type = 'video'
 +++
 
-{{< youtube id="6KQTozNMvYU" controls="false" >}}
+{{< youtube id="6KQTozNMvYU" >}}

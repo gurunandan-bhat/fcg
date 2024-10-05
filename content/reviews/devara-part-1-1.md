@@ -6,4 +6,4 @@ author = 'Ajay Brahmatmaj'
 type = 'video'
 +++
 
-{{< youtube id="uwfgVUfRNYU" controls="false" >}}
+{{< youtube id="uwfgVUfRNYU" >}}

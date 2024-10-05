@@ -7,4 +7,4 @@ source = 'https://www.youtube.com/watch?v=I6B78NkSPNo'
 type = 'video'
 +++
 
-{{< youtube id="I6B78NkSPNo" controls="false" >}}
+{{< youtube id="I6B78NkSPNo" >}}

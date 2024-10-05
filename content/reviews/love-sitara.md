@@ -10,4 +10,4 @@ type = 'video'
 tags = ['anupamachopra']
 +++
 
-{{< youtube id="yws-ldlNOgk" controls="false" >}}
+{{< youtube id="yws-ldlNOgk" >}}
