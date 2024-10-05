@@ -2,7 +2,7 @@
 title = 'Colourrs of Love'
 date = 2024-10-05T10:45:38+05:30
 draft = false
-author = 'Srivathsan Nadadhur'
+critic = 'Srivathsan Nadadhur'
 subtitle = 'This Breezy Urban Romance Works In Parts'
 opening = ''
 img = 'colourrs-of-love.jpg'

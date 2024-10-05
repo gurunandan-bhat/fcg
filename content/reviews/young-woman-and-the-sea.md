@@ -5,7 +5,7 @@ draft = false
 subtitle = "Daisy Ridley's Predictable Yet Inspirational Sports Biopic Has Plenty Of Heart"
 opening = "Based on a true story, the feature film tells the courageous journey of a young American woman's fight to swim across the English Channel in 1926. Starring Daisy Ridley, the film is streaming on Disney+ Hotstar."
 img = 'young-woman-and-the-sea.webp'
-author = 'Sonal Pandya'
+critic = 'Sonal Pandya'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/web-series/young-woman-and-the-sea-movie-review-daisy-ridley-predictable-yet-inspirational-sports-biopic-has-plenty-of-heart-review-111906228'
 type = 'print'
 +++

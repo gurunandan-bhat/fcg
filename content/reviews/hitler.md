@@ -2,7 +2,7 @@
 title = 'Hitler'
 date = 2024-10-05T08:15:02+05:30
 draft = false
-author = 'Gopinath Rajendran'
+critic = 'Gopinath Rajendran'
 subtitle = 'Vijay Antony’s revenge drama is outdated and ordinary'
 opening = 'The haphazardly-written ‘Hitler’ lacks the gripping social narrative or the emotional beats of director Dana SA’s previous films, and ends up as an underwhelming vigilante saga'
 img = 'hitler.jpg'

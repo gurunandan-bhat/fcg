@@ -2,7 +2,7 @@
 title = 'CTRL'
 date = 2024-10-04T20:35:22+05:30
 draft = false
-author = 'Shubhra Gupta'
+critic = 'Shubhra Gupta'
 subtitle = 'Ananya Panday, Vikramaditya Motwane film is two-dimensional'
 opening = 'While both Ananya Panday and Vihaan Samat do their job well, the film truly feels potent only when it comes off the screen.'
 img = 'ctrl-2.webp'

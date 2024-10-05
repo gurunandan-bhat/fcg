@@ -6,7 +6,7 @@ subtitle = 'Women &amp; Crime &mdash; Raw, Real &amp; Ruthless'
 opening = 'In 1972, seven women were brutally killed in Manvat, shocking the entire country. The local police were unable to solve the case, so Special Crime Branch officer Ramakant Kulkarni stepped in to find out what really happened and reveal the hidden motives behind the murders.'
 img = 'manvat-murders.jpg'
 source = 'https://lehren.com/entertainment/reviews/manvat-murders-review-women-crime-raw-real-ruthless/203246/'
-author = 'Bharathi Pradhan'
+critic = 'Bharathi Pradhan'
 type = 'print'
 +++
 

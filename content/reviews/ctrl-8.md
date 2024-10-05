@@ -2,7 +2,7 @@
 title = 'CTRL'
 date = 2024-10-05T08:20:36+05:30
 draft = false
-author = 'Akhil Arora'
+critic = 'Akhil Arora'
 subtitle = 'Scattershot'
 opening = 'Ananya Panday is the lone spark in Vikramaditya Motwane’s Netflix screenlife movie, which aims to do too much.'
 img = 'ctrl-8.webp'

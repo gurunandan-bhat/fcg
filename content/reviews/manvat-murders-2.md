@@ -2,7 +2,7 @@
 title = 'Manvat Murders'
 date = 2024-10-04T20:54:47+05:30
 draft = false
-author = 'Rahul Desai'
+critic = 'Rahul Desai'
 subtitle = 'A Bland Retelling of a Brutal True-crime Chapter'
 opening = 'In creating its own version of justice and resolution, the series trivialises the anatomy of the crimes.'
 img = 'manvat-murders-2.webp'

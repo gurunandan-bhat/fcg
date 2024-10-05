@@ -2,7 +2,7 @@
 title = 'The Signature'
 date = 2024-10-05T08:22:27+05:30
 draft = false
-author = 'Deepak Dua'
+critic = 'Deepak Dua'
 subtitle = "संदेश और उपदेश ‘द सिग्नेचर’ में"
 opening = ''
 source = 'https://www.cineyatra.com/the-signature-movie-review-by-deepak-dua/'

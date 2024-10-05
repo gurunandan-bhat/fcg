@@ -5,7 +5,7 @@ draft = false
 subtitle = 'Urvashi’s powerhouse performance carries this haunting drama'
 opening = 'Urvashi and Parvathy Thiruvothu’s effective performances make director Christo Tomy’s debut film a gripping drama on secrets, mistakes, and redemption'
 img = 'ullozukku.jpg'
-author = 'S. R. Praveen'
+critic = 'S. R. Praveen'
 source = 'https://www.thehindu.com/entertainment/movies/ullozhukku-movie-review-urvashis-powerhouse-performance-carries-this-haunting-drama/article68316205.ece'
 type = 'print'
 +++

@@ -5,7 +5,7 @@ draft = false
 subtitle = "Revisiting the house of horrors"
 opening = "Vikrant Massey goes dark in this crime thriller based on the Nithari murders"
 img = "sector-36.png"
-author = 'Udita Jhunjhunwala'
+critic = 'Udita Jhunjhunwala'
 source = 'https://www.livemint.com/mint-lounge/art-and-culture/sector-36-review-film-nithari-vikrant-massey-11726391835929.html'
 type = 'print'
 +++

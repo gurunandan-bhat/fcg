@@ -5,7 +5,7 @@ draft = false
 subtitle = 'Bhuvan Bam Gives The Role His Best Shot'
 opening = "The series certainly isn't a junkpile but it does end up in a puddly heap more often than is good for it. Go in with your eyes open."
 img = 'taaza-khabar-s02.png'
-author = 'Saibal Chatterjee'
+critic = 'Saibal Chatterjee'
 source = 'https://www.ndtv.com/entertainment/taaza-khabar-season-2-review-bhuvan-bam-gives-the-role-his-best-shot-2-stars-6667814'
 type = 'print'
 +++

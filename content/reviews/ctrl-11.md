@@ -2,7 +2,7 @@
 title = 'CTRL'
 date = 2024-10-05T08:21:03+05:30
 draft = false
-author = 'Sukanya Verma'
+critic = 'Sukanya Verma'
 subtitle = 'Masterful Thriller'
 opening = 'Sukanya Verma recommends watching CTRL on a computer for an eerie, immersive, real-time experience.'
 img = 'ctrl-11.jpg'

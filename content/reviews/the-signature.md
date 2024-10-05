@@ -5,7 +5,7 @@ draft = false
 subtitle = 'To Pull the Plug Or Not'
 opening = "After his wife Madhu falls into a coma and is placed on life support, Arvind's world collapses. Can he save his wife and hope for a future together, or will circumstances hold him back?"
 img = 'the-signature.jpg'
-author = 'Bharathi Pradhan'
+critic = 'Bharathi Pradhan'
 source = 'https://lehren.com/entertainment/reviews/the-signature-movie-review-to-pull-the-plug-or-not/203244/'
 type = 'print'
 +++

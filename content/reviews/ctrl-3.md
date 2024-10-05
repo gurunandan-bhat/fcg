@@ -2,7 +2,7 @@
 title = 'CTRL'
 date = 2024-10-04T20:39:05+05:30
 draft = false
-author = 'Anuj Kumar'
+critic = 'Anuj Kumar'
 subtitle = 'Ananya Panday is in control in this timely lesson on the dangers of AI'
 opening = 'Director Vikramaditya Motwane succeeds in creating the mood, moments, and message but the thriller lacks the killer punch'
 img = 'ctrl-3.jpg'

@@ -72,7 +72,7 @@
   {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
   <h6 class="fw-bold">
     {{ .Title }}<br />
-    <span class="small"><a href="#">{{ .Params.author }}</a></span>
+    <span class="small"><a href="#">{{ .Params.critic }}</a></span>
   </h6>
   <img
     src="/images/reviews/{{- .Params.img }}"
@@ -100,7 +100,7 @@
 {{ define "video-review" }}
   <h6 class="fw-bold">
     {{ .Title }}<br />
-    <span class="small"><a href="#">{{ .Params.author }}</a></span>
+    <span class="small"><a href="#">{{ .Params.critic }}</a></span>
   </h6>
   {{ .Content }}
   <h6 class="fw-bold small pt-1 pb-3">

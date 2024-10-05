@@ -2,7 +2,7 @@
 title = 'CTRL'
 date = 2024-10-05T08:20:16+05:30
 draft = false
-author = 'Upma Singh'
+critic = 'Upma Singh'
 subtitle = ''
 opening = ''
 source = 'https://navbharattimes.indiatimes.com/entertainment/movie-review/ctrl-movie-review-in-hindi-starring-ananya-panday-vihaan-samat-aparshakti-khurana-vikramaditya-motwane-netflix/moviereview/113927663.cms'

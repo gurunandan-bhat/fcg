@@ -2,7 +2,7 @@
 title = 'Devara Part 1'
 date = 2024-10-05T09:08:56+05:30
 draft = false
-author = 'Sangeetha Devi Dundoo'
+critic = 'Sangeetha Devi Dundoo'
 subtitle = 'NTR and Anirudh amp up the intensity in an overstretched action drama'
 opening = 'Director Koratala Siva and NTR mount an intense action drama, with huge help from Anirudh Ravichander, only for the later portions to lose steam in the over-zealousness to stretch the story for a sequel'
 img = 'devara-part-1-3.jpg'
