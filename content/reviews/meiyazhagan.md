@@ -2,6 +2,7 @@
 title = 'Meiyazhagan'
 date = 2024-10-05T08:15:39+05:30
 draft = false
+member-review = 'Meiyazhagan'
 critic = 'Gopinath Rajendran'
 subtitle = 'Karthi and Arvind Swami shoulder this spirited bromance drama'
 opening = '‘96’ filmmaker C. Prem Kumar gives us a thoughtful character study brought to life by some brilliant performances, and it’s a treat to watch the relationship between Arvind Swami and Karthi’s characters blossom into something gorgeous'

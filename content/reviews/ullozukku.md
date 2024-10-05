@@ -2,6 +2,7 @@
 title = 'Ullozukku'
 date = 2024-09-30T11:01:21+05:30
 draft = false
+member-review = 'Ullozukku'
 subtitle = 'Urvashi’s powerhouse performance carries this haunting drama'
 opening = 'Urvashi and Parvathy Thiruvothu’s effective performances make director Christo Tomy’s debut film a gripping drama on secrets, mistakes, and redemption'
 img = 'ullozukku.jpg'

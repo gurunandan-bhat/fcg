@@ -2,6 +2,7 @@
 title = 'Taaza Khabar S02'
 date = 2024-09-30T10:53:02+05:30
 draft = false
+member-review = 'Taaza Khabar S02'
 subtitle = 'Bhuvan Bam Gives The Role His Best Shot'
 opening = "The series certainly isn't a junkpile but it does end up in a puddly heap more often than is good for it. Go in with your eyes open."
 img = 'taaza-khabar-s02.png'

@@ -2,6 +2,7 @@
 title = 'Sector 36'
 date = 2024-09-30T11:27:55+05:30
 draft = false
+member-review = 'Sector 36'
 subtitle = "Revisiting the house of horrors"
 opening = "Vikrant Massey goes dark in this crime thriller based on the Nithari murders"
 img = "sector-36.png"

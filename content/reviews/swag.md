@@ -2,6 +2,7 @@
 title = 'Swag'
 date = 2024-10-05T08:14:10+05:30
 draft = false
+member-review = 'Swag'
 critic = 'Sangeetha Devi Dundoo'
 subtitle = 'Hasith Goli and a brilliant Sree Vishnu strike again with a deceptive, layered satire'
 opening = "Director Hasith Goli’s Telugu film ‘Swag’ is a lot more than a satire on the battle of the sexes and he is helped immensely by the performances of Sree Vishnu, Ritu Varma and Meera Jasmine"

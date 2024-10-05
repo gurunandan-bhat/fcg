@@ -2,6 +2,7 @@
 title = 'Young Woman and the Sea'
 date = 2024-09-30T11:07:03+05:30
 draft = false
+member-review = 'Young Woman and the Sea'
 subtitle = "Daisy Ridley's Predictable Yet Inspirational Sports Biopic Has Plenty Of Heart"
 opening = "Based on a true story, the feature film tells the courageous journey of a young American woman's fight to swim across the English Channel in 1926. Starring Daisy Ridley, the film is streaming on Disney+ Hotstar."
 img = 'young-woman-and-the-sea.webp'

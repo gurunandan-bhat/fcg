@@ -4,7 +4,6 @@ date = 2024-09-29T11:51:09+05:30
 draft = false
 img = 'deepak-dua.jpg'
 opening = 'Dua’s achievement underscores his exceptional ability to provide insightful and impactful film criticism.'
-tags = ['deepakdua']
 +++
 
 In a momentous recognition of his longstanding contributions to film journalism, Senior Journalist and Film Critic Deepak Dua has been honored with the Best Critic Award at the 70th National Film Awards for the year 2022.

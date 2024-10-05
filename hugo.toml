@@ -48,4 +48,4 @@ weight = 60
   category = 'categories'
   tag = 'tags'
   critic = 'critic'
-  title = 'title'
+  member-review = 'member-review'

@@ -2,7 +2,6 @@
 title = 'News 1'
 date = 2024-09-29T10:04:23+05:30
 draft = false
-tags = ['anmoljamwal']
 img = 'https://picsum.photos/600/300'
 opening = 'Vivamus vitae augue elit. Etiam finibus euismod mattis. Nulla facilisi. Phasellus mollis magna ac ornare euismod.'
 +++

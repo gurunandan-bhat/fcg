@@ -2,7 +2,6 @@
 title = 'More Fake News'
 date = 2024-09-29T10:04:32+05:30
 draft = false
-tags = ['anupamachopra']
 img = 'news-3.jpg'
 opening = 'Quisque ullamcorper sodales lectus, ut ultrices leo vestibulum non. Interdum et malesuada fames ac ante.'
 +++

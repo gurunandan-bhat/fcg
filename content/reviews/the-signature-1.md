@@ -2,6 +2,7 @@
 title = 'The Signature'
 date = 2024-10-05T08:22:27+05:30
 draft = false
+member-review = 'The Signature'
 critic = 'Deepak Dua'
 subtitle = "संदेश और उपदेश ‘द सिग्नेचर’ में"
 opening = ''
