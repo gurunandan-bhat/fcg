@@ -2,11 +2,11 @@
 title = 'The Signature'
 date = 2024-10-04T11:21:19+05:30
 draft = false
-member-review = 'The Signature'
+mreviews = ['The Signature']
 subtitle = 'To Pull the Plug Or Not'
 opening = "After his wife Madhu falls into a coma and is placed on life support, Arvind's world collapses. Can he save his wife and hope for a future together, or will circumstances hold him back?"
 img = 'the-signature.jpg'
-critic = 'Bharathi Pradhan'
+critics = ['Bharathi Pradhan']
 source = 'https://lehren.com/entertainment/reviews/the-signature-movie-review-to-pull-the-plug-or-not/203244/'
 type = 'print'
 +++

@@ -12,10 +12,11 @@
         </p> -->
       </div>
       <div class="col-lg-6 lead">
-        {{ .Content }}
+        <h2>All Recent Reviews of<br />{{ .LinkTitle }}</h2>
       </div>
     </div>
   </div>
+
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
   <div class="container">
@@ -95,13 +96,15 @@
   <div class="small">
     {{ .Content }}
   </div>
-  {{ if gt $revCount 1 }}
-    <h6 class="fw-bold small">
-      Read all {{ $revCount }} reviews of
-      {{ .Title }}
-      <a href="{{ $revPage.Page.Permalink }}">here</a>
-    </h6>
-  {{ end }}
+  <p>
+    {{ if gt $revCount 1 }}
+      <h6 class="fw-bold small">
+        Read all {{ $revCount }} reviews of
+        {{ .Title }}
+        <a href="{{ $revPage.Page.Permalink }}">here</a>
+      </h6>
+    {{ end }}
+  </p>
   <p class="small">
     <a
       target="_blank"

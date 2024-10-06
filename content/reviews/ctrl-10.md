@@ -2,8 +2,8 @@
 title = 'CTRL'
 date = 2024-10-05T08:20:51+05:30
 draft = false
-member-review = 'CTRL'
-critic = 'Uday Bhatia'
+mreviews = ['CTRL']
+critics = ['Uday Bhatia']
 subtitle = 'Ananya Panday drives paranoid thriller'
 opening = "Vikramaditya Motwane's film about creeping AI is also a paranoid thriller for an increasingly digital India"
 img = 'ctrl-10.png'

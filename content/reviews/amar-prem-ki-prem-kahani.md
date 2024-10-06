@@ -2,8 +2,8 @@
 title = 'Amar Prem Ki Prem Kahani'
 date = 2024-10-05T10:41:27+05:30
 draft = false
-member-review = 'Amar Prem Ki Prem Kahani'
-critic = 'Srivathsan Nadadhur'
+mreviews = ['Amar Prem Ki Prem Kahani']
+critics = ['Srivathsan Nadadhur']
 subtitle = 'Queer Romance Gets Slapstick Treatment'
 opening = ''
 source = 'https://www.binged.com/reviews/amar-prem-ki-prem-kahani-movie-review/'

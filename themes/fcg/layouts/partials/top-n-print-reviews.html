@@ -4,11 +4,21 @@
 {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
 <div class="row">
   {{ range $stories }}
+    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
     {{ if eq .Type "print" }}
+      {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+      {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+      {{ $critic := index .Params.critics 0 }}
+      {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
       <div class="col-lg-{{- $colWidth }}">
         <h6 class="fw-bold">
           {{ .Title }}<br />
-          <span class="small"><a href="#">{{ .Params.critic }}</a></span>
+          <span class="small"
+            ><a href="{{ $critPage.Page.Permalink }}">{{ $critic }}</a></span
+          >
         </h6>
         <img
           src="/images/reviews/{{- .Params.img }}"
@@ -22,6 +32,13 @@
         <div class="small">
           {{ .Summary }}
         </div>
+        {{ if gt $revCount 1 }}
+          <h6 class="fw-bold small">
+            Read all {{ $revCount }} reviews of
+            {{ .Title }}
+            <a href="{{ $revPage.Page.Permalink }}">here</a>
+          </h6>
+        {{ end }}
         <p class="small">
           <a
             target="_blank"

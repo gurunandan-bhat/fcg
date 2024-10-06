@@ -2,8 +2,8 @@
 title = 'Joker'
 date = 2024-10-04T20:48:47+05:30
 draft = false
-member-review = 'Joker'
-critic = 'Priyanka Roy'
+mreviews = ['Joker']
+critics = ['Priyanka Roy']
 subtitle = 'Folie a Deux doesn’t submit to formula but fails to hit any high notes'
 opening = 'After a haul of $1 billion at the box office, 11 Academy Award nominations and the first-ever Oscar for Joaquin Phoenix, director Todd Phillips knew it would be carte blanche for him when it came to the inevitable sequel to 2019’s intriguing if ultimately superficial Joker'
 img = 'joker.jpg'

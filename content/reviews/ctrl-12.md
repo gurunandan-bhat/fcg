@@ -2,8 +2,8 @@
 title = 'CTRL'
 date = 2024-10-05T08:21:03+05:30
 draft = false
-member-review = 'CTRL'
-critic = 'Tatsam Mukherjee'
+mreviews = ['CTRL']
+critics = ['Tatsam Mukherjee']
 subtitle = 'A Digital Screen Thriller Is A Tepid Look at the Evils of Big Tech'
 opening = 'Vikramaditya Motwane’s film is a weak Black Mirror episode at best.'
 img = 'ctrl-12.jpg'

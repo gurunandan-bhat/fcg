@@ -2,8 +2,8 @@
 title = 'CTRL'
 date = 2024-10-04T20:45:44+05:30
 draft = false
-member-review = 'CTRL'
-critic = 'Saibal Chatterjee'
+mreviews = ['CTRL']
+critics = ['Saibal Chatterjee']
 subtitle = 'An Uncategorisable Film That Is Equal Parts Entertaining And Sobering'
 opening = "CTRL, in spirit and substance, reinforces Vikramaditya Motwane's proven penchant for turning an established genre on its head."
 img = 'ctrl-4.png'

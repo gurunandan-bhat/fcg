@@ -2,8 +2,8 @@
 title = 'CTRL'
 date = 2024-10-04T20:31:25+05:30
 draft = false
-member-review = 'CTRL'
-critic = 'Rahul Desai'
+mreviews = ['CTRL']
+critics = ['Rahul Desai']
 subtitle = 'Ananya Panday Anchors a Smart and Attentive Screenlife Thriller'
 opening = 'It’s the kind of seamless actor-film fit that allows us to lament the imperfections of a culture without skewering it.'
 img = 'ctrl.webp'

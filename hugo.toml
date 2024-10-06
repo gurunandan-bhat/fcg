@@ -47,5 +47,5 @@ weight = 60
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-  critic = 'critic'
-  member-review = 'member-review'
+  critic = 'critics'
+  mreview = 'mreviews'

@@ -2,8 +2,8 @@
 title = 'Joker'
 date = 2024-10-04T20:51:16+05:30
 draft = false
-member-review = 'Joker'
-critic = 'Shomini Sen'
+mreviews = ['Joker']
+critics = ['Shomini Sen']
 subtitle = "Internet seems 'floored' by the film, critics calling it boring"
 opening = "While Joaquin Phoenix returns as Joker, Lady Gaga joins the Todd Philip film as Joker's love interest Harley Quinn."
 img = 'joker-2.png'
