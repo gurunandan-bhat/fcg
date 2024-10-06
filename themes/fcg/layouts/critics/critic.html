@@ -2,22 +2,28 @@
   {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
   <div class="container py-2">
     <div class="row g-5 mt-5">
-      <div class="col-lg-3">
-        <h3>Recent Reviews by<br />{{ .LinkTitle }}</h3>
+      <div class="col-lg-5">
+        <h4 class="fw-bold">Recent Reviews by {{ .LinkTitle }}</h4>
+        <img
+          src="/images/reviews/criticpage.png"
+          class="img-responsive ps-5 ms-4" />
       </div>
       {{ with $critBio }}
-        <div class="col-lg-3 offset-lg-2">
-          <img src="{{ .Params.img }}" class="ing-responsive w-100" />
-        </div>
-        <div class="col-lg-4">
-          <h5 class="fw-bold">{{ .Title }}</h5>
-          <div class="small">
-            {{ .Content }}
+        <div class="col-lg-5 offset-lg-2">
+          <div class="row">
+            <h6 class="fw-bold">About {{ .Title }}</h6>
+            <div class="col-lg-4">
+              <img src="{{ .Params.img }}" class="ing-responsive w-100" />
+            </div>
+            <div class="col-lg-8">
+              <div class="small">
+                {{ .Summary }}
+              </div>
+            </div>
           </div>
         </div>
       {{ end }}
     </div>
-    <hr />
   </div>
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
