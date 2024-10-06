@@ -5,7 +5,6 @@ weight = 420
 title = 'Stutee Ghosh'
 designations = ['Fever FM', 'Vice-Chairperson, FCG']
 img = '/images/members/Stutee-Ghosh.jpg'
-tag = 'stuteeghosh'
 
 [soc_media]
 facebook = 'https://www.facebook.com/rjstutee'

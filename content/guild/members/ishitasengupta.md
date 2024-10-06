@@ -5,7 +5,6 @@ weight = 150
 title = 'Ishita Sengupta'
 designations = ['Independent Film Critic']
 img = '/images/members/Ishita Sengupta.png'
-tag = 'ishitasengupta'
 
 [soc_media]
 instagram = 'https://www.instagram.com/ishita.senguptaa/?hl=en'

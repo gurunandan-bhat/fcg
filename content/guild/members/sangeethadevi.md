@@ -5,7 +5,6 @@ weight = 340
 title = 'Sangeetha Devi Dundoo'
 designations = ['The Hindu']
 img = '/images/members/SANGEETHA DEVI.jpg'
-tag = 'sangeethadevi'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sangeetha.devi.3'

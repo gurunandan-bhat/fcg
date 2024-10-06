@@ -5,7 +5,6 @@ weight = 20
 title = 'Ajay Brahmatmaj'
 designations = ['CineMahaul (YouTube channel)']
 img = '/images/members/Ajay.jpg'
-tag = 'ajaybrahmatmaj'
 
 [soc_media]
 facebook = 'https://www.facebook.com/brahmatmajay'

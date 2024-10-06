@@ -5,7 +5,6 @@ weight = 270
 title = 'Renuka Vyavahare'
 designations = ['The Times of India']
 img = '/images/members/Renuka-Vyavahare.png'
-tag = 'renukavyavahare'
 
 [soc_media]
 facebook = 'https://www.facebook.com/RenukaVyavahare'

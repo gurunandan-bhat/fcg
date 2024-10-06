@@ -5,7 +5,6 @@ weight = 250
 title = 'Poulomi Das'
 designations = ['The Federal']
 img = '/images/members/Poulomi-Das.png'
-tag = 'poulomidas'
 
 [soc_media]
 facebook = 'https://www.facebook.com/poulomids18/'

@@ -5,7 +5,6 @@ weight = 470
 title = 'Sukhpreet Kahlon'
 designations = ['Indian Express Digital']
 img = '/images/members/Sukhpreet-Kahlon.png'
-tag = 'sukhpreetkahlon'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sukhpreet.i.kahlon/'

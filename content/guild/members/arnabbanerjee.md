@@ -5,7 +5,6 @@ weight = 70
 title = 'Arnab Banerjee'
 designations = ['IANS & BBC - Indpendent Film Critic']
 img = '/images/members/Arnab Banerjee.png'
-tag = 'arnabbanerjee'
 
 [soc_media]
 facebook = 'https://www.facebook.com/yuribanerjee'

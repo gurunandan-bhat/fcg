@@ -5,7 +5,6 @@ weight = 450
 title = 'Suhani Singh'
 designations = ['India Today']
 img = '/images/members/SUHANI SINGH.jpg'
-tag = 'suhanisingh'
 
 [soc_media]
 twitter = 'https://twitter.com/suhani84'

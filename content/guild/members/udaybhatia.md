@@ -5,8 +5,7 @@ weight = 510
 title = 'Uday Bhatia'
 designations = ['Mint Lounge']
 img = '/images/members/Uday-Bhatia.png'
-tag = 'udaybhatia'
-
+ 
 [soc_media]
 facebook = 'http://www.facebook.com/uday.bhatia.125'
 twitter = 'http://www.twitter.com/yooday'

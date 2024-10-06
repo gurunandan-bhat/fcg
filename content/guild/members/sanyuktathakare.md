@@ -5,7 +5,6 @@ weight = 350
 title = 'Sanyukta Thakare'
 designations = ['Mashable India']
 img = '/images/members/Sanyukta-Thakare.png'
-tag = 'sanyuktathakare'
 
 [soc_media]
 facebook = 'https://www.facebook.com/@thr4sam'

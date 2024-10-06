@@ -5,7 +5,6 @@ weight = 140
 title = 'Gopinath Rajendran'
 designations = ['The Hindu']
 img = '/images/members/Gopinath-Rajendran.jpg'
-tag = 'gopinathrajendran'
 
 [soc_media]
 facebook = ' https://www.facebook.com/gopi.raj05/'

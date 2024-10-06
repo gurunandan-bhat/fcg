@@ -5,7 +5,6 @@ weight = 100
 title = 'Avinash Singh Pal'
 designations = ['Bollywood Bubble']
 img = '/images/members/Avinash-Pal.jpeg'
-tag = 'avinashsinghpal'
 
 [soc_media]
 facebook = 'https://www.facebook.com/itzmeavinash/'

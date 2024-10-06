@@ -5,7 +5,6 @@ weight = 380
 title = 'Shubhra Gupta'
 designations = ['The Indian Express']
 img = '/images/members/Shubhra-003.jpg'
-tag = 'shubhragupta'
 
 [soc_media]
 instagram = 'https://www.instagram.com/shubhragupta'

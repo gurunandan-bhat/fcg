@@ -5,7 +5,6 @@ weight = 460
 title = 'Sukanya Verma'
 designations = ['rediff.com']
 img = '/images/members/SUKANYA VERMA.jpg'
-tag = 'sukanyaverma'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sukanyaverma/'

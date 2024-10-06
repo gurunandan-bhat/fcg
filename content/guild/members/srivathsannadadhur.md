@@ -5,7 +5,6 @@ weight = 410
 title = 'Srivathsan Nadadhur'
 designations = ['South First, Friday Wall']
 img = '/images/members/Srivathsan.png'
-tag = 'srivathsannadadhur'
 
 [soc_media]
 facebook = 'https://www.facebook.com/nsrivathsan/'

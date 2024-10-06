@@ -5,7 +5,6 @@ draft = false
 weight = 355
 designations = ['OTT Play']
 img = '/images/members/Shamayita.jpg'
-tag = 'shamayitachakraborty'
 
 [soc_media]
 instagram = 'https://www.instagram.com/shamayita_see'

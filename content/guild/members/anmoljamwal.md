@@ -5,7 +5,6 @@ weight = 40
 title = 'Anmol Jamwal'
 designations = ['Tried & Refused Productions (YouTube)']
 img = '/images/members/Anmol.jpg'
-tag = 'anmoljamwal'
 
 [soc_media]
 instagram = 'https://www.instagram.com/jammypants4/'

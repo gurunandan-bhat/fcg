@@ -5,7 +5,6 @@ weight = 240
 title = 'Monika Rawal'
 designations = ['Hindustan Times']
 img = '/images/members/Monika Rawal.png'
-tag = 'monikarawal'
 
 [soc_media]
 facebook = 'https://www.facebook.com/monika-rawal'

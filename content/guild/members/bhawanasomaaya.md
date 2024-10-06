@@ -5,7 +5,6 @@ weight = 120
 title = 'Bhawana Somaaya'
 designations = ['92.7 Big FM']
 img = '/images/members/Bhaavna.jpg'
-tag = 'bhawanasomaaya'
 
 [soc_media]
 facebook = 'https://www.facebook.com/bhawanasomaaya/'

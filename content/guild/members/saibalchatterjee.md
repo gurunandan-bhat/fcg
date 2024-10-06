@@ -5,7 +5,6 @@ weight = 330
 title = 'Saibal Chatterjee'
 designations = ['NDTV']
 img = '/images/members/Saibal Chatterjee.jpg'
-tag = 'saibalchatterjee'
 
 [soc_media]
 twitter = 'https://twitter.com/saibalchatter'

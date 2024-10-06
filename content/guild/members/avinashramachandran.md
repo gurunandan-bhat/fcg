@@ -5,7 +5,6 @@ weight = 90
 title = 'Avinash Ramachandran'
 designations = ['Avinash Ramachandran Talkies']
 img = '/images/members/Avinash-Ramachandran.jpg'
-tag = 'avinashramachandran'
 
 [soc_media]
 facebook = 'https://facebook.com/@Theavinashishere'

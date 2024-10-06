@@ -5,7 +5,6 @@ weight = 490
 title = 'Tanul Thakur'
 designations = ['Outlook']
 img = '/images/members/Tanul-Thakur.png'
-tag = 'tanulthakur'
 
 [soc_media]
 facebook = 'https://www.facebook.com/tanul.thakur'

@@ -5,7 +5,6 @@ weight = 300
 title = 'Rohit Vats'
 designations = ['DNA']
 img = '/images/members/Rohit_vats.jpg'
-tag = 'rohitvats'
 
 [soc_media]
 facebook = 'https://www.facebook.com/RohitVats444/'

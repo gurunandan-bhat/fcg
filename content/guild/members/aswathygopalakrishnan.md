@@ -5,7 +5,6 @@ weight = 80
 title = 'Aswathy Gopalakrishnan'
 designations = ['Indpendent Film Critic']
 img = '/images/members/Aswathy Gopalakrishna.png'
-tag = 'aswathygopalakrishnan'
 
 [soc_media]
 facebook = 'https://facebook.com/aswathyg'

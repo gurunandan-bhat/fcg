@@ -5,7 +5,6 @@ weight = 200
 title = 'Kunal Guha'
 designations = ['OTT Play']
 img = '/images/members/kunal.jpg'
-tag = 'kunalguha'
 
 [soc_media]
 facebook = 'https://www.facebook.com/kunalguha'

@@ -5,7 +5,6 @@ draft = false
 weight = 255
 designations = ['The Telegraph']
 img = '/images/members/Priyanka Roy.jpg'
-tag = 'priyankaroy'
 
 [soc_media]
 instagram = 'https://www.instagram.com/priyankaroy270609'

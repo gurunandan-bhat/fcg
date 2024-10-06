@@ -5,7 +5,6 @@ weight = 400
 title = 'Srinivasa Ramanujam'
 designations = ['The Hindu']
 img = '/images/members/srinivasa-ramanujam.jpeg'
-tag = 'srinivasaramanujam'
 
 [soc_media]
 facebook = 'http://www.facebook.com/srinivasjame'

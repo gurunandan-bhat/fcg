@@ -5,7 +5,6 @@ weight = 500
 title = 'Tatsam Mukherjee'
 designations = ['The Wire']
 img = '/images/members/Tatsam Mukherjee.jpg'
-tag = 'tatsammukherjee'
 
 [soc_media]
 facebook = 'https://www.facebook.com/tatsam.mukherjee'

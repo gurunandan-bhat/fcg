@@ -5,7 +5,6 @@ weight = 170
 title = 'Kirubhakar Purushothaman'
 designations = ['Indian Express']
 img = '/images/members/Kirubhakar .png'
-tag = 'kirubhakarpurushothaman'
 
 [soc_media]
 instagram = 'https://www.instagram.com/kirubhakar_purushothaman/'

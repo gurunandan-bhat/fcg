@@ -5,7 +5,6 @@ weight = 530
 title = 'Upma Singh'
 designations = ['Navbharat Times']
 img = '/images/members/Upma Singh.png'
-tag = 'upmasingh'
 
 [soc_media]
 instagram = 'https://www.instagram.com/@upmasingh2005'

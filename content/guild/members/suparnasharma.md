@@ -5,7 +5,6 @@ weight = 480
 title = 'Suparna Sharma'
 designations = ['Rolling Stone']
 img = '/images/members/Suparna Sharma.png'
-tag = 'suparnasharma'
 
 [soc_media]
 facebook = 'https://www.facebook.com/suparna.sharma.71'

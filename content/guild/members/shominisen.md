@@ -5,7 +5,6 @@ weight = 370
 title = 'Shomini Sen'
 designations = ['Wion', 'Secretary, FCG']
 img = '/images/members/Shomini Sen.png'
-tag = 'shominisen'
 
 [soc_media]
 facebook = 'https://www.facebook.com/Shomini-Sen-737117746377475/'

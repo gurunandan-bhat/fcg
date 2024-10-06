@@ -5,7 +5,6 @@ weight = 210
 title = 'Manoj Kumar'
 designations = ['OTT Play, HT Media']
 img = '/images/members/ManojKumarR.jpg'
-tag = 'manojkumar'
 
 [soc_media]
 twitter = 'https://twitter.com/immkr?lang=en'

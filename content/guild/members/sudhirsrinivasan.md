@@ -5,7 +5,6 @@ weight = 440
 title = 'Sudhir Srinivasan'
 designations = ['The New Indian Express']
 img = '/images/members/SUDHIR SRINIVASAN.jpg'
-tag = 'sudhirsrinivasan'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sudhirwrites/'

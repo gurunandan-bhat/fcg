@@ -5,7 +5,6 @@ weight = 190
 title = 'Kshitij Rawat'
 designations = ['Lifestyle Asia']
 img = '/images/members/Kshitij-Rawat.jpg'
-tag = 'kshitijrawat'
 
 [soc_media]
 facebook = 'https://www.facebook.com/kshitij.m.rawat'

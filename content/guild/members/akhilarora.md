@@ -5,7 +5,6 @@ weight = 30
 title = 'Akhil Arora'
 designations = ['akhilarora.com']
 img = '/images/members/Akhil Arora.png'
-tag = 'akhilarora'
 
 [soc_media]
 facebook = 'https://www.facebook.com/arora.akhil'

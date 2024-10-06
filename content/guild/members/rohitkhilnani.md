@@ -5,7 +5,6 @@ weight = 290
 title = 'Rohit Khilnani'
 designations = ['Bollywood Hungama']
 img = '/images/members/Rohit-Khilnani.png'
-tag = 'rohitkhilnani'
 
 [soc_media]
 facebook = ' https://www.facebook.com/rohit.khilnani.9'

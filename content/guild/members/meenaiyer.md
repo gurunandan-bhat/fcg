@@ -5,7 +5,6 @@ weight = 220
 title = 'Meena Iyer'
 designations = ['Hindustan Times']
 img = '/images/members/Meena Iyer.png'
-tag = 'meenaiyer'
 
 [soc_media]
 twitter = 'https://twitter.com/Meena_Iyer'

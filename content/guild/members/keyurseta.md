@@ -5,7 +5,6 @@ weight = 160
 title = 'Keyur Seta'
 designations = ['Bollywood Hungama']
 img = '/images/members/Keyur Seta.png'
-tag = 'keyurseta'
 
 [soc_media]
 facebook = ' https://www.facebook.com/keyur.seta'

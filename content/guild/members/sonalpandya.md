@@ -5,7 +5,6 @@ weight = 390
 title = 'Sonal Pandya'
 designations = ['Times Now & Zoom']
 img = '/images/members/sonal-pandya.jpeg'
-tag = 'sonalpandya'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sonalp1'

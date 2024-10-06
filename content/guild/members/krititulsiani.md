@@ -5,7 +5,6 @@ weight = 180
 title = 'Kriti Tulsiani'
 designations = ['WION']
 img = '/images/members/Kriti Tulsiani.png'
-tag = 'krititulsiani'
 
 [soc_media]
 facebook = 'https://www.facebook.com/kriti.tulsiani'

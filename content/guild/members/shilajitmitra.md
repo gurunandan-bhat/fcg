@@ -5,7 +5,6 @@ weight = 360
 title = 'Shilajit Mitra'
 designations = ['The Hindu']
 img = '/images/members/shilajit-mitra.jpeg'
-tag = 'shilajitmitra'
 
 [soc_media]
 facebook = 'https://www.facebook.com/shilajit.mitra.5'

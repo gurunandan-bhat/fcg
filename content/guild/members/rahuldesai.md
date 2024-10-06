@@ -5,7 +5,6 @@ weight = 260
 title = 'Rahul Desai'
 designations = ['Film Companion']
 img = '/images/members/RAHUL DESAI.jpg'
-tag = 'rahuldesai'
 
 [soc_media]
 facebook = 'https://www.facebook.com/rahulnoless'

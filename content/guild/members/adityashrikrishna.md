@@ -4,7 +4,6 @@ draft = false
 weight = 10
 title = 'Aditya Shrikrishna'
 designations = ['OTT Play']
-tag = 'adityashrikrishna'
 img = '/images/members/Aditya-Shrikrishna.png'
 
 [soc_media]

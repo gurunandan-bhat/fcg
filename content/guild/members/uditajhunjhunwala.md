@@ -5,7 +5,6 @@ weight = 520
 title = 'Udita Jhunjhunwala'
 designations = ['Mint, Scroll.in']
 img = '/images/members/UDITA JHUNJHUNWALA.jpg'
-tag = 'uditajhunjhunwala'
 
 [soc_media]
 instagram = 'https://www.instagram.com/udita_j/'

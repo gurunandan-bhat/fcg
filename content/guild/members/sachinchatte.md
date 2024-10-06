@@ -5,7 +5,6 @@ weight = 320
 title = 'Sachin Chatte'
 designations = ['The Navhind Times, Goa']
 img = '/images/members/Sachin Chatte Resized.png'
-tag = 'sachinchatte'
 
 [soc_media]
 facebook = 'https://www.facebook.com/sachin.chatte/'

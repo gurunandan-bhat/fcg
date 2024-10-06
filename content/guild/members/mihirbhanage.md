@@ -5,7 +5,6 @@ weight = 230
 title = 'Mihir Bhanage'
 designations = ['The Times of India']
 img = '/images/members/Mihir-Bhanage.png'
-tag = 'mihirbhanage'
 
 [soc_media]
 facebook = 'https://www.facebook.com/mihirbhanage'

@@ -5,7 +5,6 @@ weight = 540
 title = 'Vishal Menon'
 designations = ['Film Companion']
 img = '/images/members/Vishal Menon.jpg'
-tag = 'vishalmenon'
 
 [soc_media]
 facebook = 'https://www.facebook.com/vishal.s.menon.7'
