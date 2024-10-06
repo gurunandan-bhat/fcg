@@ -62,7 +62,6 @@ h6 {
 
 .nav-item a.active {
   color: #a11a0d !important;
-  border-bottom: 2px solid #a11a0d;
 }
 
 .show-on-phone {

@@ -2,7 +2,7 @@
 date = 2024-09-25T12:19:31.454772+05:30
 draft = false
 weight = 340
-title = 'Sangeetha Devi'
+title = 'Sangeetha Devi Dundoo'
 designations = ['The Hindu']
 img = '/images/members/SANGEETHA DEVI.jpg'
 tag = 'sangeethadevi'
