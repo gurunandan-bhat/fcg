@@ -1,15 +1,3 @@
-{{ $n := .n }}
-{{ $colWidth := div 12 $n }}
-{{ $stories := first $n (where (where site.RegularPages "Section" "reviews") "Type" "print") }}
-{{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
-<div class="row">
-  {{ range $stories }}
-    <div class="col-lg-{{- $colWidth }}">
-      {{ block "print-review" . }}{{ end }}
-    </div>
-  {{ end }}
-</div>
-
 {{ define "print-review" }}
   {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
   {{ $critic := index .Params.critics 0 }}
@@ -50,4 +38,5 @@
       {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
     >
   </p>
+  <hr />
 {{ end }}

@@ -64,8 +64,6 @@
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
-    {{ $length := index .Site.Taxonomies.mreviews "ctrl" }}
-    {{ debug.Dump ($length | len) }}
   </div>
   <script>
     let url = window.location.href;
@@ -104,15 +102,13 @@
   <div class="small">
     {{ .Content }}
   </div>
-  <p>
-    {{ if gt $revCount 1 }}
-      <h6 class="fw-bold small">
-        Read all {{ $revCount }} reviews of
-        {{ .Title }}
-        <a href="{{ $revPage.Page.Permalink }}">here</a>
-      </h6>
-    {{ end }}
-  </p>
+  {{ if gt $revCount 1 }}
+    <h6 class="fw-bold small">
+      Read all {{ $revCount }} reviews of
+      {{ .Title }}
+      <a href="{{ $revPage.Page.Permalink }}">here</a>
+    </h6>
+  {{ end }}
   <p class="small">
     <a
       target="_blank"

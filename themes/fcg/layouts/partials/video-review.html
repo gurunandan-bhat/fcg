@@ -1,14 +1,4 @@
-{{ $stories := first 3 (where (where site.RegularPages "Section" "reviews") "Type" "video") }}
-<div class="row">
-  {{ range $stories }}
-    <div class="col-lg-12">
-      {{ block "video-review" . }}{{ end }}
-    </div>
-  {{ end }}
-</div>
-
 {{ define "video-review" }}
-  {{ debug.Dump . }}
   {{ $critic := index .Params.critics 0 }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}

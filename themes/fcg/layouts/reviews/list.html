@@ -55,8 +55,6 @@
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
-    {{ $length := index .Site.Taxonomies.mreviews "ctrl" }}
-    {{ debug.Dump ($length | len) }}
   </div>
   <script>
     let url = window.location.href;
