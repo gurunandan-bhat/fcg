@@ -26,7 +26,7 @@
       <div class="col-md-4 offset-md-1 highlight">
         {{ $videoReviews := where $paginator.Pages "Type" "video" }}
         <div class="row">
-          <h4 class="my-4">Video Reviews</h4>
+          <h5 class="my-4">Video Reviews</h5>
           {{ if $videoReviews | len }}
             {{ range  $videoReviews }}
               <div class="col-md-12">
@@ -42,7 +42,7 @@
         <div class="row">
           {{ $printReviews := where $paginator.Pages "Type" "print" }}
           {{ if $printReviews | len }}
-            <h4 class="my-4">Print/Online Reviews</h4>
+            <h5 class="my-4">Print/Online Reviews</h5>
             {{ range  $printReviews }}
               <div class="col-md-12">
                 {{ block "print-review" . }}{{ end }}
