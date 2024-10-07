@@ -11,7 +11,7 @@ source = 'https://www.rediff.com/movies/review/ctrl-review/20241004.htm'
 type = 'print'
 +++
 
-Our most reliable source of information and communication can be programmed to keep tabs on our mind and movement across the multiple devices that have become indispensable crutches of modern living. But then the Internet has always been a seductive, if not secure, space where all its gifts come with its share of dangers.
+Unsettling, isn't it? Our most reliable source of information and communication can be programmed to keep tabs on our mind and movement across the multiple devices that have become indispensable crutches of modern living. But then the Internet has always been a seductive, if not secure, space where all its gifts come with its share of dangers.
 
 From sharing personal details about oneself on chats with complete strangers, unwittingly downloading software that gives clear passage to malware and bugs, falling prey to sophisticated phishing scams or divulging private data every single time we thoughtlessly tick a Terms and Conditions checkbox, there's a constant element of risk and ruin in romancing the gods of cyberspace.
 
