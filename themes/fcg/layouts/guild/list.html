@@ -12,12 +12,12 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-4 ps-4 pe-4 py-3 highlight">
+      <div class="col-lg-4 py-3 highlight">
         <h3>The Board</h3>
         <h6 class="mb-3">2024&ndash;2027</h6>
         {{ $sectionBoard := index (where .Sections "Type" "guild/board") 0 }}
         {{ range  $sectionBoard.Pages }}
-          <div class="col-xxl-11">
+          <div class="col-lg-12 px-1">
             {{ block "member" . }}{{ end }}
             <hr class="py-2" />
           </div>
@@ -70,7 +70,7 @@
   {{ end }}
   <img
     src="{{- .Params.img }}"
-    class="img-responsive w-100 py-2"
+    class="img-responsive w-100 mb-2 py-2"
     alt="{{ .Title }}" />
   <div class="small">
     {{ .Content }}
