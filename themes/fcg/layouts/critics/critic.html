@@ -1,28 +1,27 @@
 {{ define "main" }}
   {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
-  <div class="container py-2">
-    <div class="row g-5 mt-5">
-      <div class="col-lg-5">
-        <h4 class="fw-bold">Recent Reviews by {{ .LinkTitle }}</h4>
+  <div class="container col-lg-10 px-1 py-2">
+    <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
+      <div class="col-lg-6">
         <img
-          src="/images/reviews/criticpage.png"
-          class="img-responsive ps-5 ms-4" />
+          src="/images/reviews/critic_review.png"
+          class="d-block mx-lg-auto img-responsive w-100"
+          alt="Side Banner"
+          loading="lazy" />
       </div>
-      {{ with $critBio }}
-        <div class="col-lg-5 offset-lg-2">
-          <div class="row">
-            <h6 class="fw-bold">About {{ .Title }}</h6>
+      <div class="col-lg-6">
+        <div class="row">
+          {{ with $critBio }}
+            <h5 class="mb-3">Recent Reviews by {{ .LinkTitle }}</h5>
             <div class="col-lg-4">
-              <img src="{{ .Params.img }}" class="ing-responsive w-100" />
+              <img src="{{ .Params.img }}" class="mt-1 img-responsive w-100" />
             </div>
             <div class="col-lg-8">
-              <div class="small">
-                {{ .Summary }}
-              </div>
+              {{ .Summary }}
             </div>
-          </div>
+          {{ end }}
         </div>
-      {{ end }}
+      </div>
     </div>
   </div>
   {{ $paginator := .Paginate .Pages 6 }}
