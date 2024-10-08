@@ -4,7 +4,7 @@ draft = false
 weight = 130
 title = 'Deepak Dua'
 designations = ['Freelance Film Journalist & Critic']
-img = '/images/members/DeepakDuaCineyatra.JPG'
+img = '/images/members/Deepak Dua.png'
 
 [soc_media]
 twitter = 'https://twitter.com/duafilmcritic'
