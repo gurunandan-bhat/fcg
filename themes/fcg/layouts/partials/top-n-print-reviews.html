@@ -1,7 +1,7 @@
 {{ $n := .n }}
 {{ $colWidth := div 12 $n }}
 {{ $stories := first $n (where (where site.RegularPages "Section" "reviews") "Type" "print") }}
-{{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
+{{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
 <div class="row">
   {{ range $stories }}
     <div class="col-lg-{{- $colWidth }}">
@@ -11,8 +11,8 @@
 </div>
 
 {{ define "print-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
@@ -42,7 +42,9 @@
     <h6 class="fw-bold small">
       Read all {{ $revCount }} reviews of
       {{ .Title }}
-      <a href="{{ $revPage.Page.Permalink }}">here</a>
+      <a href="{{ $revPage.Page.Permalink }}"
+        >here {{ $intLinkIcon | safeHTML }}</a
+      >
     </h6>
   {{ end }}
   <p class="small">

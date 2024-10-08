@@ -58,7 +58,7 @@
 
 {{ define "member" }}
   {{ $critPage := index .Site.Taxonomies.critics (lower .Title) }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   <h6 class="mb-0">
     {{ .LinkTitle }}
     <div class="float-end">

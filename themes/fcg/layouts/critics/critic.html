@@ -43,7 +43,7 @@
             {{ end }}
           {{ else }}
             <h6 class="small px-4">
-              No Video reviews by {{ $critBio.LinkTitle }} available in this
+              No Video reviews by {{ $critBio.LinkTitle }} available for this
               period.
             </h6>
           {{ end }}
@@ -80,8 +80,8 @@
 {{ end }}
 
 {{ define "print-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
@@ -125,7 +125,7 @@
 
 {{ define "video-review" }}
   {{ $critic := index .Params.critics 0 }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}

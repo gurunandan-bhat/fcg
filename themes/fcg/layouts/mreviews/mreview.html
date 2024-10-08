@@ -35,7 +35,9 @@
               </div>
             {{ end }}
           {{ else }}
-            <h6>No Video reviews available in this period.</h6>
+            <h6 class="small px-4">
+              There are no Video reviews available for this period.
+            </h6>
           {{ end }}
         </div>
       </div>
@@ -70,8 +72,8 @@
 {{ end }}
 
 {{ define "print-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
@@ -112,7 +114,7 @@
 {{ define "video-review" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
   <h6 class="fw-bold">

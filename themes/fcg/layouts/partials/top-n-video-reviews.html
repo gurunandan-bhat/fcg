@@ -8,11 +8,11 @@
 </div>
 
 {{ define "video-review" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   <h6 class="fw-bold">
     {{ .Title }}<br />
     <span class="small"
@@ -29,7 +29,9 @@
     <h6 class="fw-bold small">
       Read all {{ $revCount }} reviews of
       {{ .Title }}
-      <a href="{{ $revPage.Page.Permalink }}">here</a>
+      <a href="{{ $revPage.Page.Permalink }}"
+        >here {{ $intLinkIcon | safeHTML }}ß</a
+      >
     </h6>
   {{ end }}
   <hr />
