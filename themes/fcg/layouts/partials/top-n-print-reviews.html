@@ -12,6 +12,7 @@
 
 {{ define "print-review" }}
   {{ $extLinkIcon := index site.Data.svgicons.icons "external-link" }}
+  {{ $intLinkIcon := index site.Data.svgicons.icons "internal-link" }}
   {{ $critic := index .Params.critics 0 }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
@@ -20,7 +21,9 @@
     {{ .Title }}
     <br />
     <span class="small"
-      ><a href="{{ $critPage.Page.Permalink }}">{{ $critic }}</a></span
+      ><a href="{{ $critPage.Page.Permalink }}"
+        >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
+      ></span
     >
   </h6>
   <img
