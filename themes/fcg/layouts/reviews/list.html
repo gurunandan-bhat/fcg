@@ -11,7 +11,7 @@
           Image used as a filler - may change in the final version
         </p> -->
       </div>
-      <div class="col-lg-6 lead">
+      <div id="pg-top" class="col-lg-6 lead">
         {{ .Content }}
       </div>
     </div>
@@ -55,17 +55,20 @@
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
+
+    {{ $titles := slice }}
+    {{ range .Site.Taxonomies.mreviews }}
+      {{ $titles = $titles | append .Page.Title }}
+    {{ end }}
+
+    {{ $searchJS := resources.Get "js/search.js" }}
+    {{ $rs := js.Build (dict "targetPath" "js/xsearch.js" "minify" true "params" (dict "x" $titles "moveTo" "pg-top")) $searchJS }}
+
+
+    <script type="text/javascript" src="{{ $rs.RelPermalink }}" defer></script>
   </div>
-  <script>
-    let url = window.location.href;
-    const mch = url.match(/page\/(\d+)\/$/);
-    if (mch && mch[1] !== 1) {
-      let anch = document.getElementById("pg-top");
-      window.addEventListener("load", function (e) {
-        anch.scrollIntoView();
-      });
-    }
-  </script>
+
+  <script></script>
 {{ end }}
 
 {{ define "print-review" }}
