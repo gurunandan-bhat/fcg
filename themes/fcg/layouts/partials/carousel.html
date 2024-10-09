@@ -9,7 +9,7 @@
   id="{{- $id }}"
   class="carousel slide carousel-fade"
   data-bs-ride="carousel">
-  <div class="carousel-inner px-2">
+  <div class="carousel-inner px-1 py-1 border border-subtle">
     {{- range $i, $src := $winners }}
       {{ $imgPath := printf "/images/awards/%s/%s/%s" $year $category $src }}
       <div class="carousel-item {{ if not $i }}active{{ end }}">
