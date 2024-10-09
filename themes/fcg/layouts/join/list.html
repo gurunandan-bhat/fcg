@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $membersPage := index (where .Site.Pages "Section" "Guild") 0 }}
   <div class="container col-xxl-8 px-2 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
       <div class="col-lg-6">
@@ -13,172 +14,58 @@
       </div>
     </div>
   </div>
+  <div class="container my-5 py-5">
+    <div class="row px-3">
+      <div class="col-lg-4">
+        <h4 class="fw-bold text-center">1. Check if you Qualify</h4>
+        <p>
+          Every member of our Guild is a respected member of the community of
+          film reviewers of long standing. We expect you are no less. Read our
+          requirements for membership to the Guild below and our expectations.
+          Pay particular attention to the length of service and volume of
+          reviews.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <h4 class="fw-bold text-center">2. Find a referer</h4>
+        <p>
+          Membership requires a referral from an existing member reccommending
+          your request. You can browse the list of
+          <a href="{{ $membersPage.Permalink }}">our members</a> and choose to
+          request a person of your choice to reccommend you. That member will
+          confirm that you fulfill the membership and ethical criteria.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <h4 class="fw-bold text-center">3. Send us your info</h4>
+        <p>
+          Send us a reasonably structured email with information supporting your
+          request to
+          <a href="mailto:anemail@example.com">Abhra: add email here</a>. We are
+          particularly interested to know that you fulfill the age, residency,
+          work experience and publication output. Dont forget to mark a copy of
+          that email to your referring member.
+        </p>
+      </div>
+    </div>
+  </div>
   <div class="container py-5 my-5">
     <div class="row">
       <div class="col-lg-5 offset-lg-1 border-end border-secondary-subtle">
-        <h4 class="fw-bold mb-4 ps-4">To Qualify&hellip;</h4>
-        <ul class="small">
-          <li class="mb-2">
-            A reviewer must be an adult, over the age of 21 years.
-          </li>
-          <li class="mb-2">
-            A reviewer must have a minimum of four (4) years of experience in
-            current, regular film criticism to be considered eligible for
-            membership.
-          </li>
-          <li class="mb-2">
-            A reviewer must share an attested copy of his/her PAN Card or Aadhar
-            card and Residence proof.
-          </li>
-          <li class="mb-2">
-            Each publication or media outlet will be approved by the vetting
-            committiee.
-          </li>
-          <li class="mb-2">
-            There is no limit on active members from any single publication or
-            media outlet. When an active member loses affiliation at a
-            qualifying publication, his or her successor shall not be
-            automatically granted membership but must apply to the group as a
-            prospective new member.
-          </li>
-          <li class="mb-2">
-            Each member must watch and critque atleast 25 current feature length
-            motion picture in a twelve month period. This includes theatrical
-            releases, new films screened at festivals and first run
-            multi-platform release (such as DVD, streaming video or other format
-            not yet developed). It does not include re-releases of older films
-            or previous theatrical releases
-          </li>
-          <li class="mb-2">
-            Critquies must be distributed via a mass medium to the movie-going
-            public (print, radio, television or the internet). Social media
-            posts will not be accepted as reviews. However, reviewers who only
-            review on YouTube will be considered on a case-by-case basis.
-          </li>
-          <li class="mb-2">
-            Active freelance status may be conferred upon members of good
-            standing (whose contribution to film criticism exceeds 15+ years),
-            at the sole discretion of the Indian Film Critic's' Association
-            ("IFCA") Vetting Committee, members who have been separated from
-            their media outlet/publication &mdash; either by termination of job
-            or termination of publication &mdash; who remain professional film
-            critic's, continuing to publish or post reviews of current movies on
-            a regular, paying basis.
-          </li>
-          <li class="mb-2">
-            Only 1 review per film shall be counted. Think pieces, reprinted or
-            syndicated reviews, with minor or no changes, shall not be
-            considered as distinct.
-          </li>
-          <li class="mb-2">
-            Members are expected to keep track of their reviews, including movie
-            titles, date and length.
-          </li>
-          <li class="mb-2">
-            Online outlets must have, at minimum, 5,000 unique visits per month
-            and should have been active for at least a year to qualify for the
-            Critic's association criteria.
-          </li>
-          <li class="mb-2">
-            Only critics residing and working in India qualify for membership.
-          </li>
-          <li class="mb-2">
-            Members shall not be currently working full-time or part-time for a
-            production company or filmmaker, or be employed by a film production
-            or filmmaking concern.
-          </li>
-        </ul>
+        {{ with index (where .RegularPages "LinkTitle" "To Qualify") 0 }}
+          <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
+          <div class="join-list small">
+            {{ .Content }}
+          </div>
+        {{ end }}
       </div>
       <div class="col-lg-5">
-        <h4 class="fw-bold mb-4 ps-4">What we expect</h4>
-        <ul class="small">
-          <li class="mb-2">
-            Members shall declare any conflict of interest (working with members
-            of the film fraternity whose films one is reviewing, consulting on
-            scripts, receiving payments for favourable reviews/social media
-            posts etc.) to the managing committee as soon as the commitment
-            happens.
-          </li>
-          <li class="mb-2">
-            Members shall be personally liable for all acts and deeds.
-          </li>
-          <li class="mb-2">
-            Members shall not plagiarise material, defined as deliberately
-            copying the work of others and claiming it as your own, with no
-            attribution.
-          </li>
-          <li class="mb-2">
-            Members shall not steal goods or services from studio
-            representatives, theatres or other IFCA members.
-          </li>
-          <li class="mb-2">
-            The objects of the IFCA are of prime importance. Members must bear
-            in mind the object of IFCA and abide by the IFCA Bye Laws at all
-            times.
-          </li>
-          <li class="mb-2">
-            Members shall not use their IFCA membership to demand special
-            treatment (this includes demanding promotional items for personal
-            use, demanding extra screening passes or demanding free passes to
-            films that have already opened)
-          </li>
-          <li class="mb-2">
-            Members shall not allow gifts or favors to influence the content of
-            reviews.
-          </li>
-          <li class="mb-2">
-            Members shall not review films they have not seen.
-          </li>
-          <li class="mb-2">
-            Members shall not review films that they have walked out of or
-            turned off without revealing that they did not see them in their
-            entirety.
-          </li>
-          <li class="mb-2">
-            Members shall not review films in which they have a creative or
-            financial interest.
-          </li>
-          <li class="mb-2">
-            Members shall not threaten or harass artists, studio
-            representatives, theatre owners/employees or other IFCA members.
-          </li>
-          <li class="mb-2">
-            Members shall not falsify press credentials or professional
-            associations.
-          </li>
-          <li class="mb-2">
-            Members shall not falsely claim to be an official representative of
-            the IFCA.
-          </li>
-          <li class="mb-2">
-            Members shall not indulge in unauthorised recording of theatrical
-            releases or indulge in practices such as posting "live-tweet
-            reviews" while watching a film. Films must be reviewed in their
-            entirety.
-          </li>
-          <li class="mb-2">
-            All written reviews must be professionally edited and presented.
-            Writers should check factual information for accuracy before
-            printing or posting.
-          </li>
-          <li class="mb-2">
-            Member shall not indulge in unauthorised copying and/or sale of
-            studio screeners, including (but not limited to) internet
-            distribution.
-          </li>
-          <li class="mb-2">
-            Members shall not violate studio-imposed embargo on when reviews may
-            be published, broadcast or posted.
-          </li>
-          <li class="mb-2">
-            If members are not allowed to see a film in time for review, they
-            are not obligated to promote or publicise that film in any way.
-          </li>
-          <li class="mb-2">
-            Members who have been previously employed &mdash; financially or as
-            consultants &mdash; with a Filmmaking company
-          </li>
-        </ul>
+        {{ with index (where .RegularPages "LinkTitle" "What We Expect") 0 }}
+          <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
+          <div class="join-list small">
+            {{ .Content }}
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>
