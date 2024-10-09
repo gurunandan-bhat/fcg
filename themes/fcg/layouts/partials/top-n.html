@@ -9,10 +9,9 @@
         src="/images/news/{{- .Params.img }}"
         class="img-responsive w-100 mb-3" />
       <h6 class="fw-bold">
-        <a href="{{- .Permalink }}">{{ .LinkTitle }}</a>
+        {{ .LinkTitle }}
       </h6>
       {{ .Summary }}
-      <p class="small"><a href="{{ .Permalink }}">Continue reading</a></p>
     </div>
   {{ end }}
 </div>
