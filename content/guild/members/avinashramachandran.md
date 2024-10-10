@@ -12,4 +12,4 @@ instagram = 'https://www.instagram.com/@Avinash_r13'
 twitter = 'https://twitter.com/@Avinash_R13'
 +++
 
-I'm an Entertainment journalist, and I've been with The New Indian Express for five years reviewing everything from films, series, shorts, and documentaries. I concentrate on writing for South films, with frequent visits to Hindi and English cinema, apart from the occasional non-English foreign content.
+Avinash Ramchandran has been an entertainment journalist at The New Indian Express for five years, specializing in the review of films, series, shorts, and documentaries. His primary focus is on South Indian cinema, although he also regularly engages with Hindi and English films, as well as occasionally exploring foreign films.
