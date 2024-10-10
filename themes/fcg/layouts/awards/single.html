@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="col-lg-2 pt-4">
-        {{ with where (where site.RegularPages "Section" "awards") "Permalink" "ne" .Permalink }}
+        {{ with where (where site.RegularPages "Section" "awards") "Permalink" "ne" .RelPermalink }}
           <h6 class="mt-3">Other Years</h6>
           <p>
             You can browse winners of the Critics Choice awards for other years
@@ -59,7 +59,7 @@
           </p>
           <p>
             {{ range . }}
-              <a href="{{ .Permalink }}">Awards {{ .Params.awardYear }}</a
+              <a href="{{ .RelPermalink }}">Awards {{ .Params.awardYear }}</a
               ><br />
             {{ end }}
           </p>

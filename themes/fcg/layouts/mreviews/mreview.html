@@ -82,7 +82,7 @@
     {{ .Title }}
     <br />
     <span class="small"
-      ><a href="{{ $critPage.Page.Permalink }}"
+      ><a href="{{ $critPage.Page.RelPermalink }}"
         >{{ $critic }}
         {{ $intLinkIcon | safeHTML }}</a
       ></span
@@ -120,7 +120,7 @@
   <h6 class="fw-bold">
     {{ .Title }}<br />
     <span class="small"
-      ><a href="{{ $critPage.Page.Permalink }}"
+      ><a href="{{ $critPage.Page.RelPermalink }}"
         >{{ $critic }}
         {{ $intLinkIcon | safeHTML }}</a
       ></span

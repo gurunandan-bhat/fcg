@@ -107,7 +107,7 @@
     <h6 class="fw-bold small">
       Read all {{ $revCount }} reviews of
       {{ .Title }}
-      <a href="{{ $revPage.Page.Permalink }}"
+      <a href="{{ $revPage.Page.RelPermalink }}"
         >here {{ $intLinkIcon | safeHTML }}</a
       >
     </h6>
@@ -132,7 +132,7 @@
   <h6 class="fw-bold">
     {{ .Title }}<br />
     <span class="small"
-      ><a href="{{ $critPage.Page.Permalink }}">{{ $critic }}</a></span
+      ><a href="{{ $critPage.Page.RelPermalink }}">{{ $critic }}</a></span
     >
   </h6>
   {{ .Content }}
@@ -143,7 +143,7 @@
     <h6 class="fw-bold small">
       Read all {{ $revCount }} reviews of
       {{ .Title }}
-      <a href="{{ $revPage.Page.Permalink }}"
+      <a href="{{ $revPage.Page.RelPermalink }}"
         >here {{ $intLinkIcon | safeHTML }}</a
       >
     </h6>
