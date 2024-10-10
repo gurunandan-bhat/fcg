@@ -1,11 +1,11 @@
 winners = [
-    'Winner_Best Feature Film.png',
-    'Winner_Best Director_Feature Film.png',
-    'Winner_Best Actor_Feature Film.png',
-    'Winner_Best Actress_Feature Film.png',
-    'Winner_Best Supporting Actor_Feature Film.png',
-    'Winner_Best Supporting Actress_Feature Film.png',
-    'Winner_Best Editing_Feature Film.png',
-    'Winner_Best Cinematography_Feature Film.png',
-    'Winner_Best Writing_Feature Film.png'
+    '2023-Feature-Feature.png',
+    '2023-Feature-Director.png',
+    '2023-Feature-Actor.png',
+    '2023-Feature-Actress.png',
+    '2023-Feature-Supporting-Actor.png',
+    '2023-Feature-Supporting-Actress.png',
+    '2023-Feature-Editing.png',
+    '2023-Feature-Cinematography.png',
+    '2023-Feature-Writing.png'
 ]

@@ -85,6 +85,12 @@ h6 {
   }
 }
 
+@media (max-width: 992px) {
+  .hide-on-phone {
+    border-color: #ffffff !important;
+  }
+}
+
 .lead h1 {
   font-weight: 600;
   padding-bottom: 2rem;
