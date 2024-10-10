@@ -10,4 +10,4 @@ img = '/images/members/Sukhpreet-Kahlon.png'
 facebook = 'https://www.facebook.com/sukhpreet.i.kahlon/'
 +++
 
-Sukhpreet Kahlon works as a freelance curator for film festivals. Her writing concentrates on film history, independent films and Punjabi cinema.
+Sukhpreet Kahlon is the Artistic Director of South Asian Film Festival of Montreal and an independent film journalist. Her writing concentrates on film history, independent films and Punjabi cinema.

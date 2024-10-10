@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/suparna.sharma.71'
 twitter = 'https://twitter.com/SuparnaSharma'
 +++
 
-Suparna Sharma is a senior film critic and freelance journalist. She currently writes for The Week and Al Jazeera. Previously she was writing on films for Rolling Stone magazine and was the Resident Editor of The Asian Age, New Delhi.
+Suparna Sharma is a senior film critic and Independent Journalist. She currently writes for The Week and Al Jazeera. Previously she was writing on films for Rolling Stone magazine and was the Resident Editor of The Asian Age, New Delhi.

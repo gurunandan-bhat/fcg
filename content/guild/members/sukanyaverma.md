@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/sukanyaverma/'
 twitter = 'https://www.twitter.com/SukanyaVerma'
 +++
 
-Mumbai-born and based Sukanya Verma is a senior film critic, music critic, columnist, features writer, quiz host and columnist with rediff.com for the last 19 years. From 2016, she contributes cinema columns to The Hindu as well.
+Mumbai-born and based Sukanya Verma is a senior film critic, music critic, columnist, features writer, quiz maker and columnist with rediff.com since 1999. She has contributed cinema columns to The Hindu as well.
