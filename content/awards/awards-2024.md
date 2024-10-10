@@ -6,4 +6,6 @@ dataFile = 'awards2024'
 awardYear = '2024'
 +++
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+Since 2018, the Film Critics Guild and Motion Content Group in collaboration with Vistas Media Capital have persevered to showcase, recognise and reward the best stories coming out of India's burgeoning content landscape. Our aim has unswervingly remained the championing of short films, web series and feature films all on the same platform across all Indian languages, through an unbiased, credible, transparent process that lauds merit, talent and creativity above all else.
+
+The Film Critics Guild Critics Choice Awards for 2024 follow.
