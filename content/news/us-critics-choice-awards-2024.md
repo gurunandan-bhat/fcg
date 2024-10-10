@@ -5,4 +5,4 @@ draft = false
 img = 'us-cca.jpg'
 +++
 
-The 29th U.S. Critics Choice Awards happened in Santa Monica's Barker Hangar. Barbie and Oppenheimer won the most awards on the night in film categories. In television, The Morning Show won the highest number of awards followed by Beef and The Bear. The final season of HBO’s prestige drama Succession also emerged victorious in multiple categories.
+The 29th U.S. Critics Choice Awards happened in Santa Monica's Barker Hangar. Barbie and Oppenheimer won the most awards on the night in film categories. In television, The Morning Show won the highest number of awards followed by Beef and The Bear.
