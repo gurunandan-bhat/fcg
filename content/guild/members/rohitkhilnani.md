@@ -13,4 +13,4 @@ twitter = 'https://twitter.com/rohitkhilnani'
 youtube = 'https://www.youtube.com/user/rohitkhilnani'
 +++
 
-Rohit Khilnani is an entertainment journalist with close to two decades of experience. He is the Entertainment Editor for the NDTV Group. He is now exploring the digital media along with television. He reviews films for NDTV24X7.
+Rohit Khilnani is an entertainment journalist with more than two decades of experience. He currently does film interviews for Bollywood Hungama and reviews movies in a personal capacity. In the past he was Entertainment Editor for the NDTV Group, India Today Group, Times Internet and CNN-IBN.
