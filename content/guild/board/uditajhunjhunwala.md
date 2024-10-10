@@ -4,7 +4,7 @@ draft = false
 weight = 520
 title = 'Udita Jhunjhunwala'
 designations = ['Mint, Scroll.in']
-img = '/images/members/UDITA JHUNJHUNWALA.jpg'
+img = '/images/members/UDITA JHUNJHUNWALA.png'
 
 [soc_media]
 instagram = 'https://www.instagram.com/udita_j/'
