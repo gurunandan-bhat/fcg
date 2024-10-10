@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/vishal.s.menon.7'
 twitter = 'https://www.twitter.com/Vishal1Menon'
 +++
 
-Vishal Menon is the editor of Film Companion South. He is a film critic and has also worked with The Hindu, before which he was a correspondent with Reuters News. He writes about Tamil, Malayalam and Hindi cinema.
+Vishal Menon is the Assoiciate Editor at The Hollywood Reporter, India. He was previously with Film Companion and The Hindu. He writes about Malayalam and Tamil Cinema.
