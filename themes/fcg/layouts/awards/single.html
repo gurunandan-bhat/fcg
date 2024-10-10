@@ -8,8 +8,11 @@
     <div class="row">
       <div class="col-lg-8">
         <h1>{{ .Title }}</h1>
-        <div class="lead ps-5 py-5">
-          {{ .Content }}
+        <div class="lead ps-5">
+          {{ .Summary }}
+        </div>
+        <div class="ps-5 pb-5">
+          {{ .ContentWithoutSummary }}
         </div>
       </div>
     </div>
