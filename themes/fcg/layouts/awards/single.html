@@ -2,7 +2,9 @@
   {{ $year := .Params.awardYear }}
   {{ $awards := index .Site.Data .Params.dataFile }}
   <div class="container-fluid mt-4">
-    <img src="https://picsum.photos/1600/540" class="img-responsive w-100" />
+    <img
+      src="/images/reviews/{{- .Params.awardYear -}}-banner.png"
+      class="img-responsive w-100" />
   </div>
   <div class="container mt-5">
     <div class="row">

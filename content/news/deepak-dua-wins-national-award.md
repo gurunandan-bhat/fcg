@@ -1,8 +1,8 @@
 +++
 title = 'Deepak Dua Wins National Award'
-date = 2024-09-29T11:51:09+05:30
+date = 2024-10-10T19:31:23+05:30
 draft = false
-img = 'deepak-dua.jpg'
+img = 'deepak-dua.png'
 opening = 'Dua’s achievement underscores his exceptional ability to provide insightful and impactful film criticism.'
 +++
 

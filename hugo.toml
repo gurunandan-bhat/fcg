@@ -30,14 +30,9 @@ pageRef = '/guild'
 weight = 40
 
 [[menus.main]]
-name = 'Join'
+name = 'Join Us'
 pageRef = '/join'
 weight = 50
-
-[[menus.main]]
-name = 'About'
-pageRef = '/about'
-weight = 60
 
 [module]
   [module.hugoVersion]
