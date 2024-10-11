@@ -7,6 +7,6 @@ critics = ['']
 subtitle = ''
 opening = ''
 img = ''
-type = ''
+type = 'print'
 source = ''
 +++
