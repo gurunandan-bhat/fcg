@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/tatsam.mukherjee'
 twitter = 'https://twitter.com/LunkyFallow'
 +++
 
-Tatsam Mukherjee has been a New Delhi-based film journalist since 2016. Having contributed reviews to Firstpost, News9, GQ India etc, his byline has also appeared in the likes of Slate, Al Jazeera English, Film Companion among other publications
+Tatsam Mukherjee has been working as a film journalist since 2016. Having contributed to the Indian Express, Mint Lounge, India Today, Open magazine, his byline has also appeared in foreign publications like Slate, Al Jazeera and Juggernaut. He is currently based in Bangalore.
