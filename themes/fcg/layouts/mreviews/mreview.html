@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $paginator := .Paginate .Pages 6 }}
+  {{ $pageReviews := $paginator.Pages }}
   <div class="container col-lg-8 px-2 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
       <div class="col-lg-6">
@@ -12,13 +14,19 @@
         </p> -->
       </div>
       <div class="col-lg-6 lead">
-        <h4>All Recent Reviews of<br />{{ .LinkTitle }}</h4>
+        <h4 class="mb-5">All Recent Reviews of<br />{{ .LinkTitle }}</h4>
+        <h6>Reviewers on this page:</h6>
+        <div class="small">
+          <p class="small">
+            {{ range $pageReviews }}
+              {{ $critic := index .Page.Params.critics 0 }}
+              <a href="#{{- $critic -}}">{{ $critic }}</a><br />
+            {{ end }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
-
-  {{ $paginator := .Paginate .Pages 6 }}
-  {{ $pageReviews := $paginator.Pages }}
   <div class="container">
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
@@ -78,7 +86,7 @@
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  <h6 class="fw-bold">
+  <h6 id="{{- $critic -}}" class="fw-bold">
     {{ .Title }}
     <br />
     <span class="small"
@@ -117,7 +125,7 @@
   {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  <h6 class="fw-bold">
+  <h6 id="{{- $critic -}}" class="fw-bold">
     {{ .Title }}<br />
     <span class="small"
       ><a href="{{ $critPage.Page.RelPermalink }}"
