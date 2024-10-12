@@ -26,13 +26,13 @@
       <div class="col-lg-8 py-3 pad-for-lg">
         <h4 class="fw-bold" id="pg-top">Members</h4>
         {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
-        {{ $paginator := .Paginate $sectionMembers.Pages  30 }}
+        {{ $paginator := .Paginate $sectionMembers.Pages  20 }}
         <div class="row">
           <div class="d-flex justify-content-center py-3 mb-3">
             {{ template "_internal/pagination.html" . }}
           </div>
           {{ range $paginator.Pages }}
-            <div class="col-xxl-4 col-lg-6 mb-5">
+            <div class="col-lg-6 mb-5">
               {{ block "member" . }}{{ end }}
               <hr class="show-on-phone py-2" />
             </div>
