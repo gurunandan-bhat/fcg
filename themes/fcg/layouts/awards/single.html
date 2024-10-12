@@ -7,6 +7,26 @@
       class="img-responsive w-100" />
   </div>
   <div class="container mt-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <h6 class="fw-bold d-inline-block px-2" style="padding-top: 2px;">
+          Browse Awards by Year:
+        </h6>
+        {{ range where site.RegularPages "Section" .Section }}
+          {{ if ne .RelPermalink $.RelPermalink }}
+            <li class="breadcrumb-item">
+              <h6 class="d-inline-block">
+                <a href="{{ .RelPermalink }}">{{ .Params.awardYear }}</a>
+              </h6>
+            </li>
+          {{ else }}
+            <li class="breadcrumb-item active" aria-current="page">
+              <h6 class="d-inline-block">{{ .Params.awardYear }}</h6>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ol>
+    </nav>
     <div class="row">
       <div class="col-lg-8">
         <h1>{{ .Title }}</h1>
@@ -30,40 +50,49 @@
                 </h5>
                 <img src="{{ .img }}" class="img-responsive w-100 pb-4" />
               </div>
+              <hr class="show-on-phone" />
             {{ end }}
           </div>
         {{ end }}
       </div>
-      <div class="col-lg-4 pt-4">
+      <div class="col-lg-5 pt-4">
         <div class="row">
-          <div class="col-lg-12 mb-2">
+          <div class="col-lg-12 pb-4">
             <h5 class="fw-bold text-center my-3">Feature Films {{ $year }}</h5>
             {{- partial "carousel.html" (dict "year" $year "category" "feature" "winners" $awards.feature.winners) -}}
+            <hr class="show-on-phone" />
           </div>
-          <div class="col-lg-12 mb-2">
+          <div class="col-lg-12 pb-4">
             <h5 class="fw-bold text-center my-3">Web Series {{ $year }}</h5>
             {{- partial "carousel.html" (dict "year" $year "category" "web" "winners" $awards.web.winners) -}}
+            <hr class="show-on-phone" />
           </div>
-          <div class="col-lg-12 mb-2">
+          <div class="col-lg-12 pb-4">
             <h5 class="fw-bold text-center my-3">Short Films {{ $year }}</h5>
             {{- partial "carousel.html" (dict "year" $year "category" "short" "winners" $awards.short.winners) -}}
+            <hr class="show-on-phone" />
           </div>
+          <nav class="py-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <h6 class="fw-bold d-inline-block px-2" style="padding-top: 2px;">
+                Browse Awards by Year:
+              </h6>
+              {{ range where site.RegularPages "Section" .Section }}
+                {{ if ne .RelPermalink $.RelPermalink }}
+                  <li class="breadcrumb-item">
+                    <h6 class="d-inline-block">
+                      <a href="{{ .RelPermalink }}">{{ .Params.awardYear }}</a>
+                    </h6>
+                  </li>
+                {{ else }}
+                  <li class="breadcrumb-item active" aria-current="page">
+                    <h6 class="d-inline-block">{{ .Params.awardYear }}</h6>
+                  </li>
+                {{ end }}
+              {{ end }}
+            </ol>
+          </nav>
         </div>
-      </div>
-      <div class="col-lg-2 pt-4">
-        {{ with where (where site.RegularPages "Section" "awards") "Permalink" "ne" .RelPermalink }}
-          <h6 class="mt-3">Other Years</h6>
-          <p>
-            You can browse winners of the Critics Choice awards for other years
-            here:
-          </p>
-          <p>
-            {{ range . }}
-              <a href="{{ .RelPermalink }}">Awards {{ .Params.awardYear }}</a
-              ><br />
-            {{ end }}
-          </p>
-        {{ end }}
       </div>
     </div>
   </div>
