@@ -23,7 +23,7 @@
           </div>
         {{ end }}
       </div>
-      <div class="col-lg-8 ps-5 py-3">
+      <div class="col-lg-8 py-3 ">
         <h4 class="fw-bold" id="pg-top">Members</h4>
         {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
         {{ $paginator := .Paginate $sectionMembers.Pages  30 }}
@@ -32,7 +32,7 @@
             {{ template "_internal/pagination.html" . }}
           </div>
           {{ range $paginator.Pages }}
-            <div class="col-xxl-4 col-xl-6 mb-5">
+            <div class="col-xxl-4 col-lg-6 mb-5">
               {{ block "member" . }}{{ end }}
               <hr class="show-on-phone py-2" />
             </div>
