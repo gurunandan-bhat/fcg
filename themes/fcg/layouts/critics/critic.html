@@ -27,6 +27,7 @@
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
   <div class="container">
+    <a class="anchor" id="pg-top"></a>
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>

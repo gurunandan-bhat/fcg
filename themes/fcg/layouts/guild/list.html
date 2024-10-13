@@ -24,7 +24,8 @@
         {{ end }}
       </div>
       <div class="col-lg-8 py-3 pad-for-lg">
-        <h4 class="fw-bold" id="pg-top">Members</h4>
+        <a class="anchor" id="pg-top"></a>
+        <h4 class="fw-bold">Members</h4>
         {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
         {{ $paginator := .Paginate $sectionMembers.Pages  20 }}
         <div class="row">

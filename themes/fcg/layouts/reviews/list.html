@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $paginator := .Paginate .Pages 6 }}
+  {{ $pageReviews := $paginator.Pages }}
   <div class="container col-xxl-8 px-2 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
       <div class="col-lg-6">
@@ -11,14 +13,13 @@
           Image used as a filler - may change in the final version
         </p> -->
       </div>
-      <div id="pg-top" class="col-lg-6 lead">
+      <div class="col-lg-6 lead">
         {{ .Content }}
       </div>
     </div>
   </div>
-  {{ $paginator := .Paginate .Pages 6 }}
-  {{ $pageReviews := $paginator.Pages }}
   <div class="container">
+    <a class="anchor" id="pg-top"></a>
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
@@ -57,20 +58,17 @@
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
-
-    {{ $titles := slice }}
-    {{ range .Site.Taxonomies.mreviews }}
-      {{ $titles = $titles | append .Page.Title }}
-    {{ end }}
-
-    {{ $searchJS := resources.Get "js/search.js" }}
-    {{ $rs := js.Build (dict "targetPath" "js/xsearch.js" "minify" true "params" (dict "x" $titles "moveTo" "pg-top")) $searchJS }}
-
-
-    <script type="text/javascript" src="{{ $rs.RelPermalink }}" defer></script>
   </div>
-
-  <script></script>
+  <script defer>
+    let url = window.location.href;
+    const mch = url.match(/page\/(\d+)\/$/);
+    if (mch && mch[1] !== 1) {
+      let anch = document.getElementById("pg-top");
+      window.addEventListener("load", function (e) {
+        anch.scrollIntoView();
+      });
+    }
+  </script>
 {{ end }}
 
 {{ define "print-review" }}
