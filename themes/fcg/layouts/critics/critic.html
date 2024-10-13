@@ -26,7 +26,7 @@
               {{ .Summary }}
               <h6 class="fw-bold">Films reviewed on this Page</h6>
               <p class="small">
-                {{ range $titles }}
+                {{ range ($titles | uniq) }}
                   {{ $titleAnchor := lower (replace . " " "-") }}
                   <a class="fira-sans-regular" href="#{{- $titleAnchor -}}"
                     >{{ . }}</a
