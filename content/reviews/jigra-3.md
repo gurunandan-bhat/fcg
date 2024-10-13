@@ -18,7 +18,3 @@ More than nods to pop culture moments, he internalises one of its biggest icons,
 Co-produced by her and big sister Shaheen along with Dharma Productions, Jigra's prison break bravado can be best described as Bachchan, Alia Bachchan spearheading Vasan Bala's Bangkok Hilton sans the bullshit but tons of bedlam.
 
 Back in 1993, Dharma made Gumrah directed by Alia's dad Mahesh Bhatt, which rehashed the afore-mentioned Nicole Kidman mini-series to chronicle Sridevi's misery behind bars after she's falsely implicated on drug trafficking charges by the unsympathetic Hong Kong police until rescued in true blue Bollywood fashion by Sanjay Dutt.
-
-Bala, on the other hand, does away with all the melodrama and violence to craft a slick escape thriller around a sibling dynamic that plays out the nightmare for what it is against a growing atmosphere of dread.
-
-Orphaned at a young age, witness to her father's suicide and a possible survivor of abuse that's more insinuated than publicised, Alia is Satya but her truth stems from her belief not honesty.

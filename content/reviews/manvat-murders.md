@@ -14,5 +14,3 @@ type = 'print'
 The ritualistic Manwat Murders which brutally claimed the lives of innocent children and women and shook Maharashtra in the 70s, does it again. Amol Palekar had already put it effectively on screen in Akriet (1981).
 
 But relive the grisly times as creator-writer Girish Joshi and director Ashish Avinash Bende take off from Ramakant S Kulkarni’s book ‘Footprints On The Sands Of Time’ to go back to the village (spelt Manwat in actuality and Manvat in the series) where tantriks presided over human sacrifice and blood offerings from private parts in the unquenchable quest for a hidden treasure and to fill the womb of a barren second wife.
-
-Ramakant Kulkarni (Ashutosh Gowariker), DCP, Crime Branch, Mumbai, disburses gyaan on how to solve a crime at the training centre for young police cadets, before the Home Minister despatches him to Manwat.
