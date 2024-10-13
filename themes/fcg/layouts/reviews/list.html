@@ -1,6 +1,10 @@
 {{ define "main" }}
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
+  {{ $titles := slice }}
+  {{ range $pageReviews }}
+    {{ $titles = append .Title $titles }}
+  {{ end }}
   <div class="container col-xxl-8 px-2 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
       <div class="col-lg-6">
@@ -13,13 +17,25 @@
           Image used as a filler - may change in the final version
         </p> -->
       </div>
-      <div class="col-lg-6 lead">
-        {{ .Content }}
+      <div class="col-lg-6">
+        <div class="ps-3">
+          <div class="lead mb-4">
+            {{ .Content }}
+          </div>
+          <p><a class="anchor" id="pg-top"></a></p>
+          <h6 class="fw-bold">Films reviewed on this Page</h6>
+          <p class="small">
+            {{ range ($titles | uniq) }}
+              {{ $count := (where $pageReviews "Title" .) | len }}
+              <span class="fira-sans-regular">{{ . }} ({{ $count }})</span
+              ><br />
+            {{ end }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
   <div class="container">
-    <a class="anchor" id="pg-top"></a>
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>

@@ -14,15 +14,19 @@
         </p> -->
       </div>
       <div class="col-lg-6">
-        <h4 class="fw-bold lead mb-5">
-          All Recent Reviews of<br />{{ .LinkTitle }}
-        </h4>
-        <h6 class="fw-bold">Reviewers on this page:</h6>
+        <div class="ps-3">
+          <a class="anchor" id="pg-top"></a>
+          <h4 class="fw-bold lead mb-5">
+            All Recent Reviews of<br />{{ .LinkTitle }}
+          </h4>
+          <h6 class="fw-bold">Reviewers on this page:</h6>
           <p class="small">
             {{ range $pageReviews }}
               {{ $critic := index .Page.Params.critics 0 }}
               {{ $criticAnchor := lower (replace $critic " " "-") }}
-              <a href="#{{- $criticAnchor -}}" class="fira-sans-regular">{{ $critic }}</a><br />
+              <a href="#{{- $criticAnchor -}}" class="fira-sans-regular"
+                >{{ $critic }}</a
+              ><br />
             {{ end }}
           </p>
         </div>
@@ -30,7 +34,6 @@
     </div>
   </div>
   <div class="container">
-    <a class="anchor" id="pg-top"></a>
     <div class="d-flex justify-content-center py-3 mb-3">
       {{ template "_internal/pagination.html" . }}
     </div>
