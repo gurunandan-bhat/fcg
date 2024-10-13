@@ -34,7 +34,7 @@
     </div>
     <div class="row">
       <div class="col-md-4 offset-md-1 highlight">
-        {{ $videoReviews := where $paginator.Pages "Type" "video" }}
+        {{ $videoReviews := where $pageReviews "Type" "video" }}
         <div class="row">
           <h5 class="my-4">Video Reviews</h5>
           {{ if $videoReviews | len }}
@@ -52,7 +52,7 @@
       </div>
       <div class="col-md-5 offset-md-1">
         <div class="row">
-          {{ $printReviews := where $paginator.Pages "Type" "print" }}
+          {{ $printReviews := where $pageReviews "Type" "print" }}
           {{ if $printReviews | len }}
             <h5 class="my-4">Print/Online Reviews</h5>
             {{ range  $printReviews }}

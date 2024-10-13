@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $paginator := .Paginate .Pages 6 }}
+  {{ $pageReviews := $paginator.Pages }}
   {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
   <div class="container col-lg-10 px-1 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
@@ -24,8 +26,6 @@
       </div>
     </div>
   </div>
-  {{ $paginator := .Paginate .Pages 6 }}
-  {{ $pageReviews := $paginator.Pages }}
   <div class="container">
     <a class="anchor" id="pg-top"></a>
     <div class="d-flex justify-content-center py-3 mb-3">
@@ -33,7 +33,7 @@
     </div>
     <div class="row">
       <div class="col-md-4 offset-md-1 highlight">
-        {{ $videoReviews := where $paginator.Pages "Type" "video" }}
+        {{ $videoReviews := where $pageReviews "Type" "video" }}
         <div class="row">
           <h5 class="my-4">Video Reviews</h5>
           {{ if $videoReviews | len }}
@@ -52,7 +52,7 @@
       </div>
       <div class="col-md-5 offset-md-1">
         <div class="row">
-          {{ $printReviews := where $paginator.Pages "Type" "print" }}
+          {{ $printReviews := where $pageReviews "Type" "print" }}
           {{ if $printReviews | len }}
             <h5 class="my-4">Print/Online Reviews</h5>
             {{ range  $printReviews }}
