@@ -1,6 +1,10 @@
 {{ define "main" }}
   {{ $paginator := .Paginate .Pages 6 }}
   {{ $pageReviews := $paginator.Pages }}
+  {{ $titles := slice }}
+  {{ range $pageReviews }}
+    {{ $titles = append .Title $titles }}
+  {{ end }}
   {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
   <div class="container col-lg-10 px-1 py-2">
     <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
@@ -20,6 +24,15 @@
             </div>
             <div class="col-lg-8 small">
               {{ .Summary }}
+              <h6 class="fw-bold">Films reviewed on this Page</h6>
+              <p class="small">
+                {{ range $titles }}
+                  {{ $titleAnchor := lower (replace . " " "-") }}
+                  <a class="fira-sans-regular" href="#{{- $titleAnchor -}}"
+                    >{{ . }}</a
+                  ><br />
+                {{ end }}
+              </p>
             </div>
           {{ end }}
         </div>
@@ -53,13 +66,18 @@
       <div class="col-md-5 offset-md-1">
         <div class="row">
           {{ $printReviews := where $pageReviews "Type" "print" }}
+          <h5 class="my-4">Print/Online Reviews</h5>
           {{ if $printReviews | len }}
-            <h5 class="my-4">Print/Online Reviews</h5>
             {{ range  $printReviews }}
               <div class="col-md-12">
                 {{ block "print-review" . }}{{ end }}
               </div>
             {{ end }}
+          {{ else }}
+            <h6 class="small px-4">
+              No Print/Online reviews by {{ $critBio.LinkTitle }} available for
+              this period.
+            </h6>
           {{ end }}
         </div>
       </div>
@@ -87,6 +105,8 @@
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+  {{ $titleAnchor := lower (replace .Title " " "-") }}
+  <a class="anchor" id="{{- $titleAnchor -}}"></a>
   <h6 class="fw-bold">
     {{ .Title }}
     <br />

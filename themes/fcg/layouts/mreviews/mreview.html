@@ -13,14 +13,16 @@
           Image used as a filler - may change in the final version
         </p> -->
       </div>
-      <div class="col-lg-6 lead">
-        <h4 class="mb-5">All Recent Reviews of<br />{{ .LinkTitle }}</h4>
-        <h6>Reviewers on this page:</h6>
-        <div class="small">
+      <div class="col-lg-6">
+        <h4 class="fw-bold lead mb-5">
+          All Recent Reviews of<br />{{ .LinkTitle }}
+        </h4>
+        <h6 class="fw-bold">Reviewers on this page:</h6>
           <p class="small">
             {{ range $pageReviews }}
               {{ $critic := index .Page.Params.critics 0 }}
-              <a href="#{{- $critic -}}">{{ $critic }}</a><br />
+              {{ $criticAnchor := lower (replace $critic " " "-") }}
+              <a href="#{{- $criticAnchor -}}" class="fira-sans-regular">{{ $critic }}</a><br />
             {{ end }}
           </p>
         </div>
@@ -45,7 +47,8 @@
             {{ end }}
           {{ else }}
             <h6 class="small px-4">
-              There are no Video reviews available for this period.
+              There are no Video reviews of {{ .LinkTitle }} available for this
+              period.
             </h6>
           {{ end }}
         </div>
@@ -53,13 +56,18 @@
       <div class="col-md-5 offset-md-1">
         <div class="row">
           {{ $printReviews := where $pageReviews "Type" "print" }}
+          <h5 class="my-4">Print/Online Reviews</h5>
           {{ if $printReviews | len }}
-            <h5 class="my-4">Print/Online Reviews</h5>
             {{ range  $printReviews }}
               <div class="col-md-12">
                 {{ block "print-review" . }}{{ end }}
               </div>
             {{ end }}
+          {{ else }}
+            <h6 class="small px-4">
+              There are no Print/Online reviews of {{ .LinkTitle }} available
+              for this period.
+            </h6>
           {{ end }}
         </div>
       </div>
@@ -84,10 +92,12 @@
   {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
   {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $critic := index .Params.critics 0 }}
+  {{ $criticAnchor := lower (replace $critic " " "-") }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  <h6 id="{{- $critic -}}" class="fw-bold">
+  <a class="anchor" id="{{- $criticAnchor -}}"></a>
+  <h6 class="fw-bold">
     {{ .Title }}
     <br />
     <span class="small"
@@ -122,11 +132,13 @@
 
 {{ define "video-review" }}
   {{ $critic := index .Params.critics 0 }}
+  {{ $criticAnchor := lower (replace $critic " " "-") }}
   {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
   {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
   {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
   {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  <h6 id="{{- $critic -}}" class="fw-bold">
+  <a class="anchor" id="{{- $criticAnchor -}}"></a>
+  <h6 class="fw-bold">
     {{ .Title }}<br />
     <span class="small"
       ><a href="{{ $critPage.Page.RelPermalink }}"
