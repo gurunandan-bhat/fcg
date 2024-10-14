@@ -1,28 +1,30 @@
 {{ define "main" }}
-  <div class="container my-5 py-5">
-    <div class="row">
-      <h1 class="fw-bold mb-5">Alphabetical Index of Films Reviewed</h1>
-      {{ range sort .Pages "LinkTitle" }}
-        <div class="col-md-3 py-4 mx-3 mb-5 border border-secondary-subtle">
-          <p>
-            <a class="fw-bold fira-sans-regular" href="{{ .RelPermalink }}"
-              >{{ .LinkTitle }}
-              {{ index site.Data.svgicons.icons "internalLink" | safeHTML }}
-            </a>
-          </p>
-          <p class="fira-sans-regular">Reviewed By:</p>
-          <ul class="small list-unstyled">
-            {{ $pages := where (where site.RegularPages "Section" "reviews") "LinkTitle" .LinkTitle }}
-            {{ $reviewers := slice }}
-            {{ range $pages }}
-              {{ $reviewers = $reviewers | append (index .Params.critics 0) }}
-            {{ end }}
-            {{ range sort ($reviewers | uniq) }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-        </div>
-      {{ end }}
-    </div>
+  {{ $index := dict }}
+  {{ range .Data.Terms }}
+    {{ $map := dict }}
+    {{ with index . 0 }}
+      {{ $map = merge $map (dict "title" (index .Page.Params.mreviews 0) "img" .Page.Params.img) }}
+    {{ end }}
+    {{ $reviewers := slice }}
+    {{ range . }}
+      {{ $reviewers = $reviewers | append (index .Params.critics 0) }}
+    {{ end }}
+    {{ $map = merge $map (dict "reviewers" ($reviewers | uniq)) }}
+
+    {{/* We have a full info for a single film
+      So we now continue to build the index
+    */}}
+
+    {{ $firstChar := substr (index $map "title") 0 1 }}
+    {{ $value := index $index $firstChar }}
+    {{ if $value }}
+      {{ $value = $value | append $map }}
+    {{ else }}
+      {{ $value = slice $map }}
+    {{ end }}
+    {{ $index = merge $index (dict $firstChar $value) }}
+  {{ end }}
+  <div class="container pt-5 mt-5">
+    <pre>{{ debug.Dump $index }}</pre>
   </div>
 {{ end }}
