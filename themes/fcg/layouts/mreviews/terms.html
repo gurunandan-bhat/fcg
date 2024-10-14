@@ -17,7 +17,7 @@
             {{ range $pages }}
               {{ $reviewers = $reviewers | append (index .Params.critics 0) }}
             {{ end }}
-            {{ range sort $reviewers }}
+            {{ range sort ($reviewers | uniq) }}
               <li>{{ . }}</li>
             {{ end }}
           </ul>
