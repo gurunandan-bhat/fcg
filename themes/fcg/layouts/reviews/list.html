@@ -40,7 +40,7 @@
       {{ template "_internal/pagination.html" . }}
     </div>
     <div class="row">
-      <div class="col-md-4 offset-md-1 highlight">
+      <div class="col-md-5 offset-md-1 highlight">
         {{ $videoReviews := where $pageReviews "Type" "video" }}
         <div class="row">
           <h5 class="my-4">Video Reviews</h5>
@@ -57,7 +57,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-md-5 offset-md-1">
+      <div class="col-md-5">
         <div class="row">
           {{ $printReviews := where $pageReviews "Type" "print" }}
           <h5 class="my-4">Print/Online Reviews</h5>
