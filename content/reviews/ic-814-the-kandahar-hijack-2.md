@@ -2,7 +2,7 @@
 title = 'IC 814 the Kandahar Hijack'
 date = 2024-10-15T18:01:43+05:30
 draft = false
-mreviews = ['Ic 814 the Kandahar Hijack']
+mreviews = ['IC 814 the Kandahar Hijack']
 critics = ['Upma Singh']
 subtitle = ""
 opening = ""
