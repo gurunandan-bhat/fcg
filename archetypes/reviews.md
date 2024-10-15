@@ -5,9 +5,9 @@ date = {{ .Date }}
 draft = false
 mreviews = ['{{ $title }}']
 critics = ['']
-subtitle = ''
-opening = ''
-img = ''
+subtitle = ""
+opening = ""
+img = '{{ .File.ContentBaseName }}.'
 type = 'print'
-source = ''
+source = ""
 +++
