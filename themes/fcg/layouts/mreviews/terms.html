@@ -59,7 +59,10 @@
         {{ range $value }}
           <div class="col-lg-3 mb-3">
             <h6 class="fw-bold">
-              <a href="{{ index . "link" }}">{{ index . "title" }}</a>
+              <a href="{{ index . "link" }}"
+                >{{ index . "title" }}
+                {{ index site.Data.svgicons.icons "internalLink" | safeHTML }}</a
+              >
             </h6>
             <img
               src="{{- (index . "img") | safeHTML -}}"
