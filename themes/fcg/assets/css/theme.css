@@ -37,6 +37,9 @@ a.anchor {
   top: -6rem;
   visibility: hidden;
 }
+.bright {
+  color: #1a3e6d;
+}
 
 h1,
 h2,

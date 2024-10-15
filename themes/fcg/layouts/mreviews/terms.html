@@ -65,7 +65,7 @@
               src="{{- (index . "img") | safeHTML -}}"
               class="img-responsive w-100 mb-3" />
             <p class="fira-sans-regular small">
-              <span class="fw-bold">Reviewed by:</span><br />
+              <span class="fw-bold bright">Reviewed by:</span><br />
               {{ delimit (sort (index . "reviewers") "value") ", " }}
             </p>
           </div>
