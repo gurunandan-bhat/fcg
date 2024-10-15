@@ -1,12 +1,19 @@
 {{ define "main" }}
   {{ $index := dict }}
-  {{ range .Data.Terms }}
+  {{ range $term, $value := .Data.Terms }}
     {{ $map := dict }}
-    {{ with index . 0 }}
-      {{ $map = merge $map (dict "title" (index .Page.Params.mreviews 0) "img" .Page.Params.img) }}
+    {{ with index $value 0 }}
+      {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
+      {{ $img := "" }}
+      {{ if (isset .Page.Params "img") }}
+        {{ $img = printf "/images/reviews/%s" .Page.Params.img }}
+      {{ else }}
+        {{ $img = printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Page.Params.source }}
+      {{ end }}
+      {{ $map = merge $map (dict "title" (index .Page.Params.mreviews 0) "img" $img "link" $mLink) }}
     {{ end }}
     {{ $reviewers := slice }}
-    {{ range . }}
+    {{ range $value }}
       {{ $reviewers = $reviewers | append (index .Params.critics 0) }}
     {{ end }}
     {{ $map = merge $map (dict "reviewers" ($reviewers | uniq)) }}
@@ -16,15 +23,55 @@
     */}}
 
     {{ $firstChar := substr (index $map "title") 0 1 }}
-    {{ $value := index $index $firstChar }}
-    {{ if $value }}
-      {{ $value = $value | append $map }}
+    {{ $alphaValue := index $index $firstChar }}
+    {{ if $alphaValue }}
+      {{ $alphaValue = $alphaValue | append $map }}
     {{ else }}
-      {{ $value = slice $map }}
+      {{ $alphaValue = slice $map }}
     {{ end }}
-    {{ $index = merge $index (dict $firstChar $value) }}
+    {{ $index = merge $index (dict $firstChar $alphaValue) }}
   {{ end }}
-  <div class="container pt-5 mt-5">
-    <pre>{{ debug.Dump $index }}</pre>
+
+
+  <div class="container mt-5 pt-5">
+    <h1 class="fw-bold mb-5">Index of Reviews by Film</h1>
+    <p class="text-center">
+      {{ range site.Data.alphabets.letters }}
+        <span class="d-inline-block px-2 fira-sans-regular display">
+          {{ if isset $index . }}
+            <a href="#{{ . }}">{{ . }}</a>
+          {{ else }}
+            {{ . }}
+          {{ end }}
+        </span>
+      {{ end }}
+    </p>
+    <hr />
+    {{ range $firstChar, $value := $index }}
+      <a class="anchor" id="{{ $firstChar }}"></a>
+      <h2 class="display">
+        {{ $firstChar }}
+        <a class="fira-sans-regular small" href="#top"
+          >{{ index site.Data.svgicons.icons "backArrow" | safeHTML }}</a
+        >
+      </h2>
+      <div class="row">
+        {{ range $value }}
+          <div class="col-lg-3 mb-3">
+            <h6 class="fw-bold">
+              <a href="{{ index . "link" }}">{{ index . "title" }}</a>
+            </h6>
+            <img
+              src="{{- (index . "img") | safeHTML -}}"
+              class="img-responsive w-100 mb-3" />
+            <p class="fira-sans-regular small">
+              <span class="fw-bold">Reviewed by:</span><br />
+              {{ delimit (sort (index . "reviewers") "value") ", " }}
+            </p>
+          </div>
+        {{ end }}
+        <hr class="my-3" />
+      </div>
+    {{ end }}
   </div>
 {{ end }}

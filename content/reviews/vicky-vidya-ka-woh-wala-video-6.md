@@ -6,7 +6,7 @@ mreviews = ['Vicky Vidya Ka Woh Wala Video']
 critics = ['Bhawana Somaaya']
 subtitle = 'Watch at your own risk'
 type = 'video'
-source = 'https://www.youtube.com/watch?v=GCLof4mpICk'
+source = 'GCLof4mpICk'
 +++
 
 {{< youtube id="GCLof4mpICk" >}}

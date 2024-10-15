@@ -4,7 +4,7 @@ date = 2024-10-05T08:20:45+05:30
 draft = false
 mreviews = ['CTRL']
 critics = ['Rohit Khilnani']
-source = 'https://www.youtube.com/watch?v=CZe20LgcQZg'
+source = 'CZe20LgcQZg'
 type = 'video'
 +++
 

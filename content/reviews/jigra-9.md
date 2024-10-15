@@ -6,7 +6,7 @@ mreviews = ['Jigra']
 critics = ['Sucharita Tyagi']
 subtitle = ''
 type = 'video'
-source = 'https://www.youtube.com/watch?v=IRBC0lx9ysA'
+source = 'IRBC0lx9ysA'
 +++
 
 {{< youtube id="IRBC0lx9ysA" >}}

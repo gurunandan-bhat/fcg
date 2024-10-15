@@ -6,7 +6,7 @@ mreviews = ['Jigra']
 critics = ['Ajay Brahmatmaj']
 subtitle = ''
 type = 'video'
-source = 'https://www.youtube.com/watch?v=fZrNwCvXq_4'
+source = 'fZrNwCvXq_4'
 +++
 
 {{< youtube id="fZrNwCvXq_4" >}}

@@ -6,7 +6,7 @@ mreviews = ['Vicky Vidya Ka Woh Wala Video']
 critics = ['Anmol Jamwal']
 subtitle = ''
 type = 'video'
-source = 'https://www.youtube.com/watch?v=VTgxGVYpll8'
+source = 'VTgxGVYpll8'
 +++
 
 {{< youtube id="VTgxGVYpll8" >}}

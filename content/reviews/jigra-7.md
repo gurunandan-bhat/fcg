@@ -6,7 +6,7 @@ mreviews = ['Jigra']
 critics = ['Anupama Chopra']
 subtitle = 'Sister as Superhero'
 type = 'video'
-source = 'https://www.youtube.com/watch?v=hw7phd_foTs'
+source = 'hw7phd_foTs'
 +++
 
 {{< youtube id="hw7phd_foTs" >}}

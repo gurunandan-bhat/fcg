@@ -6,7 +6,7 @@ mreviews = ['Jigra']
 critics = ['Anmol Jamwal']
 subtitle = ''
 type = 'video'
-source = 'https://www.youtube.com/watch?v=jEj-AJoQ3fg'
+source = 'jEj-AJoQ3fg'
 +++
 
 {{< youtube id="jEj-AJoQ3fg" >}}
