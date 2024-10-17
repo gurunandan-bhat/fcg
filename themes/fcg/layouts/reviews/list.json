@@ -1,0 +1,7 @@
+{{ $index := dict }}
+{{ range .RegularPages }}
+    {{ $value :=  index $index .LinkTitle }}
+    {{ $value = sort ($value | append (index .Params.critics 0)) "value" }}
+    {{ $index = merge $index (dict .LinkTitle ($value | uniq)) }}
+{{ end }} 
+{{ $index | jsonify }}

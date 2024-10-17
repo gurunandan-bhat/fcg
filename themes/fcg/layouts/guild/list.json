@@ -1,0 +1,8 @@
+{{ $members := slice }}
+{{ range slice "guild/board" "guild/members" }}
+    {{ $section := index (where $.Sections "Type" .) 0 }}
+    {{ range $section.Pages }}
+        {{ $members = $members | append .LinkTitle }}
+    {{ end }}
+{{ end }}
+{{ sort $members "value" | jsonify }}
