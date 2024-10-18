@@ -6,6 +6,7 @@
         {{ $titles = append .Title $titles }}
     {{ end }}
     {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
+    <!-- Template: critics/term.html -->
     <div class="container col-lg-10 px-1 py-2">
         <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
             <div class="col-lg-6">
@@ -61,7 +62,8 @@
                         {{ end }}
                     {{ else }}
                         <h6 class="small px-4">
-                            No Video reviews by {{ $critBio.LinkTitle }}
+                            No Video reviews by
+                            {{ $critBio.LinkTitle }}
                             available for this period.
                         </h6>
                     {{ end }}
@@ -79,7 +81,8 @@
                         {{ end }}
                     {{ else }}
                         <h6 class="small px-4">
-                            No Print/Online reviews by {{ $critBio.LinkTitle }}
+                            No Print/Online reviews by
+                            {{ $critBio.LinkTitle }}
                             available for this period.
                         </h6>
                     {{ end }}
@@ -154,6 +157,8 @@
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    {{ $titleAnchor := lower (replace .Title " " "-") }}
+    <a class="anchor" id="{{- $titleAnchor -}}"></a>
     <h6 class="fw-bold">
         {{ .Title }}<br />
         <span class="small"
