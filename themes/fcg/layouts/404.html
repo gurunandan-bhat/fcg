@@ -1,0 +1,35 @@
+{{ define "main" }}
+    <div class="container col-xxl-8 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <img
+                    src="/images/404-banner.png"
+                    class="d-block mx-lg-auto img-responsive w-100"
+                    alt="Page not found"
+                    loading="lazy" />
+            </div>
+            <div class="col-lg-6 lead">
+                <h2>Ooooops!!!</h2>
+                <p>
+                    Looks like the internet is playing hooky with you or (more
+                    likely) we dont have the page that you want.
+                </p>
+                <p>
+                    But we do have others &mdash; a page listing
+                    <a href="{{- site.BaseURL -}}/the-guild">all our members</a
+                    >, a page with
+                    <a href="{{- site.BaseURL -}}/reviews">all reviews</a>
+                    published by our members if you choose to binge-read, and a
+                    page with an
+                    <a href="{{- site.BaseURL -}}/mreviews"
+                        >alphabetical list of films</a
+                    >
+                    for all reviews of a particular film and many, many others
+                    that you can reach (promise!) from the menu on the top of
+                    this page.
+                </p>
+                <p>Go Ahead. As Hari said &mdash; Make your Day!</p>
+            </div>
+        </div>
+    </div>
+{{ end }}
