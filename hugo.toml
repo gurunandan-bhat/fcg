@@ -4,7 +4,6 @@ title = 'Film Critics Guild'
 theme = 'fcg'
 summaryLength = 23
 
-
 [pagination]
   pagerSize = 6
 
@@ -40,7 +39,5 @@ weight = 50
     min = "0.116.0"
 
 [taxonomies]
-  category = 'categories'
-  tag = 'tags'
   critic = 'critics'
   mreview = 'mreviews'

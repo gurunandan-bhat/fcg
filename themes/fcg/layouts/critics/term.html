@@ -5,7 +5,7 @@
     {{ range $pageReviews }}
         {{ $titles = append .Title $titles }}
     {{ end }}
-    {{ $critBio := index (where (where site.Pages "Section" "guild") "Title" .LinkTitle) 0 }}
+    {{ $critBio := index (where (where site.RegularPages "Section" "guild") "Title" .LinkTitle) 0 }}
     <!-- Template: critics/term.html -->
     <div class="container col-lg-10 px-1 py-2">
         <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
