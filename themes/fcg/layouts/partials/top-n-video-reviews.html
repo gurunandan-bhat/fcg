@@ -1,38 +1,52 @@
-{{ $stories := first 3 (where (where site.RegularPages "Section" "reviews") "Type" "video") }}
+{{ $n := .n }}
+{{ $countMax := $n }}
+{{ $stories := slice }}
+{{ $criticMap := dict }}
+
+{{ range where site.RegularPages "Section" "reviews" }}
+    {{ if ne .Type "video" }}{{ continue }}{{ end }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ if (index $criticMap $critic) }}{{ continue }}{{ end }}
+    {{ $stories = append (slice .) $stories }}
+    {{ $criticMap = merge $criticMap (dict $critic 1) }}
+    {{ if ge ($stories | len) $countMax }}{{ break }}{{ end }}
+{{ end }}
+
+
 <div class="row">
-  {{ range $stories }}
-    <div class="col-lg-12">
-      {{ block "video-review" . }}{{ end }}
-    </div>
-  {{ end }}
+    {{ range $stories }}
+        <div class="col-lg-12">
+            {{ block "video-review" . }}{{ end }}
+        </div>
+    {{ end }}
 </div>
 
 {{ define "video-review" }}
-  {{ $critic := index .Params.critics 0 }}
-  {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-  {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-  <h6 class="fw-bold">
-    {{ .Title }}<br />
-    <span class="small"
-      ><a href="{{ $critPage.Page.RelPermalink }}"
-        >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-      ></span
-    >
-  </h6>
-  {{ .Content }}
-  <h6 class="fw-bold small pt-1 pb-3">
-    {{ .Params.subtitle }}
-  </h6>
-  {{ if gt $revCount 1 }}
-    <h6 class="fw-bold small">
-      Read all {{ $revCount }} reviews of
-      {{ .Title }}
-      <a href="{{ $revPage.Page.RelPermalink }}"
-        >here {{ $intLinkIcon | safeHTML }}ß</a
-      >
+    {{ $critic := index .Params.critics 0 }}
+    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    <h6 class="fw-bold">
+        {{ .Title }}<br />
+        <span class="small"
+            ><a href="{{ $critPage.Page.RelPermalink }}"
+                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
+            ></span
+        >
     </h6>
-  {{ end }}
-  <hr />
+    {{ .Content }}
+    <h6 class="fw-bold small pt-1 pb-3">
+        {{ .Params.subtitle }}
+    </h6>
+    {{ if gt $revCount 1 }}
+        <h6 class="fw-bold small">
+            Read all {{ $revCount }} reviews of
+            {{ .Title }}
+            <a href="{{ $revPage.Page.RelPermalink }}"
+                >here {{ $intLinkIcon | safeHTML }}ß</a
+            >
+        </h6>
+    {{ end }}
+    <hr />
 {{ end }}

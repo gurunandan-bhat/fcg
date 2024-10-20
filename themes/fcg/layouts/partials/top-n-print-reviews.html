@@ -1,6 +1,18 @@
 {{ $n := .n }}
 {{ $colWidth := div 12 $n }}
-{{ $stories := first $n (where (where site.RegularPages "Section" "reviews") "Type" "print") }}
+{{ $countMax := $n }}
+{{ $stories := slice }}
+{{ $criticMap := dict }}
+
+{{ range where site.RegularPages "Section" "reviews" }}
+    {{ if ne .Type "print" }}{{ continue }}{{ end }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ if (index $criticMap $critic) }}{{ continue }}{{ end }}
+    {{ $stories = append (slice .) $stories }}
+    {{ $criticMap = merge $criticMap (dict $critic 1) }}
+    {{ if ge ($stories | len) $countMax }}{{ break }}{{ end }}
+{{ end }}
+
 {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
 <div class="row">
     {{ range $stories }}

@@ -1,115 +1,128 @@
 {{ define "main" }}
-  <div class="container col-xxl-8 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-lg-6">
-        <img
-          src="/images/fcg-side-banner.png"
-          class="d-block mx-lg-auto img-responsive w-100"
-          alt="Side Banner"
-          loading="lazy" />
-        <!-- <img
+    <div class="container col-xxl-8 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <img
+                    src="/images/fcg-side-banner.png"
+                    class="d-block mx-lg-auto img-responsive w-100"
+                    alt="Side Banner"
+                    loading="lazy" />
+                <!-- <img
           src="/images/logo.png"
           class="d-block mx-lg-auto img-responsive w-100"
           alt="Side Banner"
           loading="lazy" /> -->
-      </div>
-      <div class="col-lg-6 lead">
-        {{ .Content }}
-      </div>
+            </div>
+            <div class="col-lg-6 lead">
+                {{ .Content }}
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container">
-    {{ partial "navigate.html" . }}
-    <hr class="pb-4" />
-  </div>
-  <div class="container">
-    <div class="d-flex justify-content-center">
-      <h2 class="fw-bold mb-5 bg-news">Guild News</h2>
-    </div>
-    <p>Read all recent news items <a href="/news">here</a></p>
-    {{ partial "top-n.html" (dict "section" "news" "n" 4) }}
-    <hr class="pb-4" />
-  </div>
-  <div class="container">
-    <div class="row ps-3">
-      <div class="d-flex justify-content-center">
-        <h2 class="fw-bold mb-5 bg-reviews">Latest Member Reviews</h2>
-      </div>
-      <p class="fira-sans-regular mb-4">
-        Read all reviews by our members <a href="/reviews">starting here</a
-        ><br />
-        or <a href="/mreviews">browse our index</a> of films reviewed, for
-        reviews of a specific film
-      </p>
-      <div class="col-lg-3 border-end highlight pt-4">
-        <h5 class="mb-3">Video Reviews</h5>
-        {{ partial "top-n-video-reviews.html" }}
-      </div>
-      <div class="col-lg-9 py-4">
-        <h5 class="mb-2">Print/Online Reviews</h5>
-        {{ partial "top-n-print-reviews.html" (dict "n" 3) }}
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid pt-5 pb-1 my-5" style="background-color: #eef5fb">
     <div class="container">
-      <div class="row mt-3 mb-5">
-        <div class="d-flex justify-content-center">
-          <h2 class="fw-bold mb-5 bg-awards">Critics Choice Awards 2024</h2>
-        </div>
-        <div class="col-lg-6">
-          <p class="lead">
-            The Critics' Choice Film Awards is a platform to celebrate diversity
-            and flair in Indian films. It is a space to reward and recognise
-            creativity, ingenuity and quality.
-          </p>
-          <p>
-            As a pan-India award, the Critics' Choice Film Awards represents the
-            diverse range of filmmaking in the country. It honours talent and
-            displays the rich culture of films across languages, styles and
-            themes. The Critics' Choice Film Awards were instituted in 2018 and
-            have continued every year since.
-          </p>
-          <p>
-            In our first edition, the awards recognized short films, in the
-            second we enhanced the awards to include the exciting and burgeoning
-            space of web series and episodic content. This year we aim to
-            continue unearthing and honoring talent from this flourishing space.
-            With a transparent process to identify worthy winners, these awards
-            aim to reward the immense creativity of this industry.
-          </p>
-          <p>View earlier years from <a href="/awards/awards-2023">here</a></p>
-        </div>
-        <div class="col-lg-6">
-          <div class="row mb-3">
-            <h5 class="fw-bold text-center mb-4">Special Awards 2024</h5>
-            <div class="col-lg-6 mb-4">
-              <img
-                src="/images/awards/2024/2024-Extraordinary-Contribution.png"
-                class="img-responsive w-100" />
-            </div>
-            <div class="col-lg-6">
-              <img
-                src="/images/awards/2024/2024-Gender-Sensitivity.png"
-                class="img-responsive w-100" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
-        </div>
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
-        </div>
-        <div class="col-lg-4 mb-5">
-          <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
-          {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
-        </div>
-      </div>
+        {{ partial "navigate.html" . }}
+        <hr class="pb-4" />
     </div>
-  </div>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h2 class="fw-bold mb-5 bg-news">Guild News</h2>
+        </div>
+        <p>Read all recent news items <a href="/news">here</a></p>
+        {{ partial "top-n.html" (dict "section" "news" "n" 4) }}
+        <hr class="pb-4" />
+    </div>
+    <div class="container">
+        <div class="row ps-3">
+            <div class="d-flex justify-content-center">
+                <h2 class="fw-bold mb-5 bg-reviews">Latest Member Reviews</h2>
+            </div>
+            <p class="fira-sans-regular mb-4">
+                Read all reviews by our members
+                <a href="/reviews">starting here</a><br />
+                or <a href="/mreviews">browse our index</a> of films reviewed,
+                for reviews of a specific film
+            </p>
+            <div class="col-lg-3 border-end highlight pt-4">
+                <h5 class="mb-3">Video Reviews</h5>
+                {{ partial "top-n-video-reviews.html" (dict "n" 3) }}
+            </div>
+            <div class="col-lg-9 py-4">
+                <h5 class="mb-2">Print/Online Reviews</h5>
+                {{ partial "top-n-print-reviews.html" (dict "n" 3) }}
+            </div>
+        </div>
+    </div>
+    <div
+        class="container-fluid pt-5 pb-1 my-5"
+        style="background-color: #eef5fb">
+        <div class="container">
+            <div class="row mt-3 mb-5">
+                <div class="d-flex justify-content-center">
+                    <h2 class="fw-bold mb-5 bg-awards">
+                        Critics Choice Awards 2024
+                    </h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="lead">
+                        The Critics' Choice Film Awards is a platform to
+                        celebrate diversity and flair in Indian films. It is a
+                        space to reward and recognise creativity, ingenuity and
+                        quality.
+                    </p>
+                    <p>
+                        As a pan-India award, the Critics' Choice Film Awards
+                        represents the diverse range of filmmaking in the
+                        country. It honours talent and displays the rich culture
+                        of films across languages, styles and themes. The
+                        Critics' Choice Film Awards were instituted in 2018 and
+                        have continued every year since.
+                    </p>
+                    <p>
+                        In our first edition, the awards recognized short films,
+                        in the second we enhanced the awards to include the
+                        exciting and burgeoning space of web series and episodic
+                        content. This year we aim to continue unearthing and
+                        honoring talent from this flourishing space. With a
+                        transparent process to identify worthy winners, these
+                        awards aim to reward the immense creativity of this
+                        industry.
+                    </p>
+                    <p>
+                        View earlier years from
+                        <a href="/awards/awards-2023">here</a>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row mb-3">
+                        <h5 class="fw-bold text-center mb-4">
+                            Special Awards 2024
+                        </h5>
+                        <div class="col-lg-6 mb-4">
+                            <img
+                                src="/images/awards/2024/2024-Extraordinary-Contribution.png"
+                                class="img-responsive w-100" />
+                        </div>
+                        <div class="col-lg-6">
+                            <img
+                                src="/images/awards/2024/2024-Gender-Sensitivity.png"
+                                class="img-responsive w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-4 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
+                    {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
+                    {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
+                    {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
+                </div>
+            </div>
+        </div>
+    </div>
 {{ end }}
