@@ -3,57 +3,57 @@
 {{ $stories := first $n (where (where site.RegularPages "Section" "reviews") "Type" "print") }}
 {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
 <div class="row">
-  {{ range $stories }}
-    <div class="col-lg-{{- $colWidth }}">
-      {{ block "print-review" . }}{{ end }}
-    </div>
-  {{ end }}
+    {{ range $stories }}
+        <div class="col-lg-{{- $colWidth }}">
+            {{ block "print-review" . }}{{ end }}
+        </div>
+    {{ end }}
 </div>
 
 {{ define "print-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-  {{ $critic := index .Params.critics 0 }}
-  {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-  {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-  <h6 class="fw-bold">
-    {{ .Title }}
-    <br />
-    <span class="small"
-      ><a href="{{ $critPage.Page.RelPermalink }}"
-        >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-      ></span
-    >
-  </h6>
-  <img
-    src="/images/reviews/{{- .Params.img }}"
-    class="img-responsive w-100 mb-3" />
-  <h6 class="fw-bold small pb-2">
-    {{ .Params.subtitle | safeHTML }}
-  </h6>
-  <p class="summary small text-primary-emphasis">
-    {{ .Params.opening }}
-  </p>
-  <div class="small">
-    {{ .Summary }}
-  </div>
-  {{ if gt $revCount 1 }}
-    <h6 class="fw-bold small">
-      Read all {{ $revCount }} reviews of
-      {{ .Title }}
-      <a href="{{ $revPage.Page.RelPermalink }}"
-        >here {{ $intLinkIcon | safeHTML }}</a
-      >
+    {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    <h6 class="fw-bold">
+        {{ .Title }}
+        <br />
+        <span class="small"
+            ><a href="{{ $critPage.Page.RelPermalink }}"
+                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
+            ></span
+        >
     </h6>
-  {{ end }}
-  <p class="small">
-    <a
-      target="_blank"
-      href="{{ .Params.source }}"
-      class="d-flex align-items-center">
-      {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
-    >
-  </p>
-  <hr class="show-on-phone pb-3" />
+    <img
+        src="/images/reviews/{{- .Params.img }}"
+        class="img-responsive w-100 mb-3" />
+    <h6 class="fw-bold small pb-2">
+        {{ .Params.subtitle | safeHTML }}
+    </h6>
+    <p class="summary small text-primary-emphasis">
+        {{ .Params.opening }}
+    </p>
+    <div class="small">
+        {{ .Summary }}
+    </div>
+    <p class="small">
+        <a
+            target="_blank"
+            href="{{ .Params.source }}"
+            class="d-flex align-items-center">
+            {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
+        >
+    </p>
+    {{ if gt $revCount 1 }}
+        <h6 class="fw-bold small">
+            Read all {{ $revCount }} reviews of
+            {{ .Title }}
+            <a href="{{ $revPage.Page.RelPermalink }}"
+                >here {{ $intLinkIcon | safeHTML }}</a
+            >
+        </h6>
+    {{ end }}
+    <hr class="show-on-phone pb-3" />
 {{ end }}

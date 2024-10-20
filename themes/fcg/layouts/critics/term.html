@@ -131,6 +131,14 @@
     <div class="small">
         {{ .Content }}
     </div>
+    <p class="small">
+        <a
+            target="_blank"
+            href="{{ .Params.source }}"
+            class="d-flex align-items-center">
+            {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
+        >
+    </p>
     {{ if gt $revCount 1 }}
         <h6 class="fw-bold small">
             Read all {{ $revCount }} reviews of
@@ -140,14 +148,6 @@
             >
         </h6>
     {{ end }}
-    <p class="small">
-        <a
-            target="_blank"
-            href="{{ .Params.source }}"
-            class="d-flex align-items-center">
-            {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
-        >
-    </p>
     <hr />
 {{ end }}
 

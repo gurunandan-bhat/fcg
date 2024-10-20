@@ -1,175 +1,179 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate .Pages 6 }}
-  {{ $pageReviews := $paginator.Pages }}
-  {{ $titles := slice }}
-  {{ range $pageReviews }}
-    {{ $titles = append .Title $titles }}
-  {{ end }}
-  <div class="container col-xxl-8 px-2 py-2">
-    <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
-      <div class="col-lg-6">
-        <img
-          src="/images/reviews/Reviews.Pg.Image.png"
-          class="d-block mx-lg-auto img-responsive w-100"
-          alt="Side Banner"
-          loading="lazy" />
-        <!-- <p class="small">
+    {{ $paginator := .Paginate .Pages 6 }}
+    {{ $pageReviews := $paginator.Pages }}
+    {{ $titles := slice }}
+    {{ range $pageReviews }}
+        {{ $titles = append .Title $titles }}
+    {{ end }}
+    <div class="container col-xxl-8 px-2 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
+            <div class="col-lg-6">
+                <img
+                    src="/images/reviews/Reviews.Pg.Image.png"
+                    class="d-block mx-lg-auto img-responsive w-100"
+                    alt="Side Banner"
+                    loading="lazy" />
+                <!-- <p class="small">
           Image used as a filler - may change in the final version
         </p> -->
-      </div>
-      <div class="col-lg-6">
-        <div class="ps-3">
-          <div class="lead mb-4">
-            {{ .Content }}
-          </div>
-          <p class="fira-sans-regular fw-bold small bright mb-2">
-            You can also browse reviews using our
-            <a href="/mreviews">alphabetical index</a> of films reviewed
-          </p>
-          <p><a class="anchor" id="pg-top"></a></p>
-          <h6 class="fw-bold">Films reviewed on this Page</h6>
-          <p class="small">
-            {{ range ($titles | uniq) }}
-              {{ $count := (where $pageReviews "Title" .) | len }}
-              <span class="fira-sans-regular">{{ . }} ({{ $count }})</span
-              ><br />
-            {{ end }}
-          </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="ps-3">
+                    <div class="lead mb-4">
+                        {{ .Content }}
+                    </div>
+                    <p class="fira-sans-regular fw-bold small bright mb-2">
+                        You can also browse reviews using our
+                        <a href="/mreviews">alphabetical index</a> of films
+                        reviewed
+                    </p>
+                    <p><a class="anchor" id="pg-top"></a></p>
+                    <h6 class="fw-bold">Films reviewed on this Page</h6>
+                    <p class="small">
+                        {{ range ($titles | uniq) }}
+                            {{ $count := (where $pageReviews "Title" .) | len }}
+                            <span class="fira-sans-regular"
+                                >{{ . }} ({{ $count }})</span
+                            ><br />
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="d-flex justify-content-center py-3 mb-3">
-      {{ template "_internal/pagination.html" . }}
-    </div>
-    <div class="row ps-3">
-      <div class="col-md-5 offset-md-1 highlight">
-        {{ $videoReviews := where $pageReviews "Type" "video" }}
-        <div class="row">
-          <h5 class="my-4">Video Reviews</h5>
-          {{ if $videoReviews | len }}
-            {{ range  $videoReviews }}
-              <div class="col-md-12">
-                {{ block "video-review" . }}{{ end }}
-              </div>
-            {{ end }}
-          {{ else }}
-            <h6 class="small px-4">
-              There are no Video reviews available for this period.
-            </h6>
-          {{ end }}
+    <div class="container">
+        <div class="d-flex justify-content-center py-3 mb-3">
+            {{ template "_internal/pagination.html" . }}
         </div>
-      </div>
-      <div class="col-md-5">
-        <div class="row">
-          {{ $printReviews := where $pageReviews "Type" "print" }}
-          <h5 class="my-4">Print/Online Reviews</h5>
-          {{ if $printReviews | len }}
-            {{ range  $printReviews }}
-              <div class="col-md-12">
-                {{ block "print-review" . }}{{ end }}
-              </div>
-            {{ end }}
-          {{ else }}
-            <h6 class="small px-4">
-              There are no Print/Online reviews available for this period.
-            </h6>
-          {{ end }}
+        <div class="row ps-3">
+            <div class="col-md-5 offset-md-1 highlight">
+                {{ $videoReviews := where $pageReviews "Type" "video" }}
+                <div class="row">
+                    <h5 class="my-4">Video Reviews</h5>
+                    {{ if $videoReviews | len }}
+                        {{ range  $videoReviews }}
+                            <div class="col-md-12">
+                                {{ block "video-review" . }}{{ end }}
+                            </div>
+                        {{ end }}
+                    {{ else }}
+                        <h6 class="small px-4">
+                            There are no Video reviews available for this
+                            period.
+                        </h6>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    {{ $printReviews := where $pageReviews "Type" "print" }}
+                    <h5 class="my-4">Print/Online Reviews</h5>
+                    {{ if $printReviews | len }}
+                        {{ range  $printReviews }}
+                            <div class="col-md-12">
+                                {{ block "print-review" . }}{{ end }}
+                            </div>
+                        {{ end }}
+                    {{ else }}
+                        <h6 class="small px-4">
+                            There are no Print/Online reviews available for this
+                            period.
+                        </h6>
+                    {{ end }}
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="d-flex justify-content-center py-3 mb-3">
+            {{ template "_internal/pagination.html" . }}
+        </div>
     </div>
-    <div class="d-flex justify-content-center py-3 mb-3">
-      {{ template "_internal/pagination.html" . }}
-    </div>
-  </div>
-  <script defer>
-    let url = window.location.href;
-    const mch = url.match(/page\/(\d+)\/$/);
-    if (mch && mch[1] !== 1) {
-      let anch = document.getElementById("pg-top");
-      window.addEventListener("load", function (e) {
-        anch.scrollIntoView();
-      });
-    }
-  </script>
+    <script defer>
+        let url = window.location.href;
+        const mch = url.match(/page\/(\d+)\/$/);
+        if (mch && mch[1] !== 1) {
+            let anch = document.getElementById("pg-top");
+            window.addEventListener("load", function (e) {
+                anch.scrollIntoView();
+            });
+        }
+    </script>
 {{ end }}
 
 {{ define "print-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-  {{ $critic := index .Params.critics 0 }}
-  {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-  {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-  <h6 class="fw-bold">
-    {{ .Title }}
-    <br />
-    <span class="small"
-      ><a href="{{ $critPage.Page.RelPermalink }}"
-        >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-      ></span
-    >
-  </h6>
-  <img
-    src="/images/reviews/{{- .Params.img }}"
-    class="img-responsive w-100 mb-3" />
-  <h6 class="fw-bold small pb-2">
-    {{ .Params.subtitle | safeHTML }}
-  </h6>
-  <p class="summary small text-primary-emphasis">
-    {{ .Params.opening }}
-  </p>
-  <div class="small">
-    {{ .Content }}
-  </div>
-  {{ if gt $revCount 1 }}
-    <h6 class="fw-bold small">
-      Read all {{ $revCount }} reviews of
-      {{ .Title }}
-      <a href="{{ $revPage.Page.RelPermalink }}"
-        >here {{ $intLinkIcon | safeHTML }}</a
-      >
+    {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    <h6 class="fw-bold">
+        {{ .Title }}
+        <br />
+        <span class="small"
+            ><a href="{{ $critPage.Page.RelPermalink }}"
+                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
+            ></span
+        >
     </h6>
-  {{ end }}
-  <p class="small">
-    <a
-      target="_blank"
-      href="{{ .Params.source }}"
-      class="d-flex align-items-center">
-      {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
-    >
-  </p>
-  <hr />
+    <img
+        src="/images/reviews/{{- .Params.img }}"
+        class="img-responsive w-100 mb-3" />
+    <h6 class="fw-bold small pb-2">
+        {{ .Params.subtitle | safeHTML }}
+    </h6>
+    <p class="summary small text-primary-emphasis">
+        {{ .Params.opening }}
+    </p>
+    <div class="small">
+        {{ .Content }}
+    </div>
+    <p class="small">
+        <a
+            target="_blank"
+            href="{{ .Params.source }}"
+            class="d-flex align-items-center">
+            {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
+        >
+    </p>
+    {{ if gt $revCount 1 }}
+        <h6 class="fw-bold small">
+            Read all {{ $revCount }} reviews of
+            {{ .Title }}
+            <a href="{{ $revPage.Page.RelPermalink }}"
+                >here {{ $intLinkIcon | safeHTML }}</a
+            >
+        </h6>
+    {{ end }}
+    <hr />
 {{ end }}
 
 {{ define "video-review" }}
-  {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-  {{ $critic := index .Params.critics 0 }}
-  {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-  {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-  {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-  <h6 class="fw-bold">
-    {{ .Title }}<br />
-    <span class="small"
-      ><a href="{{ $critPage.Page.RelPermalink }}"
-        >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-      ></span
-    >
-  </h6>
-  {{ .Content }}
-  <h6 class="fw-bold small pt-1 pb-3">
-    {{ .Params.subtitle }}
-  </h6>
-  {{ if gt $revCount 1 }}
-    <h6 class="fw-bold small">
-      Read all {{ $revCount }} reviews of
-      {{ .Title }}
-      <a href="{{ $revPage.Page.RelPermalink }}"
-        >here {{ $intLinkIcon | safeHTML }}</a
-      >
+    {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    {{ $critic := index .Params.critics 0 }}
+    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
+    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
+    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    <h6 class="fw-bold">
+        {{ .Title }}<br />
+        <span class="small"
+            ><a href="{{ $critPage.Page.RelPermalink }}"
+                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
+            ></span
+        >
     </h6>
-  {{ end }}
-  <hr />
+    {{ .Content }}
+    <h6 class="fw-bold small pt-1 pb-3">
+        {{ .Params.subtitle }}
+    </h6>
+    {{ if gt $revCount 1 }}
+        <h6 class="fw-bold small">
+            Read all {{ $revCount }} reviews of
+            {{ .Title }}
+            <a href="{{ $revPage.Page.RelPermalink }}"
+                >here {{ $intLinkIcon | safeHTML }}</a
+            >
+        </h6>
+    {{ end }}
+    <hr />
 {{ end }}
