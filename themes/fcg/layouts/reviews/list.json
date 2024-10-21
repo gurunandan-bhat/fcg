@@ -1,7 +1,18 @@
 {{ $index := dict }}
 {{ range .RegularPages }}
-    {{ $value :=  index $index .LinkTitle }}
-    {{ $value = sort ($value | append (index .Params.critics 0)) "value" }}
-    {{ $index = merge $index (dict .LinkTitle ($value | uniq)) }}
-{{ end }} 
-{{ $index | jsonify }}
+    {{ $this := dict "author" (index .Params.critics 0) "film" .Title "path" (printf "%s.md" .Path) "type" .Params.type "date" .Date }}
+    {{ $value := slice }}
+    {{ if isset $index .LinkTitle }}
+        {{ $value = index $index .LinkTitle }}
+    {{ end }}
+    {{ $value = append $this $value }}
+    {{ $index = merge $index (dict .LinkTitle $value) }}
+{{ end }}
+
+{{ $reviews := slice }}
+{{ range $k, $v := $index }}
+    {{ $nv := sort $v ".author" "asc" }}
+    {{ $elem := dict "film" $k "reviews" $nv }}
+    {{ $reviews = append $elem $reviews }}
+{{ end }}
+{{ $reviews | jsonify }}
