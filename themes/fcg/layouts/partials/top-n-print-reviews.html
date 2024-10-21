@@ -17,12 +17,12 @@
 <div class="row">
     {{ range $stories }}
         <div class="col-lg-{{- $colWidth }} mb-5">
-            {{ block "print-review" . }}{{ end }}
+            {{ partial "inline/print-review" . }}
         </div>
     {{ end }}
 </div>
 
-{{ define "print-review" }}
+{{ define "partials/inline/print-review" }}
     {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
     {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
     {{ $critic := index .Params.critics 0 }}

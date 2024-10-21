@@ -16,17 +16,17 @@
 <div class="row">
     {{ range $stories }}
         <div class="col-lg-12">
-            {{ block "video-review" . }}{{ end }}
+            {{ partial "inline/video-review" . }}
         </div>
     {{ end }}
 </div>
 
-{{ define "video-review" }}
+{{ define "partials/inline/video-review" }}
     {{ $critic := index .Params.critics 0 }}
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    {{ $intLinkIcon := index .Site.Data.svgicons.icons "internalLink" }}
     <h6 class="fw-bold">
         {{ .Title }}<br />
         <span class="small"
@@ -44,7 +44,7 @@
             Read all {{ $revCount }} reviews of
             {{ .Title }}
             <a href="{{ $revPage.Page.RelPermalink }}"
-                >here {{ $intLinkIcon | safeHTML }}ß</a
+                >here {{ $intLinkIcon | safeHTML }}</a
             >
         </h6>
     {{ end }}
