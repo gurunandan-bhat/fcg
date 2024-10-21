@@ -1,6 +1,6 @@
 {{ $n := .n }}
 {{ $colWidth := div 12 $n }}
-{{ $countMax := $n }}
+{{ $countMax := mul 2 $n }}
 {{ $stories := slice }}
 {{ $criticMap := dict }}
 
@@ -16,7 +16,7 @@
 {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
 <div class="row">
     {{ range $stories }}
-        <div class="col-lg-{{- $colWidth }}">
+        <div class="col-lg-{{- $colWidth }} mb-5">
             {{ block "print-review" . }}{{ end }}
         </div>
     {{ end }}
@@ -50,7 +50,7 @@
     <div class="small">
         {{ .Summary }}
     </div>
-    <p class="small">
+    <p class="small mb-1">
         <a
             target="_blank"
             href="{{ .Params.source }}"
