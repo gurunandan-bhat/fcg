@@ -7,7 +7,7 @@ critics = ['Ishita Sengupta']
 subtitle = 'Alia Bhatt In &amp; As The Angry Young Woman'
 opening = ''
 img = 'jigra-6.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.ottplay.com/features/jigra-alia-bhatt-in-as-the-angry-young-woman/c753b582a2198?s=08'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Sachin Chatte']
 subtitle = "The memory remains"
 opening = ""
 img = 'bougainvillea-5.webp'
-type = 'print'
+media = 'print'
 source = "https://epaper.navhindtimes.in/NewsDetail.aspx?storyid=174726&date=2024-10-19&pageid=1"
 +++
 

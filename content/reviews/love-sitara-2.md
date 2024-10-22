@@ -7,7 +7,7 @@ critics = ['Shilajit Mitra']
 subtitle = 'Pre-wedding blues with Sobhita Dhulipala'
 opening = 'Sobhita Dhulipala and Rajeev Siddhartha are a couple gearing up for their wedding in this uneven relationship drama '
 img = 'love-sitara-2.jpeg'
-type = 'print'
+media = 'print'
 source = 'https://www.thehindu.com/entertainment/movies/love-sitara-movie-review-pre-wedding-blues-with-sobhita-dhulipala/article68689328.ece'
 +++
 

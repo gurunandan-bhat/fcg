@@ -7,7 +7,7 @@ critics = ['Sangeetha Devi Dundoo']
 subtitle = "Sudheer Babu shoulders a patchy relationship drama"
 opening = "Sudheer Babu and Saichand’s performances anchor ‘Maa Nanna Superhero’, an uneven relationship drama that scores in a few segments"
 img = 'maa-nanna-superhero.jpg'
-type = 'print'
+media = 'print'
 source = "https://www.thehindu.com/entertainment/movies/maa-nanna-superhero-movie-review-sudheer-babu-shoulders-a-patchy-relationship-drama/article68735953.ece"
 +++
 

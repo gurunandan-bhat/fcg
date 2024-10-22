@@ -8,7 +8,7 @@ subtitle = 'This Breezy Urban Romance Works In Parts'
 opening = ''
 img = 'colourrs-of-love.jpg'
 source = 'https://www.binged.com/reviews/colourrs-of-love-movie-review/'
-type = 'print'
+media = 'print'
 +++
 
 Avee Sharma, a sexologist, is traumatised after breaking up with Shruti at the cusp of marriage. While he gradually comes to terms with it, he indulges in a no-strings-attached relationship with a patient – a married woman Rekha. Later, he falls for a neighbour Nikita. However, she hides a secret from her life that could derail their equation. Meanwhile, Rajat, a psychologist, opens him to a new perspective towards love.

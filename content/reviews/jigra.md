@@ -7,7 +7,7 @@ critics = ['Bharathi Pradhan']
 subtitle = 'Gumrah Goes Feminist'
 opening = "An attempt to create a touching story about a sister who fights for her brother. Their journey to come back together tests their relationship, values, and inner strength. Who wouldn't go to great lengths to protect what they love?"
 img = 'jigra.jpg'
-type = 'print'
+media = 'print'
 source = 'https://lehren.com/entertainment/reviews/jigra-review-gumrah-goes-feminist/203756/'
 +++
 

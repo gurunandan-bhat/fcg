@@ -7,7 +7,7 @@ critics = ['Priyanka Roy']
 subtitle = "Jigra is a rich cinematic experience powered by Alia Bhatt"
 opening = ""
 img = 'jigra-16.jpg'
-type = 'print'
+media = 'print'
 source = "https://t2online.in/screen/bollywood/jigra-is-a-rich-cinematic-experience-powered-by-alia-bhatt.-a-t2online-review/1175836?t=4"
 +++
 

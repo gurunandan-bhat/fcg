@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Devara Part 1']
 critics = ['Bhawana Somaaya']
 source = 'RIc7oIcVs58'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="RIc7oIcVs58" >}}

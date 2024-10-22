@@ -7,7 +7,7 @@ critics = ['Suparna Sharma']
 subtitle = "This Anubhav Sinha directorial is one of the best ‘based on real life’ series to date"
 opening = "'IC 814: The Kandahar Hijack', streaming on Netflix, honours the captain, his crew, and the passengers"
 img = 'Kandahar-Hijack.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.theweek.in/review/movies/2024/08/29/ic-814-the-kandahar-hijack-review-this-anubhav-sinha-directorial-is-one-of-the-best-based-on-real-life-series-to-date.html'
 +++
 

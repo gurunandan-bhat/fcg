@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Bougainvillea']
 critics = ['Vishal Menon']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = '_eQDsBPZvzI'
 +++
 

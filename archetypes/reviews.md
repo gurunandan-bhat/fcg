@@ -8,6 +8,6 @@ critics = ['']
 subtitle = ""
 opening = ""
 img = '{{ .File.ContentBaseName }}.'
-type = 'print'
+media = 'print'
 source = ""
 +++

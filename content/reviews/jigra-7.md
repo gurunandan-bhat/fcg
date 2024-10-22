@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Jigra']
 critics = ['Anupama Chopra']
 subtitle = 'Sister as Superhero'
-type = 'video'
+media = 'video'
 source = 'hw7phd_foTs'
 +++
 

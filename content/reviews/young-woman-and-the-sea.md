@@ -8,7 +8,7 @@ opening = "Based on a true story, the feature film tells the courageous journey 
 img = 'young-woman-and-the-sea.webp'
 critics = ['Sonal Pandya']
 source = 'https://www.timesnownews.com/entertainment-news/reviews/web-series/young-woman-and-the-sea-movie-review-daisy-ridley-predictable-yet-inspirational-sports-biopic-has-plenty-of-heart-review-111906228'
-type = 'print'
+media = 'print'
 +++
 
 Young Woman and the Sea is a typical sports drama, like the ones that were made often in Hollywood two to three decades ago. The period drama, directed by Joachim Rønning, follows the real-life story of Trudy Ederle, a young American who set some extraordinary records and inspired a whole generation of women after her.

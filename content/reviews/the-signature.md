@@ -8,7 +8,7 @@ opening = "After his wife Madhu falls into a coma and is placed on life support,
 img = 'the-signature.jpg'
 critics = ['Bharathi Pradhan']
 source = 'https://lehren.com/entertainment/reviews/the-signature-movie-review-to-pull-the-plug-or-not/203244/'
-type = 'print'
+media = 'print'
 +++
 
 It is a poignant dilemma familiar to most families. When a loved one is on life support, and prolonging it is unaffordable, can you bring yourself to sign the Do Not Resuscitate (DNR) form? For retired librarian Arvind Pathak (Anupam Kher), it is unthinkable. It’s easier for his pragmatic son (Kevin Gandhi) and daughter (Sangeeta Jain) who have their own lives to lead.

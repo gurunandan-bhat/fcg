@@ -42,7 +42,7 @@
         </div>
         <div class="row">
             <div class="col-md-5 offset-md-1 highlight">
-                {{ $videoReviews := where $pageReviews "Type" "video" }}
+                {{ $videoReviews := where $pageReviews "Params.media" "video" }}
                 <div class="row ps-3">
                     <h5 class="my-4">Video Reviews</h5>
                     {{ if $videoReviews | len }}
@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-5">
                 <div class="row">
-                    {{ $printReviews := where $pageReviews "Type" "print" }}
+                    {{ $printReviews := where $pageReviews "Params.media" "print" }}
                     <h5 class="my-4">Print/Online Reviews</h5>
                     {{ if $printReviews | len }}
                         {{ range  $printReviews }}

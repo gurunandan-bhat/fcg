@@ -7,7 +7,7 @@ critics = ['Kriti Tulsiani']
 subtitle = "Alia Bhatt is the real 'jigra' of Vasan Bala's film "
 opening = "In Vasant Bala's film, Vedang Raina might be portraying the titular character, but it's Alia Bhatt, who is the heart and soul of the film."
 img = 'jigra-17.png'
-type = 'print'
+media = 'print'
 source = "https://www.wionews.com/entertainment/bollywood/news-jigra-movie-review-alia-bhatt-is-the-real-jigra-of-vasan-balas-film-766667"
 +++
 

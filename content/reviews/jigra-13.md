@@ -7,7 +7,7 @@ critics = ['Deepak Dua']
 subtitle = 'सिर्फ ‘जिगरा’ है, दिमाग नहीं'
 opening = ''
 img = 'jigra-13.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.cineyatra.com/jigra-movie-review-by-deepak-dua/'
 +++
 

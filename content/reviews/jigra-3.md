@@ -7,7 +7,7 @@ critics = ['Sukanya Verma']
 subtitle = 'My Name Is Bachchan. Alia Bachchan'
 opening = "Vasan Bala's ability to jolt our Bollywood conditioned brains into experiencing new forms of menace, showcasing Alia in a savage new light, wins Sukanya Verma's dil and jigra."
 img = 'jigra-3.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.rediff.com/movies/review/jigra-review/20241011.htm?s=08'
 +++
 

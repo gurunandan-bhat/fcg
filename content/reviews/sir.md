@@ -7,7 +7,7 @@ critics = ['Kirubhakar Purushothaman']
 subtitle = "Vemal’s Period Movie Belongs To The Era It Is Set In"
 opening = "Directed by actor-director Bose Venkat, Sir is about a family’s relentless and devastating crusade for rural education. Like many such Tamil films, it has 'only' its heart at the right place."
 img = 'sir.png'
-type = 'print'
+media = 'print'
 source = "https://www.news18.com/movies/sir-movie-review-vemals-period-movie-belongs-to-the-era-it-is-set-in-9090828.html"
 +++
 

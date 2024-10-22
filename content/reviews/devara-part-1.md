@@ -6,7 +6,7 @@ mreviews = ['Devara Part 1']
 critics = ['Sucharita Tyagi']
 source = 'THJ0QDTqpDc'
 subtitle = "Sucharita Tyagi's Honest Review You Need to Hear"
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="THJ0QDTqpDc" >}}

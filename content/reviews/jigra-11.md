@@ -7,7 +7,7 @@ critics = ['Tatsam Mukherjee']
 subtitle = 'Alia Bhatt Successfully Reinvents the Cornered Anti-Hero of 1970s Bollywood'
 opening = 'Vasan Bala’s smart thriller draws from various influences, but loses momentum towards the end.'
 img = 'jigra-11.jpeg'
-type = 'print'
+media = 'print'
 source = 'https://thewire.in/film/in-jigra-alia-bhatt-successfully-reinvents-the-cornered-anti-hero-of-1970s-bollywood'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Tanul Thakur']
 subtitle = 'The Alia Bhatt-starrer Doesn’t Fire but Fizzle Out'
 opening = 'Vasan Bala’s directorial is marred by bland writing'
 img = 'jigra-5.png'
-type = 'print'
+media = 'print'
 source = 'https://www.outlookindia.com/art-entertainment/movie-review/jigra-review-the-alia-bhatt-starrer-doesnt-fire-but-fizzle-out'
 +++
 

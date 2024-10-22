@@ -7,7 +7,7 @@ mreviews = ['Yek Number']
 subtitle = 'Ambitious propaganda that turns unintentionally hilarious'
 opening = ''
 img = 'yek-number.jpeg'
-type = 'print'
+media = 'print'
 source = 'https://thecommonmanspeaks.com/yek-number-review/'
 +++
 

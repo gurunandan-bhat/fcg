@@ -7,7 +7,7 @@ critics = ['Renuka Vyavahare']
 subtitle = 'Tiring pursuit of a sex tape'
 opening = 'Newlyweds Vicky (Rajkummar Rao) and Vidya (Triptii Dimri), decide to record their honeymoon video for self pleasure and gratification. Chaos ensues when the CD gets stolen.'
 img = 'vicky-vidya-ka-woh-wala-video-3.webp'
-type = 'print'
+media = 'print'
 source = 'https://timesofindia.indiatimes.com/entertainment/hindi/movie-reviews/vicky-vidya-ka-woh-wala-video/movie-review/114136020.cms'
 +++
 

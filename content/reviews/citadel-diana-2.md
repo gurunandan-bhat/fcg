@@ -7,7 +7,7 @@ critics = ['Srivathsan Nadadhur']
 subtitle = 'A Slick Spy Thriller With a Gimmicky, Confounding Narrative'
 opening = ''
 img = 'citadel-diana-2.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.binged.com/reviews/citadel-diana-series-review/'
 +++
 

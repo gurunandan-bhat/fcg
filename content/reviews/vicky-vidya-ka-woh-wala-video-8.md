@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Vicky Vidya Ka Woh Wala Video']
 critics = ['Anmol Jamwal']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = 'VTgxGVYpll8'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Rohan Naahar']
 subtitle = 'Ananya Panday plays the world’s most clueless social media influencer in Vikramaditya Motwane’s wildly uneven Netflix movie'
 opening = "Vikramaditya Motwane and Ananya Panday's considerable talents are wasted in CTRL, a thriller that takes a fresh approach to making stale observations about the world we live in."
 img = 'ctrl-13.png'
-type = 'print'
+media = 'print'
 source = 'https://indianexpress.com/article/entertainment/bollywood/ctrl-ananya-panday-vikramaditya-motwane-wildly-uneven-netflix-movie-9603271/'
 +++
 

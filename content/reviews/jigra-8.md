@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Jigra']
 critics = ['Bhawana Somaaya']
 subtitle = 'A treat to watch Alia Bhatt play Bachchan'
-type = 'video'
+media = 'video'
 source = 'Vo2Rob4os34'
 +++
 

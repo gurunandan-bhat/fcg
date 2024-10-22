@@ -7,7 +7,7 @@ critics = ['Sanyukta Thakare']
 subtitle = "Sebastian Stan As Donald Trump Is Just The Tip Of The Iceberg"
 opening = "Jeremy Strong steals the show"
 img = 'the-apprentice.webp'
-type = 'print'
+media = 'print'
 source = "https://in.mashable.com/entertainment/83896/the-apprentice-review-sebastian-stan-as-donald-trump-is-just-the-tip-of-the-iceberg"
 +++
 

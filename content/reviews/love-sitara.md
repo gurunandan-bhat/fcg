@@ -6,7 +6,7 @@ mreviews = ['Love Sitara']
 critics = ['Anupama Chopra']
 source = '7Xr7PqWc8-Y'
 subtitle = 'More Than Just Another Wedding Film?'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="7Xr7PqWc8-Y" >}}

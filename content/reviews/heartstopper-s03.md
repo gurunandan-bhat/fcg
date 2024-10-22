@@ -8,7 +8,7 @@ subtitle = 'Queer Teen Romance Is Unapologetically Heartwarming And Meaningful'
 opening = "The third season of Heartstopper goes a bit darker and focuses on Nick and Charlie's friendship group maturing and thinking about their futures. Read our review of the Netflix coming-of-age teen drama."
 img = 'heartstopper-s03.webp'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/heartstopper-season-3-review-queer-teen-romance-is-unapologetically-heartwarming-and-meaningful-review-113908108'
-type = 'print'
+media = 'print'
 +++
 
 Nick and Charlie are back with a summer to remember. The third season of Heartstopper, based on the best-selling graphic novel by Alice Oseman, continues with the love story between Kit Connor's Nick and Joe Locke's Charlie as their relationship grows stronger despite their fears and insecurities. There is a whole new vibe to the series (the teens are now allowed to curse and become sexually active) that shows how the material has evolved along with its characters. At its heart, Heartstopper is a sweet romance with depth, especially due to the sparkling chemistry of its leads.

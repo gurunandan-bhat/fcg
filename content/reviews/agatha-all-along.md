@@ -7,7 +7,7 @@ critics = ['Akhil Arora']
 subtitle = 'Novelty max, Success not quite'
 opening = "The new Marvel miniseries follow-up to WandaVision is unlike the studio’s standard fare but it lacks the spirited edge of its anthological predecessor."
 img = 'agatha-all-along.webp'
-type = 'print'
+media = 'print'
 source = 'https://akhilarora.com/2024/09/agatha-all-along-review-marvel/'
 +++
 

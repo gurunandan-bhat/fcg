@@ -7,7 +7,7 @@ critics = ['Deepak Dua']
 subtitle = 'विकी विद्या के वीडियो का कॉमेडी वाला रायता'
 opening = ''
 img = 'vicky-vidya-ka-woh-wala-video-5.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.cineyatra.com/vicky-vidya-ka-woh-wala-video-movie-review-by-deepak-dua/'
 +++
 

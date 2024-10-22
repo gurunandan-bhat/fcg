@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Jigra']
 critics = ['Anmol Jamwal']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = 'jEj-AJoQ3fg'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Sachin Chatte']
 subtitle = "Kya <em>bot</em> hain!"
 opening = ""
 img = 'the-wild-robot-3.png'
-type = 'print'
+media = 'print'
 source = "https://epaper.navhindtimes.in/NewsDetail.aspx?storyid=174726&date=2024-10-19&pageid=1"
 +++
 

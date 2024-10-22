@@ -7,7 +7,7 @@ critics = ['Aswathy Gopalakrishnan']
 subtitle = 'An Astounding Urvashi Headlines a Tender Film On Love That Defies Conventions'
 opening = 'Urvashi is a quiet rage throughout the film, stirring the frame even when she is sitting still and staring at the abyss that has opened up in her being'
 img = 'ullozhukku-2.png'
-type = 'print'
+media = 'print'
 source = 'https://www.filmcompanion.in/reviews/malayalam-review/ullozhukku-review-an-astounding-urvashi-headlines-a-tender-film-parvathy-malayalam-movie'
 +++
 

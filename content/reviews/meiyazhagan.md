@@ -8,7 +8,7 @@ subtitle = 'Karthi and Arvind Swami shoulder this spirited bromance drama'
 opening = '‘96’ filmmaker C. Prem Kumar gives us a thoughtful character study brought to life by some brilliant performances, and it’s a treat to watch the relationship between Arvind Swami and Karthi’s characters blossom into something gorgeous'
 img = 'meiyazhagan.jpeg'
 source = 'https://www.thehindu.com/entertainment/movies/meiyazhagan-movie-review-karthi-and-arvind-swami-shoulder-this-spirited-bromance-drama/article68688040.ece'
-type = 'print'
+media = 'print'
 +++
 
 While most filmmakers focus on the bigger aspects of their story to substantiate the so-called big-screen experience, C Prem Kumar belongs to a niche group of directors who like to concentrate on the finer, intimate moments of life. Probably because of his time spent behind the viewfinder as a cinematographer, Prem’s scenes look like animated still photographs, and just like his directorial debut 96, his sophomore outing Meiyazhagan is a series of moments in motion.

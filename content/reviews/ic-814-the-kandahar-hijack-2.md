@@ -7,7 +7,7 @@ critics = ['Upma Singh']
 subtitle = ""
 opening = ""
 img = 'ic-814-the-kandahar-hijack-2.webp'
-type = 'print'
+media = 'print'
 source = "https://navbharattimes.indiatimes.com/entertainment/web-series/review/ic-814-the-kandahar-hijack-web-series-review-in-hindi-naseeruddin-shah-pankaj-kapur-vijay-varma-manoj-pahwa-arvind-swamy-dia-mirza-netflix/moviereview/112915047.cms"
 +++
 

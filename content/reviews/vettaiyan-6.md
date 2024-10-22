@@ -6,7 +6,7 @@ mreviews = ['Vettaiyan']
 critics = ['Sudhir Srinivasan']
 subtitle = 'The Late Review'
 source = 'f4Y9uP4v_ww'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="f4Y9uP4v_ww" >}}

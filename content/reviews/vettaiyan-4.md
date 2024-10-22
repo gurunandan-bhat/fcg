@@ -7,7 +7,7 @@ critics = ['Kirubhakar Purushothaman']
 subtitle = 'Rajinikanth Is Superb But Out of Place in TJ Gnanavel’s Noble Attempt'
 opening = 'TJ Gnanavel’s simple and predictable film leaves us wondering why it needed such supergiants in the first place.'
 img = 'vettaiyan-4.png'
-type = 'print'
+media = 'print'
 source = 'https://www.news18.com/movies/vettaiyan-movie-review-rajinikanth-is-superb-but-out-of-place-in-tj-gnanavels-noble-attempt-9081463.html?s=08'
 +++
 

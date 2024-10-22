@@ -7,7 +7,7 @@ critics = ['Uday Bhatia']
 subtitle = "Lost in the Twilight Zone with Amitabh Bachchan"
 opening = "Cédric Dupire’s ‘The Real Superstar’ spans the actor’s epochal career but is an atypical tribute"
 img = 'the-real-superstar.png'
-type = 'print'
+media = 'print'
 source = "https://www.livemint.com/mint-lounge/art-and-culture/the-real-superstar-film-cedric-dupire-amitabh-bachchan-documentary-11729334279948.html?s=08"
 +++
 

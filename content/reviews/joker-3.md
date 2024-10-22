@@ -7,7 +7,7 @@ critics = ['Shomini Sen']
 subtitle = 'Lady Gaga is underutilised in a boring, uninspiring sequel'
 opening = 'Written by Todd Philips and Scott Silver, Joker: Folie à Deux is a sequel to the 2019 film Joker. The American psychological musical drama has Joaquin Phoenix returning as the troubled DC villain Joker, a role that earned him an Oscar in 2019. Giving him company in part 2 is Lady Gaga as Harley Quinn, a fellow inmate that Arthur meets at the asylum and who matches his crazy with her set of crazy.'
 img = 'joker-3.png'
-type = 'print'
+media = 'print'
 source = 'https://www.wionews.com/entertainment/hollywood/news-joker-folie-%C3%A0-deux-review-lady-gaga-is-underutilised-in-a-boring-uninspiring-sequel-763846'
 +++
 

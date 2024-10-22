@@ -7,7 +7,7 @@ critics = ['Sanyukta Thakare']
 subtitle = "Best Animated Film Of The Year"
 opening = "Unmissable big screen experience"
 img = 'the-wild-robot.webp'
-type = 'print'
+media = 'print'
 source = "https://in.mashable.com/entertainment/83826/the-wild-robot-review-best-animated-film-of-the-year"
 +++
 

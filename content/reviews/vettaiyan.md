@@ -7,7 +7,7 @@ critics = ['Sudhir Srinivasan']
 subtitle = 'Much to be happy about, despite some misgivings'
 opening = 'This Rajinikanth film attempts the tight-rope walk of aiming to entertain while tackling past wrongs'
 img = 'vettaiyan.png'
-type = 'print'
+media = 'print'
 source = 'https://www.cinemaexpress.com/tamil/review/2024/Oct/10/vettaiyan-movie-review-much-to-be-happy-about-despite-some-misgivings?s=08'
 +++
 

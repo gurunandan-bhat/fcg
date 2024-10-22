@@ -7,7 +7,7 @@ critics = ['Vishal Menon']
 subtitle = 'Unsubtle, Clunky But Engaging'
 opening = 'A cop drama using cinematic tropes to make you rethink who you should be whistling for.'
 img = 'vettaiyan-5.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.hollywoodreporterindia.com/reviews/theatrical/vettaiyan-review-unsubtle-clunky-but-engaging'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Rahul Desai']
 subtitle = 'A Heartening Update on the Modern Buddy Movie'
 opening = 'The feel-goodness of Raat Jawaan Hai is an organic product of its environment, but it has no neat resolutions or reckonings. Unlike in most young-adult stories, no conflict is curated; not everything is a lifequake.'
 img = 'raat-jawaan-hai.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.hollywoodreporterindia.com/reviews/streaming/raat-jawaan-hai-review-a-heartening-update-on-the-modern-buddy-movie'
 +++
 

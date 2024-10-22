@@ -7,7 +7,7 @@ critics = ['Kriti Tulsiani']
 subtitle = "There's little that's 'taaza' in Bhuvan Bam's show"
 opening = "Taaza Khabar Season 2 has Bhuvan Bam reprising his role as Vasant who remains true to his character. But what falters is having a stale approach to the story that leaves little for actors, including Jaaferi, to chew on. It’s the same old cycle of a flashing new update, a new plan, and no consequence. "
 img = 'taaza-khabar-s02-2.png'
-type = 'print'
+media = 'print'
 source = "https://www.wionews.com/entertainment/taaza-khabar-season-2-review-theres-little-thats-taaza-in-bhuvan-bams-show-763047#"
 +++
 

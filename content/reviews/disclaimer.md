@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Alfonso Cuaron's Devastating Thriller Series Looks At Truth And Memory From All Angles"
 opening = 'Cate Blanchett is fantastic as journalist who is confronted by past secrets by a stranger who brings them alive in a book.'
 img = 'disclaimer.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/disclaimer-review-alfonso-cuarons-devastating-thriller-series-looks-at-truth-and-memory-from-all-angles-review-114090520'
 +++
 

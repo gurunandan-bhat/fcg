@@ -7,7 +7,7 @@ critics = ['Srivathsan Nadadhur']
 subtitle = 'The courtroom drama is a missed opportunity'
 opening = "An earnest Suhas cannot salvage ‘Janaka Aithe Ganaka’, which ends up as a messy courtroom comedy"
 img = 'janaka-aithe-ganaka.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.thehindu.com/entertainment/movies/janaka-aithe-ganaka-movie-review-an-earnest-suhas-cannot-salvage-this-messy-courtroom-drama/article68739289.ece'
 +++
 

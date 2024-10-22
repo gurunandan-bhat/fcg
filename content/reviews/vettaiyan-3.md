@@ -7,7 +7,7 @@ critics = ['Manoj Kumar']
 subtitle = 'This Rajinikanth movie lacks emotional punch, a strong villain'
 opening = 'Vettaiyan tells the story of a celebrated cop, known for encounter killings, who strives to correct a grave error in his judgment.'
 img = 'vettaiyan-3.jpeg'
-type = 'print'
+media = 'print'
 source = 'https://www.desimartini.com/reviews/movies/vettaiyan-review-this-rajinikanth-movie-lacks-emotional-punch-a-strong-villain/238ca010f4924/?s=08'
 +++
 

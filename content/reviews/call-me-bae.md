@@ -7,7 +7,7 @@ critics = ['Kriti Tulsiani']
 subtitle = "Ananya Panday shines but style trumps substance in story"
 opening = "Created by Ishita Moitra and co-written by Samina Motlekar and Rohit Nair, Call Me Bae is a visually stunning series, where apt attention has been paid to sets and Bae’s costumes. The intent and ambition are right, but the execution not so much."
 img = 'call-me-bae.png'
-type = 'print'
+media = 'print'
 source = "https://www.wionews.com/entertainment/bollywood/news-call-me-bae-review-ananya-panday-shines-but-style-trumps-substance-in-story-756352"
 +++
 

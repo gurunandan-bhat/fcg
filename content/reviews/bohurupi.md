@@ -8,7 +8,7 @@ subtitle = 'Shiboprosad Mukherjee and Abir Chatterjee gift us a wholesome entert
 opening = 'Directed by Shiboprosad Mukherjee and Nandita Roy, Bohurupi features Abir Chatterjee, Ritabhari Chakraborty, Koushani Mukherjee, and Shiboprosad.'
 source = 'https://www.ottplay.com/review/bohurupi-review-shiboprosad-mukherjee-and-abir-chatterjee-gift-us-a-wholesome-entertainer/56907efdc8187'
 img = 'bohurupi.png'
-type = 'print'
+media = 'print'
 +++
 
 Shiboprosad Mukherjee and Nandita Roy’s Bohurupi delivers what it promises: unadulterated entertainment. It is fun watching this mad cat-and-mouse game. The film is lavishly shot, and most importantly, made with care. It excels in almost every department with Shiboprosad’s skillful acting hogging the lion’s share of the limelight.

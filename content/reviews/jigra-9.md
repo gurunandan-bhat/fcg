@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Jigra']
 critics = ['Sucharita Tyagi']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = 'IRBC0lx9ysA'
 +++
 

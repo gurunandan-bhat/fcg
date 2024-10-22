@@ -7,7 +7,7 @@ critics = ['Shomini Sen']
 subtitle = "Jeremy Strong delivers stand out performance in Abbasi's film on Donald Trump"
 opening = "The Apprentice shows Trump (played stupendously well by Sebastian Stan) in his usual megalomaniac, ruthless avatar – an image that Trump has over the years created – painstakingly, if I may add so – but also humanises him to a certain extent."
 img = 'the-apprentice-2.png'
-type = 'print'
+media = 'print'
 source = "https://www.wionews.com/entertainment/hollywood/news-the-apprentice-review-jeremy-strong-delivers-stand-out-performance-in-abbasis-film-on-donald-trump-768733"
 +++
 

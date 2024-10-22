@@ -7,7 +7,7 @@ critics = ['Sanyukta Thakare']
 subtitle = "Is It Better Than Priyanka Chopra's OG Show?"
 opening = "Intense drama with suspense that doesn't bring the usual thrills"
 img = 'citadel-diana.webp'
-type = 'print'
+media = 'print'
 source = 'https://in.mashable.com/entertainment/83454/citadel-diana-review-is-it-better-than-priyanka-chopras-og-show'
 +++
 

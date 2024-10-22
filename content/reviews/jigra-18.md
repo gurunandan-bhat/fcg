@@ -7,7 +7,7 @@ critics = ['Rohan Naahar']
 subtitle = "Vasan Bala weaponises Alia Bhatt in one of the best Hindi films of the year; Karan Johar better have his back"
 opening = "One would hope that Dharma Productions doesn't push Vasan Bala into moving traffic after Jigra; starring Alia Bhatt, it's one of the best Hindi films of the year, a near-perfect marriage of Bala's irreverent sensibilities and Karan Johar's trademark drama."
 img = 'jigra-18.png'
-type = 'print'
+media = 'print'
 source = "https://indianexpress.com/article/entertainment/bollywood/jigra-vasan-bala-alia-bhatt-karan-johar-one-of-the-best-hindi-films-of-2024-9621119/"
 +++
 

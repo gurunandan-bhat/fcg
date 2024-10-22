@@ -8,7 +8,7 @@ subtitle = 'Ananya Panday drives paranoid thriller'
 opening = "Vikramaditya Motwane's film about creeping AI is also a paranoid thriller for an increasingly digital India"
 img = 'ctrl-10.png'
 source = 'https://www.livemint.com/mint-lounge/art-and-culture/ctrl-review-film-ananya-panday-vikramaditya-motwane-ai-11728044262107.html'
-type = 'print'
+media = 'print'
 +++
 
 Well into CTRL, we know the film's protagonist only as Nella. While it’s certainly an Ananya Panday character name (past ones have been Tia, Tanya, Ahana and Bella), I did wonder if it was given by her Delhi Punjabi parents. But then we hear her father’s voice from offscreen calling: “Nalini”. And a little piece clicked into place: an assumed name, a username, a handle, in a film about unstable online identities.

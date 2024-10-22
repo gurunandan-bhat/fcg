@@ -7,7 +7,7 @@ critics = ['Srivathsan Nadadhur']
 subtitle = 'An Entertaining, Bitter-Sweet Ode to Parenthood, Friendship'
 opening = ''
 img = 'raat-jawaan-hai-4.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.binged.com/reviews/raat-jawaan-hai-series-review/'
 +++
 

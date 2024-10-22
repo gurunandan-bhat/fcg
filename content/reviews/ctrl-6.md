@@ -5,7 +5,7 @@ draft = false
 mreviews = ['CTRL']
 critics = ['Sucharita Tyagi']
 source = 'I6B78NkSPNo'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="I6B78NkSPNo" >}}

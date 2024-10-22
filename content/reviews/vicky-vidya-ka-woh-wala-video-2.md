@@ -7,7 +7,7 @@ critics = ['Bharathi Pradhan']
 subtitle = 'Chor Bizarre'
 opening = 'A newly married couple faces a crisis when their private video CD goes missing, jeopardizing their relationship and reputation. The narrative tracks their frantic and tumultuous quest to retrieve the CD, filled with unexpected challenges and surprises at every turn.'
 img = 'vicky-vidya-ka-woh-wala-video-2.jpg'
-type = 'print'
+media = 'print'
 source = 'https://lehren.com/featured/vicky-vidya-ka-woh-wala-video-chor-bizarre/203728/'
 +++
 

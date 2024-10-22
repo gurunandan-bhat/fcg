@@ -7,7 +7,7 @@ critics = ['Mihir Bhanage']
 subtitle = 'Promises a lot, delivers less'
 opening = 'Manvat Murders is gripping in parts as it retells the story of a horrific saga.'
 img = 'manvat-murders-3.jpeg'
-type = 'print'
+media = 'print'
 source = 'https://timesofindia.indiatimes.com/web-series/reviews/marathi/manvat-murders/season-1/seasonreview/113823757.cms'
 +++
 

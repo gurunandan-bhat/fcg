@@ -7,7 +7,7 @@ critics = ['Shubhra Gupta']
 subtitle = 'A timely limited series'
 opening = 'Not all six are equal in depth and complexity, but it doesn’t stop us from acknowledging the importance of these kinds of stories, which go a long way in keeping informed conversations around mental health in play.'
 img = 'zindaginama.webp'
-type = 'print'
+media = 'print'
 source = 'https://indianexpress.com/article/entertainment/web-series/zindaginama-review-a-timely-limited-series-9615516/'
 +++
 

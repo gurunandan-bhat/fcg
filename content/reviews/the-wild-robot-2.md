@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Astoundingly Beautiful Animated Story Of Love, Friendship And Empathy"
 opening = "Adapted from Peter Brown's best-selling children's book, the DreamWorks Animation film is a triumph on every level."
 img = 'the-wild-robot-2.webp'
-type = 'print'
+media = 'print'
 source = "https://www.timesnownews.com/entertainment-news/reviews/the-wild-robot-movie-review-astoundingly-beautiful-animated-story-of-love-friendship-and-empathy-review-114261657?s=08"
 +++
 

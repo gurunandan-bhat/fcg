@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Jason Segel, Harrison Ford's Optimistic Comedy About Flawed Therapists Charms Again"
 opening = "From the makers of Ted Lasso, the comedy series starring Jason Segel returns to find its characters grappling with life's issues head-on."
 img = 'shrinking-s02.webp'
-type = 'print'
+media = 'print'
 source = "https://www.timesnownews.com/entertainment-news/reviews/shrinking-season-2-review-jason-segel-harrison-ford-optimistic-comedy-about-flawed-therapists-charms-again-review-114277248"
 +++
 

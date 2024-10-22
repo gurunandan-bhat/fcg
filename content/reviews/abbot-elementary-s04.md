@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Quinta Brunson's School Comedy Is Still Endearingly Awkward And Funny As Ever"
 opening = 'The Emmy-nominated comedy series is back to school with a new season and plenty of hijinks.'
 img = 'abbot-elementary-s04.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/abbott-elementary-season-4-review-quinta-brunsons-school-comedy-is-still-endearingly-awkward-and-funny-as-ever-review-114124492'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Suparna Sharma']
 subtitle = 'An entertaining home video that mollycoddles Salim-Javed duo'
 opening = 'Salim Khan, 88, and Javed Akhtar, 79, are the stars of this multi-starrer'
 img = 'angry-young-men.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.theweek.in/review/movies/2024/08/20/angry-young-men-an-entertaining-home-video-that-mollycoddles-salim-javed-duo.html'
 +++
 

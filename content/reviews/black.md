@@ -7,7 +7,7 @@ critics = ['Avinash Ramachandran']
 subtitle = 'Jiiva, Priya Bhavanishankar shine in a gripping, intriguing melange of genres'
 opening = 'Powered by compelling performances and a strong technical team, director KG Balasubramani presents to us a very knotty affair, and does a decent job of unravelling it all.'
 img = 'black.png'
-type = 'print'
+media = 'print'
 source = 'https://indianexpress.com/article/entertainment/movie-review/black-movie-review-jiiva-priya-bhavanishankar-shine-in-a-gripping-intriguing-melange-of-genres-9615564/?s=08'
 +++
 

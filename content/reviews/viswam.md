@@ -7,7 +7,7 @@ critics = ['Sangeetha Devi Dundoo']
 subtitle = "Sreenu Vaitla and Gopichand’s film is marred by an outdated, meandering narrative"
 opening = "Director Sreenu Vaitla’s Telugu film ‘Viswam’ is a tiresome mishmash of subplots and characters that feels dated by at least two decades"
 img = 'viswam.jpg'
-type = 'print'
+media = 'print'
 source = "https://www.thehindu.com/entertainment/movies/viswam-movie-review-sreenu-vaitla-and-gopichands-film-is-marred-by-an-outdated-meandering-narrative/article68740262.ece"
 +++
 

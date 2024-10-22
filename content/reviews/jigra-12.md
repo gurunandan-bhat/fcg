@@ -7,7 +7,7 @@ critics = ['Sachin Chatte']
 subtitle = 'Soul Sister'
 opening = ''
 img = 'jigra-12.png'
-type = 'print'
+media = 'print'
 source = 'https://epaper.navhindtimes.in/NewsDetail.aspx?storyid=233563&date=2024-10-12&pageid=1'
 +++
 

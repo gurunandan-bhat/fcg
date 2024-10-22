@@ -6,7 +6,7 @@ mreviews = ['CTRL']
 critics = ['Anupama Chopra']
 source = 'bJ1mtN8OO8I'
 subtitle = "Anupama Chopra on CTRL"
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="bJ1mtN8OO8I" >}}

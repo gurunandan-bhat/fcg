@@ -4,7 +4,7 @@
 {{ $criticMap := dict }}
 
 {{ range where site.RegularPages "Section" "reviews" }}
-    {{ if ne .Type "video" }}{{ continue }}{{ end }}
+    {{ if ne .Params.media "video" }}{{ continue }}{{ end }}
     {{ $critic := index .Params.critics 0 }}
     {{ if (index $criticMap $critic) }}{{ continue }}{{ end }}
     {{ $stories = append (slice .) $stories }}

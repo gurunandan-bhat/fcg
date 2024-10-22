@@ -7,7 +7,7 @@ critics = ['Rahul Desai']
 subtitle = "A Heartfelt ‘Factory Reset’ Of Storytelling"
 opening = "The Wild Robot takes you back to the early days of Finding Nemo and Wall-E, where the joy is rooted in the innocence of imagination rather than the responsibility of the movie-going experience."
 img = 'the-wild-robot-4.webp'
-type = 'print'
+media = 'print'
 source = "https://www.ottplay.com/features/the-wild-robot-a-heartfelt-factory-reset-of-storytelling/071e6ed7f6634?s=08"
 +++
 

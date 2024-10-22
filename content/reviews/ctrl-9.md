@@ -5,7 +5,7 @@ draft = false
 mreviews = ['CTRL']
 critics = ['Rohit Khilnani']
 source = 'CZe20LgcQZg'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="CZe20LgcQZg" >}}

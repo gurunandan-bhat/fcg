@@ -8,7 +8,7 @@ subtitle = 'Queer Romance Gets Slapstick Treatment'
 opening = ''
 source = 'https://www.binged.com/reviews/amar-prem-ki-prem-kahani-movie-review/'
 img = 'amar-prem-ki-prem-kahani.jpg'
-type = 'print'
+media = 'print'
 +++
 
 Amar, who’s yet to come out as gay to his family, is off to London to meet his uncle. Over a flight, he falls in love with a flamboyant Prem. Despite initial friction, the two are inseparable and hit it off as a couple. As Amar returns to India, his conservative family is desperate to get him married. Prem decides to surprise him at the event and when they make their relationship official, all hell breaks loose.

@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Devara Part 1']
 critics = ['Ajay Brahmatmaj']
 source = 'uwfgVUfRNYU'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="uwfgVUfRNYU" >}}

@@ -7,7 +7,7 @@ critics = ['S. R. Praveen']
 subtitle = "An unsatisfying psychological thriller"
 opening = "Amal Neerad’s film, starring Fahadh Faasil, Jyothirmayi, and Kunchacko Boban, carries much of the imperfections of the original material and squanders even its neatly crafted buildup"
 img = 'bougainvillea-2.jpg'
-type = 'print'
+media = 'print'
 source = "https://www.thehindu.com/entertainment/movies/bougainvillea-movie-review-an-unsatisfying-psychological-thriller/article68764733.ece"
 +++
 

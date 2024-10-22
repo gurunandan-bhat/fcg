@@ -7,7 +7,7 @@ critics = ['Vishal Menon']
 subtitle = "A Gripping Mind Game With Stellar Acts"
 opening = "The film potently uses the unreliable narrator trope to fully immerse the audience into a story about “gaslighting” and domestic abuse."
 img = 'bougainvillea-4.webp'
-type = 'print'
+media = 'print'
 source = "https://www.hollywoodreporterindia.com/reviews/theatrical/bougainvillea-review-a-gripping-mind-game-with-stellar-acts?s=08"
 +++
 

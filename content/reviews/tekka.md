@@ -7,7 +7,7 @@ critics = ['Shamayita Chakraborty']
 subtitle = "Rukmini Maitra and Dev shine in this hostage drama"
 opening = ""
 img = 'tekka.webp'
-type = 'print'
+media = 'print'
 source = "https://www.ottplay.com/review/tekka-review-rukmini-maitra-and-dev-shine-in-this-hostage-drama/d5d4a5b3a1744"
 +++
 

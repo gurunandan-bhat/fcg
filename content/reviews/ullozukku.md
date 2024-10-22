@@ -8,7 +8,7 @@ opening = 'Urvashi and Parvathy Thiruvothu’s effective performances make direc
 img = 'ullozukku.jpg'
 critics = ['S. R. Praveen']
 source = 'https://www.thehindu.com/entertainment/movies/ullozhukku-movie-review-urvashis-powerhouse-performance-carries-this-haunting-drama/article68316205.ece'
-type = 'print'
+media = 'print'
 +++
 
 Everyone in Ullozhukku is stranded, in one way or the other. Even a dead body remains unburied for days, as flood waters have submerged the burial grounds. The less said of the living, the better. Anju (Parvathy Thiruvothu) and her mother-in-law Leelamma (Urvashi) are in a life not of their choosing. One has come to terms with it, tempered by the struggles of family life, and even yearns to protect that way of living, while the other still has some spirit left to fight her way out of it.

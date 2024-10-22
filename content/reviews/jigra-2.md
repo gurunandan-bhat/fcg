@@ -7,7 +7,7 @@ critics = ['Rahul Desai']
 subtitle = 'Style, Substance, and Alia Bhatt'
 opening = 'In an age of lazy remakes and mindless tributes, Vasan Bala reimagines a small subplot from Mahesh Bhatt’s Gumrah (1993) to craft a sister-brother story that single-handedly reverses the gender dynamics of Bollywood action thrillers.'
 img = 'jigra-2.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.hollywoodreporterindia.com/reviews/theatrical/jigra-review-style-substance-and-alia-bhatt?s=08'
 +++
 

@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Laura Dern, Liam Hemsworth's Aimless Romance Is A Waste Of Time"
 opening = 'Directed by Susannah Grant, the romantic drama has no real spark between its leads.'
 img = 'lonely-planet.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/lonely-planet-movie-review-laura-dern-liam-hemsworth-aimless-romance-is-a-waste-of-time-review-114149938'
 +++
 

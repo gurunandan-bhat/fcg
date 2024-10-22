@@ -7,7 +7,7 @@ critics = ['Uday Bhatia']
 subtitle = 'The Great Escape'
 opening = "Alia Bhatt leads a terrific cast in Vasan Bala's emotionally charged jailbreak film"
 img = 'jigra-4.png'
-type = 'print'
+media = 'print'
 source = 'https://www.livemint.com/mint-lounge/art-and-culture/jigra-review-film-alia-bhatt-vedang-raina-vasan-bala-11728643802874.html'
 +++
 

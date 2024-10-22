@@ -7,7 +7,7 @@ critics = ['Upma Singh']
 subtitle = ""
 opening = ""
 img = 'zindaginama-2.webp'
-type = 'print'
+media = 'print'
 source = "https://navbharattimes.indiatimes.com/entertainment/web-series/review/zindaginama-web-series-review-in-hindi-starring-shreyas-talpade-shweta-basu-prasad-priya-bapat-shruti-seth-sony-liv/moviereview/114143257.cms"
 +++
 

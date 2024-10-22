@@ -8,7 +8,7 @@ opening = 'In 1972, seven women were brutally killed in Manvat, shocking the ent
 img = 'manvat-murders.jpg'
 source = 'https://lehren.com/entertainment/reviews/manvat-murders-review-women-crime-raw-real-ruthless/203246/'
 critics = ['Bharathi Pradhan']
-type = 'print'
+media = 'print'
 +++
 
 The ritualistic Manwat Murders which brutally claimed the lives of innocent children and women and shook Maharashtra in the 70s, does it again. Amol Palekar had already put it effectively on screen in Akriet (1981).

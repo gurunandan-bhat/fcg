@@ -6,6 +6,6 @@ draft = false
 mreviews = ['{{ $title }}']
 critics = ['']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = ''
 +++

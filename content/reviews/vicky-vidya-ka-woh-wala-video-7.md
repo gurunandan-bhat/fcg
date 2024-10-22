@@ -7,7 +7,7 @@ critics = ['Udita Jhunjhunwala']
 subtitle = 'A tacky lowbrow comedy'
 opening = "Raaj Shaandilyaa’s comedy, starring Rajkummar Rao and Triptii Dimri, soon becomes tiresome"
 img = 'vicky-vidya-ka-woh-wala-video-7.png'
-type = 'print'
+media = 'print'
 source = 'https://www.livemint.com/mint-lounge/art-and-culture/vicky-vidya-ka-woh-wala-video-review-film-triptii-dimri-rajkummar-rao-11728730648095.html'
 +++
 

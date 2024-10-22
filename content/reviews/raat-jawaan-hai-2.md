@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = 'Sharp Writing, Likable Cast Boost Up Funny And Relatable Family Comedy'
 opening = 'Starring Anjali Anand, Barun Sobti and Priya Bapat, the engaging comedy is both heartfelt and hilarious.'
 img = 'raat-jawaan-hai-2.webp'
-type = 'print'
+media = 'print'
 source = 'https://www.timesnownews.com/entertainment-news/reviews/raat-jawaan-hai-review-sharp-writing-likable-cast-boost-up-funny-and-relatable-family-comedy-review-114126268'
 +++
 

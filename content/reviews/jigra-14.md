@@ -7,7 +7,7 @@ critics = ['Shilajit Mitra']
 subtitle = "A spirited Alia Bhatt cannot redeem Vasan Bala’s shaky jailbreak film"
 opening = "Despite its competence and moments of poetry, Vasan Bala’s film fails to engage or excite at a visceral level"
 img = 'jigra-14.jpg'
-type = 'print'
+media = 'print'
 source = 'https://www.thehindu.com/entertainment/movies/jigra-movie-review-a-spirited-alia-bhatt-cannot-redeem-vasan-balas-shaky-jailbreak-film/article68744505.ece'
 +++
 

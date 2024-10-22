@@ -7,7 +7,7 @@ critics = ['Manoj Kumar']
 subtitle = "Amal Neerad's film has flaws and a gut-wrenching twist"
 opening = "Bougainvillea tells the story of Reethu Thomas, an amnesiac woman whose fractured memory places her at the centre of a high-stakes investigation."
 img = 'bougainvillea.jpeg'
-type = 'print'
+media = 'print'
 source = "https://www.desimartini.com/reviews/movies/bougainvillea-review-amal-neerads-film-has-flaws-and-a-gut-wrenching-twist/43c5a65d5d956/"
 +++
 

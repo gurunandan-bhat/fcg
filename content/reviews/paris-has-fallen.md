@@ -7,7 +7,7 @@ critics = ['Sonal Pandya']
 subtitle = "Spinoff Series Of Absorbing Action Film Franchise Has Formidable Antagonist"
 opening = "The small screen version of the Has Fallen franchise is off to an intriguing start with a daunting villain."
 img = 'paris-has-fallen.webp'
-type = 'print'
+media = 'print'
 source = "https://www.timesnownews.com/entertainment-news/reviews/paris-has-fallen-review-spinoff-series-of-absorbing-action-film-franchise-has-formidable-antagonist-review-114293655"
 +++
 

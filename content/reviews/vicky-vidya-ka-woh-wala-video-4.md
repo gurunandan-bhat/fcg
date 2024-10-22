@@ -7,7 +7,7 @@ critics = ['Sanyukta Thakare']
 subtitle = 'Rajkummar Rao, Triptii Dimri’s Parody Can’t Be Saved From Itself'
 opening = 'Burn it so we can have a better chance as covering this concept'
 img = 'vicky-vidya-ka-woh-wala-video-4.webp'
-type = 'print'
+media = 'print'
 source = 'https://in.mashable.com/entertainment/83561/vicky-vidya-ka-woh-wala-video-review-rajkummar-rao-triptii-dimris-parody-cant-be-saved-from-itself'
 +++
 

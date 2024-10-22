@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Jigra']
 critics = ['Ajay Brahmatmaj']
 subtitle = ''
-type = 'video'
+media = 'video'
 source = 'fZrNwCvXq_4'
 +++
 

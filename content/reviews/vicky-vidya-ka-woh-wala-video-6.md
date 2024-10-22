@@ -5,7 +5,7 @@ draft = false
 mreviews = ['Vicky Vidya Ka Woh Wala Video']
 critics = ['Bhawana Somaaya']
 subtitle = 'Watch at your own risk'
-type = 'video'
+media = 'video'
 source = 'GCLof4mpICk'
 +++
 

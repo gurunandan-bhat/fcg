@@ -7,7 +7,7 @@ critics = ['Rohan Naahar']
 subtitle = 'Todd Phillips would rather set fire to his own franchise than let the wrong people take inspiration from it; is Vanga watching?'
 opening = "A perverse punchline to a joke that has been played on all of us, Todd Phillips' Joker: Folie à Deux, starring Joaquin Phoenix and Lady Gaga, is bolder, bigger, and altogether braver than the first film."
 img = 'joker-5.png'
-type = 'print'
+media = 'print'
 source = 'https://indianexpress.com/article/entertainment/hollywood/joker-folie-a-deux-todd-phillips-sets-fire-to-his-own-franchise-joaquin-phoenix-lady-gaga-9613458/'
 +++
 

@@ -6,7 +6,7 @@ mreviews = ['Superman']
 critics = ['Avinash Ramachandran']
 source = '6KQTozNMvYU'
 subtitle = 'Hundred Days Hundred Films Ep 5'
-type = 'video'
+media = 'video'
 +++
 
 {{< youtube id="6KQTozNMvYU" >}}
