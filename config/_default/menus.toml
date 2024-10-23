@@ -1,0 +1,24 @@
+[[main]]
+name    = 'Home'
+pageRef = '/'
+weight  = 10
+
+[[main]]
+name    = 'Awards'
+pageRef = '/awards/awards-2024'
+weight  = 20
+
+[[main]]
+name    = 'Reviews'
+pageRef = '/reviews'
+weight  = 20
+
+[[main]]
+name    = 'The Guild'
+pageRef = '/guild'
+weight  = 40
+
+[[main]]
+name    = 'Join Us'
+pageRef = '/join'
+weight  = 50
