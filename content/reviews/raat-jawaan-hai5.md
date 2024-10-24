@@ -6,7 +6,7 @@ mreviews = ['Raat Jawaan Hai']
 critics = ['Upma Singh']
 subtitle = ""
 opening = ""
-img = 'raat-jawaan-hai-5.png'
+img = 'raat-jawaan-hai-5.jpg'
 media = 'print'
 source = "https://navbharattimes.indiatimes.com/entertainment/web-series/review/raat-jawaan-hai-review-in-hindi-starring-sumeet-vyas-barun-sobti-anjali-anand-priya-bapat/moviereview/114154878.cms"
 +++
