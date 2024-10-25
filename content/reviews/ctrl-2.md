@@ -7,7 +7,7 @@ critics = ['Shubhra Gupta']
 subtitle = 'Ananya Panday, Vikramaditya Motwane film is two-dimensional'
 opening = 'While both Ananya Panday and Vihaan Samat do their job well, the film truly feels potent only when it comes off the screen.'
 img = 'ctrl-2.webp'
-type='print'
+media ='print'
 source = 'https://indianexpress.com/article/entertainment/movie-review/ctrl-movie-review-ananya-panday-vikramaditya-motwane-film-is-two-dimensional-9603327/'
 +++
 
