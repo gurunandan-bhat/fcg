@@ -1,5 +1,5 @@
 +++
-title = 'FCG at MAMI'
+title = 'Film Critics Guild Gender Sensitivity Award at MAMI 2024'
 date = 2024-10-28T20:22:42+05:30
 draft = false
 img = 'fcg-at-mami.png'

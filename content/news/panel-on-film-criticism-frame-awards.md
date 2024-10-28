@@ -1,5 +1,5 @@
 +++
-title = 'Panel on Film Criticism Frame Awards'
+title = 'Panel on Film Criticism at Round the Frame Awards in Mumbai'
 date = 2024-10-10T19:30:23+05:30
 draft = false
 img = 'panel-on-film-criticism.png'
