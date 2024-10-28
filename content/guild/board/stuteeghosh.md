@@ -13,4 +13,4 @@ twitter = 'https://twitter.com/rjstutee'
 youtube = 'https://www.youtube.com/channel/UCDNouBCYiJDSsbPuO8_VE9A'
 +++
 
-Stutee Ghosh, a film critic with nearly a decade of experience, has transitioned smoothly across various mediums â radio, television, print & digital. humorous and candid video reviews, sheâs Head of Programming at Fever FM Mumbai .
+Stutee Ghosh, a film critic with nearly a decade of experience, has transitioned smoothly across various mediums &mdash; radio, television, print & digital. She Heads Programming at Fever FM Mumbai .

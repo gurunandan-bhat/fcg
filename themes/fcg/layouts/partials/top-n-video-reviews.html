@@ -27,13 +27,19 @@
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
     {{ $intLinkIcon := index .Site.Data.svgicons.icons "internalLink" }}
+    {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
+    {{ $designation := delimit $memberPage.Params.designations ", " }}
+
+
     <h6 class="fw-bold">
-        {{ .Title }}<br />
+        <span class="d-inline-block pb-2">{{ .Title }}</span>
+        <br />
         <span class="small"
             ><a href="{{ $critPage.Page.RelPermalink }}"
                 >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-            ></span
-        >
+            ><br />
+            <span class="small">{{ $designation }}</span>
+        </span>
     </h6>
     {{ .Content }}
     <h6 class="fw-bold small pt-1 pb-3">

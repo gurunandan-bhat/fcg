@@ -106,14 +106,17 @@
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
+    {{ $designation := delimit $memberPage.Params.designations ", " }}
     <h6 class="fw-bold">
-        {{ .Title }}
+        <span class="d-inline-block pb-2">{{ .Title }}</span>
         <br />
         <span class="small"
             ><a href="{{ $critPage.Page.RelPermalink }}"
                 >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-            ></span
-        >
+            ><br />
+            <span class="small">{{ $designation }}</span>
+        </span>
     </h6>
     <img
         src="/images/reviews/{{- .Params.img }}"
@@ -154,26 +157,30 @@
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
+    {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
+    {{ $designation := delimit $memberPage.Params.designations ", " }}
     <h6 class="fw-bold">
-        {{ .Title }}<br />
+        <span class="d-inline-block pb-2">{{ .Title }}</span>
+        <br />
         <span class="small"
             ><a href="{{ $critPage.Page.RelPermalink }}"
                 >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-            ></span
-        >
-    </h6>
-    {{ .Content }}
-    <h6 class="fw-bold small pt-1 pb-3">
-        {{ .Params.subtitle }}
-    </h6>
-    {{ if gt $revCount 1 }}
-        <h6 class="fw-bold small">
-            Read all {{ $revCount }} reviews of
-            {{ .Title }}
-            <a href="{{ $revPage.Page.RelPermalink }}"
-                >here {{ $intLinkIcon | safeHTML }}</a
-            >
+            ><br />
+            <span class="small">{{ $designation }}</span>
+        </span>
+        {{ .Content }}
+        <h6 class="fw-bold small pt-1 pb-3">
+            {{ .Params.subtitle }}
         </h6>
-    {{ end }}
-    <hr />
+        {{ if gt $revCount 1 }}
+            <h6 class="fw-bold small">
+                Read all {{ $revCount }} reviews of
+                {{ .Title }}
+                <a href="{{ $revPage.Page.RelPermalink }}"
+                    >here {{ $intLinkIcon | safeHTML }}</a
+                >
+            </h6>
+        {{ end }}
+        <hr />
+    </h6>
 {{ end }}
