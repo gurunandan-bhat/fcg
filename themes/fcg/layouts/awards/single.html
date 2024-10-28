@@ -1,99 +1,110 @@
 {{ define "main" }}
-  {{ $year := .Params.awardYear }}
-  {{ $awards := index .Site.Data .Params.dataFile }}
-  <div class="container-fluid mt-4">
-    <img
-      src="/images/reviews/{{- .Params.awardYear -}}-banner.png"
-      class="img-responsive w-100" />
-  </div>
-  <div class="container mt-5">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <h6 class="fw-bold d-inline-block px-2" style="padding-top: 2px;">
-          Browse Awards by Year:
-        </h6>
-        {{ range where site.RegularPages "Section" .Section }}
-          {{ if ne .RelPermalink $.RelPermalink }}
-            <li class="breadcrumb-item">
-              <h6 class="d-inline-block">
-                <a href="{{ .RelPermalink }}">{{ .Params.awardYear }}</a>
-              </h6>
-            </li>
-          {{ else }}
-            <li class="breadcrumb-item active" aria-current="page">
-              <h6 class="d-inline-block">{{ .Params.awardYear }}</h6>
-            </li>
-          {{ end }}
-        {{ end }}
-      </ol>
-    </nav>
-    <div class="row">
-      <div class="col-lg-8">
-        <h1>{{ .Title }}</h1>
-        <div class="lead ps-5">
-          {{ .Summary }}
-        </div>
-        <div class="ps-5 pb-5">
-          {{ .ContentWithoutSummary }}
-        </div>
-      </div>
+    {{ $year := .Params.awardYear }}
+    {{ $awards := index .Site.Data .Params.dataFile }}
+    <div class="container-fluid mt-4">
+        <img
+            src="/images/reviews/{{- .Params.awardYear -}}-banner.png"
+            class="img-responsive w-100" />
     </div>
-    <div class="row mb-4">
-      <div class="col-lg-5 offset-lg-1 mt-4 pt-4 highlight">
-        {{ with $awards.special.winners }}
-          <div class="row">
-            {{ range . }}
-              <div class="col-lg-12 pb-4">
-                <h5 class="fw-bold text-center mb-2">
-                  {{ .title }}
-                  {{ $year }}
-                </h5>
-                <img src="{{ .img }}" class="img-responsive w-100 pb-4" />
-              </div>
-              <hr class="show-on-phone" />
-            {{ end }}
-          </div>
-        {{ end }}
-      </div>
-      <div class="col-lg-5 pt-4">
-        <div class="row">
-          <div class="col-lg-12 pb-4">
-            <h5 class="fw-bold text-center my-3">Feature Films {{ $year }}</h5>
-            {{- partial "carousel.html" (dict "year" $year "category" "feature" "winners" $awards.feature.winners) -}}
-            <hr class="show-on-phone" />
-          </div>
-          <div class="col-lg-12 pb-4">
-            <h5 class="fw-bold text-center my-3">Web Series {{ $year }}</h5>
-            {{- partial "carousel.html" (dict "year" $year "category" "web" "winners" $awards.web.winners) -}}
-            <hr class="show-on-phone" />
-          </div>
-          <div class="col-lg-12 pb-4">
-            <h5 class="fw-bold text-center my-3">Short Films {{ $year }}</h5>
-            {{- partial "carousel.html" (dict "year" $year "category" "short" "winners" $awards.short.winners) -}}
-            <hr class="show-on-phone" />
-          </div>
-          <nav class="py-4" aria-label="breadcrumb">
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <h6 class="fw-bold d-inline-block px-2" style="padding-top: 2px;">
-                Browse Awards by Year:
-              </h6>
-              {{ range where site.RegularPages "Section" .Section }}
-                {{ if ne .RelPermalink $.RelPermalink }}
-                  <li class="breadcrumb-item">
-                    <h6 class="d-inline-block">
-                      <a href="{{ .RelPermalink }}">{{ .Params.awardYear }}</a>
-                    </h6>
-                  </li>
-                {{ else }}
-                  <li class="breadcrumb-item active" aria-current="page">
-                    <h6 class="d-inline-block">{{ .Params.awardYear }}</h6>
-                  </li>
+                <h6
+                    class="fw-bold d-inline-block px-2"
+                    style="padding-top: 2px;">
+                    Browse Awards by Year:
+                </h6>
+                {{ range where site.RegularPages "Section" .Section }}
+                    {{ if ne .RelPermalink $.RelPermalink }}
+                        <li class="breadcrumb-item">
+                            <h6 class="d-inline-block">
+                                <a href="{{ .RelPermalink }}"
+                                    >{{ .Params.awardYear }}</a
+                                >
+                            </h6>
+                        </li>
+                    {{ else }}
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <h6 class="d-inline-block">
+                                {{ .Params.awardYear }}
+                            </h6>
+                        </li>
+                    {{ end }}
                 {{ end }}
-              {{ end }}
             </ol>
-          </nav>
+        </nav>
+        <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+                <div>
+                    <h1>{{ .Title }}</h1>
+                    {{ .Summary }}
+                </div>
+            </div>
+            {{ with $awards.special.winners }}
+                {{ range . }}
+                    <div class="col-lg pb-4">
+                        <h5
+                            class="fw-bold text-center mb-2"
+                            style="height: 3.2rem;">
+                            {{ .title }}
+                            {{ $year }}
+                        </h5>
+                        <img
+                            src="{{ .img }}"
+                            class="img-responsive w-100 pb-4" />
+                    </div>
+                    <hr class="show-on-phone" />
+                {{ end }}
+            {{ end }}
         </div>
-      </div>
+        <div class="row">
+            <div class="col-lg-4 pb-4">
+                <h5 class="fw-bold text-center my-3">
+                    Feature Films
+                    {{ $year }}
+                </h5>
+                {{- partial "carousel.html" (dict "year" $year "category" "feature" "winners" $awards.feature.winners) -}}
+                <hr class="show-on-phone" />
+            </div>
+            <div class="col-lg-4 pb-4">
+                <h5 class="fw-bold text-center my-3">Web Series {{ $year }}</h5>
+                {{- partial "carousel.html" (dict "year" $year "category" "web" "winners" $awards.web.winners) -}}
+                <hr class="show-on-phone" />
+            </div>
+            <div class="col-lg-4 pb-4">
+                <h5 class="fw-bold text-center my-3">
+                    Short Films
+                    {{ $year }}
+                </h5>
+                {{- partial "carousel.html" (dict "year" $year "category" "short" "winners" $awards.short.winners) -}}
+                <hr class="show-on-phone" />
+            </div>
+        </div>
+        <nav class="py-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <h6
+                    class="fw-bold d-inline-block px-2"
+                    style="padding-top: 2px;">
+                    Browse Awards by Year:
+                </h6>
+                {{ range where site.RegularPages "Section" .Section }}
+                    {{ if ne .RelPermalink $.RelPermalink }}
+                        <li class="breadcrumb-item">
+                            <h6 class="d-inline-block">
+                                <a href="{{ .RelPermalink }}"
+                                    >{{ .Params.awardYear }}</a
+                                >
+                            </h6>
+                        </li>
+                    {{ else }}
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <h6 class="d-inline-block">
+                                {{ .Params.awardYear }}
+                            </h6>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ol>
+        </nav>
     </div>
-  </div>
 {{ end }}
