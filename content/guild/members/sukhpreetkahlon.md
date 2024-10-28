@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.456619+05:30
 draft = false
 weight = 470
 title = 'Sukhpreet Kahlon'
-designations = ['Indian Express Digital']
+designations = ['Independent Film Critic']
 img = '/images/members/Sukhpreet-Kahlon.png'
 
 [soc_media]
