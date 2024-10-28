@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.450936+05:30
 draft = false
 weight = 70
 title = 'Arnab Banerjee'
-designations = ['IANS & BBC - Indpendent Film Critic']
+designations = ['Indpendent Film Critic']
 img = '/images/members/Arnab Banerjee.png'
 
 [soc_media]

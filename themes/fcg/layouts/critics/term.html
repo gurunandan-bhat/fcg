@@ -19,7 +19,12 @@
             <div class="col-lg-6">
                 <div class="row ps-4">
                     {{ with $critBio }}
-                        <h5 class="mb-3">Recent Reviews by {{ .LinkTitle }}</h5>
+                        <h5 class="mb-3">
+                            Recent Reviews by {{ .LinkTitle }}<br />
+                            <span class="small"
+                                >{{ delimit .Params.designations ", " }}</span
+                            >
+                        </h5>
                         <div class="col-lg-4">
                             <img
                                 src="{{ .Params.img }}"
@@ -114,11 +119,7 @@
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
     {{ $titleAnchor := lower (replace .Title " " "-") }}
     <a class="anchor" id="{{- $titleAnchor -}}"></a>
-    <h6 class="fw-bold">
-        {{ .Title }}
-        <br />
-        <span class="small">{{ $critic }}</span>
-    </h6>
+    <h6 class="fw-bold">{{ .Title }}</h6>
     <img
         src="/images/reviews/{{- .Params.img }}"
         class="img-responsive w-100 mb-3" />
@@ -159,12 +160,7 @@
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
     {{ $titleAnchor := lower (replace .Title " " "-") }}
     <a class="anchor" id="{{- $titleAnchor -}}"></a>
-    <h6 class="fw-bold">
-        {{ .Title }}<br />
-        <span class="small"
-            ><a href="{{ $critPage.Page.RelPermalink }}">{{ $critic }}</a></span
-        >
-    </h6>
+    <h6 class="fw-bold">{{ .Title }}</h6>
     {{ .Content }}
     <h6 class="fw-bold small pt-1 pb-3">
         {{ .Params.subtitle }}

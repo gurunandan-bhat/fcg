@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.454484+05:30
 draft = false
 weight = 320
 title = 'Sachin Chatte'
-designations = ['The Navhind Times, Goa']
+designations = ['The Navhind Times Goa']
 img = '/images/members/Sachin Chatte Resized.png'
 
 [soc_media]
