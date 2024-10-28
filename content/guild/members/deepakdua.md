@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.451851+05:30
 draft = false
 weight = 130
 title = 'Deepak Dua'
-designations = ['Freelance Film Journalist & Critic']
+designations = ['Independent Film Journalist & Critic']
 img = '/images/members/Deepak Dua.png'
 
 [soc_media]
