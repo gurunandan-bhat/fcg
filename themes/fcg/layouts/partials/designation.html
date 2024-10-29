@@ -1,0 +1,9 @@
+{{ debug.Dump . }}
+{{ $d := slice }}
+{{ range . }}
+    {{ if not (hasSuffix . "FCG") }}
+        {{ $d = append . $d }}
+    {{ end }}
+{{ end }}
+{{ debug.Dump $d }}
+{{ return delimit $d ", " }}

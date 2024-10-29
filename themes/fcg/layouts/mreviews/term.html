@@ -104,7 +104,7 @@
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
-    {{ $designation := delimit $memberPage.Params.designations ", " }}
+    {{ $designation := partial "designation" $memberPage.Params.designations }}
     <a class="anchor" id="{{- $criticAnchor -}}"></a>
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }}</span>
@@ -147,7 +147,7 @@
     {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
     {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
     {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
-    {{ $designation := delimit $memberPage.Params.designations ", " }}
+    {{ $designation := partial "designation" $memberPage.Params.designations }}
     <a class="anchor" id="{{- $criticAnchor -}}"></a>
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }}</span>

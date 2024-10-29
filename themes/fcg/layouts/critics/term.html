@@ -22,7 +22,7 @@
                         <h5 class="mb-3">
                             Recent Reviews by {{ .LinkTitle }}<br />
                             <span class="small"
-                                >{{ delimit .Params.designations ", " }}</span
+                                >{{ partial "designation" .Params.designations }}</span
                             >
                         </h5>
                         <div class="col-lg-4">

@@ -28,7 +28,7 @@
     {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
     {{ $intLinkIcon := index .Site.Data.svgicons.icons "internalLink" }}
     {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
-    {{ $designation := delimit $memberPage.Params.designations ", " }}
+    {{ $designation := partial "designation" $memberPage.Params.designations }}
 
 
     <h6 class="fw-bold">
