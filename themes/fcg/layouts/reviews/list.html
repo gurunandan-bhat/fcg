@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate .Pages 6 }}
+    {{ $paginator := .Paginate .Pages 10 }}
     {{ $pageReviews := $paginator.Pages }}
     {{ $titles := slice }}
     {{ range $pageReviews }}
@@ -110,7 +110,7 @@
                 {{ .Params.opening }}
             </p>
             <div class="small">
-                {{ .Content }}
+                {{ .Summary }}
             </div>
             <p class="small mb-1">
                 <a
