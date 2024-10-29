@@ -18,26 +18,23 @@
         </p> -->
             </div>
             <div class="col-lg-6">
-                <div class="ps-3">
-                    <div class="lead mb-4">
-                        {{ .Content }}
-                    </div>
-                    <p class="fira-sans-regular fw-bold small bright mb-2">
-                        You can also browse reviews using our
-                        <a href="/mreviews">alphabetical index</a> of films
-                        reviewed
-                    </p>
-                    <p><a class="anchor" id="pg-top"></a></p>
-                    <h6 class="fw-bold">Films reviewed on this Page</h6>
-                    <p class="small">
-                        {{ range ($titles | uniq) }}
-                            {{ $count := (where $pageReviews "Title" .) | len }}
-                            <span class="fira-sans-regular"
-                                >{{ . }} ({{ $count }})</span
-                            ><br />
-                        {{ end }}
-                    </p>
+                <div class="lead mb-4">
+                    {{ .Content }}
                 </div>
+                <p class="fira-sans-regular fw-bold small bright mb-2">
+                    You can also browse reviews using our
+                    <a href="/mreviews">alphabetical index</a> of films reviewed
+                </p>
+                <p><a class="anchor" id="pg-top"></a></p>
+                <h6 class="fw-bold">Films reviewed on this Page</h6>
+                <p class="small">
+                    {{ range ($titles | uniq) }}
+                        {{ $count := (where $pageReviews "Title" .) | len }}
+                        <span class="fira-sans-regular"
+                            >{{ . }} ({{ $count }})</span
+                        ><br />
+                    {{ end }}
+                </p>
             </div>
         </div>
     </div>
@@ -102,7 +99,6 @@
             <img
                 src="/images/reviews/{{- .Params.img }}"
                 class="img-responsive w-100 mb-3" />
-
             <h6 class="fw-bold small">
                 {{ .Params.subtitle | safeHTML }}
             </h6>
@@ -154,21 +150,18 @@
                     ><br />
                     <span class="small">{{ $designation }}</span>
                 </span>
-                </h6>
-                {{ .Content }}
-                <h6 class="fw-bold small pt-3">
-                    {{ .Params.subtitle }}
-                </h6>
-                {{ if gt $revCount 1 }}
-                    <h6 class="fw-bold small">
-                        Read all {{ $revCount }} reviews of
-                        {{ .Title }}
-                        <a href="{{ $revPage.Page.RelPermalink }}"
-                            >here {{ $intLinkIcon | safeHTML }}</a 
-                        >
-                    </h6>
-                {{ end }}
             </h6>
+            {{ .Content }}
+            <h6 class="fw-bold small pt-3">{{ .Params.subtitle }}</h6>
+            {{ if gt $revCount 1 }}
+                <h6 class="fw-bold small">
+                    Read all {{ $revCount }} reviews of
+                    {{ .Title }}
+                    <a href="{{ $revPage.Page.RelPermalink }}"
+                        >here {{ $intLinkIcon | safeHTML }}</a
+                    >
+                </h6>
+            {{ end }}
             <hr class="my-3" />
         </div>
     </div>
