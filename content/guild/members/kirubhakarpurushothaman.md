@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.4524+05:30
 draft = false
 weight = 170
 title = 'Kirubhakar Purushothaman'
-designations = ['Indian Express']
+designations = ['News 18']
 img = '/images/members/Kirubhakar .png'
 
 [soc_media]
