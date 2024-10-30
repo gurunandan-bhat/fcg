@@ -23,36 +23,15 @@
 
 {{ define "partials/inline/video-review" }}
     {{ $critic := index .Params.critics 0 }}
-    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-    {{ $intLinkIcon := index .Site.Data.svgicons.icons "internalLink" }}
-    {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
-    {{ $designation := partial "designation" $memberPage.Params.designations }}
-
-
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }}</span>
         <br />
-        <span class="small"
-            ><a href="{{ $critPage.Page.RelPermalink }}"
-                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-            ><br />
-            <span class="small">{{ $designation }}</span>
-        </span>
+        {{ partial "taxonomy/critics/reviewLink" $critic }}
     </h6>
     {{ .Content }}
     <h6 class="fw-bold small pt-1 pb-3">
         {{ .Params.subtitle }}
     </h6>
-    {{ if gt $revCount 1 }}
-        <h6 class="fw-bold small">
-            Read all {{ $revCount }} reviews of
-            {{ .Title }}
-            <a href="{{ $revPage.Page.RelPermalink }}"
-                >here {{ $intLinkIcon | safeHTML }}</a
-            >
-        </h6>
-    {{ end }}
+    {{ partial "taxonomy/mreviews/reviewLink" .Title }}
     <hr />
 {{ end }}

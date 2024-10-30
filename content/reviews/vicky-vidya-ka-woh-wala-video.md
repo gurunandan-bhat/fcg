@@ -6,7 +6,7 @@ mreviews = ['Vicky Vidya Ka Woh Wala Video']
 critics = ['Sukanya Verma']
 subtitle = 'Stree, Lies & Videotape'
 opening = "Between tons of sexual innuendo and Kapil Sharma brand of slapstick gags characterised in loud caricatures, moronic behaviour, flimsy wigs and cartoonish rhythm, Vicky Vidya Ka Woh Wala Video's jarring notions of exuberance have nothing novel to offer."
-img = 'vicky-vidya-ka-woh-wala-video.jpg'
+img = 'vicky-vidya-ka-woh-wala-video.png'
 media = 'print'
 source = 'https://www.rediff.com/movies/review/vicky-vidya-ka-woh-wala-video-review-stree-lies--videotape/20241011.htm'
 +++

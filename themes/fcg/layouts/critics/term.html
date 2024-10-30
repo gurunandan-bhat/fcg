@@ -58,9 +58,9 @@
             <div class="col-lg-10 offset-lg-1">
                 {{ range  $pageReviews }}
                     {{ if eq .Params.media "print" }}
-                        {{ block "print-review" . }}{{ end }}
+                        {{ partial "taxonomy/critics/print-review" . }}
                     {{ else }}
-                        {{ block "video-review" . }}{{ end }}
+                        {{ partial "taxonomy/critics/video-review" . }}
                     {{ end }}
                 {{ end }}
             </div>
@@ -79,79 +79,4 @@
             });
         }
     </script>
-{{ end }}
-
-{{ define "print-review" }}
-    {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-    {{ $critic := index .Params.critics 0 }}
-    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-    {{ $titleAnchor := lower (replace .Title " " "-") }}
-    <div class="row mb-3">
-        <div class="col-lg-8 offset-lg-2">
-            <a class="anchor" id="{{- $titleAnchor -}}"></a>
-            <h6 class="fw-bold">{{ .Title }}</h6>
-            <img
-                src="/images/reviews/{{- .Params.img }}"
-                class="img-responsive w-100 mb-3" />
-            <h6 class="fw-bold small pb-2">
-                {{ .Params.subtitle | safeHTML }}
-            </h6>
-            <p class="summary small text-primary-emphasis">
-                {{ .Params.opening }}
-            </p>
-            <div class="small">
-                {{ .Summary }}
-            </div>
-            <p class="small mb-1">
-                <a
-                    target="_blank"
-                    href="{{ .Params.source }}"
-                    class="d-flex align-items-center">
-                    {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
-                >
-            </p>
-            {{ if gt $revCount 1 }}
-                <h6 class="fw-bold small">
-                    Read all {{ $revCount }} reviews of
-                    {{ .Title }}
-                    <a href="{{ $revPage.Page.RelPermalink }}"
-                        >here {{ $intLinkIcon | safeHTML }}</a
-                    >
-                </h6>
-            {{ end }}
-            <hr />
-        </div>
-    </div>
-{{ end }}
-
-{{ define "video-review" }}
-    {{ $critic := index .Params.critics 0 }}
-    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-    {{ $titleAnchor := lower (replace .Title " " "-") }}
-    <div class="row mb-3">
-        <div class="col-lg-8 offset-lg-2">
-            <a class="anchor" id="{{- $titleAnchor -}}"></a>
-            <h6 class="fw-bold">{{ .Title }}</h6>
-            {{ .Content }}
-            <h6 class="fw-bold small pt-1 pb-3">
-                {{ .Params.subtitle }}
-            </h6>
-            {{ if gt $revCount 1 }}
-                <h6 class="fw-bold small">
-                    Read all {{ $revCount }} reviews of
-                    {{ .Title }}
-                    <a href="{{ $revPage.Page.RelPermalink }}"
-                        >here {{ $intLinkIcon | safeHTML }}</a
-                    >
-                </h6>
-            {{ end }}
-            <hr />
-        </div>
-    </div>
 {{ end }}

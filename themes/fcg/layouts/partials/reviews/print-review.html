@@ -1,0 +1,31 @@
+{{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" | safeHTML }}
+{{ $critic := index .Params.critics 0 }}
+<div class="row mb-3">
+    <div class="col-lg-8 offset-lg-2">
+        <h6 class="fw-bold">
+            <span class="d-inline-block pb-2">{{ .Title }}</span>
+            <br />
+            {{ partial "taxonomy/critics/reviewLink" $critic }}
+        </h6>
+        <img
+            src="/images/reviews/{{- .Params.img }}"
+            class="img-responsive w-100 mb-3" />
+        <h6 class="fw-bold small">{{ .Params.subtitle | safeHTML }} <br /></h6>
+        <p class="summary small text-primary-emphasis">
+            {{ .Params.opening | safeHTML }}
+        </p>
+        <div class="small">
+            {{ .Summary }}
+        </div>
+        <p class="small mb-1">
+            <a
+                target="_blank"
+                href="{{ .Params.source }}"
+                class="d-flex align-items-center">
+                {{ $extLinkIcon }} Continue reading &hellip;</a
+            >
+        </p>
+        {{ partial "taxonomy/mreviews/reviewLink" .Title }}
+        <hr class="my-3" />
+    </div>
+</div>

@@ -1,0 +1,9 @@
+{{ $critPage := index site.Taxonomies.critics (lower .) }}
+{{ $memberPage := index (where site.RegularPages "Title" $critPage.Page.Title) 0 }}
+{{ $designation := partial "designation" $memberPage.Params.designations }}
+{{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" | safeHTML }}
+<span class="small">
+    <a href="{{ $critPage.Page.RelPermalink }}">{{ . }} {{ $intLinkIcon }}</a
+    ><br />
+    <span class="small">{{ $designation }}</span>
+</span>

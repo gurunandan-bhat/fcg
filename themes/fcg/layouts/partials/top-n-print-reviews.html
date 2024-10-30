@@ -24,22 +24,11 @@
 
 {{ define "partials/inline/print-review" }}
     {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
     {{ $critic := index .Params.critics 0 }}
-    {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
-    {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}
-    {{ $critPage := index .Site.Taxonomies.critics (lower $critic) }}
-    {{ $memberPage := index (where .Site.RegularPages "Title" $critPage.Page.Title) 0 }}
-    {{ $designation := partial "designation" $memberPage.Params.designations }}
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }}</span>
         <br />
-        <span class="small"
-            ><a href="{{ $critPage.Page.RelPermalink }}"
-                >{{ $critic }} {{ $intLinkIcon | safeHTML }}</a
-            ><br />
-            <span class="small">{{ $designation }}</span>
-        </span>
+        {{ partial "taxonomy/critics/reviewLink" $critic }}
     </h6>
     <img
         src="/images/reviews/{{- .Params.img }}"
@@ -61,14 +50,6 @@
             {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
         >
     </p>
-    {{ if gt $revCount 1 }}
-        <h6 class="fw-bold small">
-            Read all {{ $revCount }} reviews of
-            {{ .Title }}
-            <a href="{{ $revPage.Page.RelPermalink }}"
-                >here {{ $intLinkIcon | safeHTML }}</a
-            >
-        </h6>
-    {{ end }}
+    {{ partial "taxonomy/mreviews/reviewLink" .Title }}
     <hr class="show-on-phone pb-3" />
 {{ end }}
