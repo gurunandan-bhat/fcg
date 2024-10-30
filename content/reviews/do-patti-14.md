@@ -6,7 +6,7 @@ mreviews = ['Do Patti']
 critics = ['Srivathsan Nadadhur']
 subtitle = "Kriti Sanon, Kajol Shine In A Deceptive Yet Uneven Thriller"
 opening = ""
-img = 'do-patti-14.jpg'
+img = 'do-patti-14.png'
 media = 'print'
 source = "https://www.binged.com/reviews/do-patti-movie-review/"
 +++
