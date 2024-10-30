@@ -2,7 +2,7 @@ baseURL       = 'https://example.com/'
 languageCode  = 'en-us'
 title         = 'Film Critics Guild'
 theme         = 'fcg'
-summaryLength = 50
+summaryLength = 30
 
 [pagination]
 pagerSize = 6

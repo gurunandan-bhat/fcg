@@ -6,7 +6,7 @@ mreviews = ['Hellbound S02']
 critics = ['Srivathsan Nadadhur']
 subtitle = "The Hit Korean Thriller Has a Decent Round-Two"
 opening = "The Hit Korean Thriller Has a Decent Round-Two"
-img = 'hellbound-s02.jpg'
+img = 'hellbound-s02.png'
 media = 'print'
 source = "https://www.binged.com/reviews/hellbound-season-2-series-review/"
 +++

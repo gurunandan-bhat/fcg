@@ -6,7 +6,7 @@ mreviews = ['Colourrs of Love']
 critics = ['Srivathsan Nadadhur']
 subtitle = 'This Breezy Urban Romance Works In Parts'
 opening = ''
-img = 'colourrs-of-love.jpg'
+img = 'colourrs-of-love.png'
 source = 'https://www.binged.com/reviews/colourrs-of-love-movie-review/'
 media = 'print'
 +++

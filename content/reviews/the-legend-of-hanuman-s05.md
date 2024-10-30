@@ -6,7 +6,7 @@ mreviews = ['The Legend of Hanuman S05']
 critics = ['Srivathsan Nadadhur']
 subtitle = "A worthy, lively peek into an epic from a new tangent"
 opening = ""
-img = 'the-legend-of-hanuman-s05.jpg'
+img = 'the-legend-of-hanuman-s05.png'
 media = 'print'
 source = "https://www.binged.com/reviews/the-legend-of-hanuman-season-5-series-review/"
 +++
