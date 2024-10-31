@@ -11,4 +11,4 @@ instagram = 'https://www.instagram.com/kirubhakar_purushothaman/'
 linktree = 'https://linktr.ee/kirubhakarpurushothaman'
 +++
 
-Kirubhakar Purushothaman is a Principal Correspondent with Indian Express and is based out of Chennai. He has been writing about Tamil cinema and OTT content for the past eight years across top media houses like India Today and Deccan Chronicle.
+Kirubhakar Purushothaman is a Principal Correspondent with News 18 and is based out of Chennai. He has been writing about Tamil cinema and OTT content for the past eight years across top media houses like India Today, Indian Express and Deccan Chronicle.
