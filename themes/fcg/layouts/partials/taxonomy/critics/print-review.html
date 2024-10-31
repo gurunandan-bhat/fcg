@@ -25,7 +25,7 @@
                 {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
             >
         </p>
-        {{ partial "taxonomy/mreviews/reviewLink" .Title }}
+        {{ partialCached "taxonomy/mreviews/reviewLink" .Title .Title }}
         <hr />
     </div>
 </div>

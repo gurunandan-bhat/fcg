@@ -7,7 +7,7 @@
         <h6 class="fw-bold">
             <span class="d-inline-block pb-2">{{ .Title }}</span>
             <br />
-            {{ partial "taxonomy/critics/reviewLink" $critic }}
+            {{ partialCached "taxonomy/critics/reviewLink" $critic $critic }}
         </h6>
         {{ .Content }}
         <h6 class="fw-bold small pt-1 pb-3">

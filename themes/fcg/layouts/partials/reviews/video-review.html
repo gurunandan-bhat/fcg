@@ -8,11 +8,11 @@
         <h6 class="fw-bold pb-3">
             <span class="d-inline-block pb-2">{{ .Title }}</span>
             <br />
-            {{ partial "taxonomy/critics/reviewLink" $critic }}
+            {{ partialCached "taxonomy/critics/reviewLink" $critic $critic }}
         </h6>
         {{ .Content }}
         <h6 class="fw-bold small pt-3">{{ .Params.subtitle }}</h6>
-        {{ partial "taxonomy/mreviews/reviewLink" .Title }}
+        {{ partialCached "taxonomy/mreviews/reviewLink" .Title .Title }}
         <hr class="my-3" />
     </div>
 </div>

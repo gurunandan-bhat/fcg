@@ -28,7 +28,7 @@
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }}</span>
         <br />
-        {{ partial "taxonomy/critics/reviewLink" $critic }}
+        {{ partialCached "taxonomy/critics/reviewLink" $critic $critic }}
     </h6>
     <img
         src="/images/reviews/{{- .Params.img }}"
@@ -50,6 +50,6 @@
             {{ $extLinkIcon | safeHTML }} Continue reading &hellip;</a
         >
     </p>
-    {{ partial "taxonomy/mreviews/reviewLink" .Title }}
+    {{ partialCached "taxonomy/mreviews/reviewLink" .Title .Title }}
     <hr class="show-on-phone pb-3" />
 {{ end }}

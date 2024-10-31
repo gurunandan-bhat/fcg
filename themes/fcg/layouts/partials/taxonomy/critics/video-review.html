@@ -7,7 +7,7 @@
         <h6 class="fw-bold small pt-1 pb-3">
             {{ .Params.subtitle }}
         </h6>
-        {{ partial "taxonomy/mreviews/reviewLink" .Title }}
+        {{ partialCached "taxonomy/mreviews/reviewLink" .Title .Title }}
         <hr />
     </div>
 </div>
