@@ -1,8 +1,8 @@
 +++
-title = 'Mithya: the Dark Chapter'
+title = 'Mithya: the Darker Chapter'
 date = 2024-10-31T19:46:56+05:30
 draft = false
-mreviews = ['Mithya: the Dark Chapter']
+mreviews = ['Mithya: the Darker Chapter']
 critics = ['Rahul Desai']
 subtitle = "How much Mithya is too much Mithya?"
 opening = "The second season of Mithya continues to be a celebration of mediocrity."
