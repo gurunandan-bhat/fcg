@@ -7,9 +7,9 @@
             <br />
             {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
         </h6>
-        {{ $img := resources.Get (printf "images/reviews/%s" .Params.img ) }}
-        {{ $img = $img.Fill "640x360 Center" }}
-        <img src="{{ $img.RelPermalink }}" class="img-responsive w-100 mb-3" />
+        {{ with (partial "scaledImage" (printf "images/reviews/%s" .Params.img)) }}
+            <img src="{{ .RelPermalink }}" class="img-responsive w-100 mb-3" />
+        {{ end }}
         <h6 class="fw-bold small">{{ .Params.subtitle | safeHTML }} <br /></h6>
         <p class="summary small text-primary-emphasis">
             {{ .Params.opening | safeHTML }}

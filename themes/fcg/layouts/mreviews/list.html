@@ -6,9 +6,9 @@
             {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
             {{ $img := "" }}
             {{ if (isset .Page.Params "img") }}
-                {{ $img = resources.Get (printf "images/reviews/%s" .Page.Params.img) }}
-                {{ $img = $img.Fill "640x360 Center" }}
-                {{ $img = $img.RelPermalink | safeHTML }}
+                {{ with partial "scaledImage" (printf "images/reviews/%s" .Page.Params.img) }}
+                    {{ $img = .RelPermalink | safeHTML }}
+                {{ end }}
             {{ else }}
                 {{ $img = (printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Page.Params.source) | safeHTML }}
             {{ end }}

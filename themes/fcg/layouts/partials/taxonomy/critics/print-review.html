@@ -8,9 +8,9 @@
             {{ .Title }}
             {{ with .Params.publication }}(written for {{ . }}){{ end }}
         </h6>
-        {{ $img := resources.Get (printf "images/reviews/%s" .Params.img) }}
-        {{ $img = $img.Fill "640x360 Center" }}
-        <img src="{{ $img.RelPermalink }}" class="img-responsive w-100 mb-3" />
+        {{ with partial "scaledImage" (printf "images/reviews/%s" .Params.img) }}
+            <img src="{{ .RelPermalink }}" class="img-responsive w-100 mb-3" />
+        {{ end }}
         <h6 class="fw-bold small pb-2">
             {{ .Params.subtitle | safeHTML }}
         </h6>
