@@ -1,74 +1,74 @@
 {{ define "main" }}
-  {{ $membersPage := index (where .Site.Pages "Section" "Guild") 0 }}
-  <div class="container col-xxl-8 px-2 py-2">
-    <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
-      <div class="col-lg-6">
-        <img
-          src="/images/join/banner.png"
-          class="d-block mx-lg-auto img-responsive w-100"
-          alt="Side Banner"
-          loading="lazy" />
-      </div>
-      <div class="col-lg-6 lead">
-        {{ .Content }}
-      </div>
+    {{ $membersPage := index (where .Site.Pages "Section" "Guild") 0 }}
+    <div class="container col-xxl-8 px-2 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
+            <div class="col-lg-6">
+                <img
+                    src="/images/join/banner.png"
+                    class="d-block mx-lg-auto img-responsive w-100"
+                    alt="Side Banner"
+                    loading="lazy" />
+            </div>
+            <div class="col-lg-6 lead">
+                {{ .Content }}
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container my-5 py-5">
-    <div class="row px-3">
-      <div class="col-lg-4">
-        <h4 class="fw-bold text-center mb-2">1. Check if you Qualify</h4>
-        <p>
-          Every member of our Guild is a respected member of the community of
-          film reviewers of long standing. We expect you are no less. Read our
-          requirements for membership to the Guild below and our expectations.
-          Pay particular attention to the length of service and volume of
-          reviews.
-        </p>
-      </div>
-      <div class="col-lg-4">
-        <h4 class="fw-bold text-center mb-2">2. Find a referer</h4>
-        <p>
-          Membership requires a referral from an existing member recommending
-          your request. You can browse the list of
-          <a href="/guild">our members</a> and choose to request a person of
-          your choice to recommend you. That member will confirm that you
-          fulfill the membership and ethical criteria.
-        </p>
-      </div>
-      <div class="col-lg-4">
-        <h4 class="fw-bold text-center mb-2">3. Send us your info</h4>
-        <p>
-          Send us a reasonably structured email with information supporting your
-          request to
-          <a href="mailto:filmcriticsguildindia@gmail.com">this address</a>. We
-          are particularly interested to know that you fulfill the age,
-          residency, work experience publication output and that you agree with
-          our expectations of ethical behaviour.
-        </p>
-      </div>
+    <div class="container my-5 py-5">
+        <div class="row px-3">
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-center mb-2">
+                    1. Check if you Qualify
+                </h4>
+                <p>
+                    Every application gets vetted by the Film Critics Guild
+                    Vetting Committee before they can be added to the Guild.
+                    Please read our rules and regulations given below to see if
+                    you qualify for application.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-center mb-2">2. Find a referer</h4>
+                <p>
+                    Membership requires a referral from an existing member
+                    recommending your request. You can browse the list of
+                    <a href="/guild">our members</a> and choose to request a
+                    person of your choice to recommend you.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-center mb-2">3. Send us your info</h4>
+                <p>
+                    Please write to
+                    <a href="mailto:filmcriticsguildindia@gmail.com"
+                        >this address</a
+                    >
+                    requesting us for the application form. Kindly read the
+                    rules and regulations given below before applying.
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container py-5 my-5">
-    <div class="row">
-      <div
-        class="col-lg-5 offset-lg-1 hide-on-phone border-end border-secondary-subtle">
-        {{ with index (where .RegularPages "LinkTitle" "To Qualify") 0 }}
-          <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
-          <div class="join-list small">
-            {{ .Content }}
-          </div>
-        {{ end }}
-      </div>
-      <hr class="my-5 show-on-phone" />
-      <div class="col-lg-5">
-        {{ with index (where .RegularPages "LinkTitle" "What We Expect") 0 }}
-          <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
-          <div class="join-list small">
-            {{ .Content }}
-          </div>
-        {{ end }}
-      </div>
+    <div class="container py-5 my-5">
+        <div class="row">
+            <div
+                class="col-lg-5 offset-lg-1 hide-on-phone border-end border-secondary-subtle">
+                {{ with index (where .RegularPages "LinkTitle" "To Qualify") 0 }}
+                    <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
+                    <div class="join-list small">
+                        {{ .Content }}
+                    </div>
+                {{ end }}
+            </div>
+            <hr class="my-5 show-on-phone" />
+            <div class="col-lg-5">
+                {{ with index (where .RegularPages "LinkTitle" "What We Expect") 0 }}
+                    <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
+                    <div class="join-list small">
+                        {{ .Content }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
-  </div>
 {{ end }}
