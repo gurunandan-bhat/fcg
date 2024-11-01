@@ -30,9 +30,9 @@
         <br />
         {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
     </h6>
-    <img
-        src="/images/reviews/{{- .Params.img }}"
-        class="img-responsive w-100 mb-3" />
+    {{ $img := resources.Get (printf "images/reviews/%s" .Params.img ) }}
+    {{ $img = $img.Fill "640x360 Center" }}
+    <img src="{{ $img.RelPermalink }}" class="img-responsive w-100 mb-3" />
     <h6 class="fw-bold small pb-2">
         {{ .Params.subtitle | safeHTML }}
     </h6>

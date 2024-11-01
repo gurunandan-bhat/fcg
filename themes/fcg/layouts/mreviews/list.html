@@ -6,9 +6,11 @@
             {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
             {{ $img := "" }}
             {{ if (isset .Page.Params "img") }}
-                {{ $img = printf "/images/reviews/%s" .Page.Params.img }}
+                {{ $img = resources.Get (printf "images/reviews/%s" .Page.Params.img) }}
+                {{ $img = $img.Fill "640x360 Center" }}
+                {{ $img = $img.RelPermalink | safeHTML }}
             {{ else }}
-                {{ $img = printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Page.Params.source }}
+                {{ $img = (printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Page.Params.source) | safeHTML }}
             {{ end }}
             {{ $map = merge $map (dict "title" (index .Page.Params.mreviews 0) "img" $img "link" $mLink) }}
         {{ end }}
@@ -66,7 +68,7 @@
                             >
                         </h6>
                         <img
-                            src="{{- (index . "img") | safeHTML -}}"
+                            src="{{- (index . "img") -}}"
                             class="img-responsive w-100 mb-3" />
                         <p class="fira-sans-regular small">
                             <span class="fw-bold bright">Reviewed by:</span
