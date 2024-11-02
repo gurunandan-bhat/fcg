@@ -49,11 +49,15 @@
             {{ template "_internal/pagination.html" . }}
         </div>
         {{ range  $pageReviews }}
-            {{ if eq .Params.media "print" }}
-                {{ partial "reviews/print-review" . }}
-            {{ else }}
-                {{ partial "reviews/video-review" . }}
-            {{ end }}
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    {{ if eq .Params.media "print" }}
+                        {{ partial "reviews/print-review" . }}
+                    {{ else }}
+                        {{ partial "reviews/video-review" . }}
+                    {{ end }}
+                </div>
+            </div>
         {{ end }}
         <div class="d-flex justify-content-center py-3 mb-3">
             {{ template "_internal/pagination.html" . }}

@@ -11,7 +11,7 @@
             {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
         </h6>
         {{ .Content }}
-        <h6 class="fw-bold small pt-3">{{ .Params.subtitle }}</h6>
+        <h6 class="fw-bold pt-3">{{ .Params.subtitle }}</h6>
         {{ partialCached "taxonomy/mreviews/reviewLink" .Title .Title }}
         <hr class="my-3" />
     </div>
