@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.454202+05:30
 draft = false
 weight = 300
 title = 'Rohit Vats'
-designations = ['DNA']
+organizations = ['DNA']
 img = '/images/members/Rohit_vats.jpg'
 
 [soc_media]

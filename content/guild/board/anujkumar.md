@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.450655+05:30
 draft = false
 weight = 50
 title = 'Anuj Kumar'
-designations = ['The Hindu']
+organizations = ['The Hindu']
 img = '/images/members/Anuj Kumar.png'
 +++
 

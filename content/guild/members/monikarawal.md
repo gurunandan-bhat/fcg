@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.453357+05:30
 draft = false
 weight = 240
 title = 'Monika Rawal'
-designations = ['Independent Film Critic']
+organizations = ['Independent Film Critic']
 img = '/images/members/Monika Rawal.png'
 
 [soc_media]

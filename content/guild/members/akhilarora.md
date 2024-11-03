@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.450379+05:30
 draft = false
 weight = 30
 title = 'Akhil Arora'
-designations = ['akhilarora.com']
+organizations = ['akhilarora.com']
 img = '/images/members/Akhil Arora.png'
 
 [soc_media]

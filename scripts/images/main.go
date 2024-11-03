@@ -12,7 +12,7 @@ import (
 
 // bio = "Mihir Bhanage is a film critic and has been reviewing films, majorly Marathi, for Times of India since 2014. Besides reviews, he is also an entertainment correspondent for Pune Times. As a viewer, he loves to watch films across genres and languages"
 // tag = "mihirbhanage"
-// designations = [ "The Times of India" ]
+// organizations = [ "The Times of India" ]
 // name = "Mihir Bhanage"
 // img = "/images/members/Mihir-Bhanage.png"
 
@@ -25,7 +25,7 @@ type SocMed map[string]string
 type MemberIn struct {
 	Name         string   `toml:"name,omitempty"`
 	Bio          string   `toml:"bio,omitempty"`
-	Designations []string `toml:"designations,omitempty"`
+	Designations []string `toml:"organizations,omitempty"`
 	Img          string   `toml:"img,omitempty"`
 	Social       SocMed   `toml:"soc_media,omitempty"`
 	Tag          string   `toml:"tag,omitempty"`
@@ -34,7 +34,7 @@ type MemberIn struct {
 type MemberOut struct {
 	Name         string   `toml:"title,omitempty"`
 	Bio          string   `toml:"-"`
-	Designations []string `toml:"designations,omitempty"`
+	Designations []string `toml:"organizations,omitempty"`
 	Img          string   `toml:"img,omitempty"`
 	Social       SocMed   `toml:"soc_media,omitempty"`
 	Tag          string   `toml:"tag,omitempty"`

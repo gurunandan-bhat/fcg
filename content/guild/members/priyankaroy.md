@@ -3,7 +3,7 @@ title = 'Priyanka Roy'
 date = 2024-09-30T14:28:24+05:30
 draft = false
 weight = 255
-designations = ['The Telegraph']
+organizations = ['The Telegraph']
 img = '/images/members/Priyanka Roy.jpg'
 
 [soc_media]

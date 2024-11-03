@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.451686+05:30
 draft = false
 weight = 120
 title = 'Bhawana Somaaya'
-designations = ['92.7 Big FM']
+organizations = ['92.7 Big FM']
 img = '/images/members/Bhaavna.jpg'
 
 [soc_media]

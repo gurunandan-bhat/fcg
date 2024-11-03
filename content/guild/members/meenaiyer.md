@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.453067+05:30
 draft = false
 weight = 220
 title = 'Meena Iyer'
-designations = ['Hindustan Times']
+organizations = ['Hindustan Times']
 img = '/images/members/Meena Iyer.png'
 
 [soc_media]

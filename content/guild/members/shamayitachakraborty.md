@@ -3,7 +3,7 @@ title = 'Shamayita Chakraborty'
 date = 2024-09-30T14:34:57+05:30
 draft = false
 weight = 355
-designations = ['OTT Play']
+organizations = ['OTT Play']
 img = '/images/members/Shamayita.jpg'
 
 [soc_media]

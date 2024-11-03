@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.454924+05:30
 draft = false
 weight = 350
 title = 'Sanyukta Thakare'
-designations = ['Mashable India']
+organizations = ['Mashable India']
 img = '/images/members/Sanyukta-Thakare.png'
 
 [soc_media]

@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.452116+05:30
 draft = false
 weight = 150
 title = 'Ishita Sengupta'
-designations = ['Independent Film Critic']
+organizations = ['Independent Film Critic']
 img = '/images/members/Ishita Sengupta.png'
 
 [soc_media]

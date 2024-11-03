@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.456354+05:30
 draft = false
 weight = 450
 title = 'Suhani Singh'
-designations = ['India Today']
+organizations = ['India Today']
 img = '/images/members/SUHANI SINGH.jpg'
 
 [soc_media]

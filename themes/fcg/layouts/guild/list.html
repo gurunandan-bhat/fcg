@@ -1,90 +1,90 @@
 {{ define "main" }}
-  <div class="container-fluid">
-    <img src="/images/members/banner.png" class="img-responsive w-100" />
-  </div>
-  <div class="container" style="padding-top: 100px;">
-    <div class="row">
-      <div class="col-8 py-4">
-        <h1 class="mb-5">{{ .Title }}</h1>
-        <!-- Using the guild list template -->
-        {{ .Content }}
-      </div>
+    <div class="container-fluid">
+        <img src="/images/members/banner.png" class="img-responsive w-100" />
     </div>
-
-    <div class="row ps-3">
-      <div class="col-lg-4 py-3 highlight">
-        <h4 class="fw-bol">The Managing Committee</h4>
-        <h6 class="mb-3">2024&ndash;2027</h6>
-        {{ $sectionBoard := index (where .Sections "Type" "guild/board") 0 }}
-        {{ range  $sectionBoard.Pages }}
-          <div class="col-lg-12 px-1">
-            {{ block "member" . }}{{ end }}
-            <hr class="py-2" />
-          </div>
-        {{ end }}
-      </div>
-      <div class="col-lg-8 py-3 pad-for-lg">
-        <a class="anchor" id="pg-top"></a>
-        <h4 class="fw-bold">Members</h4>
-        {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
-        {{ $paginator := .Paginate $sectionMembers.Pages  20 }}
+    <div class="container" style="padding-top: 100px;">
         <div class="row">
-          <div class="d-flex justify-content-center py-3 mb-3">
-            {{ template "_internal/pagination.html" . }}
-          </div>
-          {{ range $paginator.Pages }}
-            <div class="col-lg-6 mb-5">
-              {{ block "member" . }}{{ end }}
-              <hr class="show-on-phone py-2" />
+            <div class="col-8 py-4">
+                <h1 class="mb-5">{{ .Title }}</h1>
+                <!-- Using the guild list template -->
+                {{ .Content }}
             </div>
-          {{ end }}
-          <div class="d-flex justify-content-center py-3 mb-3">
-            {{ template "_internal/pagination.html" . }}
-          </div>
         </div>
-      </div>
+
+        <div class="row ps-3">
+            <div class="col-lg-4 py-3 highlight">
+                <h4 class="fw-bol">The Managing Committee</h4>
+                <h6 class="mb-3">2024&ndash;2027</h6>
+                {{ $sectionBoard := index (where .Sections "Type" "guild/board") 0 }}
+                {{ range  $sectionBoard.Pages }}
+                    <div class="col-lg-12 px-1">
+                        {{ block "member" . }}{{ end }}
+                        <hr class="py-2" />
+                    </div>
+                {{ end }}
+            </div>
+            <div class="col-lg-8 py-3 pad-for-lg">
+                <a class="anchor" id="pg-top"></a>
+                <h4 class="fw-bold">Members</h4>
+                {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
+                {{ $paginator := .Paginate $sectionMembers.Pages  20 }}
+                <div class="row">
+                    <div class="d-flex justify-content-center py-3 mb-3">
+                        {{ template "_internal/pagination.html" . }}
+                    </div>
+                    {{ range $paginator.Pages }}
+                        <div class="col-lg-6 mb-5">
+                            {{ block "member" . }}{{ end }}
+                            <hr class="show-on-phone py-2" />
+                        </div>
+                    {{ end }}
+                    <div class="d-flex justify-content-center py-3 mb-3">
+                        {{ template "_internal/pagination.html" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <script>
-    let url = window.location.href;
-    const mch = url.match(/page\/(\d+)\/$/);
-    if (mch && mch[1] !== 1) {
-      let anch = document.getElementById("pg-top");
-      window.addEventListener("load", function (e) {
-        anch.scrollIntoView();
-      });
-    }
-  </script>
+    <script>
+        let url = window.location.href;
+        const mch = url.match(/page\/(\d+)\/$/);
+        if (mch && mch[1] !== 1) {
+            let anch = document.getElementById("pg-top");
+            window.addEventListener("load", function (e) {
+                anch.scrollIntoView();
+            });
+        }
+    </script>
 {{ end }}
 
 {{ define "member" }}
-  {{ $critPage := index .Site.Taxonomies.critics (lower .Title) }}
-  {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
-  <h6 class="mb-0">
-    {{ .LinkTitle }}
-    <div class="float-end">
-      {{ partial "social-media-links.html" .Params.soc_media }}
-    </div>
-  </h6>
-  {{ with .Params.designations }}
-    <p class="fira-sans-regular small mb-0">
-      {{ delimit . ", " " and " }}
-    </p>
-  {{ end }}
-  <img
-    src="{{- .Params.img }}"
-    class="img-responsive w-100 mb-2 py-2"
-    alt="{{ .Title }}" />
-  <div class="small">
-    {{ .Content }}
-  </div>
-  {{ if $critPage }}
-    <h6 class="small">
-      Read recent reviews by<br />
-      {{ .Title }}
-      <a href="{{ $critPage.Page.RelPermalink }}"
-        >here {{ $intLinkIcon | safeHTML }}</a
-      >
+    {{ $critPage := index .Site.Taxonomies.critics (lower .Title) }}
+    {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+    <h6 class="mb-0">
+        {{ .LinkTitle }}
+        <div class="float-end">
+            {{ partial "social-media-links.html" .Params.soc_media }}
+        </div>
     </h6>
-  {{ end }}
+    {{ with .Params.organizations }}
+        <p class="fira-sans-regular small mb-0">
+            {{ delimit . ", " " and " }}
+        </p>
+    {{ end }}
+    <img
+        src="{{- .Params.img }}"
+        class="img-responsive w-100 mb-2 py-2"
+        alt="{{ .Title }}" />
+    <div class="small">
+        {{ .Content }}
+    </div>
+    {{ if $critPage }}
+        <h6 class="small">
+            Read recent reviews by<br />
+            {{ .Title }}
+            <a href="{{ $critPage.Page.RelPermalink }}"
+                >here {{ $intLinkIcon | safeHTML }}</a
+            >
+        </h6>
+    {{ end }}
 {{ end }}

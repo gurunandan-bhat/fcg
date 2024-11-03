@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.457088+05:30
 draft = false
 weight = 500
 title = 'Tatsam Mukherjee'
-designations = ['The Wire']
+organizations = ['The Wire']
 img = '/images/members/Tatsam Mukherjee.jpg'
 
 [soc_media]

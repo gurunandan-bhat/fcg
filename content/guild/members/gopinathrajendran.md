@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.45198+05:30
 draft = false
 weight = 140
 title = 'Gopinath Rajendran'
-designations = ['The Hindu']
+organizations = ['The Hindu']
 img = '/images/members/Gopinath-Rajendran.jpg'
 
 [soc_media]

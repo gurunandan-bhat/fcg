@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.453639+05:30
 draft = false
 weight = 260
 title = 'Rahul Desai'
-designations = ['The Hollywood Reporter India']
+organizations = ['The Hollywood Reporter India']
 img = '/images/members/RAHUL DESAI.jpg'
 
 [soc_media]

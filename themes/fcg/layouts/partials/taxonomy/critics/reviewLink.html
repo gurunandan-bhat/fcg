@@ -2,7 +2,7 @@
 {{ $review := .review }}
 {{ $critPage := index site.Taxonomies.critics (lower $critic) }}
 {{ $memberPage := index (where site.RegularPages "Title" $critPage.Page.Title) 0 }}
-{{ $designation := partial "designation" $memberPage.Params.designations }}
+{{ $organization := partial "organization" $memberPage.Params.organizations }}
 {{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" | safeHTML }}
 <span class="small">
     <a href="{{ $critPage.Page.RelPermalink }}"
@@ -12,5 +12,5 @@
         {{ end }}
         {{ $intLinkIcon }}</a
     ><br />
-    <span class="small">{{ $designation }}</span>
+    <span class="small">{{ $organization }}</span>
 </span>
