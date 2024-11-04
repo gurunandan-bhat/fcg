@@ -1,8 +1,8 @@
 +++
-title = 'Mithya: the Darker Chapter'
+title = 'Mithya: The Darker Chapter'
 date = 2024-11-02T11:07:21+05:30
 draft = false
-mreviews = ['Mithya: the Darker Chapter']
+mreviews = ['Mithya: The Darker Chapter']
 critics = ['Udita Jhunjhunwala']
 subtitle = "A forced, underwhelming sequel"
 opening = ""
