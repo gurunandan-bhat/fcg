@@ -6,7 +6,7 @@
             {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
             {{ $img := "" }}
             {{ if (isset .Page.Params "img") }}
-                {{ with partial "scaledImage" (printf "images/reviews/%s" .Page.Params.img) }}
+                {{ with partial "scaledImage" (printf "%s/%s" site.Params.images.reviews .Page.Params.img) }}
                     {{ $img = .RelPermalink | safeHTML }}
                 {{ end }}
             {{ else }}

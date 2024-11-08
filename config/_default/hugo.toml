@@ -18,4 +18,4 @@ mreview = 'mreviews'
 
 [params]
 [params.images]
-reviews = '/images/reviews'
+reviews = 'images/reviews'

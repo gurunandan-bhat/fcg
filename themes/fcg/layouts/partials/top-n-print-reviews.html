@@ -30,7 +30,7 @@
         <br />
         {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
     </h6>
-    {{ with partial "scaledImage" (printf "images/reviews/%s" .Params.img ) }}
+    {{ with partial "scaledImage" (printf "%s/%s" site.Params.images.reviews .Params.img ) }}
         <img src="{{ .RelPermalink }}" class="img-responsive w-100 mb-3" />
     {{ end }}
     <h6 class="fw-bold small pb-2">

@@ -1,9 +1,10 @@
+{{ $img := partial "scaledImage" (printf "%s/%s" site.Params.images.reviews .Params.img) }}
 {{ $review := dict
     "title"    (index .Params.mreviews 0)
     "reviewer" (index .Params.critics 0)
     "subtitle" .Params.subtitle
     "opening " .Params.opening
-    "image"    (printf "%s/%s" site.Params.images.reviews .Params.img)
+    "image"    $img.Permalink
     "media"    .Params.media
     "source"   .Params.source
     "filename"  .File.Path
