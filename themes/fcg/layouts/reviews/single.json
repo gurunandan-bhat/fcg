@@ -1,13 +1,17 @@
 {{ $img := partial "scaledImage" (printf "%s/%s" site.Params.images.reviews .Params.img) }}
+{{ $content := .RawContent }}
+{{ if hasPrefix $content "\n" }}
+    {{ $content = strings.Substr $content 1 }}
+{{ end }}
 {{ $review := dict
     "title"    (index .Params.mreviews 0)
     "reviewer" (index .Params.critics 0)
     "subtitle" .Params.subtitle
-    "opening " .Params.opening
+    "opening" .Params.opening
     "image"    $img.Permalink
     "media"    .Params.media
     "source"   .Params.source
     "filename"  .File.Path
-    "content"  .RawContent
+    "content"  $content
 }}
 {{ $review | jsonify }}
