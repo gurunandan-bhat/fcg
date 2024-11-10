@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.455748+05:30
 draft = false
 weight = 410
 title = 'Srivathsan Nadadhur'
-organizations = ['South First, Friday Wall']
+organizations = ['Independent Film Critic']
 img = '/images/members/Srivathsan.png'
 
 [soc_media]
