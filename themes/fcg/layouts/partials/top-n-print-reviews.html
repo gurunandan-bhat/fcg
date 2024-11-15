@@ -16,7 +16,8 @@
 {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
 <div class="row">
     {{ range $stories }}
-        <div class="col-lg-{{- $colWidth }} mb-5">
+        <div class="col-lg-{{- $colWidth }} mb-3">
+            <hr />
             {{ partial "inline/print-review" . }}
         </div>
     {{ end }}
@@ -33,7 +34,7 @@
     {{ with partial "scaledImage" (printf "%s/%s" site.Params.images.reviews .Params.img ) }}
         <img src="{{ .RelPermalink }}" class="img-responsive w-100 mb-3" />
     {{ end }}
-    <h6 class="fw-bold small pb-2" style="height: 2rem;">
+    <h6 class="fw-bold small pb-2" style="height: 3rem;">
         {{ .Params.subtitle | safeHTML }}
     </h6>
     {{/* 
