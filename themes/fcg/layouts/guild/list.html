@@ -27,7 +27,7 @@
                 <a class="anchor" id="pg-top"></a>
                 <h4 class="fw-bold">Members</h4>
                 {{ $sectionMembers := index (where .Sections "Type" "guild/members") 0 }}
-                {{ $paginator := .Paginate $sectionMembers.Pages  20 }}
+                {{ $paginator := .Paginate (sort $sectionMembers.Pages  "Title") 20 }}
                 <div class="row">
                     <div class="d-flex justify-content-center py-3 mb-3">
                         {{ template "_internal/pagination.html" . }}
