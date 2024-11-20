@@ -5,4 +5,4 @@ draft = false
 img = "lakhisarai-childrens-film-festival.jpeg"
 +++
 
-The first-ever Lakhisarai Children’s Film Festival was held in Lakhisarai, Bihar, where a short film package was screened under the 'Best of Critics' Choice Awards,' in collaboration with the Film Critics Guild. Suman Sen's The Silent Echo and Karishma Dev Dubey's Bittu were featured in this package. Guild member and senior critic Deepak Dua was present at the event.
+The first-ever Lakhisarai Children’s Film Festival was held in Lakhisarai, Bihar, where a short film package was screened under the 'Best of Critics' Choice Awards,' in collaboration with the Film Critics Guild. **_Suman Sen's The Silent Echo_** and **_Karishma Dev Dubey's Bittu_** were featured in this package. Guild member and senior critic Deepak Dua was present at the event.
