@@ -7,7 +7,7 @@ critics = ['Keyur Seta']
 subtitle = "Time-pass family action film despite some hiccups"
 opening = ""
 img = 'singham-again.webp'
-publication = 'his Blog'
+publication = 'The Common Man Speaks'
 media = 'print'
 source = "https://thecommonmanspeaks.com/singham-again-review-2024/"
 +++
