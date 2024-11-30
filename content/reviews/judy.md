@@ -1,6 +1,6 @@
 +++
 title = 'Judy'
-date = 2024-11-30T08:55:17+05:30
+date = 2024-11-30T10:50:17+05:30
 draft = false
 mreviews = ['Judy']
 critics = ['Udita Jhunjhunwala']
