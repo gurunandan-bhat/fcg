@@ -7,6 +7,8 @@ organizations = ['The Tribune', 'Hollywood Reporter India']
 img = '/images/members/nonika-singh.png'
 
 [soc_media]
+instagram = 'https://www.instagram.com/nonikasingh28/'
+twitter = 'https://x.com/nonika_singh'
 +++
 
 Nonika Singh is a journalist, art, and film critic of considerable repute. She has been at the forefront of covering art, culture, and entertainment extensively, with a deep passion and profound knowledge of her domain. In particular, she excels in reviewing movies and profiling well-known personalities connected to the entertainment, visual, and performing arts. She writes for leading dailies in the country, including The Tribune and The Hollywood Reporter India.
