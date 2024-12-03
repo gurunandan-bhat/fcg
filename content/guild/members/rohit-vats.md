@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/RohitVats444/'
 twitter = 'https://twitter.com/nawabjha'
 +++
 
-Rohit Vats has been a journalist and film critic for over a decade now. He has been reviewing Hindi and Hollywood films primarily. Currently, he is working with DNA.
+Rohit Vats is a journalist, film critic, translator and a digital strategist with more than 14 years of experience. Currently, he is serving as the Editorial Head of DNA India (Zee Digital).

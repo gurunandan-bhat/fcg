@@ -10,4 +10,4 @@ img = '/images/members/SuhaniSingh.png'
 twitter = 'https://twitter.com/suhani84'
 +++
 
-Suhani Singh is a Senior Associate Editor with India Today magazine. Apart from covering entertainment and culture beats for print, she reviews films for India Today's digital arm intoday.in and writes a fortnightly column for Mail Today.
+Suhani Singh is a journalist with over two decades of experience. Currently, she’s the Deputy Editor with India Today magazine, India’s leading news weekly, where she has been covering the entertainment industry as well reporting on culture and sports beats.
