@@ -1,8 +1,8 @@
 +++
-title = 'Nirangal Mmondru'
+title = 'Nirangal Moondru'
 date = 2024-12-01T18:47:03+05:30
 draft = false
-mreviews = ['Nirangal Mmondru']
+mreviews = ['Nirangal Moondru']
 critics = ['Avinash Ramachandran']
 publication = ''
 subtitle = "Sarath Kumar, Rahman, Atharvaa anchor a trippy tale about fatherhood with middling results"
