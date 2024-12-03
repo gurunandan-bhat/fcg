@@ -4,7 +4,7 @@ draft = false
 weight = 270
 title = 'Renuka Vyavahare'
 organizations = ['The Times of India']
-img = '/images/members/Renuka-Vyavahare.png'
+img = '/images/members/RenukaVyavahare.png'
 
 [soc_media]
 facebook = 'https://www.facebook.com/RenukaVyavahare'

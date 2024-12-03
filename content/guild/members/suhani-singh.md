@@ -4,7 +4,7 @@ draft = false
 weight = 450
 title = 'Suhani Singh'
 organizations = ['India Today']
-img = '/images/members/SUHANI SINGH.jpg'
+img = '/images/members/SuhaniSingh.png'
 
 [soc_media]
 twitter = 'https://twitter.com/suhani84'
