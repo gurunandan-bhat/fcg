@@ -7,7 +7,7 @@ critics = ['Avinash Ramachandran']
 publication = ''
 subtitle = "Sarath Kumar, Rahman, Atharvaa anchor a trippy tale about fatherhood with middling results"
 opening = "The Karthick Naren film, headlined by Atharvaa, Sarath Kumar and Rahman, builds everything to a technicolour explosion of emotions, only to end up as a gentle nudge in black and white"
-img = 'nirangal-mmondru-3.webp'
+img = 'nirangal-moondru-3.webp'
 media = 'print'
 source = "https://indianexpress.com/article/entertainment/movie-review/nirangal-moondru-movie-review-sarath-kumar-rahman-atharvaa-anchor-a-trippy-tale-about-fatherhood-with-middling-results-9682757/"
 +++
