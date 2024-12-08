@@ -12,4 +12,4 @@ instagram = 'https://instagram.com/mihir_03?igshid=YmMyMTA2M2Y='
 twitter = 'https://twitter.com/mihir_bhanage'
 +++
 
-Mihir Bhanage is a film critic and has been reviewing films, majorly Marathi, for Times of India since 2014. Besides reviews, he is also an entertainment correspondent for Pune Times. As a viewer, he loves to watch films across genres and languages.Â
+Mihir Bhanage is a film critic and has been reviewing films, majorly Marathi, for Times of India since 2014. Besides reviews, he is also an entertainment correspondent for Pune Times. As a viewer, he loves to watch films across genres and languages.
