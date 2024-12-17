@@ -1,43 +1,43 @@
 {{ define "main" }}
-  <div class="container col-xxl-8 px-2 py-2">
-    <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
-      <div class="col-lg-6">
-        <img
-          src="/images/news/news-banner.jpg"
-          class="d-block mx-lg-auto img-responsive w-100"
-          alt="Side Banner"
-          loading="lazy" />
-        <!-- <p class="small">
+    <div class="container col-xxl-8 px-2 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
+            <div class="col-lg-6">
+                <img
+                    src="/images/logo.png"
+                    class="d-block mx-lg-auto img-responsive w-100"
+                    alt="Side Banner"
+                    loading="lazy" />
+                <!-- <p class="small">
           Image used as a filler - may change in the final version
         </p> -->
-      </div>
-      <div id="pg-top" class="col-lg-6 lead">
-        <h1>Recent News</h1>
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-  <div class="container" style="margin-top: 70px;">
-    <div class="row mx-5 px-5">
-      <div class="offset-lg-2 col-lg-8">
-        {{ range .RegularPages }}
-          <div class="row my-3 py-3">
-            <div class="col-lg-5">
-              <img
-                src="/images/news/{{ .Params.img }}"
-                class="img-responsive w-100" />
             </div>
-            <div class="col-lg-7">
-              <h5 class="fw-bold">
-                {{ .LinkTitle }}
-              </h5>
+            <div id="pg-top" class="col-lg-6 lead">
+                <h1>Recent News</h1>
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 70px;">
+        <div class="row mx-5 px-5">
+            <div class="offset-lg-2 col-lg-8">
+                {{ range .RegularPages }}
+                    <div class="row my-3 py-3">
+                        <div class="col-lg-5">
+                            <img
+                                src="/images/news/{{ .Params.img }}"
+                                class="img-responsive w-100" />
+                        </div>
+                        <div class="col-lg-7">
+                            <h5 class="fw-bold">
+                                {{ .LinkTitle }}
+                            </h5>
 
-              {{ .Summary }}
+                            {{ .Summary }}
+                        </div>
+                    </div>
+                    <hr />
+                {{ end }}
             </div>
-          </div>
-          <hr />
-        {{ end }}
-      </div>
+        </div>
     </div>
-  </div>
 {{ end }}
