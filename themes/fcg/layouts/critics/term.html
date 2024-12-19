@@ -8,23 +8,26 @@
     {{ $critBio := index (where (where site.RegularPages "Section" "guild") "Title" .LinkTitle) 0 }}
     <!-- Template: critics/term.html -->
     <div class="container col-lg-8 px-2 py-2">
-        <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
-            <div class="col-lg-6">
+        <div class="row flex-lg-row-reverse align-items-top g-5 mt-5">
+            <div class="col-lg-4">
                 <img
                     src="/images/reviews/critic_review.png"
                     class="d-block mx-lg-auto img-responsive w-100"
                     alt="Side Banner"
                     loading="lazy" />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="row ps-4">
                     {{ with $critBio }}
-                        <h5 class="mb-3">
-                            Recent Reviews by {{ .LinkTitle }}<br />
+                        <h5 class="mb-0">
+                            Recent Reviews by
+                            {{ .LinkTitle }}
+                        </h5>
+                        <h6>
                             <span class="small"
                                 >{{ partial "organization" .Params.organizations }}</span
                             >
-                        </h5>
+                        </h6>
                         <div class="col-lg-4">
                             <img
                                 src="{{ .Params.img }}"
