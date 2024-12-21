@@ -1,8 +1,8 @@
 +++
-title = 'Ui'
+title = 'UI'
 date = 2024-12-20T21:45:01+05:30
 draft = false
-mreviews = ['Ui']
+mreviews = ['UI']
 critics = ['Subha J. Rao']
 publication = ''
 subtitle = "Two hours of torture that passes off for a movie that you’ve to decode"
