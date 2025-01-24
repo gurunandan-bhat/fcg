@@ -1,9 +1,9 @@
 +++
 {{- $title := replace (replaceRE `-\d+$` "" .File.ContentBaseName)  "-" " " | title }}
-title = '{{ $title }}'
+title = "{{ $title }}"
 date = {{ .Date }}
 draft = false
-mreviews = ['{{ $title }}']
+mreviews = ["{{ $title }}"]
 critics = ['']
 publication = ''
 subtitle = ""
