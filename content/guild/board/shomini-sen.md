@@ -11,4 +11,4 @@ facebook = 'https://www.facebook.com/Shomini-Sen-737117746377475/'
 twitter = 'https://twitter.com/shominisen'
 +++
 
-Shomini is an entertainment journalist for WION with over 14 years of experience in film writing. She has previously worked with News18.com and Zeenews.com . She reviews and writes about Hindi, English and Bengali films.
+Shomini Sen is a film critic and entertainment editor for WION with over 15 years of experience in film writing. She has previously worked with News18.com and Zeenews.com . She reviews and writes about Hindi, English and Bengali films.

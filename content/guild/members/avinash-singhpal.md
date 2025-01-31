@@ -4,7 +4,7 @@ draft = false
 weight = 100
 title = 'Avinash Singh Pal'
 organizations = ['Bollywood Bubble']
-img = '/images/members/Avinash-Pal.jpeg'
+img = '/images/members/Avinash Singh Pal.png'
 
 [soc_media]
 facebook = 'https://www.facebook.com/itzmeavinash/'
