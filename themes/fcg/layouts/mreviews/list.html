@@ -12,7 +12,11 @@
             {{ else }}
                 {{ $img = (printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Page.Params.source) | safeHTML }}
             {{ end }}
-            {{ $map = merge $map (dict "title" (index .Page.Params.mreviews 0) "img" $img "link" $mLink) }}
+            {{ $title := index .Page.Params.mreviews 0 }}
+            {{ with .Page.Params.translatedTitle }}
+                {{ $title = printf "%s (%s)" $title . }}
+            {{ end }}
+            {{ $map = merge $map (dict "title" $title "img" $img "link" $mLink) }}
         {{ end }}
         {{ $reviewers := slice }}
         {{ range $value }}

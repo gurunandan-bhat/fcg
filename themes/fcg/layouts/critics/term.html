@@ -3,7 +3,11 @@
     {{ $pageReviews := $paginator.Pages }}
     {{ $titles := slice }}
     {{ range $pageReviews }}
-        {{ $titles = append .Title $titles }}
+        {{ $title := .Title }}
+        {{ with .Params.translatedTitle }}
+            {{ $title = printf "%s (%s)" $title . }}
+        {{ end }}
+        {{ $titles = append $title $titles }}
     {{ end }}
     {{ $critBio := index (where (where site.RegularPages "Section" "guild") "Title" .LinkTitle) 0 }}
     <!-- Template: critics/term.html -->

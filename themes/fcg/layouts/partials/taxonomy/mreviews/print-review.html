@@ -5,7 +5,10 @@
     <div class="col-lg-8 offset-lg-2">
         <a class="anchor" id="{{- $criticAnchor -}}"></a>
         <h6 class="fw-bold">
-            <span class="d-inline-block pb-2">{{ .Title }}</span>
+            <span class="d-inline-block pb-2"
+                >{{ .Title }}
+                {{ with .Params.translatedTitle }}( {{- . -}} ){{ end }}</span
+            >
             <br />
             {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
         </h6>

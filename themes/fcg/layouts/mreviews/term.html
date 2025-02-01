@@ -1,6 +1,11 @@
 {{ define "main" }}
     {{ $paginator := .Paginate .Pages 10 }}
     {{ $pageReviews := $paginator.Pages }}
+    {{ $review := (index $pageReviews 0) }}
+    {{ $title := .LinkTitle }}
+    {{ with $review.Params.translatedTitle }}
+        {{ $title = printf "%s (%s)" $title . }}
+    {{ end }}
     <!-- Template: mreviews/term.html -->
     <div class="container col-lg-8 px-2 py-2">
         <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
@@ -10,15 +15,15 @@
                     class="d-block mx-lg-auto img-responsive w-100"
                     alt="Side Banner"
                     loading="lazy" />
-                <!-- <p class="small">
-          Image used as a filler - may change in the final version
-        </p> -->
             </div>
             <div class="col-lg-6">
                 <div class="ps-3">
                     <a class="anchor" id="pg-top"></a>
                     <h4 class="fw-bold lead mb-5">
-                        All Recent Reviews of<br />{{ .LinkTitle }}
+                        All Recent Reviews of<br />{{ $title }}
+                        {{ with .Page.Params.translatedTitle }}
+                            ({{- . -}})
+                        {{ end }}
                     </h4>
                     <h6 class="fw-bold">Reviewers on this page:</h6>
                     <p class="small">

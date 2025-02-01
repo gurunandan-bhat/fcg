@@ -1,8 +1,9 @@
 +++
-title = "Cactus Pears"
+title = "Sabar Bonda"
+translatedTitle = "Cactus Pears"
 date = 2025-01-31T01:32:52+05:30
 draft = false
-mreviews = ["Cactus Pears"]
+mreviews = ["Sabar Bonda"]
 critics = ['Shubhra Gupta']
 publication = ''
 subtitle = "A tender, affecting film told with warmth, sensitivity"

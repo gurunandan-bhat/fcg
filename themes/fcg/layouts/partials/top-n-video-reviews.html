@@ -24,7 +24,10 @@
 {{ define "partials/inline/video-review" }}
     {{ $critic := index .Params.critics 0 }}
     <h6 class="fw-bold">
-        <span class="d-inline-block pb-2">{{ .Title }}</span>
+        <span class="d-inline-block pb-2"
+            >{{ .Title }}
+            {{ with .Params.translatedTitle }}( {{- . -}} ){{ end }}</span
+        >
         <br />
         {{ partialCached "taxonomy/critics/reviewLink" (dict "critic" $critic "review" .) .Title $critic }}
     </h6>
