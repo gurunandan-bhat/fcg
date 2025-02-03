@@ -7,7 +7,7 @@ critics = ['Kirubhakar Purushothaman']
 publication = ''
 subtitle = "A Dishonour To Vijay Sethupathi’s Phenomenal Dark Comedy"
 opening = "Soodhu Kavvum 2 pales in comparison to its predecessor, failing to capture the dark humor and cynical brilliance of Nalan Kumarasamy's original."
-img = 'soodhu-Kavvum-2-1.png'
+img = 'soodhu-kavvum-2-1.png'
 media = 'print'
 source = "https://www.news18.com/movies/soodhu-kavvum-2-review-a-dishonour-to-vijay-sethupathis-phenomenal-dark-comedy-9155412.html"
 +++
