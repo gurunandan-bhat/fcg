@@ -9,7 +9,7 @@ subtitle = "Vikrant Massey boards the propaganda train"
 opening = "Based on the 2002 Godhra train burning tragedy, and its ensuing coverage in the media, this convenient and skewed film is a poor showcase for its leading man"
 img = 'the-sabarmati-report-3.jpg'
 media = 'print'
-source = "https://www.thehindu.com/entertainment/movies/the-sabarmati-report-movie-review-vikrant-massey-boards-the-propaganda-train/article68871386.ece?s=08"
+source = "https://www.thehindu.com/entertainment/movies/the-sabarmati-report-movie-review-vikrant-massey-boards-the-propaganda-train/article68871386.ece"
 +++
 
 In an interview that went viral ahead of The Sabarmati Report, actor Vikrant Massey, briefly turning political analyst, reflected on the state of the nation. “People say that Hindus are in danger, that Muslims are in danger. No one is in danger; everything is going fine. This is the best country to live in the world,” he declared in a podcast. The nervous naivety of Hindi film actors ahead of a controversial release is always enlightening to witness. It’s a balancing act no gymnast or slackliner can fathom.

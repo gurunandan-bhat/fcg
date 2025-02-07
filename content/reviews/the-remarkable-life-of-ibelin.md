@@ -9,7 +9,7 @@ opening = "Director Benjamin Ree uses the investigative form of a true-crime dra
 img = 'the-remarkable-life-of-ibelin.png'
 publication = 'OTTPlay'
 media = 'print'
-source = "https://www.ottplay.com/features/the-remarkable-life-of-ibelin-the-retroactive-stillness-of-grief/6c52eb2ab840?s=08"
+source = "https://www.ottplay.com/features/the-remarkable-life-of-ibelin-the-retroactive-stillness-of-grief/6c52eb2ab840"
 +++
 
 Benjamin Ree’s The Remarkable Life of Ibelin starts off as a documentary about death. We see the tombstone of Mats Steen, a Norwegian boy whose body and soul were at war. A mix of VHS footage and family interviews then reveals that Mats had duchenne muscular dystrophy (DMD), a degenerative disease that reduced his 25 years to a hellish survival story. His mind yearned for the momentum his muscles never had. Subsequent clips show his body shrinking on landmarks and vacations, the end inching closer.

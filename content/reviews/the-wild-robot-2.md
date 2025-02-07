@@ -8,7 +8,7 @@ subtitle = "Astoundingly Beautiful Animated Story Of Love, Friendship And Empath
 opening = "Adapted from Peter Brown's best-selling children's book, the DreamWorks Animation film is a triumph on every level."
 img = 'the-wild-robot-2.webp'
 media = 'print'
-source = "https://www.timesnownews.com/entertainment-news/reviews/the-wild-robot-movie-review-astoundingly-beautiful-animated-story-of-love-friendship-and-empathy-review-114261657?s=08"
+source = "https://www.timesnownews.com/entertainment-news/reviews/the-wild-robot-movie-review-astoundingly-beautiful-animated-story-of-love-friendship-and-empathy-review-114261657"
 +++
 
 DreamWorks Animation turns 30 this year, and its latest presentation, The Wild Robot, is a great example of what the studio gets right. Adapted and directed by Chris Sanders, the animated feature follows the adventures of Rozzum 7134 (voice of Lupita Nyong'o), who discovers a whole new side to herself after she reluctantly adopts a gosling. The family film is filled with humour and meaning, and it teaches you what it means to be kind and love another in need.
