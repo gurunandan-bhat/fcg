@@ -8,7 +8,7 @@ subtitle = 'My Name Is Bachchan. Alia Bachchan'
 opening = "Vasan Bala's ability to jolt our Bollywood conditioned brains into experiencing new forms of menace, showcasing Alia in a savage new light, wins Sukanya Verma's dil and jigra."
 img = 'jigra-3.jpg'
 media = 'print'
-source = 'https://www.rediff.com/movies/review/jigra-review/20241011.htm?s=08'
+source = 'https://www.rediff.com/movies/review/jigra-review/20241011.htm
 +++
 
 Vasan Bala creates worlds that may appear deceptively similar to the ones you and I inhabit but run entirely on their own terms and whimsy. It's a part of the film-maker's charm and cinephile influences, which made the likes of Mard Ko Dard Nahi Hota and Monica O My Darling such a treat. Jigra, probably his most big-ticket project so far, is also his most sombre.

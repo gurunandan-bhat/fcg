@@ -8,7 +8,7 @@ subtitle = 'This Rajinikanth movie lacks emotional punch, a strong villain'
 opening = 'Vettaiyan tells the story of a celebrated cop, known for encounter killings, who strives to correct a grave error in his judgment.'
 img = 'vettaiyan-3.jpeg'
 media = 'print'
-source = 'https://www.desimartini.com/reviews/movies/vettaiyan-review-this-rajinikanth-movie-lacks-emotional-punch-a-strong-villain/238ca010f4924/?s=08'
+source = 'https://www.desimartini.com/reviews/movies/vettaiyan-review-this-rajinikanth-movie-lacks-emotional-punch-a-strong-villain/238ca010f4924/
 +++
 
 Vettaiyan brings together two cinematic legends—Rajinikanth as Athiyan, a top cop delivering swift justice, and Amitabh Bachchan as Justice Sathyadev Bramhadutt Pande, who questions the very foundation of that justice. Director TJ Gnanavel sets up a thought-provoking premise that wrestles with themes of morality, justice, and redemption, but unfortunately, the film struggles to deliver a compelling narrative.

@@ -9,7 +9,7 @@ subtitle = "Not a wedding video"
 opening = "Nayanthara: Beyond the Fairy Tale celebrates the superstar’s rise from humble beginnings to cinematic stardom."
 img = 'nayanthara-beyond-the-fairy-tale.jpeg'
 media = 'print'
-source = "https://www.desimartini.com/reviews/shows/nayanthara-beyond-the-fairy-tale-review-not-a-wedding-video/d4025342c119/?s=08"
+source = "https://www.desimartini.com/reviews/shows/nayanthara-beyond-the-fairy-tale-review-not-a-wedding-video/d4025342c119/
 +++
 
 On Nayanthara's 40th birthday, Netflix unveiled a documentary series, Nayanthara: Beyond the Fairy Tale, chronicling her journey in the film industry. The series opens with her disappointment over not securing permission to hold her dream wedding at the Tirupati temple and transitions to her eventual wedding at a picturesque beachside glasshouse, attended by the who’s who of Indian cinema.

@@ -9,7 +9,7 @@ subtitle = "A sincere Varun Tej cannot salvage this boring drama"
 opening = "Director Karuna Kumar’s Telugu film ‘Matka’ scores in its attention to the period setting but falls way short of leveraging its potential to be a soaring drama"
 img = 'matka.jpg'
 media = 'print'
-source = "https://www.thehindu.com/entertainment/movies/matka-movie-review-a-sincere-varun-tej-cannot-salvage-director-karuna-kumars-boring-drama/article68863431.ece?s=08"
+source = "https://www.thehindu.com/entertainment/movies/matka-movie-review-a-sincere-varun-tej-cannot-salvage-director-karuna-kumars-boring-drama/article68863431.ece
 +++
 
 How does a business venture that does not require much investment work, a character wonders in director Karuna Kumar’s Telugu film Matka. We sell hope and buy people’s trust, explains the protagonist (Varun Tej as Vasu) whose character is inspired by gambler Ratan Khatri, also known as the ‘matka’ king. His statement and the scenes on a train that precede it, showing the potential for gambling and how it can turn ordinary citizens into addicts, perk up an otherwise predictable narrative.
