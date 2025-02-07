@@ -9,7 +9,7 @@ subtitle = "A fiery Suriya headlines Siva’s damp squib of a film"
 opening = "Many intriguing ideas get diluted in this jarring Suriya-starrer that succumbs to convoluted writing and incoherent making"
 img = 'kanguva-4.jpg'
 media = 'print'
-source = "https://www.thehindu.com/entertainment/movies/kanguva-movie-review-a-fiery-suriya-headlines-sivas-damp-squib-of-a-film/article68868014.ece
+source = "https://www.thehindu.com/entertainment/movies/kanguva-movie-review-a-fiery-suriya-headlines-sivas-damp-squib-of-a-film/article68868014.ece?s=08"
 +++
 
 A Roman general, in a bid to expand his base, ventures out into the open sea with his army. Before you think you have inadvertently clicked the link to the review of Gladiator 2, fret not; this is how Kanguva begins. The fascinating story of director Siva’s Kanguva stretches from a legendary island’s hills to the sandy shores of Goa; it even transcends time as its proceedings occur in two different timelines. But whether they amalgamate to make for an intriguing watch is a different question altogether.

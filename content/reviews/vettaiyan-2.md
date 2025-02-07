@@ -8,7 +8,7 @@ subtitle = 'A Tiring Film From A Tired Rajinikanth'
 opening = 'With Vettaiyan, filmmaker TJ Gnanavel concerns himself with several issues at once. It is like walking into a multi-cuisine restaurant and not a single dish is done well.'
 img = 'vettaiyan-1.webp'
 media = 'print'
-source = 'https://www.ottplay.com/features/vettaiyan-a-tiring-film-from-a-tired-rajinikanth/6c0e62b91f912
+source = 'https://www.ottplay.com/features/vettaiyan-a-tiring-film-from-a-tired-rajinikanth/6c0e62b91f912?s=08'
 +++
 
 There are always visual and grammatical cues to determine the origin of any kind of cinema. In India, it differs with language and region but there is one kind of image that is not exactly the pride of Tamil cinema. Simplistic and overused in the last thirty years, its progenitor is probably director Shankar though the image draws power from the long history of Tamil Nadu in post-independent India.

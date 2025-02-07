@@ -8,7 +8,7 @@ subtitle = 'Style, Substance, and Alia Bhatt'
 opening = 'In an age of lazy remakes and mindless tributes, Vasan Bala reimagines a small subplot from Mahesh Bhatt’s Gumrah (1993) to craft a sister-brother story that single-handedly reverses the gender dynamics of Bollywood action thrillers.'
 img = 'jigra-2.webp'
 media = 'print'
-source = 'https://www.hollywoodreporterindia.com/reviews/theatrical/jigra-review-style-substance-and-alia-bhatt
+source = 'https://www.hollywoodreporterindia.com/reviews/theatrical/jigra-review-style-substance-and-alia-bhatt?s=08'
 +++
 
 Most directors make you feel like you’re watching their film — their technical prowess, their intent, their voice, their commercial and arthouse ambitions. But directors like Vasan Bala make you feel like you’re watching their dreams come true. His movies aren’t shown, they’re shared. His craft isn’t flaunted, it’s realised. In Jigra, there are no shots, only fulfilled aspirations. There are no scenes and set pieces, only childhood memories. There is no action, only the physicality of emotion. There is no story, only the narrativisation of storytelling.

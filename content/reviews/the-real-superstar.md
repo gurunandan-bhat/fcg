@@ -8,7 +8,7 @@ subtitle = "Lost in the Twilight Zone with Amitabh Bachchan"
 opening = "Cédric Dupire’s ‘The Real Superstar’ spans the actor’s epochal career but is an atypical tribute"
 img = 'the-real-superstar.png'
 media = 'print'
-source = "https://www.livemint.com/mint-lounge/art-and-culture/the-real-superstar-film-cedric-dupire-amitabh-bachchan-documentary-11729334279948.html
+source = "https://www.livemint.com/mint-lounge/art-and-culture/the-real-superstar-film-cedric-dupire-amitabh-bachchan-documentary-11729334279948.html?s=08"
 +++
 
 Aman in red suede pants and jacket walks down a deserted road at night. Another man in a sky blue jacket over a black shirt races across a bridge as gunfire explodes around him. Yet another, in a deep blue shirt knotted at the waist, staggers out of a warehouse and is immediately carried off by a delirious crowd chanting his name.

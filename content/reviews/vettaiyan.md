@@ -8,7 +8,7 @@ subtitle = 'Much to be happy about, despite some misgivings'
 opening = 'This Rajinikanth film attempts the tight-rope walk of aiming to entertain while tackling past wrongs'
 img = 'vettaiyan.png'
 media = 'print'
-source = 'https://www.cinemaexpress.com/tamil/review/2024/Oct/10/vettaiyan-movie-review-much-to-be-happy-about-despite-some-misgivings
+source = 'https://www.cinemaexpress.com/tamil/review/2024/Oct/10/vettaiyan-movie-review-much-to-be-happy-about-despite-some-misgivings?s=08'
 +++
 
 In among the best stretches of Vettaiyan, the friend of an accused—both hailing from the slums—is being interrogated for his assistance in facilitating the latter’s escape, and the police eagerly slap their biases on them. Director TJ Gnanavel quietly, and subtly captures the indignation of these two young men at various times, as they square up to the police forces. It takes a great line about friendship from Athiyan (Rajinikanth) to restore a bit of faith in the young man’s eyes.

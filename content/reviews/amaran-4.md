@@ -8,7 +8,7 @@ subtitle = "An Earnest Sivakarthikeyan, Stellar Battle Sequences, Middling Drama
 opening = "The film is sustained by the power of its source material and its inspirational hero, rather than its filmmaking."
 img = 'amaran-4.png'
 media = 'print'
-source = "https://www.hollywoodreporterindia.com/reviews/theatrical/amaran-movie-review-an-earnest-sivakarthikeyan-stellar-battle-sequences-middling-drama
+source = "https://www.hollywoodreporterindia.com/reviews/theatrical/amaran-movie-review-an-earnest-sivakarthikeyan-stellar-battle-sequences-middling-drama?s=08"
 +++
 
 In one of the many interesting segues in Rajkumar Periasamy’s Amaran, an officer talks to Major Mukund Varadarajan (an earnest Sivakarthikeyan) about the Kashimir women these officers refer to as “half widows”, stuck in perennial conflict as they wait for their husbands to return, unsure if they're still alive. This is explained in a rush, as though someone is reading aloud a Wikipedia entry, but one can still make a connection between these women and the film’s narrator,
