@@ -3,7 +3,7 @@ date = 2024-09-25T12:19:31.45294+05:30
 draft = false
 weight = 210
 title = 'Manoj Kumar'
-organizations = ['Desi Martini, HT Media']
+organizations = ['Independent Film Critic']
 img = '/images/members/Manoj Kumar.png'
 
 [soc_media]
