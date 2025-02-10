@@ -1,0 +1,14 @@
+winners = [
+    'Best-Actor-Comedy-Romance-Series.png',
+    'Best-Actor-Drama-Series.png',
+    'Best-Actress-Comedy-Romance-Series.png',
+    'Best-Actress-Drama-Series.png',
+    'Best-Cinematography-Web-Series.png',
+    'Best-Editing-Web-Series.png',
+    'Best-Music-Web-Series.png',
+    'Best-Series-Comedy-Drama-Series.png',
+    'Best-Series-Drama-Series.png',
+    'Best-Series-Unscripted-Series.png',
+    'Best-Writing-Comedy-Romance-Series.png',
+    'Best-Writing-Drama-Web-Series.png',
+]
