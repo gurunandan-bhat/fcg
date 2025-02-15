@@ -4,6 +4,7 @@ date = 2024-10-11T08:02:31+05:30
 draft = false
 mreviews = ['Vettaiyan']
 critics = ['Aditya Shrikrishna']
+publication = 'OTT Play'
 subtitle = 'A Tiring Film From A Tired Rajinikanth'
 opening = 'With Vettaiyan, filmmaker TJ Gnanavel concerns himself with several issues at once. It is like walking into a multi-cuisine restaurant and not a single dish is done well.'
 img = 'vettaiyan-1.webp'
