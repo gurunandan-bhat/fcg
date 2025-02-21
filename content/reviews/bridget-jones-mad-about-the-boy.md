@@ -1,8 +1,8 @@
 +++
-title = "Bridget Jones Mad About the Boy"
+title = "Bridget Jones: Mad About the Boy"
 date = 2025-02-15T17:31:35+05:30
 draft = false
-mreviews = ["Bridget Jones Mad About the Boy"]
+mreviews = ["Bridget Jones: Mad About the Boy"]
 critics = ['Sanyukta Thakare']
 publication = ''
 subtitle = "Its Silly, Goofy And Builds On Old Movies"
