@@ -73,7 +73,8 @@
                             ><br />
                             {{ with (index . "count") }}
                                 <p class="small">
-                                    {{ . }} Review{{- if gt . 1 }}s{{- end }}
+                                    {{ . }}
+                                    Review{{- if gt . 1 }}s{{- end }}
                                 </p>
                             {{ end }}
                         </h6>

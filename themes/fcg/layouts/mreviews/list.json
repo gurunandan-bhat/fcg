@@ -1,11 +1,10 @@
-{{ define "main" }}
-    {{ $map := dict }}
-    {{ range $term, $value := .Data.Terms }}
-        {{ $revCount := len $value }}
-        {{ with index $value 0 }}
-            {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
-            {{ $title := index .Page.Params.mreviews 0 }}
-            {{ $map = merge $map (dict "title" $title "link" $mLink "count" $revCount) }}
-        {{ end }}
+{{ $slice := slice }}
+{{ range $term, $value := .Data.Terms }}
+    {{ $revCount := len $value }}
+    {{ $title := "" }}
+    {{ with index $value 0 }}
+        {{ $title = (index (where $.Pages "LinkTitle" .LinkTitle) 0).Title }}
     {{ end }}
+    {{ $slice = append (slice (dict "title" $title "count" $revCount)) $slice }}
 {{ end }}
+{{ jsonify $slice }}

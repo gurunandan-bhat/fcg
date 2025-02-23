@@ -19,3 +19,6 @@ mreview = 'mreviews'
 [params]
 [params.images]
 reviews = 'images/reviews'
+
+[outputs]
+taxonomy = ['html', 'json']
