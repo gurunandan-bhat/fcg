@@ -7,7 +7,7 @@ critics = ['Udita Jhunjhunwala']
 publication = ''
 subtitle = "A satisfying farewell"
 opening = "Michael Morris' film offers familiar pleasures to long-time fans of the franchise"
-img = 'bridget-jones:-mad-about-the-boy-2.jpg'
+img = 'bridget-jones-mad-about-the-boy-2.jpg'
 media = 'print'
 source = "https://www.livemint.com/mint-lounge/art-and-culture/bridget-jones-mad-about-the-boy-film-review-renee-zellweger-hugh-grant-11739631874332.html"
 +++

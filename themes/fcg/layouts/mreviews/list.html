@@ -1,6 +1,7 @@
 {{ define "main" }}
     {{ $index := dict }}
     {{ range $term, $value := .Data.Terms }}
+        {{ $revCount := len $value }}
         {{ $map := dict }}
         {{ with index $value 0 }}
             {{ $mLink := (index (where $.Pages "LinkTitle" .LinkTitle) 0).RelPermalink }}
@@ -16,7 +17,7 @@
             {{ with .Page.Params.translatedTitle }}
                 {{ $title = printf "%s (%s)" $title . }}
             {{ end }}
-            {{ $map = merge $map (dict "title" $title "img" $img "link" $mLink) }}
+            {{ $map = merge $map (dict "title" $title "img" $img "link" $mLink "count" $revCount) }}
         {{ end }}
         {{ $reviewers := slice }}
         {{ range $value }}
@@ -69,7 +70,12 @@
                             <a href="{{ index . "link" }}"
                                 >{{ index . "title" }}
                                 {{ index site.Data.svgicons.icons "internalLink" | safeHTML }}</a
-                            >
+                            ><br />
+                            {{ with (index . "count") }}
+                                <p class="small">
+                                    {{ . }} Review{{- if gt . 1 }}s{{- end }}
+                                </p>
+                            {{ end }}
                         </h6>
                         <img
                             src="{{- (index . "img") -}}"
