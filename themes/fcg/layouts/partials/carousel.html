@@ -4,29 +4,35 @@
 {{ $year := $data.year }}
 {{ $id := printf "%s-%s" $category $year }}
 
-
-<div
-  id="{{- $id }}"
-  class="carousel slide carousel-fade"
-  data-bs-ride="carousel">
-  <div class="carousel-inner px-1 py-1 border border-subtle">
-    {{- range $i, $src := $winners }}
-      {{ $imgPath := printf "/images/awards/%s/%s/%s" $year $category $src }}
-      <div class="carousel-item {{ if not $i }}active{{ end }}">
-        <img src="{{- $imgPath }}" class="d-block w-100" alt="..." />
-      </div>
-    {{ end }}
-  </div>
-  <div class="carousel-indicators mb-0">
-    {{ range seq 0 (sub (len $winners) 1) }}
-      <button
-        type="button"
-        data-bs-target="#{{- $id }}"
-        data-bs-slide-to="{{- . }}"
-        {{ if eq . 0 }}
-          class="active" aria-current="true"
-        {{ end }}
-        aria-label="Slide {{- add 1 . }}"></button>
-    {{ end }}
-  </div>
-</div>
+{{ if gt (len $winners) 0 }}
+    <div
+        id="{{- $id }}"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel">
+        <div class="carousel-inner px-1 py-1 border border-subtle">
+            {{- range $i, $src := $winners }}
+                {{ $imgPath := printf "/images/awards/%s/%s/%s" $year $category $src }}
+                <div class="carousel-item {{ if not $i }}active{{ end }}">
+                    <img
+                        src="{{- $imgPath }}"
+                        class="d-block w-100"
+                        alt="..." />
+                </div>
+            {{ end }}
+        </div>
+        <div class="carousel-indicators mb-0">
+            {{ range seq 0 (sub (len $winners) 1) }}
+                <button
+                    type="button"
+                    data-bs-target="#{{- $id }}"
+                    data-bs-slide-to="{{- . }}"
+                    {{ if eq . 0 }}
+                        class="active" aria-current="true"
+                    {{ end }}
+                    aria-label="Slide {{- add 1 . }}"></button>
+            {{ end }}
+        </div>
+    </div>
+{{ else }}
+    <p class="text-center">Not Awarded this Year</p>
+{{ end }}
