@@ -1,10 +1,13 @@
 {{ $slice := slice }}
 {{ range $term, $value := .Data.Terms }}
     {{ $revCount := len $value }}
+    {{ $sortedValues := sort $value "Page.PublishDate" }}
+    {{ $date := "" }}
     {{ $title := "" }}
-    {{ with index $value 0 }}
-        {{ $title = (index (where $.Pages "LinkTitle" .LinkTitle) 0).Title }}
+    {{ with index $sortedValues 0 }}
+        {{ $date = .Page.PublishDate }}
+        {{ $title = .Page.LinkTitle }}
     {{ end }}
-    {{ $slice = append (slice (dict "title" $title "count" $revCount)) $slice }}
+    {{ $slice = append (slice (dict "title" $title "count" $revCount "date" $date)) $slice }}
 {{ end }}
 {{ jsonify $slice }}

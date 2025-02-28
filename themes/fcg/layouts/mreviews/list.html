@@ -1,5 +1,6 @@
 {{ define "main" }}
     {{ $index := dict }}
+    <pre>{{ debug.Dump .Data.Terms }}</pre>
     {{ range $term, $value := .Data.Terms }}
         {{ $revCount := len $value }}
         {{ $map := dict }}
