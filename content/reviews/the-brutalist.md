@@ -1,13 +1,13 @@
 +++
-title = "Brutalist"
+title = "The Brutalist"
 date = 2025-03-02T13:46:36+05:30
 draft = false
-mreviews = ["Brutalist"]
+mreviews = ["The Brutalist"]
 critics = ['Manoj Kumar']
 publication = 'Deccan Herald'
 subtitle = "Hypnotic tale of art, power, and betrayal"
 opening = "For those untouched by the war’s direct traumas, these brutalist buildings might feel cold and uninviting, even ugly. But for those who have endured the dehumanising horrors of war, they represent something deeply intimate."
-img = 'brutalist.png'
+img = 'the-brutalist.png'
 media = 'print'
 source = "https://www.deccanherald.com/entertainment/the-brutalist-movie-review-hypnotic-tale-of-art-power-and-betrayal-3426936"
 +++
