@@ -6,6 +6,15 @@
     {{ with $review.Params.translatedTitle }}
         {{ $title = printf "%s (%s)" $title . }}
     {{ end }}
+    {{ $meta := dict }}
+    {{ $path := printf "meta/%s.json" (md5 .LinkTitle) }}
+    {{ with resources.Get $path }}
+        {{ with . | transform.Unmarshal }}
+            {{ $meta = . }}
+        {{ end }}
+    {{ else }}
+        {{ warnf "Unable to get global resource %s: %q" .LinkTitle $path }}
+    {{ end }}
     <!-- Template: mreviews/term.html -->
     <div class="container col-lg-8 px-2 py-2">
         <div class="row flex-lg-row-reverse align-items-center g-5 mt-5">
@@ -47,7 +56,11 @@
             {{ template "_internal/pagination.html" . }}
         </div>
         <div class="row">
-            <div class="col-lg-10 offset-lg-1">
+            <div class="col-lg-4">
+                <h6 class="my-4 fw-bold">About {{ $title }}</h6>
+                {{ partial "taxonomy/mreviews/metadata.html" $meta }}
+            </div>
+            <div class="col-lg-8">
                 {{ range  $pageReviews }}
                     {{ if eq .Params.media "print" }}
                         {{ partial "taxonomy/mreviews/print-review" . }}
