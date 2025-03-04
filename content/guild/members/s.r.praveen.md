@@ -4,7 +4,7 @@ draft = false
 weight = 310
 title = 'S. R. Praveen'
 organizations = ['The Hindu']
-img = '/images/members/SR Praveen.png'
+img = '/images/members/SR Praveen.jpg'
 
 [soc_media]
 facebook = 'https://www.facebook.com/praveen.stoneage/'
