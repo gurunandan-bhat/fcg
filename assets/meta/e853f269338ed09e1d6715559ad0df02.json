@@ -54,6 +54,12 @@
 			{
 				"id": 3591776,
 				"name": "Midhun Murali",
+				"job": "Music",
+				"department": "Sound"
+			},
+			{
+				"id": 3591776,
+				"name": "Midhun Murali",
 				"job": "Editor",
 				"department": "Editing"
 			},
@@ -61,12 +67,6 @@
 				"id": 3591776,
 				"name": "Midhun Murali",
 				"job": "Sound Designer",
-				"department": "Sound"
-			},
-			{
-				"id": 3591776,
-				"name": "Midhun Murali",
-				"job": "Music",
 				"department": "Sound"
 			},
 			{

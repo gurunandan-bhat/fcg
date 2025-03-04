@@ -125,44 +125,18 @@
 		],
 		"crew": [
 			{
-				"id": 1640751,
-				"name": "Muhammad Musthafa",
-				"profile_path": "/cE3BY7Cq6Tzkn9WKgLmeqXaNGvs.jpg",
-				"job": "Director",
-				"department": "Directing",
+				"id": 1620968,
+				"name": "Ronex Xavier",
+				"profile_path": "/dG5IaUswrZu99o3xBuhQ57rOlEk.jpg",
+				"job": "Makeup Artist",
+				"department": "Costume \u0026 Make-Up",
 				"gender": 2
-			},
-			{
-				"id": 4472379,
-				"name": "Fazil Nazer",
-				"job": "Director of Photography",
-				"department": "Camera"
-			},
-			{
-				"id": 3024792,
-				"name": "Chaman Chakko",
-				"job": "Editor",
-				"department": "Editing"
 			},
 			{
 				"id": 2261655,
 				"name": "PC Master",
 				"job": "Stunt Coordinator",
 				"department": "Crew",
-				"gender": 2
-			},
-			{
-				"id": 1798403,
-				"name": "Nisar Rahmath",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 1620968,
-				"name": "Ronex Xavier",
-				"profile_path": "/dG5IaUswrZu99o3xBuhQ57rOlEk.jpg",
-				"job": "Makeup Artist",
-				"department": "Costume \u0026 Make-Up",
 				"gender": 2
 			},
 			{
@@ -184,6 +158,32 @@
 				"name": "Sreenu Kallelil",
 				"job": "Art Direction",
 				"department": "Art"
+			},
+			{
+				"id": 1798403,
+				"name": "Nisar Rahmath",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1640751,
+				"name": "Muhammad Musthafa",
+				"profile_path": "/cE3BY7Cq6Tzkn9WKgLmeqXaNGvs.jpg",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 4472379,
+				"name": "Fazil Nazer",
+				"job": "Director of Photography",
+				"department": "Camera"
+			},
+			{
+				"id": 3024792,
+				"name": "Chaman Chakko",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 3490213,

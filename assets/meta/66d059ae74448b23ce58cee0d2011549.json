@@ -167,26 +167,11 @@
 		],
 		"crew": [
 			{
-				"id": 550172,
-				"name": "Vetrimaaran",
-				"profile_path": "/dEb8XJGaIqWf2eLaj4ecUlC3b2Z.jpg",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
 				"id": 76888,
 				"name": "Ilaiyaraaja",
 				"profile_path": "/7v8ce7YdqCcHvGuwNUuGhOSyt8R.jpg",
 				"job": "Original Music Composer",
 				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 3062919,
-				"name": "R. Ramar",
-				"job": "Editor",
-				"department": "Editing",
 				"gender": 2
 			},
 			{
@@ -200,8 +185,36 @@
 				"id": 550172,
 				"name": "Vetrimaaran",
 				"profile_path": "/dEb8XJGaIqWf2eLaj4ecUlC3b2Z.jpg",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 550172,
+				"name": "Vetrimaaran",
+				"profile_path": "/dEb8XJGaIqWf2eLaj4ecUlC3b2Z.jpg",
 				"job": "Producer",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1737324,
+				"name": "Harihara Suthan",
+				"job": "Visual Effects",
+				"department": "Visual Effects",
+				"gender": 2
+			},
+			{
+				"id": 1999916,
+				"name": "V Manikandan",
+				"job": "Co-Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3062919,
+				"name": "R. Ramar",
+				"job": "Editor",
+				"department": "Editing",
 				"gender": 2
 			},
 			{
@@ -216,19 +229,6 @@
 				"name": "S P Chokkalingam",
 				"job": "Executive Producer",
 				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 1999916,
-				"name": "V Manikandan",
-				"job": "Co-Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1737324,
-				"name": "Harihara Suthan",
-				"job": "Visual Effects",
-				"department": "Visual Effects",
 				"gender": 2
 			},
 			{

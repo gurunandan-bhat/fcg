@@ -168,12 +168,6 @@
 				"department": "Directing"
 			},
 			{
-				"id": 4301571,
-				"name": "Abdul Ghadaf",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
 				"id": 1717375,
 				"name": "Haneef Adeni",
 				"profile_path": "/jsuiJYAvw5pGnkK9hMNg0ddtPm7.jpg",
@@ -188,31 +182,17 @@
 				"gender": 2
 			},
 			{
+				"id": 4301571,
+				"name": "Abdul Ghadaf",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
 				"id": 2006306,
 				"name": "Ravi Basrur",
 				"job": "Original Music Composer",
 				"department": "Sound",
 				"gender": 2
-			},
-			{
-				"id": 4699618,
-				"name": "Sunil das",
-				"job": "Production Design",
-				"department": "Art"
-			},
-			{
-				"id": 1858210,
-				"name": "Shameer Muhammed",
-				"profile_path": "/7dN5MFUDP0tiZXXLkTlJw5gutGD.jpg",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
-				"id": 3421754,
-				"name": "Deepak Parameshwaran",
-				"job": "Production Controller",
-				"department": "Crew"
 			},
 			{
 				"id": 1785099,
@@ -222,10 +202,30 @@
 				"gender": 1
 			},
 			{
+				"id": 4699618,
+				"name": "Sunil das",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 3421754,
+				"name": "Deepak Parameshwaran",
+				"job": "Production Controller",
+				"department": "Crew"
+			},
+			{
 				"id": 3082382,
 				"name": "Sudhi Surendran",
 				"job": "Makeup Artist",
 				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1858210,
+				"name": "Shameer Muhammed",
+				"profile_path": "/7dN5MFUDP0tiZXXLkTlJw5gutGD.jpg",
+				"job": "Editor",
+				"department": "Editing",
+				"gender": 2
 			},
 			{
 				"id": 2214180,

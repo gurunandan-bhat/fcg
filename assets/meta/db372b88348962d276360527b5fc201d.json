@@ -158,10 +158,11 @@
 				"gender": 2
 			},
 			{
-				"id": 1437152,
-				"name": "Roo Maurice",
-				"job": "Makeup Designer",
-				"department": "Costume \u0026 Make-Up"
+				"id": 1411796,
+				"name": "Julie Schubert",
+				"job": "Casting",
+				"department": "Production",
+				"gender": 1
 			},
 			{
 				"id": 1437152,
@@ -170,9 +171,15 @@
 				"department": "Costume \u0026 Make-Up"
 			},
 			{
-				"id": 1411796,
-				"name": "Julie Schubert",
-				"job": "Casting",
+				"id": 1437152,
+				"name": "Roo Maurice",
+				"job": "Makeup Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1219520,
+				"name": "Debora Cahn",
+				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 1
 			},
@@ -188,13 +195,6 @@
 				"id": 957566,
 				"name": "Janice Williams",
 				"profile_path": "/tlURHSkYfETMyY2WxmS44QHSZsQ.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
-				"id": 1219520,
-				"name": "Debora Cahn",
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 1

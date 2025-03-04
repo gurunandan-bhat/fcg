@@ -116,26 +116,6 @@
 				"department": "Directing"
 			},
 			{
-				"id": 1549625,
-				"name": "Bauddhayan Mukherji",
-				"profile_path": "/d3MFOVR58UPJpw79oZ5rJzwUxsw.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2422974,
-				"name": "Abhro Banerjee",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 1549627,
-				"name": "Monalisa Mukherji",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
 				"id": 2163246,
 				"name": "Anup Singh",
 				"job": "Director of Photography",
@@ -151,10 +131,30 @@
 				"gender": 2
 			},
 			{
+				"id": 1549625,
+				"name": "Bauddhayan Mukherji",
+				"profile_path": "/d3MFOVR58UPJpw79oZ5rJzwUxsw.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 1568687,
 				"name": "Abhinandan Banerjee",
 				"job": "Writer",
 				"department": "Writing"
+			},
+			{
+				"id": 1549627,
+				"name": "Monalisa Mukherji",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2422974,
+				"name": "Abhro Banerjee",
+				"job": "Editor",
+				"department": "Editing"
 			}
 		]
 	}

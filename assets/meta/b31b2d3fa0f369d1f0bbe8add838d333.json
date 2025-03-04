@@ -185,6 +185,12 @@
 		],
 		"crew": [
 			{
+				"id": 2434988,
+				"name": "Simarpreet Singh",
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
 				"id": 2272947,
 				"name": "Ankur Garg",
 				"job": "Producer",
@@ -199,19 +205,6 @@
 				"gender": 2
 			},
 			{
-				"id": 2434988,
-				"name": "Simarpreet Singh",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
-				"id": 1434492,
-				"name": "Ejaz Gulab",
-				"job": "Stunt Coordinator",
-				"department": "Crew",
-				"gender": 2
-			},
-			{
 				"id": 1158937,
 				"name": "Luv Ranjan",
 				"profile_path": "/b8guabfHOtspjV50PKbdOulTAka.jpg",
@@ -220,10 +213,10 @@
 				"gender": 2
 			},
 			{
-				"id": 3040175,
-				"name": "Sidhant Malhotra",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 3272056,
+				"name": "Harman Wadala",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 2306032,
@@ -232,10 +225,34 @@
 				"department": "Writing"
 			},
 			{
-				"id": 4571658,
-				"name": "Rohini Bhandari",
-				"job": "Supervising Producer",
-				"department": "Production"
+				"id": 1037777,
+				"name": "Nigam Bomzan",
+				"job": "Director of Photography",
+				"department": "Camera"
+			},
+			{
+				"id": 1671085,
+				"name": "Hitesh Sonik",
+				"job": "Music",
+				"department": "Sound"
+			},
+			{
+				"id": 2809737,
+				"name": "Chetan M. Solanki",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3040175,
+				"name": "Sidhant Malhotra",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 1705466,
+				"name": "Samidha Wangnoo",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
 			},
 			{
 				"id": 4571657,
@@ -250,22 +267,28 @@
 				"department": "Sound"
 			},
 			{
-				"id": 1037777,
-				"name": "Nigam Bomzan",
-				"job": "Director of Photography",
-				"department": "Camera"
+				"id": 1764221,
+				"name": "Vicky Sidana",
+				"job": "Casting Director",
+				"department": "Production"
 			},
 			{
-				"id": 2809737,
-				"name": "Chetan M. Solanki",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 4571658,
+				"name": "Rohini Bhandari",
+				"job": "Supervising Producer",
+				"department": "Production"
 			},
 			{
-				"id": 1705466,
-				"name": "Samidha Wangnoo",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
+				"id": 1810696,
+				"name": "Jaspal Singh Sandhu",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 4044775,
+				"name": "Vishwajeet Singh Rathore",
+				"job": "First Assistant Director",
+				"department": "Directing"
 			},
 			{
 				"id": 1823131,
@@ -275,14 +298,14 @@
 				"gender": 2
 			},
 			{
-				"id": 4044775,
-				"name": "Vishwajeet Singh Rathore",
-				"job": "First Assistant Director",
-				"department": "Directing"
-			},
-			{
 				"id": 4571659,
 				"name": "Happy Bains",
+				"job": "Lyricist",
+				"department": "Writing"
+			},
+			{
+				"id": 4571661,
+				"name": "Bali",
 				"job": "Lyricist",
 				"department": "Writing"
 			},
@@ -293,46 +316,30 @@
 				"department": "Writing"
 			},
 			{
-				"id": 1671085,
-				"name": "Hitesh Sonik",
-				"job": "Music",
-				"department": "Sound"
-			},
-			{
-				"id": 1764221,
-				"name": "Vicky Sidana",
-				"job": "Casting Director",
-				"department": "Production"
-			},
-			{
 				"id": 2252715,
 				"name": "Saurabh Vaibhav",
 				"job": "Lyricist",
 				"department": "Writing"
 			},
 			{
-				"id": 3272056,
-				"name": "Harman Wadala",
-				"job": "Writer",
-				"department": "Writing"
+				"id": 1434492,
+				"name": "Ejaz Gulab",
+				"job": "Stunt Coordinator",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
+				"id": 1823131,
+				"name": "Guru Randhawa",
+				"job": "Songs",
+				"department": "Sound",
+				"gender": 2
 			},
 			{
 				"id": 4571661,
 				"name": "Bali",
-				"job": "Lyricist",
-				"department": "Writing"
-			},
-			{
-				"id": 1810696,
-				"name": "Jaspal Singh Sandhu",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2119270,
-				"name": "Shazia Samji",
-				"job": "Choreographer",
-				"department": "Crew"
+				"job": "Songs",
+				"department": "Sound"
 			},
 			{
 				"id": 2119269,
@@ -341,17 +348,10 @@
 				"department": "Crew"
 			},
 			{
-				"id": 4571661,
-				"name": "Bali",
-				"job": "Songs",
-				"department": "Sound"
-			},
-			{
-				"id": 1823131,
-				"name": "Guru Randhawa",
-				"job": "Songs",
-				"department": "Sound",
-				"gender": 2
+				"id": 2119270,
+				"name": "Shazia Samji",
+				"job": "Choreographer",
+				"department": "Crew"
 			}
 		]
 	}

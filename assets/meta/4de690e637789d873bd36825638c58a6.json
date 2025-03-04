@@ -169,6 +169,12 @@
 				"gender": 2
 			},
 			{
+				"id": 1263979,
+				"name": "Sooraj-Neeraj",
+				"job": "Writer",
+				"department": "Writing"
+			},
+			{
 				"id": 1464562,
 				"name": "Sameera Saneesh",
 				"profile_path": "/9uTT431FzCWvDyi2ragC2WSZUYx.jpg",
@@ -185,16 +191,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1263979,
-				"name": "Sooraj-Neeraj",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 3051602,
-				"name": "Shajie Naduvil",
-				"job": "Production Design",
-				"department": "Art",
+				"id": 1858213,
+				"name": "Aroma Mohan",
+				"job": "Production Controller",
+				"department": "Crew",
 				"gender": 2
 			},
 			{
@@ -204,10 +204,10 @@
 				"department": "Sound"
 			},
 			{
-				"id": 1858213,
-				"name": "Aroma Mohan",
-				"job": "Production Controller",
-				"department": "Crew",
+				"id": 3051602,
+				"name": "Shajie Naduvil",
+				"job": "Production Design",
+				"department": "Art",
 				"gender": 2
 			},
 			{

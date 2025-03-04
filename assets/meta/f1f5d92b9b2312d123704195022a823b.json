@@ -238,34 +238,6 @@
 				"department": "Directing"
 			},
 			{
-				"id": 2194843,
-				"name": "Kim Yeon-ho",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 3221839,
-				"name": "Byun Seung-min",
-				"profile_path": "/nNRZzfolAKyvn7agsUbSvPcG9mq.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 43565,
-				"name": "Kim Suk-won",
-				"profile_path": "/z3NVHBTmrqSZLUkEdIPsV34b4fD.jpg",
-				"job": "Sound Supervisor",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 2248439,
-				"name": "Lee Jae-sung",
-				"job": "Production Design",
-				"department": "Art"
-			},
-			{
 				"id": 1674268,
 				"name": "Yang Jin-mo",
 				"profile_path": "/zEkYOluedauPisYt2SasnJAX6rl.jpg",
@@ -281,6 +253,34 @@
 				"gender": 2
 			},
 			{
+				"id": 2248439,
+				"name": "Lee Jae-sung",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 43565,
+				"name": "Kim Suk-won",
+				"profile_path": "/z3NVHBTmrqSZLUkEdIPsV34b4fD.jpg",
+				"job": "Sound Supervisor",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 2194843,
+				"name": "Kim Yeon-ho",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3221839,
+				"name": "Byun Seung-min",
+				"profile_path": "/nNRZzfolAKyvn7agsUbSvPcG9mq.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 1284295,
 				"name": "Song Hyun-suk",
 				"job": "Lighting Director",
@@ -293,17 +293,10 @@
 				"department": "Art"
 			},
 			{
-				"id": 2478789,
-				"name": "Park Kyung-soo",
-				"job": "Special Effects Supervisor",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 3326329,
-				"name": "Yoo Mi-jin",
-				"job": "Stunts",
-				"department": "Crew",
-				"gender": 1
+				"id": 2868211,
+				"name": "Kim Nam-ho",
+				"job": "Set Decoration",
+				"department": "Art"
 			},
 			{
 				"id": 1294120,
@@ -320,18 +313,25 @@
 				"gender": 2
 			},
 			{
-				"id": 2868211,
-				"name": "Kim Nam-ho",
-				"job": "Set Decoration",
-				"department": "Art"
-			},
-			{
 				"id": 2879867,
 				"name": "Heo Myeong-haeng",
 				"profile_path": "/l08CuexUYW8iZgLm864N9qzDmmY.jpg",
 				"job": "Stunts",
 				"department": "Crew",
 				"gender": 2
+			},
+			{
+				"id": 2478789,
+				"name": "Park Kyung-soo",
+				"job": "Special Effects Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 3326329,
+				"name": "Yoo Mi-jin",
+				"job": "Stunts",
+				"department": "Crew",
+				"gender": 1
 			},
 			{
 				"id": 2159407,

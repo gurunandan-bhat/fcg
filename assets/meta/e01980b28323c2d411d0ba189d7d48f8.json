@@ -195,10 +195,10 @@
 				"department": "Directing"
 			},
 			{
-				"id": 2195104,
-				"name": "Siddharth Sengupta",
-				"job": "Screenplay",
-				"department": "Writing"
+				"id": 2401157,
+				"name": "Rajesh Pandey",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 122498,
@@ -215,10 +215,10 @@
 				"department": "Directing"
 			},
 			{
-				"id": 2401157,
-				"name": "Rajesh Pandey",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 2195104,
+				"name": "Siddharth Sengupta",
+				"job": "Screenplay",
+				"department": "Writing"
 			}
 		]
 	}

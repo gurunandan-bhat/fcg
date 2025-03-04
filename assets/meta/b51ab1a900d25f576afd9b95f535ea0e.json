@@ -162,12 +162,6 @@
 				"gender": 2
 			},
 			{
-				"id": 1640319,
-				"name": "Amit Ray",
-				"job": "Production Design",
-				"department": "Art"
-			},
-			{
 				"id": 1640321,
 				"name": "Subrata Chakraborty",
 				"job": "Production Design",
@@ -182,6 +176,12 @@
 				"gender": 1
 			},
 			{
+				"id": 1314294,
+				"name": "Shweta Venkat Mathew",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
 				"id": 1136857,
 				"name": "Rajeev Ravi",
 				"profile_path": "/vWAwaO8HkUOXAkCOqlelr5CZrIZ.jpg",
@@ -190,10 +190,16 @@
 				"gender": 2
 			},
 			{
-				"id": 1314294,
-				"name": "Shweta Venkat Mathew",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 1640319,
+				"name": "Amit Ray",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 2242761,
+				"name": "Vipul Mehta",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 35771,
@@ -210,58 +216,16 @@
 				"department": "Writing"
 			},
 			{
-				"id": 2242761,
-				"name": "Vipul Mehta",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 4786925,
-				"name": "Dwani Guru",
-				"job": "Associate Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 2112824,
-				"name": "Jayadev Tiruveaipati",
-				"job": "Colorist",
-				"department": "Editing"
-			},
-			{
-				"id": 2706784,
-				"name": "Sachin Bole",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 1990822,
-				"name": "Prakash Nambiar",
-				"job": "Visual Effects Producer",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 4786927,
-				"name": "Saikishore Annamaraju",
-				"job": "Script Supervisor",
-				"department": "Directing"
-			},
-			{
-				"id": 2115542,
-				"name": "Tarannum Khan",
-				"job": "Makeup Designer",
-				"department": "Costume \u0026 Make-Up"
+				"id": 2259678,
+				"name": "Gurpreet Singh",
+				"job": "Line Producer",
+				"department": "Production"
 			},
 			{
 				"id": 4786929,
 				"name": "Priyanka Borkar",
 				"job": "Hair Designer",
 				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 2259678,
-				"name": "Gurpreet Singh",
-				"job": "Line Producer",
-				"department": "Production"
 			},
 			{
 				"id": 1544699,
@@ -272,16 +236,40 @@
 				"gender": 2
 			},
 			{
-				"id": 2224392,
-				"name": "Ankit Balhara",
-				"job": "Original Music Composer",
-				"department": "Sound"
+				"id": 4786927,
+				"name": "Saikishore Annamaraju",
+				"job": "Script Supervisor",
+				"department": "Directing"
 			},
 			{
-				"id": 1727703,
-				"name": "Maxima Basu",
-				"job": "Costume Designer",
+				"id": 4786925,
+				"name": "Dwani Guru",
+				"job": "Associate Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 1990822,
+				"name": "Prakash Nambiar",
+				"job": "Visual Effects Producer",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 2115542,
+				"name": "Tarannum Khan",
+				"job": "Makeup Designer",
 				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 2706784,
+				"name": "Sachin Bole",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 2112824,
+				"name": "Jayadev Tiruveaipati",
+				"job": "Colorist",
+				"department": "Editing"
 			},
 			{
 				"id": 1834558,
@@ -290,10 +278,16 @@
 				"department": "Sound"
 			},
 			{
-				"id": 1642006,
-				"name": "Dileep Subramaniam",
-				"job": "Sound Designer",
-				"department": "Sound",
+				"id": 4786952,
+				"name": "Saurabh Shah",
+				"job": "Novel",
+				"department": "Writing"
+			},
+			{
+				"id": 4214501,
+				"name": "Akshaye Widhani",
+				"job": "Co-Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -313,23 +307,29 @@
 				"gender": 1
 			},
 			{
+				"id": 1642006,
+				"name": "Dileep Subramaniam",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
 				"id": 4248731,
 				"name": "Rishabh Chopra",
 				"job": "Associate Producer",
 				"department": "Production"
 			},
 			{
-				"id": 4214501,
-				"name": "Akshaye Widhani",
-				"job": "Co-Producer",
-				"department": "Production",
-				"gender": 2
+				"id": 2224392,
+				"name": "Ankit Balhara",
+				"job": "Original Music Composer",
+				"department": "Sound"
 			},
 			{
-				"id": 4786952,
-				"name": "Saurabh Shah",
-				"job": "Novel",
-				"department": "Writing"
+				"id": 1727703,
+				"name": "Maxima Basu",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
 			}
 		]
 	}

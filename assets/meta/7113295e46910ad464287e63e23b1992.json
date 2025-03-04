@@ -94,30 +94,17 @@
 				"id": 1102608,
 				"name": "Konstantin Bojanov",
 				"profile_path": "/AlLe0q5yCQxg9ZAlzyEcjXaqkEj.jpg",
-				"job": "Writer",
-				"department": "Writing",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
 				"id": 1102608,
 				"name": "Konstantin Bojanov",
 				"profile_path": "/AlLe0q5yCQxg9ZAlzyEcjXaqkEj.jpg",
-				"job": "Director",
-				"department": "Directing",
+				"job": "Writer",
+				"department": "Writing",
 				"gender": 2
-			},
-			{
-				"id": 71401,
-				"name": "Vincent Wang",
-				"job": "Co-Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 4649752,
-				"name": "Dereck Picardo",
-				"job": "Line Producer",
-				"department": "Production"
 			},
 			{
 				"id": 2697403,
@@ -126,9 +113,27 @@
 				"department": "Production"
 			},
 			{
+				"id": 4649752,
+				"name": "Dereck Picardo",
+				"job": "Line Producer",
+				"department": "Production"
+			},
+			{
 				"id": 1105747,
 				"name": "Nicolas Wadimoff",
 				"profile_path": "/eBOvMiCSETkJT4U2gOwTddAkuro.jpg",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1193649,
+				"name": "Frédéric Corvez",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1186373,
+				"name": "Celine Loop",
 				"job": "Executive Producer",
 				"department": "Production"
 			},
@@ -145,15 +150,28 @@
 				"department": "Production"
 			},
 			{
-				"id": 1193649,
-				"name": "Frédéric Corvez",
+				"id": 1756761,
+				"name": "Philippe Coeytaux",
 				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
-				"id": 1756761,
-				"name": "Philippe Coeytaux",
-				"job": "Executive Producer",
+				"id": 4210549,
+				"name": "Maéva Savinien",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 71401,
+				"name": "Vincent Wang",
+				"job": "Co-Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 4649751,
+				"name": "Laurie Gueguen",
+				"job": "Associate Producer",
 				"department": "Production"
 			},
 			{
@@ -163,50 +181,23 @@
 				"department": "Production"
 			},
 			{
-				"id": 4649758,
-				"name": "Ashista Gurung",
-				"job": "Set Decoration",
-				"department": "Art"
-			},
-			{
-				"id": 4210549,
-				"name": "Maéva Savinien",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1186373,
-				"name": "Celine Loop",
+				"id": 1756760,
+				"name": "Palmyre Badinier",
 				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 4649751,
-				"name": "Laurie Gueguen",
-				"job": "Associate Producer",
 				"department": "Production"
 			},
 			{
 				"id": 1893516,
 				"name": "Parul Sondh",
-				"job": "Production Design",
-				"department": "Art",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up",
 				"gender": 1
 			},
 			{
-				"id": 1386036,
-				"name": "Petar Dundakov",
-				"job": "Music",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1102608,
-				"name": "Konstantin Bojanov",
-				"profile_path": "/AlLe0q5yCQxg9ZAlzyEcjXaqkEj.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
+				"id": 4649758,
+				"name": "Ashista Gurung",
+				"job": "Set Decoration",
+				"department": "Art"
 			},
 			{
 				"id": 3325733,
@@ -221,12 +212,6 @@
 				"department": "Art"
 			},
 			{
-				"id": 1756760,
-				"name": "Palmyre Badinier",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
 				"id": 1607908,
 				"name": "Gabriel Lobos",
 				"job": "Director of Photography",
@@ -234,11 +219,26 @@
 				"gender": 2
 			},
 			{
+				"id": 1386036,
+				"name": "Petar Dundakov",
+				"job": "Music",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
 				"id": 1893516,
 				"name": "Parul Sondh",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up",
+				"job": "Production Design",
+				"department": "Art",
 				"gender": 1
+			},
+			{
+				"id": 1102608,
+				"name": "Konstantin Bojanov",
+				"profile_path": "/AlLe0q5yCQxg9ZAlzyEcjXaqkEj.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
 			}
 		]
 	}

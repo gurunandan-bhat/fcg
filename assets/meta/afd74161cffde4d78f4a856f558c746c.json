@@ -58,16 +58,52 @@
 				"department": "Production"
 			},
 			{
-				"id": 2968182,
-				"name": "Jeevan J. Kang",
-				"job": "Director",
-				"department": "Directing"
+				"id": 4689581,
+				"name": "Navin John",
+				"job": "Co-Producer",
+				"department": "Production"
 			},
 			{
 				"id": 2968182,
 				"name": "Jeevan J. Kang",
 				"job": "Executive Producer",
 				"department": "Production"
+			},
+			{
+				"id": 2797748,
+				"name": "Sharad Devarajan",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2797748,
+				"name": "Sharad Devarajan",
+				"job": "Writer",
+				"department": "Writing"
+			},
+			{
+				"id": 4825065,
+				"name": "Shaik Maqbool",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2968182,
+				"name": "Jeevan J. Kang",
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
+				"id": 4825062,
+				"name": "Sarwat Chadda",
+				"job": "Writer",
+				"department": "Writing"
+			},
+			{
+				"id": 4480725,
+				"name": "Shivangi Singh",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 2968182,
@@ -86,42 +122,6 @@
 				"name": "Navin John",
 				"job": "Director",
 				"department": "Directing"
-			},
-			{
-				"id": 4689581,
-				"name": "Navin John",
-				"job": "Co-Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2797748,
-				"name": "Sharad Devarajan",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 4825062,
-				"name": "Sarwat Chadda",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 4480725,
-				"name": "Shivangi Singh",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 2797748,
-				"name": "Sharad Devarajan",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 4825065,
-				"name": "Shaik Maqbool",
-				"job": "Executive Producer",
-				"department": "Production"
 			}
 		]
 	}

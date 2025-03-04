@@ -65,26 +65,6 @@
 		],
 		"crew": [
 			{
-				"id": 1940152,
-				"name": "Ranjan Chandel",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
-				"id": 85893,
-				"name": "Ekta Kapoor",
-				"profile_path": "/vsga2Sbj4OWTBKCdgT2reQG75cv.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
-				"id": 87347,
-				"name": "Shobha Kapoor",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
 				"id": 1831899,
 				"name": "Amul Vikas Mohan",
 				"job": "Producer",
@@ -97,6 +77,26 @@
 				"department": "Production"
 			},
 			{
+				"id": 1940152,
+				"name": "Ranjan Chandel",
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
+				"id": 87347,
+				"name": "Shobha Kapoor",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 85893,
+				"name": "Ekta Kapoor",
+				"profile_path": "/vsga2Sbj4OWTBKCdgT2reQG75cv.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 1
+			},
+			{
 				"id": 1662182,
 				"name": "Amalendu Chaudhary",
 				"job": "Director of Photography",
@@ -104,10 +104,16 @@
 				"gender": 2
 			},
 			{
-				"id": 4621550,
-				"name": "Vivek Koka",
-				"job": "Co-Producer",
-				"department": "Production"
+				"id": 1657710,
+				"name": "Nitesh Sharma",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 4621553,
+				"name": "Avinash Singh Tomar",
+				"job": "Screenplay",
+				"department": "Writing"
 			},
 			{
 				"id": 1187446,
@@ -117,22 +123,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1771960,
-				"name": "Dheeraj Sarna",
-				"job": "Dialogue",
-				"department": "Writing"
-			},
-			{
-				"id": 2797840,
-				"name": "Arjun Bhandegaonkar",
-				"job": "Screenplay",
-				"department": "Writing"
-			},
-			{
-				"id": 4621553,
-				"name": "Avinash Singh Tomar",
-				"job": "Screenplay",
-				"department": "Writing"
+				"id": 4621555,
+				"name": "Pooja Raheja",
+				"job": "Executive Producer",
+				"department": "Production"
 			},
 			{
 				"id": 4195085,
@@ -141,34 +135,24 @@
 				"department": "Production"
 			},
 			{
-				"id": 4621554,
-				"name": "Awal Ahmed Khan",
-				"job": "Supervising Producer",
-				"department": "Production"
+				"id": 1108802,
+				"name": "Mukesh Chhabra",
+				"profile_path": "/f5XI2wJs2JPcd5FSECsdcnkyOMW.jpg",
+				"job": "Casting Director",
+				"department": "Production",
+				"gender": 2
 			},
 			{
-				"id": 1513938,
-				"name": "Tushar Parekh",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 2637654,
+				"name": "Manohar Pandya",
+				"job": "Post Production Supervisor",
+				"department": "Crew"
 			},
 			{
-				"id": 4621555,
-				"name": "Pooja Raheja",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 4239317,
-				"name": "Salim Shah",
-				"job": "Art Direction",
-				"department": "Art"
-			},
-			{
-				"id": 85400,
-				"name": "Rajat Poddar",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 1771960,
+				"name": "Dheeraj Sarna",
+				"job": "Dialogue",
+				"department": "Writing"
 			},
 			{
 				"id": 1586801,
@@ -177,11 +161,10 @@
 				"department": "Sound"
 			},
 			{
-				"id": 1586803,
-				"name": "Kunal Uday Mehta",
-				"job": "Sound Designer",
-				"department": "Sound",
-				"gender": 2
+				"id": 85400,
+				"name": "Rajat Poddar",
+				"job": "Production Design",
+				"department": "Art"
 			},
 			{
 				"id": 1947399,
@@ -196,6 +179,25 @@
 				"department": "Costume \u0026 Make-Up"
 			},
 			{
+				"id": 4621554,
+				"name": "Awal Ahmed Khan",
+				"job": "Supervising Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1586803,
+				"name": "Kunal Uday Mehta",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 1513938,
+				"name": "Tushar Parekh",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
 				"id": 1434492,
 				"name": "Ejaz Gulab",
 				"job": "Stunt Coordinator",
@@ -203,36 +205,34 @@
 				"gender": 2
 			},
 			{
-				"id": 1108802,
-				"name": "Mukesh Chhabra",
-				"profile_path": "/f5XI2wJs2JPcd5FSECsdcnkyOMW.jpg",
-				"job": "Casting Director",
-				"department": "Production",
-				"gender": 2
+				"id": 4621550,
+				"name": "Vivek Koka",
+				"job": "Co-Producer",
+				"department": "Production"
 			},
 			{
-				"id": 1657710,
-				"name": "Nitesh Sharma",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
+				"id": 2797840,
+				"name": "Arjun Bhandegaonkar",
+				"job": "Screenplay",
+				"department": "Writing"
 			},
 			{
-				"id": 1556268,
-				"name": "Makarand Surte",
-				"job": "Colorist",
-				"department": "Editing"
-			},
-			{
-				"id": 2637654,
-				"name": "Manohar Pandya",
-				"job": "Post Production Supervisor",
-				"department": "Crew"
+				"id": 4239317,
+				"name": "Salim Shah",
+				"job": "Art Direction",
+				"department": "Art"
 			},
 			{
 				"id": 4621577,
 				"name": "Richa Sharma",
 				"job": "Public Relations",
 				"department": "Crew"
+			},
+			{
+				"id": 1556268,
+				"name": "Makarand Surte",
+				"job": "Colorist",
+				"department": "Editing"
 			},
 			{
 				"id": 1771960,

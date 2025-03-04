@@ -29,10 +29,22 @@
 		],
 		"crew": [
 			{
-				"id": 1988262,
-				"name": "Arun Bhattarai",
-				"job": "Director",
-				"department": "Directing"
+				"id": 4095880,
+				"name": "Máté Artur Vincze",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2594212,
+				"name": "Noémi Veronika Szakonyi",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1440048,
+				"name": "Károly Szalai",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 1988263,
@@ -41,10 +53,10 @@
 				"department": "Directing"
 			},
 			{
-				"id": 2594212,
-				"name": "Noémi Veronika Szakonyi",
-				"job": "Producer",
-				"department": "Production"
+				"id": 1207644,
+				"name": "Péter Sass",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 960383,
@@ -54,22 +66,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1207644,
-				"name": "Péter Sass",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 1440048,
-				"name": "Károly Szalai",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 4095880,
-				"name": "Máté Artur Vincze",
-				"job": "Producer",
-				"department": "Production"
+				"id": 1988262,
+				"name": "Arun Bhattarai",
+				"job": "Director",
+				"department": "Directing"
 			}
 		]
 	}

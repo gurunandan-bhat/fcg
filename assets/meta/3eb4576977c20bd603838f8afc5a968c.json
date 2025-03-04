@@ -21,19 +21,19 @@
 	"credits": {
 		"cast": [
 			{
-				"id": 1505938,
-				"order": 0,
-				"name": "Karla Sofía Gascón",
-				"profile_path": "/vmg6gqpaXnoRFP7NWdSTrsr1CED.jpg",
-				"character": "Emilia Pérez / Manitas del Monte",
-				"gender": 1
-			},
-			{
 				"id": 8691,
-				"order": 1,
+				"order": 0,
 				"name": "Zoe Saldaña",
 				"profile_path": "/iOVbUH20il632nj2v01NCtYYeSg.jpg",
 				"character": "Rita Mora Castro",
+				"gender": 1
+			},
+			{
+				"id": 1505938,
+				"order": 1,
+				"name": "Karla Sofía Gascón",
+				"profile_path": "/vmg6gqpaXnoRFP7NWdSTrsr1CED.jpg",
+				"character": "Emilia Pérez / Manitas del Monte",
 				"gender": 1
 			},
 			{

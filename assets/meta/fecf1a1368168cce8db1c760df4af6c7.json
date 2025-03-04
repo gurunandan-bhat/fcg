@@ -85,10 +85,10 @@
 		],
 		"crew": [
 			{
-				"id": 4443168,
-				"name": "Shaheen Iqbal",
-				"job": "Writer",
-				"department": "Writing"
+				"id": 1284085,
+				"name": "Abhishek Saxena",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 4443177,
@@ -97,16 +97,10 @@
 				"department": "Camera"
 			},
 			{
-				"id": 4443178,
-				"name": "Apurva Singh Rathore",
-				"job": "Casting",
-				"department": "Production"
-			},
-			{
-				"id": 2115503,
-				"name": "Swati Patel",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
+				"id": 1284085,
+				"name": "Abhishek Saxena",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 1867896,
@@ -115,48 +109,12 @@
 				"department": "Production"
 			},
 			{
-				"id": 2835302,
-				"name": "Anand Bhaskar",
-				"job": "Music",
-				"department": "Sound"
-			},
-			{
 				"id": 115238,
 				"name": "Tariq Umar Khan",
 				"profile_path": "/oglOEfO7zdH1o5IIUoy5r7tOZTq.jpg",
 				"job": "Production Design",
 				"department": "Art",
 				"gender": 2
-			},
-			{
-				"id": 4443171,
-				"name": "Manish Mishra",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 4443173,
-				"name": "Saurin Shah",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 35739,
-				"name": "Sanjay Sankla",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 1284085,
-				"name": "Abhishek Saxena",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
-				"id": 1284085,
-				"name": "Abhishek Saxena",
-				"job": "Writer",
-				"department": "Writing"
 			},
 			{
 				"id": 4443181,
@@ -173,8 +131,38 @@
 			{
 				"id": 1284085,
 				"name": "Abhishek Saxena",
-				"job": "Producer",
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
+				"id": 2835302,
+				"name": "Anand Bhaskar",
+				"job": "Music",
+				"department": "Sound"
+			},
+			{
+				"id": 4443168,
+				"name": "Shaheen Iqbal",
+				"job": "Writer",
+				"department": "Writing"
+			},
+			{
+				"id": 4443178,
+				"name": "Apurva Singh Rathore",
+				"job": "Casting",
 				"department": "Production"
+			},
+			{
+				"id": 2115503,
+				"name": "Swati Patel",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 3704302,
+				"name": "Rahul Jain",
+				"job": "Music",
+				"department": "Sound"
 			},
 			{
 				"id": 4443170,
@@ -183,16 +171,28 @@
 				"department": "Production"
 			},
 			{
+				"id": 4443173,
+				"name": "Saurin Shah",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 35739,
+				"name": "Sanjay Sankla",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 4443171,
+				"name": "Manish Mishra",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
 				"id": 4443185,
 				"name": "Talim Tyagi",
 				"job": "Special Effects",
 				"department": "Crew"
-			},
-			{
-				"id": 3704302,
-				"name": "Rahul Jain",
-				"job": "Music",
-				"department": "Sound"
 			}
 		]
 	}

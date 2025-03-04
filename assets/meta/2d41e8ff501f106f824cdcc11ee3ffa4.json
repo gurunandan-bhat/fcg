@@ -139,24 +139,6 @@
 		],
 		"crew": [
 			{
-				"id": 4841670,
-				"name": "Surya Manoj Vangala",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
-				"id": 4841670,
-				"name": "Surya Manoj Vangala",
-				"job": "Story",
-				"department": "Writing"
-			},
-			{
-				"id": 4841670,
-				"name": "Surya Manoj Vangala",
-				"job": "Screenplay",
-				"department": "Writing"
-			},
-			{
 				"id": 4841675,
 				"name": "Ashish Kolla",
 				"job": "Producer",
@@ -169,16 +151,64 @@
 				"department": "Writing"
 			},
 			{
+				"id": 4841670,
+				"name": "Surya Manoj Vangala",
+				"job": "Screenplay",
+				"department": "Writing"
+			},
+			{
+				"id": 4841670,
+				"name": "Surya Manoj Vangala",
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
 				"id": 4841681,
 				"name": "A Ramesh Chand",
 				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
+				"id": 4841670,
+				"name": "Surya Manoj Vangala",
+				"job": "Story",
+				"department": "Writing"
+			},
+			{
+				"id": 2111277,
+				"name": "Chetan D'Souza",
+				"job": "Fight Choreographer",
+				"department": "Crew"
+			},
+			{
+				"id": 3458550,
+				"name": "Mama Singh",
+				"job": "Lyricist",
+				"department": "Writing"
+			},
+			{
+				"id": 1032596,
+				"name": "Anwar Ali",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3865804,
+				"name": "Sai Maneendhar Reddy",
+				"job": "Sound Designer",
+				"department": "Sound"
+			},
+			{
 				"id": 1789209,
 				"name": "Dinesh K Babu",
 				"job": "Director of Photography",
 				"department": "Camera"
+			},
+			{
+				"id": 1664935,
+				"name": "Shashank Vennelakanti",
+				"job": "Lyricist",
+				"department": "Writing"
 			},
 			{
 				"id": 2652633,
@@ -188,16 +218,16 @@
 				"gender": 1
 			},
 			{
-				"id": 2111277,
-				"name": "Chetan D'Souza",
-				"job": "Fight Choreographer",
-				"department": "Crew"
-			},
-			{
 				"id": 2443699,
 				"name": "Jeevan Kumar",
 				"job": "Fight Choreographer",
 				"department": "Crew"
+			},
+			{
+				"id": 1667230,
+				"name": "Tapas Nayak",
+				"job": "Sound Mixer",
+				"department": "Sound"
 			},
 			{
 				"id": 1712856,
@@ -208,34 +238,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1664935,
-				"name": "Shashank Vennelakanti",
-				"job": "Lyricist",
-				"department": "Writing"
-			},
-			{
-				"id": 3458550,
-				"name": "Mama Singh",
-				"job": "Lyricist",
-				"department": "Writing"
-			},
-			{
 				"id": 3407694,
 				"name": "Jay Krishna",
 				"job": "Dialogue",
 				"department": "Writing"
-			},
-			{
-				"id": 1667230,
-				"name": "Tapas Nayak",
-				"job": "Sound Mixer",
-				"department": "Sound"
-			},
-			{
-				"id": 3865804,
-				"name": "Sai Maneendhar Reddy",
-				"job": "Sound Designer",
-				"department": "Sound"
 			},
 			{
 				"id": 2035066,
@@ -243,12 +249,6 @@
 				"job": "Production Design",
 				"department": "Art",
 				"gender": 2
-			},
-			{
-				"id": 1032596,
-				"name": "Anwar Ali",
-				"job": "Editor",
-				"department": "Editing"
 			},
 			{
 				"id": 1674840,

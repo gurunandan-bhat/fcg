@@ -164,19 +164,19 @@
 		],
 		"crew": [
 			{
-				"id": 2148880,
-				"name": "MC Jithin",
-				"profile_path": "/riOT1j2GvkdOiOVggZcwuXQfyvf.jpg",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
 				"id": 1178630,
 				"name": "Sameer Thahir",
 				"profile_path": "/m7Cr6VhwS5wYRWxBpGkX4oUwxFw.jpg",
 				"job": "Producer",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 2148880,
+				"name": "MC Jithin",
+				"profile_path": "/riOT1j2GvkdOiOVggZcwuXQfyvf.jpg",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
@@ -195,52 +195,11 @@
 				"gender": 2
 			},
 			{
-				"id": 2375329,
-				"name": "Sharan Velayudhan Nair",
-				"job": "Director of Photography",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
 				"id": 1665417,
 				"name": "Mashar Hamsa",
 				"profile_path": "/6oHYQatEazi32URb9yje4gttler.jpg",
 				"job": "Costume Designer",
 				"department": "Costume \u0026 Make-Up",
-				"gender": 2
-			},
-			{
-				"id": 2070611,
-				"name": "R G Wayanadan",
-				"job": "Makeup Artist",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 2
-			},
-			{
-				"id": 1779901,
-				"name": "Vinod Raveendran",
-				"job": "Production Design",
-				"department": "Art",
-				"gender": 2
-			},
-			{
-				"id": 3024792,
-				"name": "Chaman Chakko",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 3882187,
-				"name": "Christo Xavier",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1640807,
-				"name": "Vishnu Govind",
-				"job": "Sound Designer",
-				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -250,10 +209,51 @@
 				"department": "Production"
 			},
 			{
+				"id": 1779901,
+				"name": "Vinod Raveendran",
+				"job": "Production Design",
+				"department": "Art",
+				"gender": 2
+			},
+			{
 				"id": 4742375,
 				"name": "Imthias Kadeer",
 				"job": "Executive Producer",
 				"department": "Production"
+			},
+			{
+				"id": 3024792,
+				"name": "Chaman Chakko",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 1640807,
+				"name": "Vishnu Govind",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 3882187,
+				"name": "Christo Xavier",
+				"job": "Original Music Composer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 2375329,
+				"name": "Sharan Velayudhan Nair",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
+				"id": 2070611,
+				"name": "R G Wayanadan",
+				"job": "Makeup Artist",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
 			},
 			{
 				"id": 1492182,

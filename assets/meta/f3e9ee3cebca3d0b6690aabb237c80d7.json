@@ -70,14 +70,6 @@
 		],
 		"crew": [
 			{
-				"id": 1240481,
-				"name": "Julian Murphy",
-				"profile_path": "/gLoj4utVt43oZ8y17yapI5XfLsY.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 1240480,
 				"name": "Johnny Capps",
 				"job": "Producer",
@@ -85,10 +77,10 @@
 				"gender": 2
 			},
 			{
-				"id": 17276,
-				"name": "Gerard Butler",
-				"profile_path": "/n7sTgAGHyL3u9KIOVWjVLRA1fyi.jpg",
-				"job": "Executive Producer",
+				"id": 1240481,
+				"name": "Julian Murphy",
+				"profile_path": "/gLoj4utVt43oZ8y17yapI5XfLsY.jpg",
+				"job": "Producer",
 				"department": "Production",
 				"gender": 2
 			},
@@ -99,12 +91,12 @@
 				"department": "Production"
 			},
 			{
-				"id": 971263,
-				"name": "Agathe Hassenforder",
-				"profile_path": "/yoSNCYBfCrlwQ0sw58UHOeiESFI.jpg",
-				"job": "Casting",
+				"id": 17276,
+				"name": "Gerard Butler",
+				"profile_path": "/n7sTgAGHyL3u9KIOVWjVLRA1fyi.jpg",
+				"job": "Executive Producer",
 				"department": "Production",
-				"gender": 1
+				"gender": 2
 			},
 			{
 				"id": 47205,
@@ -112,6 +104,14 @@
 				"job": "Casting",
 				"department": "Production",
 				"gender": 2
+			},
+			{
+				"id": 971263,
+				"name": "Agathe Hassenforder",
+				"profile_path": "/yoSNCYBfCrlwQ0sw58UHOeiESFI.jpg",
+				"job": "Casting",
+				"department": "Production",
+				"gender": 1
 			},
 			{
 				"id": 1906323,

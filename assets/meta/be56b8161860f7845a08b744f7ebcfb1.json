@@ -101,14 +101,6 @@
 				"gender": 2
 			},
 			{
-				"id": 1118112,
-				"name": "Shyju Khalid",
-				"profile_path": "/pp5QwB4fx0zONvNT6WlTm2pb7tq.jpg",
-				"job": "Director of Photography",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
 				"id": 1066403,
 				"name": "Anwar Rasheed",
 				"profile_path": "/670MKLVvf3zQCQ2474T3mGigiBU.jpg",
@@ -117,10 +109,11 @@
 				"gender": 2
 			},
 			{
-				"id": 2084971,
-				"name": "Shafique Mohamed Ali",
-				"job": "Editor",
-				"department": "Editing",
+				"id": 1118112,
+				"name": "Shyju Khalid",
+				"profile_path": "/pp5QwB4fx0zONvNT6WlTm2pb7tq.jpg",
+				"job": "Director of Photography",
+				"department": "Camera",
 				"gender": 2
 			},
 			{
@@ -139,10 +132,12 @@
 				"gender": 2
 			},
 			{
-				"id": 4433187,
-				"name": "Kalai Kingson",
-				"job": "Stunt Coordinator",
-				"department": "Crew"
+				"id": 1492182,
+				"name": "Muhsin Parari",
+				"profile_path": "/hcrichY7pXbLzctfPqQJv0ihb4r.jpg",
+				"job": "Lyricist",
+				"department": "Writing",
+				"gender": 2
 			},
 			{
 				"id": 1665134,
@@ -153,17 +148,22 @@
 				"gender": 2
 			},
 			{
-				"id": 1492182,
-				"name": "Muhsin Parari",
-				"profile_path": "/hcrichY7pXbLzctfPqQJv0ihb4r.jpg",
-				"job": "Lyricist",
-				"department": "Writing",
+				"id": 2084971,
+				"name": "Shafique Mohamed Ali",
+				"job": "Editor",
+				"department": "Editing",
 				"gender": 2
 			},
 			{
 				"id": 1797955,
 				"name": "Biju Thomas",
 				"job": "Production Controller",
+				"department": "Crew"
+			},
+			{
+				"id": 4433187,
+				"name": "Kalai Kingson",
+				"job": "Stunt Coordinator",
 				"department": "Crew"
 			},
 			{

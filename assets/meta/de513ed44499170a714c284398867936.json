@@ -234,30 +234,22 @@
 		],
 		"crew": [
 			{
-				"id": 4694003,
-				"name": "Ramu Sunil",
-				"job": "Story",
-				"department": "Writing"
-			},
-			{
 				"id": 2507880,
 				"name": "Jofin T. Chacko",
 				"job": "Director",
 				"department": "Directing"
 			},
 			{
+				"id": 4694003,
+				"name": "Ramu Sunil",
+				"job": "Story",
+				"department": "Writing"
+			},
+			{
 				"id": 1787702,
 				"name": "John Manthrickal",
 				"job": "Writer",
 				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 2494989,
-				"name": "Appu Prabhakar",
-				"profile_path": "/lU27M5wx7kIyyCixsRnAvLWDNTl.jpg",
-				"job": "Director of Photography",
-				"department": "Camera",
 				"gender": 2
 			},
 			{
@@ -269,6 +261,14 @@
 				"gender": 2
 			},
 			{
+				"id": 2494989,
+				"name": "Appu Prabhakar",
+				"profile_path": "/lU27M5wx7kIyyCixsRnAvLWDNTl.jpg",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
 				"id": 3057801,
 				"name": "Venu Kunnappilly",
 				"job": "Producer",
@@ -276,17 +276,18 @@
 				"gender": 2
 			},
 			{
-				"id": 2283083,
-				"name": "Bijith Dharmadam",
-				"job": "Still Photographer",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
 				"id": 3051602,
 				"name": "Shajie Naduvil",
 				"job": "Production Design",
 				"department": "Art",
+				"gender": 2
+			},
+			{
+				"id": 1620968,
+				"name": "Ronex Xavier",
+				"profile_path": "/dG5IaUswrZu99o3xBuhQ57rOlEk.jpg",
+				"job": "Makeup Artist",
+				"department": "Costume \u0026 Make-Up",
 				"gender": 2
 			},
 			{
@@ -298,11 +299,10 @@
 				"gender": 1
 			},
 			{
-				"id": 1620968,
-				"name": "Ronex Xavier",
-				"profile_path": "/dG5IaUswrZu99o3xBuhQ57rOlEk.jpg",
-				"job": "Makeup Artist",
-				"department": "Costume \u0026 Make-Up",
+				"id": 2283083,
+				"name": "Bijith Dharmadam",
+				"job": "Still Photographer",
+				"department": "Camera",
 				"gender": 2
 			},
 			{

@@ -105,18 +105,24 @@
 		],
 		"crew": [
 			{
+				"id": 2375329,
+				"name": "Sharan Velayudhan Nair",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
+				"id": 1999296,
+				"name": "Dr Paul Varghese",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
 				"id": 2111511,
 				"name": "Sajin Cherukayil",
 				"profile_path": "/fuwZ6g0GMgfKJnaZ6kJljwM277x.jpg",
 				"job": "Screenplay",
 				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 2375329,
-				"name": "Sharan Velayudhan Nair",
-				"job": "Director of Photography",
-				"department": "Camera",
 				"gender": 2
 			},
 			{
@@ -128,47 +134,16 @@
 				"gender": 2
 			},
 			{
-				"id": 1999296,
-				"name": "Dr Paul Varghese",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 3230155,
-				"name": "Suhail Koya",
-				"job": "Lyricist",
-				"department": "Writing"
-			},
-			{
-				"id": 3525881,
-				"name": "Sinoop Raj",
-				"job": "Makeup Artist",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 3800799,
-				"name": "Arun Wailer",
-				"job": "Sound Designer",
-				"department": "Sound"
-			},
-			{
-				"id": 2235945,
-				"name": "Akash Joseph Varghese",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
 				"id": 3800797,
 				"name": "Vivek Kalathil",
 				"job": "Art Direction",
 				"department": "Art"
 			},
 			{
-				"id": 1785099,
-				"name": "Dhanya Balakrishnan",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 1
+				"id": 1993286,
+				"name": "Sidhartha Pradeep",
+				"job": "Original Music Composer",
+				"department": "Sound"
 			},
 			{
 				"id": 1756171,
@@ -178,10 +153,41 @@
 				"gender": 2
 			},
 			{
-				"id": 1993286,
-				"name": "Sidhartha Pradeep",
-				"job": "Original Music Composer",
+				"id": 2235945,
+				"name": "Akash Joseph Varghese",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3800799,
+				"name": "Arun Wailer",
+				"job": "Sound Designer",
 				"department": "Sound"
+			},
+			{
+				"id": 3525881,
+				"name": "Sinoop Raj",
+				"job": "Makeup Artist",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1785099,
+				"name": "Dhanya Balakrishnan",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 1
+			},
+			{
+				"id": 3230155,
+				"name": "Suhail Koya",
+				"job": "Lyricist",
+				"department": "Writing"
+			},
+			{
+				"id": 4609578,
+				"name": "Arjun K",
+				"job": "Assistant Director",
+				"department": "Directing"
 			},
 			{
 				"id": 4609579,
@@ -190,24 +196,18 @@
 				"department": "Directing"
 			},
 			{
-				"id": 4609553,
-				"name": "Anwyn Wayne",
-				"profile_path": "/aRoEFvbpXPvIApa0aSIjAP3vDyC.jpg",
-				"job": "Assistant Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
 				"id": 2235942,
 				"name": "Sanath Sivaraj",
 				"job": "Associate Editor",
 				"department": "Editing"
 			},
 			{
-				"id": 4609578,
-				"name": "Arjun K",
+				"id": 4609553,
+				"name": "Anwyn Wayne",
+				"profile_path": "/aRoEFvbpXPvIApa0aSIjAP3vDyC.jpg",
 				"job": "Assistant Director",
-				"department": "Directing"
+				"department": "Directing",
+				"gender": 2
 			},
 			{
 				"id": 1167753,

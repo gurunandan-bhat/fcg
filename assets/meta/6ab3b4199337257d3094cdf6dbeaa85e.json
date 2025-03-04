@@ -192,6 +192,22 @@
 		],
 		"crew": [
 			{
+				"id": 7314,
+				"name": "Nick Park",
+				"profile_path": "/C51kzgPopTjOkLewW9Pt8f2YIG.jpg",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 1444273,
+				"name": "Merlin Crossingham",
+				"profile_path": "/uQJEvdFbccM7xnudP74NfGTVvpj.jpg",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
 				"id": 7316,
 				"name": "Mark Burton",
 				"profile_path": "/1Bpx4foM7p2gVsVwo8Am1SQdawo.jpg",
@@ -211,24 +227,8 @@
 				"id": 7314,
 				"name": "Nick Park",
 				"profile_path": "/C51kzgPopTjOkLewW9Pt8f2YIG.jpg",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
-				"id": 7314,
-				"name": "Nick Park",
-				"profile_path": "/C51kzgPopTjOkLewW9Pt8f2YIG.jpg",
 				"job": "Story",
 				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 1444273,
-				"name": "Merlin Crossingham",
-				"profile_path": "/uQJEvdFbccM7xnudP74NfGTVvpj.jpg",
-				"job": "Director",
-				"department": "Directing",
 				"gender": 2
 			},
 			{

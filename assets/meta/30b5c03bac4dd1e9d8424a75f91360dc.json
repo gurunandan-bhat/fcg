@@ -209,17 +209,23 @@
 				"gender": 2
 			},
 			{
+				"id": 65559,
+				"name": "Dylan Sellers",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 1285823,
 				"name": "Zack Schiller",
 				"job": "Producer",
 				"department": "Production"
 			},
 			{
-				"id": 65559,
-				"name": "Dylan Sellers",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
+				"id": 2012916,
+				"name": "Brianna Quick",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up"
 			},
 			{
 				"id": 865656,
@@ -236,10 +242,18 @@
 				"gender": 2
 			},
 			{
-				"id": 2012916,
-				"name": "Brianna Quick",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up"
+				"id": 1614498,
+				"name": "Mike Vukadinovich",
+				"profile_path": "/3thgqyA9XmP3CsbqMVaMycuOjC2.jpg",
+				"job": "Writer",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 2761976,
+				"name": "Chris Parker",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1614498,
@@ -248,48 +262,6 @@
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 2
-			},
-			{
-				"id": 3243147,
-				"name": "Dane Eckerle",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1288335,
-				"name": "Kevin M. Brennan",
-				"profile_path": "/sa5YpRx93XJuF62Nw80EiQ1dVCU.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 1191094,
-				"name": "Potsy Ponciroli",
-				"profile_path": "/gTYJEZcoTzlFd212hswf3jQIOSk.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2057112,
-				"name": "Shannon Houchins",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1118159,
-				"name": "David Boies III",
-				"profile_path": "/n7DQXug59uzTgl8sfUnaD1JhO0D.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2761976,
-				"name": "Chris Parker",
-				"job": "Producer",
-				"department": "Production"
 			},
 			{
 				"id": 1273859,
@@ -300,23 +272,53 @@
 				"gender": 2
 			},
 			{
-				"id": 1614498,
-				"name": "Mike Vukadinovich",
-				"profile_path": "/3thgqyA9XmP3CsbqMVaMycuOjC2.jpg",
-				"job": "Writer",
-				"department": "Writing",
+				"id": 1118159,
+				"name": "David Boies III",
+				"profile_path": "/n7DQXug59uzTgl8sfUnaD1JhO0D.jpg",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
-				"id": 1635001,
-				"name": "Tyler Zacharia",
+				"id": 1288335,
+				"name": "Kevin M. Brennan",
+				"profile_path": "/sa5YpRx93XJuF62Nw80EiQ1dVCU.jpg",
 				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 2057112,
+				"name": "Shannon Houchins",
+				"job": "Producer",
 				"department": "Production"
 			},
 			{
 				"id": 2762070,
 				"name": "C.J. Barbato",
 				"job": "Co-Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1463683,
+				"name": "Meredith Richardson",
+				"profile_path": "/hm8dfSZG6NL485GsYmcei6C9NCz.jpg",
+				"job": "Acting Double",
+				"department": "Crew",
+				"gender": 1
+			},
+			{
+				"id": 1191094,
+				"name": "Potsy Ponciroli",
+				"profile_path": "/gTYJEZcoTzlFd212hswf3jQIOSk.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1635001,
+				"name": "Tyler Zacharia",
+				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
@@ -328,16 +330,14 @@
 				"gender": 2
 			},
 			{
-				"id": 1463683,
-				"name": "Meredith Richardson",
-				"profile_path": "/hm8dfSZG6NL485GsYmcei6C9NCz.jpg",
-				"job": "Acting Double",
-				"department": "Crew",
-				"gender": 1
-			},
-			{
 				"id": 3243151,
 				"name": "Phil Keefe",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3243147,
+				"name": "Dane Eckerle",
 				"job": "Executive Producer",
 				"department": "Production"
 			}

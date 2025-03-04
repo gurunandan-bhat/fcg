@@ -278,10 +278,11 @@
 				"gender": 2
 			},
 			{
-				"id": 2200164,
-				"name": "Vikram Mor",
-				"job": "Stunt Coordinator",
-				"department": "Crew",
+				"id": 1066404,
+				"name": "Listin Stephen",
+				"profile_path": "/uDBipXsBEsCPloYCMMNkQzIV3XX.jpg",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -300,19 +301,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1665421,
-				"name": "Gokul Das",
-				"profile_path": "/bYhXlWnm5Gj2d4tabQCEFo6ZLs6.jpg",
-				"job": "Production Design",
-				"department": "Art",
-				"gender": 2
-			},
-			{
-				"id": 1066404,
-				"name": "Listin Stephen",
-				"profile_path": "/uDBipXsBEsCPloYCMMNkQzIV3XX.jpg",
-				"job": "Producer",
-				"department": "Production",
+				"id": 1858214,
+				"name": "Praveen Varma",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up",
 				"gender": 2
 			},
 			{
@@ -329,10 +321,18 @@
 				"department": "Writing"
 			},
 			{
-				"id": 1858214,
-				"name": "Praveen Varma",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up",
+				"id": 2200164,
+				"name": "Vikram Mor",
+				"job": "Stunt Coordinator",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
+				"id": 1665421,
+				"name": "Gokul Das",
+				"profile_path": "/bYhXlWnm5Gj2d4tabQCEFo6ZLs6.jpg",
+				"job": "Production Design",
+				"department": "Art",
 				"gender": 2
 			},
 			{
@@ -344,22 +344,10 @@
 				"gender": 2
 			},
 			{
-				"id": 3882964,
-				"name": "Prince Raphel",
-				"job": "Production Controller",
-				"department": "Crew"
-			},
-			{
-				"id": 2261669,
-				"name": "Glen Castinho",
-				"job": "Colorist",
-				"department": "Editing"
-			},
-			{
-				"id": 1857798,
-				"name": "Manu Manjith",
-				"job": "Lyricist",
-				"department": "Writing",
+				"id": 3025927,
+				"name": "Phoenix Prabhu",
+				"job": "Stunt Coordinator",
+				"department": "Crew",
 				"gender": 2
 			},
 			{
@@ -382,10 +370,22 @@
 				"department": "Production"
 			},
 			{
-				"id": 3025927,
-				"name": "Phoenix Prabhu",
-				"job": "Stunt Coordinator",
-				"department": "Crew",
+				"id": 3882964,
+				"name": "Prince Raphel",
+				"job": "Production Controller",
+				"department": "Crew"
+			},
+			{
+				"id": 2261669,
+				"name": "Glen Castinho",
+				"job": "Colorist",
+				"department": "Editing"
+			},
+			{
+				"id": 1857798,
+				"name": "Manu Manjith",
+				"job": "Lyricist",
+				"department": "Writing",
 				"gender": 2
 			},
 			{

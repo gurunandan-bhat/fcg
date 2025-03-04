@@ -128,18 +128,18 @@
 		],
 		"crew": [
 			{
-				"id": 1278982,
-				"name": "Gajendra Ahire",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
 				"id": 6217,
 				"name": "Anupam Kher",
 				"profile_path": "/f7hWJ4tvzR7uXmYoTiB41TpQ2NZ.jpg",
 				"job": "Co-Producer",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1278982,
+				"name": "Gajendra Ahire",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{

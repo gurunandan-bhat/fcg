@@ -402,6 +402,14 @@
 				"id": 3317,
 				"name": "Takeshi Kitano",
 				"profile_path": "/9fyYreFJT8CPe8Ok2y1LE0btNYS.jpg",
+				"job": "Writer",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 3317,
+				"name": "Takeshi Kitano",
+				"profile_path": "/9fyYreFJT8CPe8Ok2y1LE0btNYS.jpg",
 				"job": "Director",
 				"department": "Directing",
 				"gender": 2
@@ -410,13 +418,13 @@
 				"id": 3317,
 				"name": "Takeshi Kitano",
 				"profile_path": "/9fyYreFJT8CPe8Ok2y1LE0btNYS.jpg",
-				"job": "Writer",
-				"department": "Writing",
+				"job": "Editor",
+				"department": "Editing",
 				"gender": 2
 			},
 			{
-				"id": 4901902,
-				"name": "Hideyuki Kurosawa",
+				"id": 4901903,
+				"name": "So Kurosawa",
 				"job": "Costume Design",
 				"department": "Costume \u0026 Make-Up"
 			},
@@ -427,8 +435,8 @@
 				"department": "Sound"
 			},
 			{
-				"id": 4901903,
-				"name": "So Kurosawa",
+				"id": 4901902,
+				"name": "Hideyuki Kurosawa",
 				"job": "Costume Design",
 				"department": "Costume \u0026 Make-Up"
 			},
@@ -440,18 +448,18 @@
 				"gender": 2
 			},
 			{
-				"id": 3317,
-				"name": "Takeshi Kitano",
-				"profile_path": "/9fyYreFJT8CPe8Ok2y1LE0btNYS.jpg",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
 				"id": 3171407,
 				"name": "Kazuyori Kosaka",
 				"job": "Visual Effects",
 				"department": "Visual Effects",
+				"gender": 2
+			},
+			{
+				"id": 1342048,
+				"name": "Shinya Kiyozuka",
+				"profile_path": "/kEOPHsAZSXhP5HTqTes62Mh3O4e.jpg",
+				"job": "Original Music Composer",
+				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -466,14 +474,6 @@
 				"name": "Atsuo Hirai",
 				"job": "Production Design",
 				"department": "Art"
-			},
-			{
-				"id": 1342048,
-				"name": "Shinya Kiyozuka",
-				"profile_path": "/kEOPHsAZSXhP5HTqTes62Mh3O4e.jpg",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
 			},
 			{
 				"id": 68112,

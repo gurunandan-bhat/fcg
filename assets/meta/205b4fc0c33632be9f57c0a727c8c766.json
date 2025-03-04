@@ -149,19 +149,19 @@
 		],
 		"crew": [
 			{
+				"id": 1709656,
+				"name": "Suresh Chandra",
+				"job": "Public Relations",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
 				"id": 2149824,
 				"name": "Rekha D'One",
 				"profile_path": "/5ZnsLmGLcDZ6IveIXHlEDnHA3DU.jpg",
 				"job": "Public Relations",
 				"department": "Crew",
 				"gender": 1
-			},
-			{
-				"id": 1709656,
-				"name": "Suresh Chandra",
-				"job": "Public Relations",
-				"department": "Crew",
-				"gender": 2
 			},
 			{
 				"id": 1652019,
@@ -189,32 +189,16 @@
 				"id": 1147871,
 				"name": "Magizh Thirumeni",
 				"profile_path": "/c5Kd7mKy1Jv7itxBMxkujG8zmet.jpg",
-				"job": "Director",
-				"department": "Directing",
+				"job": "Writer",
+				"department": "Writing",
 				"gender": 2
 			},
 			{
 				"id": 1147871,
 				"name": "Magizh Thirumeni",
 				"profile_path": "/c5Kd7mKy1Jv7itxBMxkujG8zmet.jpg",
-				"job": "Writer",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 1081464,
-				"name": "Anirudh Ravichander",
-				"profile_path": "/4RqfmPhND0cKe83kCohjCW06Q02.jpg",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 3771640,
-				"name": "G. K. M. Tamil Kumaran",
-				"profile_path": "/oTuWEIQ4r4KE5BsN3S7Ekdv2eta.jpg",
-				"job": "Head of Production",
-				"department": "Production",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
@@ -226,28 +210,19 @@
 				"gender": 2
 			},
 			{
-				"id": 4742303,
-				"name": "K. Jeyaseelan",
-				"job": "Production Executive",
-				"department": "Production"
+				"id": 3771640,
+				"name": "G. K. M. Tamil Kumaran",
+				"profile_path": "/oTuWEIQ4r4KE5BsN3S7Ekdv2eta.jpg",
+				"job": "Head of Production",
+				"department": "Production",
+				"gender": 2
 			},
 			{
-				"id": 3129736,
-				"name": "Subramanian Narayanan",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 3721090,
-				"name": "J. Girinathan",
-				"job": "Production Executive",
-				"department": "Production"
-			},
-			{
-				"id": 1737324,
-				"name": "Harihara Suthan",
-				"job": "Visual Effects",
-				"department": "Visual Effects",
+				"id": 1081464,
+				"name": "Anirudh Ravichander",
+				"profile_path": "/4RqfmPhND0cKe83kCohjCW06Q02.jpg",
+				"job": "Original Music Composer",
+				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -262,6 +237,31 @@
 				"job": "Still Photographer",
 				"department": "Camera",
 				"gender": 2
+			},
+			{
+				"id": 3129736,
+				"name": "Subramanian Narayanan",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1737324,
+				"name": "Harihara Suthan",
+				"job": "Visual Effects",
+				"department": "Visual Effects",
+				"gender": 2
+			},
+			{
+				"id": 3721090,
+				"name": "J. Girinathan",
+				"job": "Production Executive",
+				"department": "Production"
+			},
+			{
+				"id": 4742303,
+				"name": "K. Jeyaseelan",
+				"job": "Production Executive",
+				"department": "Production"
 			},
 			{
 				"id": 1652643,

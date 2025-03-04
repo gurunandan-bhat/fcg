@@ -208,14 +208,6 @@
 				"department": "Sound"
 			},
 			{
-				"id": 9989,
-				"name": "Mark Mancina",
-				"profile_path": "/zTFHjOH3D5TTJiMxEro1MPDy7m7.jpg",
-				"job": "Songs",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
 				"id": 1716551,
 				"name": "Opetaia Foa'i",
 				"profile_path": "/uRitkic8TnMsyCjAwJvjlzc2aeK.jpg",
@@ -224,16 +216,24 @@
 				"gender": 2
 			},
 			{
-				"id": 4496979,
-				"name": "Christina Chen",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 1
+				"id": 9989,
+				"name": "Mark Mancina",
+				"profile_path": "/zTFHjOH3D5TTJiMxEro1MPDy7m7.jpg",
+				"job": "Songs",
+				"department": "Sound",
+				"gender": 2
 			},
 			{
 				"id": 1999218,
 				"name": "Yvett Merino Flores",
 				"profile_path": "/lWDGq9RsYDayXIqdyXz1yHzo2tU.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 1
+			},
+			{
+				"id": 4496979,
+				"name": "Christina Chen",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 1
@@ -255,32 +255,6 @@
 				"gender": 1
 			},
 			{
-				"id": 2005798,
-				"name": "Paul McGrath",
-				"job": "Production Sound Mixer",
-				"department": "Sound"
-			},
-			{
-				"id": 2016600,
-				"name": "Martin Campos Amoros",
-				"job": "Senior Animator",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 3148022,
-				"name": "Kristin Pratt",
-				"job": "Layout Supervisor",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 186605,
-				"name": "Terri Douglas",
-				"profile_path": "/6yRCc5oKalchZuRvVJJbEDNmLEd.jpg",
-				"job": "ADR Voice Casting",
-				"department": "Production",
-				"gender": 1
-			},
-			{
 				"id": 1120694,
 				"name": "Jennifer Lee",
 				"profile_path": "/cRxBIe0sa2JcBtczzysV4aFUaEy.jpg",
@@ -296,28 +270,39 @@
 				"gender": 2
 			},
 			{
-				"id": 2127467,
-				"name": "Naïti Escot",
+				"id": 1397844,
+				"name": "Gabriel Guy",
+				"job": "Production Sound Mixer",
+				"department": "Sound"
+			},
+			{
+				"id": 1397844,
+				"name": "Gabriel Guy",
+				"job": "Sound Re-Recording Mixer",
+				"department": "Sound"
+			},
+			{
+				"id": 2005798,
+				"name": "Paul McGrath",
+				"job": "Production Sound Mixer",
+				"department": "Sound"
+			},
+			{
+				"id": 1927481,
+				"name": "Bob Bennett",
 				"job": "VFX Artist",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 2011064,
-				"name": "Maritza Louis",
-				"job": "Modeling",
-				"department": "Visual Effects",
-				"gender": 1
-			},
-			{
-				"id": 4741262,
-				"name": "Ere Santos",
-				"job": "Animation Supervisor",
 				"department": "Visual Effects"
 			},
 			{
 				"id": 4741240,
 				"name": "Nicholas Ralabate",
 				"job": "VFX Artist",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 2016600,
+				"name": "Martin Campos Amoros",
+				"job": "Senior Animator",
 				"department": "Visual Effects"
 			},
 			{
@@ -328,40 +313,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1397844,
-				"name": "Gabriel Guy",
-				"job": "Production Sound Mixer",
-				"department": "Sound"
-			},
-			{
-				"id": 4741263,
-				"name": "Carly Senora",
-				"job": "Lighting Artist",
-				"department": "Lighting"
-			},
-			{
-				"id": 1397844,
-				"name": "Gabriel Guy",
-				"job": "Sound Re-Recording Mixer",
-				"department": "Sound"
-			},
-			{
-				"id": 1927481,
-				"name": "Bob Bennett",
+				"id": 2127467,
+				"name": "Naïti Escot",
 				"job": "VFX Artist",
 				"department": "Visual Effects"
-			},
-			{
-				"id": 1453626,
-				"name": "Kevin MacLean",
-				"job": "Animation",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 4741293,
-				"name": "Eoin Mallon",
-				"job": "Vocal Coach",
-				"department": "Sound"
 			},
 			{
 				"id": 1462000,
@@ -370,9 +325,60 @@
 				"department": "Visual Effects"
 			},
 			{
+				"id": 2011064,
+				"name": "Maritza Louis",
+				"job": "Modeling",
+				"department": "Visual Effects",
+				"gender": 1
+			},
+			{
+				"id": 1453626,
+				"name": "Kevin MacLean",
+				"job": "Animation",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 3148022,
+				"name": "Kristin Pratt",
+				"job": "Layout Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 4741262,
+				"name": "Ere Santos",
+				"job": "Animation Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 4741263,
+				"name": "Carly Senora",
+				"job": "Lighting Artist",
+				"department": "Lighting"
+			},
+			{
+				"id": 186605,
+				"name": "Terri Douglas",
+				"profile_path": "/6yRCc5oKalchZuRvVJJbEDNmLEd.jpg",
+				"job": "ADR Voice Casting",
+				"department": "Production",
+				"gender": 1
+			},
+			{
 				"id": 1437538,
 				"name": "Kurt Crowley",
 				"job": "Vocals",
+				"department": "Sound"
+			},
+			{
+				"id": 4741292,
+				"name": "Opie Gruves",
+				"job": "Music Coordinator",
+				"department": "Sound"
+			},
+			{
+				"id": 4741293,
+				"name": "Eoin Mallon",
+				"job": "Vocal Coach",
 				"department": "Sound"
 			},
 			{
@@ -381,12 +387,6 @@
 				"job": "Clearances Coordinator",
 				"department": "Crew",
 				"gender": 1
-			},
-			{
-				"id": 4741292,
-				"name": "Opie Gruves",
-				"job": "Music Coordinator",
-				"department": "Sound"
 			},
 			{
 				"id": 1645150,
@@ -418,17 +418,17 @@
 				"department": "Sound"
 			},
 			{
-				"id": 15810,
-				"name": "Ron Clements",
-				"profile_path": "/u9k9yg2EGlDsxYo3ehf35yRUfcD.jpg",
+				"id": 15811,
+				"name": "John Musker",
+				"profile_path": "/vSn1d9JpEpECu9cQbRGTFWZdLhA.jpg",
 				"job": "Characters",
 				"department": "Writing",
 				"gender": 2
 			},
 			{
-				"id": 15811,
-				"name": "John Musker",
-				"profile_path": "/vSn1d9JpEpECu9cQbRGTFWZdLhA.jpg",
+				"id": 15810,
+				"name": "Ron Clements",
+				"profile_path": "/u9k9yg2EGlDsxYo3ehf35yRUfcD.jpg",
 				"job": "Characters",
 				"department": "Writing",
 				"gender": 2

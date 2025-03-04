@@ -83,13 +83,6 @@
 		],
 		"crew": [
 			{
-				"id": 1758831,
-				"name": "Amitoj Mann",
-				"profile_path": "/nt1Mu2jDHTMX6Dneq3i6pdTuaeL.jpg",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
 				"id": 4908810,
 				"name": "Gurpreet Ratol",
 				"job": "Writer",
@@ -100,6 +93,13 @@
 				"name": "Sumeet Singh",
 				"job": "Producer",
 				"department": "Production"
+			},
+			{
+				"id": 1758831,
+				"name": "Amitoj Mann",
+				"profile_path": "/nt1Mu2jDHTMX6Dneq3i6pdTuaeL.jpg",
+				"job": "Director",
+				"department": "Directing"
 			}
 		]
 	}

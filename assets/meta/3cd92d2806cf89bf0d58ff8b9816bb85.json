@@ -143,15 +143,15 @@
 				"department": "Directing"
 			},
 			{
-				"id": 1758582,
-				"name": "Ishita Moitra",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
 				"id": 2350140,
 				"name": "Tanveer Bookwala",
 				"job": "Screenplay",
+				"department": "Writing"
+			},
+			{
+				"id": 1758582,
+				"name": "Ishita Moitra",
+				"job": "Writer",
 				"department": "Writing"
 			},
 			{

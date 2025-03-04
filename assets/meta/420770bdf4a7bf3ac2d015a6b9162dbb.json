@@ -727,13 +727,6 @@
 				"gender": 2
 			},
 			{
-				"id": 23549,
-				"name": "Colin Penman",
-				"job": "Makeup Department Head",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 2
-			},
-			{
 				"id": 1318788,
 				"name": "Laura Montgomery",
 				"job": "Costume Design",
@@ -744,6 +737,13 @@
 				"name": "Michelle Côté",
 				"job": "Hair Department Head",
 				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 23549,
+				"name": "Colin Penman",
+				"job": "Makeup Department Head",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
 			},
 			{
 				"id": 71622,

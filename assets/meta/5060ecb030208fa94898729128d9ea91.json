@@ -174,12 +174,32 @@
 		],
 		"crew": [
 			{
+				"id": 37242,
+				"name": "Sreekar Prasad",
+				"profile_path": "/cHpDtVlleMlplodhKmjPCGqaAFS.jpg",
+				"job": "Editor",
+				"department": "Editing",
+				"gender": 2
+			},
+			{
 				"id": 2061198,
 				"name": "Aditya Nimbalkar",
 				"profile_path": "/73KDj9WBHoPL7YqSbDQE1GzvVR5.jpg",
 				"job": "Director",
 				"department": "Directing",
 				"gender": 2
+			},
+			{
+				"id": 1922463,
+				"name": "Saurabh Goswami",
+				"job": "Director of Photography",
+				"department": "Camera"
+			},
+			{
+				"id": 4539827,
+				"name": "Bodhayan Roychaudhury",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 4539835,
@@ -194,26 +214,6 @@
 				"job": "Producer",
 				"department": "Production",
 				"gender": 2
-			},
-			{
-				"id": 37242,
-				"name": "Sreekar Prasad",
-				"profile_path": "/cHpDtVlleMlplodhKmjPCGqaAFS.jpg",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
-				"id": 4539827,
-				"name": "Bodhayan Roychaudhury",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
-				"id": 1922463,
-				"name": "Saurabh Goswami",
-				"job": "Director of Photography",
-				"department": "Camera"
 			},
 			{
 				"id": 1658334,

@@ -83,73 +83,10 @@
 		],
 		"crew": [
 			{
-				"id": 1640322,
-				"name": "Brinda",
-				"profile_path": "/fcC4NTNqQZaJtVuFHM9oRUDr97Y.jpg",
-				"job": "Choreographer",
-				"department": "Crew",
-				"gender": 1
-			},
-			{
-				"id": 972127,
-				"name": "Vivek Siva",
-				"profile_path": "/kdZtCvHBGj8JW7MBfXg4xGN6GkX.jpg",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 4047853,
-				"name": "Anusha Meenakshi",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 1970522,
-				"name": "Dhana",
-				"job": "Lyricist",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 2420696,
-				"name": "Chandru Ranganathan",
-				"job": "Publicist",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 3377155,
-				"name": "Prakash Francis",
-				"job": "Lyricist",
-				"department": "Writing"
-			},
-			{
-				"id": 2448844,
-				"name": "Pappanadu C. Udhayakumar",
-				"job": "Production Design",
-				"department": "Art",
-				"gender": 2
-			},
-			{
 				"id": 1970522,
 				"name": "Dhana",
 				"job": "Director",
 				"department": "Directing",
-				"gender": 2
-			},
-			{
-				"id": 3786176,
-				"name": "T. Arun Prasath",
-				"job": "Still Photographer",
-				"department": "Camera"
-			},
-			{
-				"id": 3286268,
-				"name": "AIM Sathish",
-				"profile_path": "/6FBPOHIBvyaw0DukulMw5jzMOHc.jpg",
-				"job": "Public Relations",
-				"department": "Crew",
 				"gender": 2
 			},
 			{
@@ -167,23 +104,11 @@
 				"gender": 2
 			},
 			{
-				"id": 2236629,
-				"name": "Sangathamizhan",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 2463158,
-				"name": "Krithika Nelson",
-				"job": "Lyricist",
-				"department": "Writing",
-				"gender": 1
-			},
-			{
-				"id": 2149801,
-				"name": "KU. Karthik",
-				"job": "Lyricist",
-				"department": "Writing",
+				"id": 972127,
+				"name": "Vivek Siva",
+				"profile_path": "/kdZtCvHBGj8JW7MBfXg4xGN6GkX.jpg",
+				"job": "Original Music Composer",
+				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -195,17 +120,92 @@
 				"gender": 2
 			},
 			{
-				"id": 589049,
-				"name": "T. D. Rajha",
-				"job": "Producer",
+				"id": 2448844,
+				"name": "Pappanadu C. Udhayakumar",
+				"job": "Production Design",
+				"department": "Art",
+				"gender": 2
+			},
+			{
+				"id": 2236629,
+				"name": "Sangathamizhan",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3786176,
+				"name": "T. Arun Prasath",
+				"job": "Still Photographer",
+				"department": "Camera"
+			},
+			{
+				"id": 3286268,
+				"name": "AIM Sathish",
+				"profile_path": "/6FBPOHIBvyaw0DukulMw5jzMOHc.jpg",
+				"job": "Public Relations",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
+				"id": 2420696,
+				"name": "Chandru Ranganathan",
+				"job": "Publicist",
 				"department": "Production",
 				"gender": 2
+			},
+			{
+				"id": 2463158,
+				"name": "Krithika Nelson",
+				"job": "Lyricist",
+				"department": "Writing",
+				"gender": 1
+			},
+			{
+				"id": 1970522,
+				"name": "Dhana",
+				"job": "Lyricist",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 2149801,
+				"name": "KU. Karthik",
+				"job": "Lyricist",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 3377155,
+				"name": "Prakash Francis",
+				"job": "Lyricist",
+				"department": "Writing"
+			},
+			{
+				"id": 1640322,
+				"name": "Brinda",
+				"profile_path": "/fcC4NTNqQZaJtVuFHM9oRUDr97Y.jpg",
+				"job": "Choreographer",
+				"department": "Crew",
+				"gender": 1
 			},
 			{
 				"id": 3327818,
 				"name": "Leelavathi Kumar",
 				"job": "Choreographer",
 				"department": "Crew"
+			},
+			{
+				"id": 4047853,
+				"name": "Anusha Meenakshi",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 589049,
+				"name": "T. D. Rajha",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 3356353,

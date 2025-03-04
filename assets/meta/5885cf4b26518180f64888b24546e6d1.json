@@ -127,12 +127,6 @@
 				"department": "Directing"
 			},
 			{
-				"id": 1941520,
-				"name": "Abhishek Seth",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
 				"id": 3296500,
 				"name": "Quais Waseeq",
 				"profile_path": "/rNFTBzdmaeimZwGBOrYlZNcg9sZ.jpg",
@@ -141,16 +135,22 @@
 				"gender": 2
 			},
 			{
-				"id": 4564202,
-				"name": "Rudra Anand",
-				"job": "Sound Recordist",
-				"department": "Sound"
+				"id": 1941520,
+				"name": "Abhishek Seth",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 2051079,
 				"name": "Vintee Bansal",
 				"job": "Production Design",
 				"department": "Art"
+			},
+			{
+				"id": 4564202,
+				"name": "Rudra Anand",
+				"job": "Sound Recordist",
+				"department": "Sound"
 			},
 			{
 				"id": 1823139,

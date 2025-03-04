@@ -96,14 +96,6 @@
 		],
 		"crew": [
 			{
-				"id": 19271,
-				"name": "Anthony Russo",
-				"profile_path": "/xbINBnWn28YygYWUJ1aSAw0xPRv.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 19272,
 				"name": "Joe Russo",
 				"profile_path": "/o0OXjFzL10jCy89iAs7UzzSbyoK.jpg",
@@ -119,14 +111,6 @@
 				"gender": 2
 			},
 			{
-				"id": 1751775,
-				"name": "Angela Russo-Otstot",
-				"profile_path": "/outhE6HJdAv8V4hMRdeWwQotxEA.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
 				"id": 1242165,
 				"name": "Scott Nemes",
 				"job": "Executive Producer",
@@ -140,6 +124,22 @@
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 2
+			},
+			{
+				"id": 19271,
+				"name": "Anthony Russo",
+				"profile_path": "/xbINBnWn28YygYWUJ1aSAw0xPRv.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1751775,
+				"name": "Angela Russo-Otstot",
+				"profile_path": "/outhE6HJdAv8V4hMRdeWwQotxEA.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 1
 			},
 			{
 				"id": 81676,
@@ -158,6 +158,14 @@
 				"gender": 2
 			},
 			{
+				"id": 1424719,
+				"name": "David Weil",
+				"profile_path": "/tsx2DRIAg3pAzi6rzh6sgaFXdLj.jpg",
+				"job": "Original Series Creator",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
 				"id": 120015,
 				"name": "Josh Appelbaum",
 				"profile_path": "/edCP3fGS25qdednDxSQkGiCimwK.jpg",
@@ -173,14 +181,6 @@
 				"gender": 2
 			},
 			{
-				"id": 1424719,
-				"name": "David Weil",
-				"profile_path": "/tsx2DRIAg3pAzi6rzh6sgaFXdLj.jpg",
-				"job": "Original Series Creator",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
 				"id": 2023237,
 				"name": "Johan Heurlin Aidt",
 				"job": "Director of Photography",
@@ -188,33 +188,16 @@
 				"gender": 2
 			},
 			{
-				"id": 1785030,
-				"name": "Meenal Agarwal",
-				"job": "Production Design",
-				"department": "Art"
-			},
-			{
-				"id": 1287335,
-				"name": "Sumeet Kotian",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 2259689,
-				"name": "Sanjay Maurya",
-				"job": "Sound Designer",
-				"department": "Sound"
+				"id": 1434492,
+				"name": "Ejaz Gulab",
+				"job": "Stunts",
+				"department": "Crew",
+				"gender": 2
 			},
 			{
 				"id": 2051076,
 				"name": "Allwin Rego",
 				"job": "Sound Designer",
-				"department": "Sound"
-			},
-			{
-				"id": 1858325,
-				"name": "Aman Pant",
-				"job": "Original Music Composer",
 				"department": "Sound"
 			},
 			{
@@ -225,11 +208,28 @@
 				"gender": 2
 			},
 			{
-				"id": 1434492,
-				"name": "Ejaz Gulab",
-				"job": "Stunts",
-				"department": "Crew",
-				"gender": 2
+				"id": 2259689,
+				"name": "Sanjay Maurya",
+				"job": "Sound Designer",
+				"department": "Sound"
+			},
+			{
+				"id": 1287335,
+				"name": "Sumeet Kotian",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 1858325,
+				"name": "Aman Pant",
+				"job": "Original Music Composer",
+				"department": "Sound"
+			},
+			{
+				"id": 1785030,
+				"name": "Meenal Agarwal",
+				"job": "Production Design",
+				"department": "Art"
 			},
 			{
 				"id": 4449382,

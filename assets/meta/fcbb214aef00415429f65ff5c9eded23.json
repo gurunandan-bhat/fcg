@@ -47,50 +47,6 @@
 		],
 		"crew": [
 			{
-				"id": 4740006,
-				"name": "Umesh Bansal",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2344599,
-				"name": "Bela Shende",
-				"job": "Playback Singer",
-				"department": "Sound"
-			},
-			{
-				"id": 2119471,
-				"name": "Vidyadhar Bhatte",
-				"job": "Makeup \u0026 Hair",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 2060064,
-				"name": "Hariharan",
-				"profile_path": "/uuIitARpqW9tQyeN9YdS1SQ8cww.jpg",
-				"job": "Playback Singer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 4857082,
-				"name": "Manish Rajgire",
-				"job": "Playback Singer",
-				"department": "Sound"
-			},
-			{
-				"id": 4857085,
-				"name": "Manasi Attarde",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 4857088,
-				"name": "Karn Neharkar",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
-			},
-			{
 				"id": 2302366,
 				"name": "Pravin Tarde",
 				"profile_path": "/nZu6dVQ5Xv7hIGt9nd7BhuU9sMZ.jpg",
@@ -107,57 +63,18 @@
 				"gender": 2
 			},
 			{
-				"id": 4857084,
-				"name": "Nitesh Nandgaokar",
-				"job": "Art Direction",
-				"department": "Art"
-			},
-			{
-				"id": 2207422,
-				"name": "Mandar Kamalapurkar",
-				"job": "Sound Designer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 2203803,
-				"name": "Shantanu Shrikant Bhake",
-				"job": "Casting",
-				"department": "Production"
-			},
-			{
-				"id": 3945645,
-				"name": "Atul Salve",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 545520,
-				"name": "Sukhwinder Singh",
-				"profile_path": "/tGBoyl8l39l8j1NqGvnWpmS41lT.jpg",
-				"job": "Playback Singer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 4857087,
-				"name": "Tanveer Kajalekar",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 4265304,
-				"name": "Rahul Borse",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
-			},
-			{
 				"id": 2318552,
 				"name": "Mangesh Desai",
 				"profile_path": "/6hgz12MKFSx8L9TSNmopD3IbhJQ.jpg",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 2
+			},
+			{
+				"id": 4740006,
+				"name": "Umesh Bansal",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1431944,
@@ -172,16 +89,99 @@
 				"department": "Directing"
 			},
 			{
+				"id": 1519958,
+				"name": "Mayur Hardas",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 2119471,
+				"name": "Vidyadhar Bhatte",
+				"job": "Makeup \u0026 Hair",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 3945645,
+				"name": "Atul Salve",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2060064,
+				"name": "Hariharan",
+				"profile_path": "/uuIitARpqW9tQyeN9YdS1SQ8cww.jpg",
+				"job": "Playback Singer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 545520,
+				"name": "Sukhwinder Singh",
+				"profile_path": "/tGBoyl8l39l8j1NqGvnWpmS41lT.jpg",
+				"job": "Playback Singer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 4857082,
+				"name": "Manish Rajgire",
+				"job": "Playback Singer",
+				"department": "Sound"
+			},
+			{
+				"id": 2344599,
+				"name": "Bela Shende",
+				"job": "Playback Singer",
+				"department": "Sound"
+			},
+			{
+				"id": 2207422,
+				"name": "Mandar Kamalapurkar",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
 				"id": 3322613,
 				"name": "Umesh Jadhav",
 				"job": "Choreographer",
 				"department": "Crew"
 			},
 			{
-				"id": 1519958,
-				"name": "Mayur Hardas",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 4857084,
+				"name": "Nitesh Nandgaokar",
+				"job": "Art Direction",
+				"department": "Art"
+			},
+			{
+				"id": 4857085,
+				"name": "Manasi Attarde",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 2203803,
+				"name": "Shantanu Shrikant Bhake",
+				"job": "Casting",
+				"department": "Production"
+			},
+			{
+				"id": 4857087,
+				"name": "Tanveer Kajalekar",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 4857088,
+				"name": "Karn Neharkar",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 4265304,
+				"name": "Rahul Borse",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
 			}
 		]
 	}

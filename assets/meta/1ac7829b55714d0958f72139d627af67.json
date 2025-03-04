@@ -91,12 +91,6 @@
 				"department": "Camera"
 			},
 			{
-				"id": 1727594,
-				"name": "Manik Bandopadhyay",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
 				"id": 1568689,
 				"name": "Suman Mukhopadhyay",
 				"profile_path": "/8hbuoT63z1qpmU93SLbZn5eGn3U.jpg",
@@ -111,6 +105,12 @@
 				"job": "Music",
 				"department": "Sound",
 				"gender": 2
+			},
+			{
+				"id": 1727594,
+				"name": "Manik Bandopadhyay",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 2926627,

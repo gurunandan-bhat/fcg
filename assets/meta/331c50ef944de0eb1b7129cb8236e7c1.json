@@ -136,14 +136,6 @@
 				"gender": 2
 			},
 			{
-				"id": 3101904,
-				"name": "Guy Hescott",
-				"profile_path": "/nZD6M64cG1gnve9PdTtF1MgMDEs.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 1231203,
 				"name": "Nicola Shindler",
 				"profile_path": "/nzSXksEg2QEscM78q0D11FAnCKD.jpg",
@@ -160,19 +152,27 @@
 				"gender": 2
 			},
 			{
+				"id": 3982552,
+				"name": "Victoria Asare-Archer",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 1
+			},
+			{
+				"id": 3101904,
+				"name": "Guy Hescott",
+				"profile_path": "/nZD6M64cG1gnve9PdTtF1MgMDEs.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 1219470,
 				"name": "Daniel Brocklehurst",
 				"profile_path": "/5m1D5UywXzcgBFUQUXOPpT42S8v.jpg",
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 2
-			},
-			{
-				"id": 3982552,
-				"name": "Victoria Asare-Archer",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 1
 			},
 			{
 				"id": 1519543,

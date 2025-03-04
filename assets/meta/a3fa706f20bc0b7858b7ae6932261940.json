@@ -119,10 +119,12 @@
 				"gender": 1
 			},
 			{
-				"id": 3633457,
-				"name": "Renu Pitti",
-				"job": "Producer",
-				"department": "Production"
+				"id": 150486,
+				"name": "Ritesh Shah",
+				"profile_path": "/nQHtdlipGeGtJQcImXfeRawjzct.jpg",
+				"job": "Screenplay",
+				"department": "Writing",
+				"gender": 2
 			},
 			{
 				"id": 85470,
@@ -141,12 +143,22 @@
 				"gender": 1
 			},
 			{
-				"id": 150486,
-				"name": "Ritesh Shah",
-				"profile_path": "/nQHtdlipGeGtJQcImXfeRawjzct.jpg",
-				"job": "Screenplay",
-				"department": "Writing",
-				"gender": 2
+				"id": 3633457,
+				"name": "Renu Pitti",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3633565,
+				"name": "Tanvi Kesari Pasumarthy",
+				"job": "Additional Dialogue",
+				"department": "Crew"
+			},
+			{
+				"id": 3633574,
+				"name": "Samir Khurana",
+				"job": "Executive Producer",
+				"department": "Production"
 			},
 			{
 				"id": 150486,
@@ -157,21 +169,9 @@
 				"gender": 2
 			},
 			{
-				"id": 3633565,
-				"name": "Tanvi Kesari Pasumarthy",
-				"job": "Additional Dialogue",
-				"department": "Crew"
-			},
-			{
 				"id": 3633569,
 				"name": "Aksht Ranaut",
 				"job": "Associate Producer",
-				"department": "Production"
-			},
-			{
-				"id": 3633574,
-				"name": "Samir Khurana",
-				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
@@ -189,12 +189,6 @@
 				"department": "Editing"
 			},
 			{
-				"id": 2007868,
-				"name": "Rakesh Yadav",
-				"job": "Production Designer",
-				"department": "Production"
-			},
-			{
 				"id": 1736902,
 				"name": "Sheetal Sharma",
 				"job": "Costume Designer",
@@ -202,12 +196,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1790604,
-				"name": "Manoj Muntashir",
-				"profile_path": "/qhEdZegMLIkHvAYu1CaRiCvVShz.jpg",
-				"job": "Lyricist",
-				"department": "Writing",
-				"gender": 2
+				"id": 2007868,
+				"name": "Rakesh Yadav",
+				"job": "Production Designer",
+				"department": "Production"
 			},
 			{
 				"id": 584950,
@@ -218,16 +210,24 @@
 				"gender": 2
 			},
 			{
-				"id": 2447767,
-				"name": "Abhineet Singh Rajput",
-				"job": "Post Producer",
-				"department": "Production"
-			},
-			{
 				"id": 1656445,
 				"name": "Sarah Elizabeth",
 				"job": "Makeup \u0026 Hair",
 				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1790604,
+				"name": "Manoj Muntashir",
+				"profile_path": "/qhEdZegMLIkHvAYu1CaRiCvVShz.jpg",
+				"job": "Lyricist",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 2447767,
+				"name": "Abhineet Singh Rajput",
+				"job": "Post Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1334806,
@@ -237,9 +237,15 @@
 				"gender": 1
 			},
 			{
-				"id": 2224392,
-				"name": "Ankit Balhara",
-				"job": "Original Music Composer",
+				"id": 2007868,
+				"name": "Rakesh Yadav",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 2115370,
+				"name": "Nihar Ranjan Samal",
+				"job": "Sound Designer",
 				"department": "Sound"
 			},
 			{
@@ -251,10 +257,16 @@
 				"gender": 2
 			},
 			{
-				"id": 2007868,
-				"name": "Rakesh Yadav",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 1785033,
+				"name": "Sunil Rodrigues",
+				"job": "Stunt Coordinator",
+				"department": "Crew"
+			},
+			{
+				"id": 2224392,
+				"name": "Ankit Balhara",
+				"job": "Original Music Composer",
+				"department": "Sound"
 			},
 			{
 				"id": 1031497,
@@ -264,24 +276,10 @@
 				"gender": 2
 			},
 			{
-				"id": 2115370,
-				"name": "Nihar Ranjan Samal",
-				"job": "Sound Designer",
-				"department": "Sound"
-			},
-			{
-				"id": 1430474,
-				"name": "David Malinowski",
-				"profile_path": "/Av6LJbGqBoswoDUX1YxhMeJfvLT.jpg",
-				"job": "Prosthetic Designer",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 2
-			},
-			{
-				"id": 1785033,
-				"name": "Sunil Rodrigues",
-				"job": "Stunt Coordinator",
-				"department": "Crew"
+				"id": 4885414,
+				"name": "Om Shankar Bhagat",
+				"job": "Line Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1358976,
@@ -292,10 +290,12 @@
 				"gender": 2
 			},
 			{
-				"id": 4885414,
-				"name": "Om Shankar Bhagat",
-				"job": "Line Producer",
-				"department": "Production"
+				"id": 1430474,
+				"name": "David Malinowski",
+				"profile_path": "/Av6LJbGqBoswoDUX1YxhMeJfvLT.jpg",
+				"job": "Prosthetic Designer",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
 			}
 		]
 	}

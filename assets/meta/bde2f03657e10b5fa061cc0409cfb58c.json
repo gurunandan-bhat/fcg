@@ -94,57 +94,18 @@
 		],
 		"crew": [
 			{
-				"id": 1643495,
-				"name": "M. R. Rajakrishnan",
-				"job": "Sound Mixer",
-				"department": "Sound",
+				"id": 933606,
+				"name": "Bunny Vas",
+				"profile_path": "/wuORjl5RorJUpLeWL6UspfC1zak.jpg",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
-			},
-			{
-				"id": 4477444,
-				"name": "Riyaz Chowdhry",
-				"job": "Co-Producer",
-				"department": "Production"
-			},
-			{
-				"id": 237681,
-				"name": "Devi Sri Prasad",
-				"profile_path": "/4Be4HLS7qqbVPfKyA3yHvtpObFc.jpg",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 4477447,
-				"name": "N. Durga Prakash",
-				"job": "Associate Editor",
-				"department": "Editing"
-			},
-			{
-				"id": 4477445,
-				"name": "Kartheek Theeda",
-				"job": "Story",
-				"department": "Writing"
 			},
 			{
 				"id": 2519053,
 				"name": "Sri Nagendra Prasad Tangala",
 				"job": "Art Direction",
 				"department": "Art",
-				"gender": 2
-			},
-			{
-				"id": 3302060,
-				"name": "Vivek Anand",
-				"job": "Colorist",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
-				"id": 1380060,
-				"name": "Chandoo Mondeti",
-				"job": "Writer",
-				"department": "Writing",
 				"gender": 2
 			},
 			{
@@ -163,10 +124,32 @@
 				"gender": 2
 			},
 			{
+				"id": 237681,
+				"name": "Devi Sri Prasad",
+				"profile_path": "/4Be4HLS7qqbVPfKyA3yHvtpObFc.jpg",
+				"job": "Original Music Composer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
 				"id": 1380060,
 				"name": "Chandoo Mondeti",
 				"job": "Director",
 				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 1643495,
+				"name": "M. R. Rajakrishnan",
+				"job": "Sound Mixer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 1380060,
+				"name": "Chandoo Mondeti",
+				"job": "Writer",
+				"department": "Writing",
 				"gender": 2
 			},
 			{
@@ -176,11 +159,28 @@
 				"department": "Production"
 			},
 			{
-				"id": 933606,
-				"name": "Bunny Vas",
-				"profile_path": "/wuORjl5RorJUpLeWL6UspfC1zak.jpg",
-				"job": "Producer",
-				"department": "Production",
+				"id": 4477444,
+				"name": "Riyaz Chowdhry",
+				"job": "Co-Producer",
+				"department": "Production"
+			},
+			{
+				"id": 4477445,
+				"name": "Kartheek Theeda",
+				"job": "Story",
+				"department": "Writing"
+			},
+			{
+				"id": 4477447,
+				"name": "N. Durga Prakash",
+				"job": "Associate Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3302060,
+				"name": "Vivek Anand",
+				"job": "Colorist",
+				"department": "Editing",
 				"gender": 2
 			}
 		]

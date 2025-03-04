@@ -189,11 +189,11 @@
 				"department": "Directing"
 			},
 			{
-				"id": 1857847,
-				"name": "Vinesh Banglan",
-				"job": "Production Design",
-				"department": "Art",
-				"gender": 2
+				"id": 1966148,
+				"name": "Venky Atluri",
+				"profile_path": "/iT5fIq1duh31r3wzcVfFf3Qom0B.jpg",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 3355377,
@@ -201,29 +201,6 @@
 				"job": "Producer",
 				"department": "Production",
 				"gender": 1
-			},
-			{
-				"id": 1526585,
-				"name": "Naveen Nooli",
-				"profile_path": "/dTYIRplqzKtT6LB8uONcIcsJz6I.jpg",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
-				"id": 2340304,
-				"name": "Nimish Ravi",
-				"profile_path": "/3prTwkLnNym21TUYBjgs1RtlOmr.jpg",
-				"job": "Director of Photography",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
-				"id": 1966148,
-				"name": "Venky Atluri",
-				"profile_path": "/iT5fIq1duh31r3wzcVfFf3Qom0B.jpg",
-				"job": "Writer",
-				"department": "Writing"
 			},
 			{
 				"id": 1790294,
@@ -242,10 +219,41 @@
 				"gender": 2
 			},
 			{
+				"id": 1526585,
+				"name": "Naveen Nooli",
+				"profile_path": "/dTYIRplqzKtT6LB8uONcIcsJz6I.jpg",
+				"job": "Editor",
+				"department": "Editing",
+				"gender": 2
+			},
+			{
+				"id": 1857847,
+				"name": "Vinesh Banglan",
+				"job": "Production Design",
+				"department": "Art",
+				"gender": 2
+			},
+			{
+				"id": 2340304,
+				"name": "Nimish Ravi",
+				"profile_path": "/3prTwkLnNym21TUYBjgs1RtlOmr.jpg",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
 				"id": 1643581,
 				"name": "Kabilan Chellaiah",
 				"job": "Publicist",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 2035076,
+				"name": "Ramajogayya Sastry",
+				"profile_path": "/y9sxtSdukV0GS4JyJQMq67BnHDr.jpg",
+				"job": "Lyricist",
+				"department": "Writing",
 				"gender": 2
 			},
 			{
@@ -257,14 +265,6 @@
 				"gender": 2
 			},
 			{
-				"id": 2079072,
-				"name": "Shweta Mohan",
-				"profile_path": "/5H0BjWHYK4aQA5YtH1Hm9q8NZ6Y.jpg",
-				"job": "Playback Singer",
-				"department": "Sound",
-				"gender": 1
-			},
-			{
 				"id": 2156687,
 				"name": "Vishal Mishra",
 				"profile_path": "/rgTiKOQ016nV05FxiWpvjqurWAC.jpg",
@@ -273,20 +273,20 @@
 				"gender": 2
 			},
 			{
+				"id": 2079072,
+				"name": "Shweta Mohan",
+				"profile_path": "/5H0BjWHYK4aQA5YtH1Hm9q8NZ6Y.jpg",
+				"job": "Playback Singer",
+				"department": "Sound",
+				"gender": 1
+			},
+			{
 				"id": 1244561,
 				"name": "Usha Uthup",
 				"profile_path": "/my2bXpLiJl3a3nmygIhnDulqqRf.jpg",
 				"job": "Playback Singer",
 				"department": "Sound",
 				"gender": 1
-			},
-			{
-				"id": 2035076,
-				"name": "Ramajogayya Sastry",
-				"profile_path": "/y9sxtSdukV0GS4JyJQMq67BnHDr.jpg",
-				"job": "Lyricist",
-				"department": "Writing",
-				"gender": 2
 			}
 		]
 	}

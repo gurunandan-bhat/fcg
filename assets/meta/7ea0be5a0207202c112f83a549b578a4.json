@@ -196,6 +196,13 @@
 				"department": "Directing"
 			},
 			{
+				"id": 1736902,
+				"name": "Sheetal Sharma",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
+			},
+			{
 				"id": 102246,
 				"name": "Dinesh Vijan",
 				"profile_path": "/mYKpPjxkGvyCXMhId8HXZKAyePb.jpg",
@@ -211,55 +218,12 @@
 				"gender": 2
 			},
 			{
-				"id": 1736902,
-				"name": "Sheetal Sharma",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 2
-			},
-			{
-				"id": 1544565,
-				"name": "Niren Bhatt",
-				"job": "Writer",
-				"department": "Writing"
-			},
-			{
 				"id": 1658334,
 				"name": "Jyoti Deshpande",
 				"profile_path": "/fpbj5f3Uny0xdyPU8Qt5dMbi1PT.jpg",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 1
-			},
-			{
-				"id": 1279371,
-				"name": "Sachin Sanghvi",
-				"profile_path": "/eU5IcGfWX8Ttv3hLNZnFbkno3Ev.jpg",
-				"job": "Music",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1279372,
-				"name": "Jigar Saraiya",
-				"profile_path": "/r9vcvfVmc7aybWEB3vHYJiUSNJP.jpg",
-				"job": "Music",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 2329568,
-				"name": "Justin Varghese",
-				"profile_path": "/dBJWRPIQvfThp5SRVClY46XEB6b.jpg",
-				"job": "Original Music Composer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 2255860,
-				"name": "Sharada Karki",
-				"job": "Co-Producer",
-				"department": "Production"
 			},
 			{
 				"id": 3951923,
@@ -276,22 +240,37 @@
 				"gender": 2
 			},
 			{
-				"id": 1118109,
-				"name": "Hemanti Sarkar",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
 				"id": 4488204,
 				"name": "Shraddha S. Thorat",
 				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
-				"id": 2226504,
-				"name": "Roshan Singh",
-				"job": "Executive Producer",
-				"department": "Production"
+				"id": 1745013,
+				"name": "Mayur Sharma",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 1118109,
+				"name": "Hemanti Sarkar",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 1911375,
+				"name": "Vijay Ganguly",
+				"job": "Choreographer",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
+				"id": 1279371,
+				"name": "Sachin Sanghvi",
+				"profile_path": "/eU5IcGfWX8Ttv3hLNZnFbkno3Ev.jpg",
+				"job": "Music",
+				"department": "Sound",
+				"gender": 2
 			},
 			{
 				"id": 2266283,
@@ -301,17 +280,16 @@
 				"gender": 2
 			},
 			{
-				"id": 1745013,
-				"name": "Mayur Sharma",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 1544565,
+				"name": "Niren Bhatt",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
-				"id": 1911375,
-				"name": "Vijay Ganguly",
-				"job": "Choreographer",
-				"department": "Crew",
-				"gender": 2
+				"id": 2255860,
+				"name": "Sharada Karki",
+				"job": "Co-Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1756347,
@@ -340,16 +318,25 @@
 				"gender": 2
 			},
 			{
-				"id": 3747381,
-				"name": "James Austin",
-				"job": "VFX Supervisor",
-				"department": "Visual Effects"
+				"id": 1279372,
+				"name": "Jigar Saraiya",
+				"profile_path": "/r9vcvfVmc7aybWEB3vHYJiUSNJP.jpg",
+				"job": "Music",
+				"department": "Sound",
+				"gender": 2
 			},
 			{
-				"id": 1736902,
-				"name": "Sheetal Sharma",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up",
+				"id": 2226504,
+				"name": "Roshan Singh",
+				"job": "Executive Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2329568,
+				"name": "Justin Varghese",
+				"profile_path": "/dBJWRPIQvfThp5SRVClY46XEB6b.jpg",
+				"job": "Original Music Composer",
+				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -359,14 +346,27 @@
 				"department": "Sound"
 			},
 			{
-				"id": 2124649,
-				"name": "Shiv Chauhan",
+				"id": 2124650,
+				"name": "Ashish Khare",
 				"job": "Casting",
 				"department": "Production"
 			},
 			{
-				"id": 2124650,
-				"name": "Ashish Khare",
+				"id": 1736902,
+				"name": "Sheetal Sharma",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
+			},
+			{
+				"id": 3747381,
+				"name": "James Austin",
+				"job": "VFX Supervisor",
+				"department": "Visual Effects"
+			},
+			{
+				"id": 2124649,
+				"name": "Shiv Chauhan",
 				"job": "Casting",
 				"department": "Production"
 			},

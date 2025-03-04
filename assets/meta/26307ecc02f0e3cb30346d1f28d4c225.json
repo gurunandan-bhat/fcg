@@ -387,20 +387,6 @@
 		],
 		"crew": [
 			{
-				"id": 34001,
-				"name": "Amanda Posey",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
-				"id": 51675,
-				"name": "Finola Dwyer",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
 				"id": 1255294,
 				"name": "Ben Taylor",
 				"profile_path": "/ngGti9l9LzizRS6cQp7qeG3ipl2.jpg",
@@ -415,6 +401,20 @@
 				"job": "Writer",
 				"department": "Writing",
 				"gender": 2
+			},
+			{
+				"id": 51675,
+				"name": "Finola Dwyer",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 1
+			},
+			{
+				"id": 34001,
+				"name": "Amanda Posey",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 1
 			},
 			{
 				"id": 15729,

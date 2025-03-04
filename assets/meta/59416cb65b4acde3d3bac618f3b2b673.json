@@ -84,16 +84,61 @@
 				"gender": 2
 			},
 			{
-				"id": 2717690,
-				"name": "Reto Kurth",
-				"job": "Art Direction",
-				"department": "Art"
+				"id": 1533996,
+				"name": "Lisa Blatter",
+				"job": "Assistant Director",
+				"department": "Directing"
+			},
+			{
+				"id": 1847636,
+				"name": "Simon Steuri",
+				"job": "Screenplay",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 2717688,
+				"name": "Rita Iten",
+				"job": "Makeup Artist",
+				"department": "Costume \u0026 Make-Up"
 			},
 			{
 				"id": 2717691,
 				"name": "Adrian Bühler",
 				"job": "Sound Mixer",
 				"department": "Sound"
+			},
+			{
+				"id": 2717689,
+				"name": "Philipp Junker",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 2717678,
+				"name": "Sergio Cassini",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
+				"id": 2717687,
+				"name": "Sabine Bechtel",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1847636,
+				"name": "Simon Steuri",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 2
+			},
+			{
+				"id": 2717690,
+				"name": "Reto Kurth",
+				"job": "Art Direction",
+				"department": "Art"
 			},
 			{
 				"id": 1583267,
@@ -104,60 +149,15 @@
 			{
 				"id": 1847636,
 				"name": "Simon Steuri",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up",
+				"job": "Editor",
+				"department": "Editing",
 				"gender": 2
-			},
-			{
-				"id": 2717687,
-				"name": "Sabine Bechtel",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2717678,
-				"name": "Sergio Cassini",
-				"job": "Director of Photography",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
-				"id": 1533996,
-				"name": "Lisa Blatter",
-				"job": "Assistant Director",
-				"department": "Directing"
-			},
-			{
-				"id": 2717688,
-				"name": "Rita Iten",
-				"job": "Makeup Artist",
-				"department": "Costume \u0026 Make-Up"
 			},
 			{
 				"id": 2717692,
 				"name": "Bit-Tuner",
 				"job": "Music",
 				"department": "Sound"
-			},
-			{
-				"id": 1847636,
-				"name": "Simon Steuri",
-				"job": "Screenplay",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 2717689,
-				"name": "Philipp Junker",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 1847636,
-				"name": "Simon Steuri",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
 			}
 		]
 	}

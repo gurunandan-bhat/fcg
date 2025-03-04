@@ -102,13 +102,6 @@
 		],
 		"crew": [
 			{
-				"id": 2715908,
-				"name": "G.R. Indugopan",
-				"job": "Writer",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
 				"id": 1337156,
 				"name": "Sanu John Varghese",
 				"profile_path": "/xniYcUcI5jQqU5huyLdSlrh58ZT.jpg",
@@ -117,10 +110,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1649668,
-				"name": "Jyothish Shankar",
-				"job": "Director",
-				"department": "Directing",
+				"id": 3494088,
+				"name": "Ajith Vinayaka",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -138,10 +131,17 @@
 				"department": "Writing"
 			},
 			{
-				"id": 3494088,
-				"name": "Ajith Vinayaka",
-				"job": "Producer",
-				"department": "Production",
+				"id": 2715908,
+				"name": "G.R. Indugopan",
+				"job": "Writer",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 1649668,
+				"name": "Jyothish Shankar",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
@@ -164,16 +164,16 @@
 				"department": "Costume \u0026 Make-Up"
 			},
 			{
-				"id": 2454073,
-				"name": "Nidhin Raj Arol",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
 				"id": 3230155,
 				"name": "Suhail Koya",
 				"job": "Lyricist",
 				"department": "Writing"
+			},
+			{
+				"id": 2454073,
+				"name": "Nidhin Raj Arol",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 1649668,

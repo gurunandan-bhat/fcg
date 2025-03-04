@@ -152,6 +152,18 @@
 				"department": "Camera"
 			},
 			{
+				"id": 2669854,
+				"name": "Anil Krish",
+				"job": "Editor",
+				"department": "Editing"
+			},
+			{
+				"id": 3742813,
+				"name": "Arasavilli Ram Kumaar",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
 				"id": 1635776,
 				"name": "Charan Raj",
 				"profile_path": "/8Nfk1iaB0UlF4UjnUIT3fvHq1jQ.jpg",
@@ -160,10 +172,10 @@
 				"gender": 2
 			},
 			{
-				"id": 1756347,
-				"name": "Jani Master",
-				"job": "Choreographer",
-				"department": "Crew"
+				"id": 3742730,
+				"name": "Dinesh Sundaram",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 3742729,
@@ -172,28 +184,16 @@
 				"department": "Production"
 			},
 			{
-				"id": 3742730,
-				"name": "Dinesh Sundaram",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2669846,
-				"name": "Eashvar Karthic",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
 				"id": 2669846,
 				"name": "Eashvar Karthic",
 				"job": "Writer",
 				"department": "Writing"
 			},
 			{
-				"id": 2669854,
-				"name": "Anil Krish",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 1756347,
+				"name": "Jani Master",
+				"job": "Choreographer",
+				"department": "Crew"
 			},
 			{
 				"id": 2200190,
@@ -203,10 +203,10 @@
 				"gender": 2
 			},
 			{
-				"id": 3742813,
-				"name": "Arasavilli Ram Kumaar",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 2669846,
+				"name": "Eashvar Karthic",
+				"job": "Director",
+				"department": "Directing"
 			},
 			{
 				"id": 3742872,
@@ -215,20 +215,8 @@
 				"department": "Writing"
 			},
 			{
-				"id": 2099004,
-				"name": "Rabin Subbu",
-				"job": "Fight Choreographer",
-				"department": "Crew"
-			},
-			{
 				"id": 3742875,
 				"name": "Gangadhar",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 3742880,
-				"name": "Ahswini",
 				"job": "Costume Designer",
 				"department": "Costume \u0026 Make-Up"
 			},
@@ -237,19 +225,6 @@
 				"name": "Mahimairaj",
 				"job": "Visual Effects",
 				"department": "Visual Effects"
-			},
-			{
-				"id": 3742883,
-				"name": "K. Debore",
-				"job": "Publicist",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 3742886,
-				"name": "Muruga Prakash Ganesan",
-				"job": "Assistant Director",
-				"department": "Directing"
 			},
 			{
 				"id": 3742888,
@@ -264,6 +239,12 @@
 				"department": "Production"
 			},
 			{
+				"id": 3742894,
+				"name": "Assa Suresh",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
 				"id": 3742890,
 				"name": "V. Ganesh Kumar",
 				"job": "Executive Producer",
@@ -276,16 +257,35 @@
 				"department": "Writing"
 			},
 			{
+				"id": 3742886,
+				"name": "Muruga Prakash Ganesan",
+				"job": "Assistant Director",
+				"department": "Directing"
+			},
+			{
 				"id": 3742893,
 				"name": "Sathya Narayanan Boddu",
 				"job": "Production Executive",
 				"department": "Production"
 			},
 			{
-				"id": 3742894,
-				"name": "Assa Suresh",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 2099004,
+				"name": "Rabin Subbu",
+				"job": "Fight Choreographer",
+				"department": "Crew"
+			},
+			{
+				"id": 3742883,
+				"name": "K. Debore",
+				"job": "Publicist",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 3742880,
+				"name": "Ahswini",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
 			}
 		]
 	}

@@ -274,18 +274,18 @@
 				"gender": 2
 			},
 			{
-				"id": 1908574,
-				"name": "Al LeVine",
-				"job": "Editor",
-				"department": "Editing",
-				"gender": 2
-			},
-			{
 				"id": 1538618,
 				"name": "AJ Riach",
 				"profile_path": "/enK8bxdYmBPj6Oy3Obkdcs7DjDf.jpg",
 				"job": "Co-Producer",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1908574,
+				"name": "Al LeVine",
+				"job": "Editor",
+				"department": "Editing",
 				"gender": 2
 			},
 			{
@@ -318,13 +318,6 @@
 				"gender": 2
 			},
 			{
-				"id": 63453,
-				"name": "Patrick Casey",
-				"job": "Story",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
 				"id": 63449,
 				"name": "Josh Miller",
 				"profile_path": "/m9dCtaDDXycswi47CP6WP0F7v1D.jpg",
@@ -341,6 +334,13 @@
 				"gender": 2
 			},
 			{
+				"id": 63453,
+				"name": "Patrick Casey",
+				"job": "Story",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
 				"id": 1486976,
 				"name": "Christina Low",
 				"profile_path": "/c8mwAXsOPFxM6sXSVozUU0mEolJ.jpg",
@@ -349,48 +349,16 @@
 				"gender": 1
 			},
 			{
-				"id": 1378696,
-				"name": "Ethan Van der Ryn",
-				"profile_path": "/cee7w7XpNMSXyFv0F7CtwpBtERB.jpg",
-				"job": "Supervising Sound Editor",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1378695,
-				"name": "Erik Aadahl",
-				"profile_path": "/c02IxbuxyZR93j0gaothnjw1lsZ.jpg",
-				"job": "Supervising Sound Editor",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1378695,
-				"name": "Erik Aadahl",
-				"profile_path": "/c02IxbuxyZR93j0gaothnjw1lsZ.jpg",
-				"job": "Sound Designer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 1378696,
-				"name": "Ethan Van der Ryn",
-				"profile_path": "/cee7w7XpNMSXyFv0F7CtwpBtERB.jpg",
-				"job": "Sound Designer",
-				"department": "Sound",
-				"gender": 2
+				"id": 1658453,
+				"name": "Eleanor Baker",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 1
 			},
 			{
 				"id": 2240788,
 				"name": "Toby Ascher",
 				"profile_path": "/xYcYyVQN2E3bw3L9y9sJJDdoRbo.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2222900,
-				"name": "Toru Nakahara",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 2
@@ -403,47 +371,17 @@
 				"gender": 2
 			},
 			{
-				"id": 2658630,
-				"name": "Haruki Satomi",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 3346056,
-				"name": "Shuji Utsumi",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 3346055,
-				"name": "Yukio Sugino",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 93364,
-				"name": "Jeff Fowler",
-				"profile_path": "/wExdubFgeBkEUP8MojKPKoOcgdZ.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 1750922,
-				"name": "Tommy Gormley",
-				"profile_path": "/cG3FmevSbDfCpsoopL0bkHo3KyO.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 55252,
 				"name": "Tim Miller",
 				"profile_path": "/dCyBYwhO76j5wA96HPb6k5xk2Le.jpg",
 				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 2222900,
+				"name": "Toru Nakahara",
+				"job": "Producer",
 				"department": "Production",
 				"gender": 2
 			},
@@ -463,11 +401,73 @@
 				"gender": 2
 			},
 			{
-				"id": 1658453,
-				"name": "Eleanor Baker",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 1
+				"id": 1378695,
+				"name": "Erik Aadahl",
+				"profile_path": "/c02IxbuxyZR93j0gaothnjw1lsZ.jpg",
+				"job": "Supervising Sound Editor",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 2658630,
+				"name": "Haruki Satomi",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1378696,
+				"name": "Ethan Van der Ryn",
+				"profile_path": "/cee7w7XpNMSXyFv0F7CtwpBtERB.jpg",
+				"job": "Supervising Sound Editor",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 3346055,
+				"name": "Yukio Sugino",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1750922,
+				"name": "Tommy Gormley",
+				"profile_path": "/cG3FmevSbDfCpsoopL0bkHo3KyO.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 3346056,
+				"name": "Shuji Utsumi",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1378696,
+				"name": "Ethan Van der Ryn",
+				"profile_path": "/cee7w7XpNMSXyFv0F7CtwpBtERB.jpg",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 1378695,
+				"name": "Erik Aadahl",
+				"profile_path": "/c02IxbuxyZR93j0gaothnjw1lsZ.jpg",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 93364,
+				"name": "Jeff Fowler",
+				"profile_path": "/wExdubFgeBkEUP8MojKPKoOcgdZ.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 2065773,

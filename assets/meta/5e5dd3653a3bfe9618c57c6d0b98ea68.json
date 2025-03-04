@@ -305,11 +305,12 @@
 				"gender": 2
 			},
 			{
-				"id": 437,
-				"name": "David J. Bomba",
-				"job": "Production Design",
-				"department": "Art",
-				"gender": 2
+				"id": 62643,
+				"name": "Francine Jamison-Tanchuck",
+				"profile_path": "/mg4PkfemYc0wUC68vO0NwNzp72M.jpg",
+				"job": "Costume Design",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 1
 			},
 			{
 				"id": 3511305,
@@ -318,17 +319,23 @@
 				"department": "Art"
 			},
 			{
+				"id": 437,
+				"name": "David J. Bomba",
+				"job": "Production Design",
+				"department": "Art",
+				"gender": 2
+			},
+			{
 				"id": 65725,
 				"name": "Patrick Cassidy",
 				"job": "Set Decoration",
 				"department": "Art"
 			},
 			{
-				"id": 62643,
-				"name": "Francine Jamison-Tanchuck",
-				"profile_path": "/mg4PkfemYc0wUC68vO0NwNzp72M.jpg",
-				"job": "Costume Design",
-				"department": "Costume \u0026 Make-Up",
+				"id": 66265,
+				"name": "Jennifer Roth",
+				"job": "Executive Producer",
+				"department": "Production",
 				"gender": 1
 			},
 			{
@@ -340,17 +347,12 @@
 				"gender": 2
 			},
 			{
-				"id": 1618284,
-				"name": "Constanza Romero",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 66265,
-				"name": "Jennifer Roth",
-				"job": "Executive Producer",
+				"id": 5292,
+				"name": "Denzel Washington",
+				"profile_path": "/9Iyt3wbsla5bM6IzbICDVnBhkER.jpg",
+				"job": "Producer",
 				"department": "Production",
-				"gender": 1
+				"gender": 2
 			},
 			{
 				"id": 2706486,
@@ -360,12 +362,10 @@
 				"gender": 1
 			},
 			{
-				"id": 5292,
-				"name": "Denzel Washington",
-				"profile_path": "/9Iyt3wbsla5bM6IzbICDVnBhkER.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
+				"id": 1618284,
+				"name": "Constanza Romero",
+				"job": "Executive Producer",
+				"department": "Production"
 			},
 			{
 				"id": 51612,
@@ -376,17 +376,17 @@
 				"gender": 2
 			},
 			{
-				"id": 2092069,
-				"name": "Malcolm Washington",
-				"profile_path": "/fBHru2ZNDzryDRpNifeHFEPqBfs.jpg",
+				"id": 1228470,
+				"name": "Virgil Williams",
+				"profile_path": "/4Qo7BJiH0ORwNYdGSbLPXLniDIo.jpg",
 				"job": "Screenplay",
 				"department": "Writing",
 				"gender": 2
 			},
 			{
-				"id": 1228470,
-				"name": "Virgil Williams",
-				"profile_path": "/4Qo7BJiH0ORwNYdGSbLPXLniDIo.jpg",
+				"id": 2092069,
+				"name": "Malcolm Washington",
+				"profile_path": "/fBHru2ZNDzryDRpNifeHFEPqBfs.jpg",
 				"job": "Screenplay",
 				"department": "Writing",
 				"gender": 2

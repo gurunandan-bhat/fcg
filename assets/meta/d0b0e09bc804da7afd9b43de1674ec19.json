@@ -306,10 +306,12 @@
 		],
 		"crew": [
 			{
-				"id": 4028695,
-				"name": "Manel Loureiro",
-				"job": "Novel",
-				"department": "Writing"
+				"id": 1054301,
+				"name": "Adrián Guerra",
+				"profile_path": "/4ZfybKJ722RJh8lnEY24TKgsCtt.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 1017209,
@@ -320,19 +322,17 @@
 				"gender": 2
 			},
 			{
+				"id": 4028695,
+				"name": "Manel Loureiro",
+				"job": "Novel",
+				"department": "Writing"
+			},
+			{
 				"id": 1152373,
 				"name": "Ángel Agudo",
 				"profile_path": "/3kj0cpNYzonA54NgSKZFZVOMCmq.jpg",
 				"job": "Screenplay",
 				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 1054301,
-				"name": "Adrián Guerra",
-				"profile_path": "/4ZfybKJ722RJh8lnEY24TKgsCtt.jpg",
-				"job": "Producer",
-				"department": "Production",
 				"gender": 2
 			},
 			{

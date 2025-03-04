@@ -39,8 +39,8 @@
 				"id": 4348229,
 				"name": "Sumanth Bhat",
 				"profile_path": "/ngUDH6WEaQ190Pj1KNvOq5mwdZB.jpg",
-				"job": "Director",
-				"department": "Directing"
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 1306152,
@@ -54,8 +54,14 @@
 				"id": 4348229,
 				"name": "Sumanth Bhat",
 				"profile_path": "/ngUDH6WEaQ190Pj1KNvOq5mwdZB.jpg",
-				"job": "Writer",
-				"department": "Writing"
+				"job": "Director",
+				"department": "Directing"
+			},
+			{
+				"id": 2813581,
+				"name": "Bhuvanesh Manivannan",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 1549658,
@@ -68,12 +74,6 @@
 				"name": "Shreyank Nanjappa",
 				"job": "Sound Designer",
 				"department": "Sound"
-			},
-			{
-				"id": 2813581,
-				"name": "Bhuvanesh Manivannan",
-				"job": "Editor",
-				"department": "Editing"
 			},
 			{
 				"id": 1906567,

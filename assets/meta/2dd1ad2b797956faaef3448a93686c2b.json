@@ -35,8 +35,8 @@
 			{
 				"id": 2470075,
 				"name": "Shishir Jha",
-				"job": "Director",
-				"department": "Directing",
+				"job": "Cinematography",
+				"department": "Crew",
 				"gender": 2
 			},
 			{
@@ -49,15 +49,15 @@
 			{
 				"id": 2470075,
 				"name": "Shishir Jha",
-				"job": "Cinematography",
-				"department": "Crew",
+				"job": "Screenplay",
+				"department": "Writing",
 				"gender": 2
 			},
 			{
 				"id": 2470075,
 				"name": "Shishir Jha",
-				"job": "Screenplay",
-				"department": "Writing",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			}
 		]

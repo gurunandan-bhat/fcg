@@ -290,11 +290,11 @@
 		],
 		"crew": [
 			{
-				"id": 1107021,
-				"name": "Sreenu Vaitla",
-				"profile_path": "/dj1i0r5wQ5biXWz7HUpi9PYhx1z.jpg",
-				"job": "Director",
-				"department": "Directing",
+				"id": 2459949,
+				"name": "Vivek Kuchibhotla",
+				"profile_path": "/vN4Rx7Rs1azGKJRXE9izBJzr3aS.jpg",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -306,17 +306,10 @@
 				"gender": 2
 			},
 			{
-				"id": 4648438,
-				"name": "Venu Donepudi",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 2459949,
-				"name": "Vivek Kuchibhotla",
-				"profile_path": "/vN4Rx7Rs1azGKJRXE9izBJzr3aS.jpg",
-				"job": "Producer",
-				"department": "Production",
+				"id": 1340551,
+				"name": "Chaitan Bharadwaj",
+				"job": "Sound",
+				"department": "Sound",
 				"gender": 2
 			},
 			{
@@ -327,10 +320,11 @@
 				"gender": 2
 			},
 			{
-				"id": 1340551,
-				"name": "Chaitan Bharadwaj",
-				"job": "Sound",
-				"department": "Sound",
+				"id": 1107021,
+				"name": "Sreenu Vaitla",
+				"profile_path": "/dj1i0r5wQ5biXWz7HUpi9PYhx1z.jpg",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
@@ -338,6 +332,12 @@
 				"name": "K.V. Guhan",
 				"job": "Cinematography",
 				"department": "Crew"
+			},
+			{
+				"id": 4648438,
+				"name": "Venu Donepudi",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 2255731,
@@ -348,14 +348,14 @@
 				"gender": 2
 			},
 			{
-				"id": 3221896,
-				"name": "Bhanu Bogavarapu",
+				"id": 3721470,
+				"name": "Nandu Savirigana",
 				"job": "Writer",
 				"department": "Writing"
 			},
 			{
-				"id": 3721470,
-				"name": "Nandu Savirigana",
+				"id": 3221896,
+				"name": "Bhanu Bogavarapu",
 				"job": "Writer",
 				"department": "Writing"
 			}

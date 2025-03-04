@@ -203,12 +203,16 @@
 				"department": "Writing"
 			},
 			{
-				"id": 224221,
-				"name": "Maneesh Sharma",
-				"profile_path": "/yW9iGmwLCgjgaS9Bgp3CiKxQVcU.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
+				"id": 1796240,
+				"name": "Manish Tiwari",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 2362161,
+				"name": "Sahil Bhardwaj",
+				"job": "Director of Photography",
+				"department": "Camera"
 			},
 			{
 				"id": 69709,
@@ -219,22 +223,18 @@
 				"gender": 2
 			},
 			{
-				"id": 2362161,
-				"name": "Sahil Bhardwaj",
-				"job": "Director of Photography",
-				"department": "Camera"
-			},
-			{
 				"id": 1718140,
 				"name": "Darshan Jalan",
 				"job": "Costume Designer",
 				"department": "Costume \u0026 Make-Up"
 			},
 			{
-				"id": 1796240,
-				"name": "Manish Tiwari",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up"
+				"id": 224221,
+				"name": "Maneesh Sharma",
+				"profile_path": "/yW9iGmwLCgjgaS9Bgp3CiKxQVcU.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 4945327,

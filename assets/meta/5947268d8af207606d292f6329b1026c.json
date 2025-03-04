@@ -122,16 +122,36 @@
 		],
 		"crew": [
 			{
+				"id": 2421768,
+				"name": "Rajani Talluri",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
 				"id": 2558326,
 				"name": "Karuna Kumar",
 				"job": "Director",
 				"department": "Directing"
 			},
 			{
-				"id": 2558326,
-				"name": "Karuna Kumar",
-				"job": "Writer",
-				"department": "Writing"
+				"id": 2476273,
+				"name": "A. Kishore Kumar",
+				"job": "Director of Photography",
+				"department": "Camera",
+				"gender": 2
+			},
+			{
+				"id": 2098999,
+				"name": "Rekha Boggarapu",
+				"job": "Costume Designer",
+				"department": "Costume \u0026 Make-Up",
+				"gender": 1
+			},
+			{
+				"id": 3363307,
+				"name": "J Vidya Sagar",
+				"job": "Executive Producer",
+				"department": "Production"
 			},
 			{
 				"id": 4160744,
@@ -141,10 +161,16 @@
 				"gender": 2
 			},
 			{
-				"id": 2421768,
-				"name": "Rajani Talluri",
-				"job": "Producer",
+				"id": 1319227,
+				"name": "Prashanth Mandava",
+				"job": "Line Producer",
 				"department": "Production"
+			},
+			{
+				"id": 2558326,
+				"name": "Karuna Kumar",
+				"job": "Writer",
+				"department": "Writing"
 			},
 			{
 				"id": 584950,
@@ -155,30 +181,10 @@
 				"gender": 2
 			},
 			{
-				"id": 2476273,
-				"name": "A. Kishore Kumar",
-				"job": "Director of Photography",
-				"department": "Camera",
-				"gender": 2
-			},
-			{
-				"id": 2160296,
-				"name": "Karthika Srinivas",
-				"job": "Editor",
-				"department": "Editing"
-			},
-			{
 				"id": 3721279,
 				"name": "Asish Teja Pulala",
 				"job": "Production Design",
 				"department": "Art"
-			},
-			{
-				"id": 2098999,
-				"name": "Rekha Boggarapu",
-				"job": "Costume Designer",
-				"department": "Costume \u0026 Make-Up",
-				"gender": 1
 			},
 			{
 				"id": 4160768,
@@ -187,23 +193,17 @@
 				"department": "Production"
 			},
 			{
-				"id": 3363307,
-				"name": "J Vidya Sagar",
-				"job": "Executive Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1319227,
-				"name": "Prashanth Mandava",
-				"job": "Line Producer",
-				"department": "Production"
-			},
-			{
 				"id": 2200190,
 				"name": "Vamsi Shekar",
 				"job": "Public Relations",
 				"department": "Crew",
 				"gender": 2
+			},
+			{
+				"id": 2160296,
+				"name": "Karthika Srinivas",
+				"job": "Editor",
+				"department": "Editing"
 			}
 		]
 	}

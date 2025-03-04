@@ -145,11 +145,16 @@
 				"gender": 2
 			},
 			{
-				"id": 2048190,
-				"name": "Vaibhav Vishant",
-				"job": "Casting Director",
-				"department": "Production",
-				"gender": 2
+				"id": 1640321,
+				"name": "Subrata Chakraborty",
+				"job": "Production Design",
+				"department": "Art"
+			},
+			{
+				"id": 1640319,
+				"name": "Amit Ray",
+				"job": "Production Design",
+				"department": "Art"
 			},
 			{
 				"id": 1736902,
@@ -159,16 +164,11 @@
 				"gender": 2
 			},
 			{
-				"id": 1640319,
-				"name": "Amit Ray",
-				"job": "Production Design",
-				"department": "Art"
-			},
-			{
-				"id": 1640321,
-				"name": "Subrata Chakraborty",
-				"job": "Production Design",
-				"department": "Art"
+				"id": 2048190,
+				"name": "Vaibhav Vishant",
+				"job": "Casting Director",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 1705311,

@@ -161,16 +161,53 @@
 		],
 		"crew": [
 			{
-				"id": 1796213,
-				"name": "Vipul D. Shah",
+				"id": 2869709,
+				"name": "Vimal K Lahoti",
 				"job": "Producer",
 				"department": "Production"
+			},
+			{
+				"id": 1632637,
+				"name": "Raaj Shaandilyaa",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 83595,
+				"name": "Bhushan Kumar",
+				"profile_path": "/luUFnGoGwjwZ5CHAePRIQpAwT5b.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 2421791,
 				"name": "Yusuf Ali Khan",
 				"job": "Writer",
 				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 1632637,
+				"name": "Raaj Shaandilyaa",
+				"job": "Writer",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
+				"id": 1279372,
+				"name": "Jigar Saraiya",
+				"profile_path": "/r9vcvfVmc7aybWEB3vHYJiUSNJP.jpg",
+				"job": "Music",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 1632637,
+				"name": "Raaj Shaandilyaa",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -182,39 +219,30 @@
 				"gender": 1
 			},
 			{
-				"id": 1632637,
-				"name": "Raaj Shaandilyaa",
-				"job": "Writer",
-				"department": "Writing",
-				"gender": 2
-			},
-			{
-				"id": 2869709,
-				"name": "Vimal K Lahoti",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 1279372,
-				"name": "Jigar Saraiya",
-				"profile_path": "/r9vcvfVmc7aybWEB3vHYJiUSNJP.jpg",
-				"job": "Music",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 87347,
-				"name": "Shobha Kapoor",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 83595,
-				"name": "Bhushan Kumar",
-				"profile_path": "/luUFnGoGwjwZ5CHAePRIQpAwT5b.jpg",
+				"id": 141882,
+				"name": "Krishan Kumar",
+				"profile_path": "/gw2jzzkdRyIHglwieCiFSQ9cLZZ.jpg",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 2
+			},
+			{
+				"id": 2224681,
+				"name": "Ashwin Varde",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3281260,
+				"name": "Rajesh Bahl",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 1796213,
+				"name": "Vipul D. Shah",
+				"job": "Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1279371,
@@ -225,36 +253,8 @@
 				"gender": 2
 			},
 			{
-				"id": 1632637,
-				"name": "Raaj Shaandilyaa",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
-				"id": 3281260,
-				"name": "Rajesh Bahl",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 141882,
-				"name": "Krishan Kumar",
-				"profile_path": "/gw2jzzkdRyIHglwieCiFSQ9cLZZ.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 1632637,
-				"name": "Raaj Shaandilyaa",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2224681,
-				"name": "Ashwin Varde",
+				"id": 87347,
+				"name": "Shobha Kapoor",
 				"job": "Producer",
 				"department": "Production"
 			},

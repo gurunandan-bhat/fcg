@@ -85,16 +85,16 @@
 		],
 		"crew": [
 			{
-				"id": 4803761,
-				"name": "Sivabalan Muthukumar",
-				"job": "Director",
-				"department": "Directing"
-			},
-			{
 				"id": 3520949,
 				"name": "Jen Martin",
 				"job": "Music Director",
 				"department": "Sound"
+			},
+			{
+				"id": 4803761,
+				"name": "Sivabalan Muthukumar",
+				"job": "Director",
+				"department": "Directing"
 			},
 			{
 				"id": 1378577,

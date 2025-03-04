@@ -23,9 +23,9 @@
 				"department": "Directing"
 			},
 			{
-				"id": 2364125,
-				"name": "Quentin Laurent",
-				"job": "Co-Producer",
+				"id": 3983778,
+				"name": "Koval Bhatia",
+				"job": "Producer",
 				"department": "Production"
 			},
 			{
@@ -41,16 +41,10 @@
 				"department": "Production"
 			},
 			{
-				"id": 3165532,
-				"name": "Moinak Bose",
-				"job": "Sound",
-				"department": "Sound"
-			},
-			{
-				"id": 584972,
-				"name": "Blagoja Nedelkovski",
-				"job": "Editor",
-				"department": "Editing"
+				"id": 2364125,
+				"name": "Quentin Laurent",
+				"job": "Co-Producer",
+				"department": "Production"
 			},
 			{
 				"id": 1769634,
@@ -59,10 +53,10 @@
 				"department": "Editing"
 			},
 			{
-				"id": 3983778,
-				"name": "Koval Bhatia",
-				"job": "Producer",
-				"department": "Production"
+				"id": 584972,
+				"name": "Blagoja Nedelkovski",
+				"job": "Editor",
+				"department": "Editing"
 			},
 			{
 				"id": 1985229,
@@ -71,6 +65,12 @@
 				"job": "Director of Photography",
 				"department": "Camera",
 				"gender": 2
+			},
+			{
+				"id": 3165532,
+				"name": "Moinak Bose",
+				"job": "Sound",
+				"department": "Sound"
 			},
 			{
 				"id": 2796934,

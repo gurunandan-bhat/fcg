@@ -502,24 +502,10 @@
 		],
 		"crew": [
 			{
-				"id": 1501861,
-				"name": "Nanda Kishore",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
 				"id": 4199939,
 				"name": "Siddharth Rallapalli",
 				"job": "Producer",
 				"department": "Production"
-			},
-			{
-				"id": 1240965,
-				"name": "Niketh Bommi",
-				"job": "Cinematography",
-				"department": "Crew",
-				"gender": 2
 			},
 			{
 				"id": 3007487,
@@ -529,10 +515,17 @@
 				"gender": 2
 			},
 			{
-				"id": 1975894,
-				"name": "Vishwadev Rachakonda",
-				"job": "Producer",
-				"department": "Production",
+				"id": 1501861,
+				"name": "Nanda Kishore",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 1240965,
+				"name": "Niketh Bommi",
+				"job": "Cinematography",
+				"department": "Crew",
 				"gender": 2
 			},
 			{
@@ -540,6 +533,13 @@
 				"name": "prasanna T.C",
 				"job": "Editor",
 				"department": "Editing"
+			},
+			{
+				"id": 1975894,
+				"name": "Vishwadev Rachakonda",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 1501861,

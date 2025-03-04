@@ -213,8 +213,16 @@
 				"gender": 2
 			},
 			{
-				"id": 4122856,
+				"id": 550851,
 				"order": 24,
+				"name": "Bern Cohen",
+				"profile_path": "/8AXxKLCEnC6IuWOYocw4SJwUmqO.jpg",
+				"character": "Rabbi",
+				"gender": 2
+			},
+			{
+				"id": 4122856,
+				"order": 25,
 				"name": "Jon Wennington",
 				"profile_path": "/byRz4RqpS6bcedpTjUyN8kgl33R.jpg",
 				"character": "Racist Officer (uncredited)",
@@ -223,8 +231,43 @@
 		],
 		"crew": [
 			{
+				"id": 80602,
+				"name": "Tyler Perry",
+				"profile_path": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg",
+				"job": "Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 80602,
+				"name": "Tyler Perry",
+				"profile_path": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 2603084,
 				"name": "Nicole Avant",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 1
+			},
+			{
+				"id": 60011,
+				"name": "Keri Selig",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 3832068,
+				"name": "Carlota Espinosa",
+				"job": "Producer",
+				"department": "Production"
+			},
+			{
+				"id": 2106207,
+				"name": "Angi Bones",
 				"job": "Producer",
 				"department": "Production",
 				"gender": 1
@@ -250,41 +293,6 @@
 				"job": "Writer",
 				"department": "Writing",
 				"gender": 2
-			},
-			{
-				"id": 3832068,
-				"name": "Carlota Espinosa",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
-				"id": 80602,
-				"name": "Tyler Perry",
-				"profile_path": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg",
-				"job": "Director",
-				"department": "Directing",
-				"gender": 2
-			},
-			{
-				"id": 80602,
-				"name": "Tyler Perry",
-				"profile_path": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
-				"id": 2106207,
-				"name": "Angi Bones",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 1
-			},
-			{
-				"id": 60011,
-				"name": "Keri Selig",
-				"job": "Producer",
-				"department": "Production"
 			},
 			{
 				"id": 11703,

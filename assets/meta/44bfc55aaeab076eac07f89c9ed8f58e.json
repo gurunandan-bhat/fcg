@@ -143,19 +143,19 @@
 				"gender": 2
 			},
 			{
-				"id": 1415487,
-				"name": "Eric Barba",
-				"profile_path": "/bLtMpoaZURDF43lFVonIlJAcDnn.jpg",
-				"job": "Visual Effects Supervisor",
-				"department": "Visual Effects",
-				"gender": 2
-			},
-			{
 				"id": 932248,
 				"name": "Fede Álvarez",
 				"profile_path": "/f8KjBkmqAyNGTUkZh1oYIURP4id.jpg",
 				"job": "Executive Producer",
 				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1415487,
+				"name": "Eric Barba",
+				"profile_path": "/bLtMpoaZURDF43lFVonIlJAcDnn.jpg",
+				"job": "Visual Effects Supervisor",
+				"department": "Visual Effects",
 				"gender": 2
 			},
 			{
@@ -195,20 +195,6 @@
 				"department": "Visual Effects"
 			},
 			{
-				"id": 2066722,
-				"name": "Ale Melendez",
-				"job": "Visual Effects Producer",
-				"department": "Visual Effects"
-			},
-			{
-				"id": 1737811,
-				"name": "Nelson Sepulveda-Fauser",
-				"profile_path": "/8bHKxjiERPma1Ur6pPVlwJZIoER.jpg",
-				"job": "Visual Effects Supervisor",
-				"department": "Visual Effects",
-				"gender": 2
-			},
-			{
 				"id": 2423273,
 				"name": "Igor Staritsin",
 				"job": "Visual Effects Art Director",
@@ -221,12 +207,18 @@
 				"department": "Crew"
 			},
 			{
-				"id": 5046,
-				"name": "Ronald Shusett",
-				"profile_path": "/fNfdVzGnrp1PKfdhCdUWOvp36J9.jpg",
-				"job": "Characters",
-				"department": "Writing",
+				"id": 1737811,
+				"name": "Nelson Sepulveda-Fauser",
+				"profile_path": "/8bHKxjiERPma1Ur6pPVlwJZIoER.jpg",
+				"job": "Visual Effects Supervisor",
+				"department": "Visual Effects",
 				"gender": 2
+			},
+			{
+				"id": 2066722,
+				"name": "Ale Melendez",
+				"job": "Visual Effects Producer",
+				"department": "Visual Effects"
 			},
 			{
 				"id": 5045,
@@ -237,8 +229,30 @@
 				"gender": 2
 			},
 			{
+				"id": 5046,
+				"name": "Ronald Shusett",
+				"profile_path": "/fNfdVzGnrp1PKfdhCdUWOvp36J9.jpg",
+				"job": "Characters",
+				"department": "Writing",
+				"gender": 2
+			},
+			{
 				"id": 2449252,
 				"name": "Tom Moran",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 1527474,
+				"name": "Michael A. Pruss",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 60711,
+				"name": "Brent O'Connor",
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 2
@@ -252,25 +266,11 @@
 				"gender": 2
 			},
 			{
-				"id": 60711,
-				"name": "Brent O'Connor",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 56760,
 				"name": "Elizabeth Cantillon",
 				"job": "Executive Producer",
 				"department": "Production",
 				"gender": 1
-			},
-			{
-				"id": 1527474,
-				"name": "Michael A. Pruss",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
 			},
 			{
 				"id": 578,
@@ -295,61 +295,10 @@
 				"gender": 2
 			},
 			{
-				"id": 3664897,
-				"name": "Roland Folkmayer",
-				"job": "Set Production Assistant",
-				"department": "Crew"
-			},
-			{
-				"id": 1397971,
-				"name": "Stephanie Clerkin",
-				"job": "Assistant Art Director",
-				"department": "Art",
-				"gender": 1
-			},
-			{
-				"id": 1708223,
-				"name": "Mark W. McCoy",
-				"job": "Post Production Supervisor",
-				"department": "Crew",
-				"gender": 2
-			},
-			{
-				"id": 2143483,
-				"name": "Vera Janisch",
-				"job": "Second Assistant Director",
-				"department": "Directing"
-			},
-			{
-				"id": 4176777,
-				"name": "Franciska Hutter",
-				"job": "Set Designer",
-				"department": "Art"
-			},
-			{
-				"id": 4742894,
-				"name": "Levente Kocsa",
-				"job": "Propmaker",
-				"department": "Crew"
-			},
-			{
-				"id": 1766257,
-				"name": "Sydney Shircliff",
-				"job": "Casting",
-				"department": "Production",
-				"gender": 1
-			},
-			{
-				"id": 2146409,
-				"name": "Enci Bognar",
-				"job": "Graphic Designer",
-				"department": "Art"
-			},
-			{
-				"id": 3525506,
-				"name": "Horvát Miklós",
-				"job": "Art Department Coordinator",
-				"department": "Art"
+				"id": 3352001,
+				"name": "Balázs Bácskai",
+				"job": "Assistant Production Manager",
+				"department": "Production"
 			},
 			{
 				"id": 5914,
@@ -367,23 +316,11 @@
 				"gender": 1
 			},
 			{
-				"id": 4742886,
-				"name": "Kinga Bácsi",
-				"job": "Set Designer",
-				"department": "Art"
-			},
-			{
-				"id": 3352001,
-				"name": "Balázs Bácskai",
-				"job": "Assistant Production Manager",
-				"department": "Production"
-			},
-			{
-				"id": 1477146,
-				"name": "Lee Cleary",
-				"job": "First Assistant Director",
-				"department": "Directing",
-				"gender": 2
+				"id": 1766257,
+				"name": "Sydney Shircliff",
+				"job": "Casting",
+				"department": "Production",
+				"gender": 1
 			},
 			{
 				"id": 2506053,
@@ -393,16 +330,98 @@
 				"gender": 2
 			},
 			{
+				"id": 1708223,
+				"name": "Mark W. McCoy",
+				"job": "Post Production Supervisor",
+				"department": "Crew",
+				"gender": 2
+			},
+			{
+				"id": 4176777,
+				"name": "Franciska Hutter",
+				"job": "Set Designer",
+				"department": "Art"
+			},
+			{
+				"id": 2146409,
+				"name": "Enci Bognar",
+				"job": "Graphic Designer",
+				"department": "Art"
+			},
+			{
+				"id": 3664897,
+				"name": "Roland Folkmayer",
+				"job": "Set Production Assistant",
+				"department": "Crew"
+			},
+			{
+				"id": 2143483,
+				"name": "Vera Janisch",
+				"job": "Second Assistant Director",
+				"department": "Directing"
+			},
+			{
+				"id": 4742886,
+				"name": "Kinga Bácsi",
+				"job": "Set Designer",
+				"department": "Art"
+			},
+			{
 				"id": 2143601,
 				"name": "Tamás Péter Chipie",
 				"job": "First Assistant Director",
 				"department": "Directing"
 			},
 			{
+				"id": 1397971,
+				"name": "Stephanie Clerkin",
+				"job": "Assistant Art Director",
+				"department": "Art",
+				"gender": 1
+			},
+			{
+				"id": 3525506,
+				"name": "Horvát Miklós",
+				"job": "Art Department Coordinator",
+				"department": "Art"
+			},
+			{
+				"id": 4742894,
+				"name": "Levente Kocsa",
+				"job": "Propmaker",
+				"department": "Crew"
+			},
+			{
+				"id": 1477146,
+				"name": "Lee Cleary",
+				"job": "First Assistant Director",
+				"department": "Directing",
+				"gender": 2
+			},
+			{
 				"id": 1730853,
 				"name": "Annamária Dunai",
 				"job": "Makeup Artist",
 				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1730853,
+				"name": "Annamária Dunai",
+				"job": "Hairstylist",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 2721959,
+				"name": "Andrea Kozma",
+				"job": "Other",
+				"department": "Costume \u0026 Make-Up"
+			},
+			{
+				"id": 1337130,
+				"name": "Peter Nightingale",
+				"job": "Unit Production Manager",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 1279912,
@@ -417,29 +436,10 @@
 				"department": "Art"
 			},
 			{
-				"id": 1730853,
-				"name": "Annamária Dunai",
-				"job": "Hairstylist",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
 				"id": 1399624,
 				"name": "Miklós Tóth",
 				"job": "Unit Production Manager",
 				"department": "Production"
-			},
-			{
-				"id": 2721959,
-				"name": "Andrea Kozma",
-				"job": "Other",
-				"department": "Costume \u0026 Make-Up"
-			},
-			{
-				"id": 1337130,
-				"name": "Peter Nightingale",
-				"job": "Unit Production Manager",
-				"department": "Production",
-				"gender": 2
 			},
 			{
 				"id": 3525506,

@@ -74,6 +74,14 @@
 		],
 		"crew": [
 			{
+				"id": 95136,
+				"name": "David Henrie",
+				"profile_path": "/1NuD0ltILDRRCMfmLPHM8bSfzhb.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 77948,
 				"name": "Selena Gomez",
 				"profile_path": "/MtZ9pJrCcZ1ckxOZym7Jk1QNVB.jpg",
@@ -88,32 +96,24 @@
 				"department": "Production"
 			},
 			{
-				"id": 58375,
-				"name": "Andy Fickman",
-				"profile_path": "/iNj0z0q08sC2j1D8NCBKkkAeNyF.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 195016,
 				"name": "Scott Thomas",
 				"job": "Executive Producer",
 				"department": "Production"
 			},
 			{
-				"id": 95136,
-				"name": "David Henrie",
-				"profile_path": "/1NuD0ltILDRRCMfmLPHM8bSfzhb.jpg",
-				"job": "Executive Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 4509708,
 				"name": "Gary Marsh",
 				"job": "Executive Producer",
 				"department": "Production"
+			},
+			{
+				"id": 58375,
+				"name": "Andy Fickman",
+				"profile_path": "/iNj0z0q08sC2j1D8NCBKkkAeNyF.jpg",
+				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
 			},
 			{
 				"id": 107659,

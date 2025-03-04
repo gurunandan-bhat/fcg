@@ -135,12 +135,10 @@
 		],
 		"crew": [
 			{
-				"id": 35779,
-				"name": "Boman Irani",
-				"profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
+				"id": 231570,
+				"name": "Vikesh Bhutani",
 				"job": "Producer",
-				"department": "Production",
-				"gender": 2
+				"department": "Production"
 			},
 			{
 				"id": 1672773,
@@ -155,17 +153,11 @@
 				"department": "Production"
 			},
 			{
-				"id": 231570,
-				"name": "Vikesh Bhutani",
-				"job": "Producer",
-				"department": "Production"
-			},
-			{
 				"id": 35779,
 				"name": "Boman Irani",
 				"profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
-				"job": "Writer",
-				"department": "Writing",
+				"job": "Producer",
+				"department": "Production",
 				"gender": 2
 			},
 			{
@@ -174,6 +166,14 @@
 				"profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
 				"job": "Director",
 				"department": "Directing",
+				"gender": 2
+			},
+			{
+				"id": 35779,
+				"name": "Boman Irani",
+				"profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
+				"job": "Writer",
+				"department": "Writing",
 				"gender": 2
 			},
 			{

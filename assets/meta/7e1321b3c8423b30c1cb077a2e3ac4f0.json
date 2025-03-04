@@ -512,6 +512,14 @@
 		],
 		"crew": [
 			{
+				"id": 72102,
+				"name": "Bill Block",
+				"profile_path": "/lIyEBU1aHtmSCgIue2hcgiYdDx6.jpg",
+				"job": "Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
 				"id": 24,
 				"name": "Robert Zemeckis",
 				"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
@@ -527,27 +535,12 @@
 				"gender": 2
 			},
 			{
-				"id": 72102,
-				"name": "Bill Block",
-				"profile_path": "/lIyEBU1aHtmSCgIue2hcgiYdDx6.jpg",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 24,
 				"name": "Robert Zemeckis",
 				"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
-				"job": "Director",
-				"department": "Directing",
+				"job": "Screenplay",
+				"department": "Writing",
 				"gender": 2
-			},
-			{
-				"id": 79546,
-				"name": "Richard McGuire",
-				"profile_path": "/5gLFv5QhkIlbO2KaLmMVBCHqMvg.jpg",
-				"job": "Graphic Novel",
-				"department": "Writing"
 			},
 			{
 				"id": 27,
@@ -558,11 +551,18 @@
 				"gender": 2
 			},
 			{
+				"id": 79546,
+				"name": "Richard McGuire",
+				"profile_path": "/5gLFv5QhkIlbO2KaLmMVBCHqMvg.jpg",
+				"job": "Graphic Novel",
+				"department": "Writing"
+			},
+			{
 				"id": 24,
 				"name": "Robert Zemeckis",
 				"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
-				"job": "Screenplay",
-				"department": "Writing",
+				"job": "Director",
+				"department": "Directing",
 				"gender": 2
 			},
 			{
@@ -578,6 +578,22 @@
 				"name": "Alan Silvestri",
 				"profile_path": "/feUZ0Oc1MGJJbUronBbkHTmJzgy.jpg",
 				"job": "Original Music Composer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 42267,
+				"name": "Randy Thom",
+				"profile_path": "/oWv5U4r7NcIlQjs0IxMWE3dsx2l.jpg",
+				"job": "Sound Designer",
+				"department": "Sound",
+				"gender": 2
+			},
+			{
+				"id": 138618,
+				"name": "Gary Rizzo",
+				"profile_path": "/m8vT9fYRLwM8WPpJiq8QIMBSueQ.jpg",
+				"job": "Sound Re-Recording Mixer",
 				"department": "Sound",
 				"gender": 2
 			},
@@ -603,29 +619,6 @@
 				"gender": 2
 			},
 			{
-				"id": 42267,
-				"name": "Randy Thom",
-				"profile_path": "/oWv5U4r7NcIlQjs0IxMWE3dsx2l.jpg",
-				"job": "Sound Designer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 138618,
-				"name": "Gary Rizzo",
-				"profile_path": "/m8vT9fYRLwM8WPpJiq8QIMBSueQ.jpg",
-				"job": "Sound Re-Recording Mixer",
-				"department": "Sound",
-				"gender": 2
-			},
-			{
-				"id": 3678499,
-				"name": "Derek Hogue",
-				"job": "Producer",
-				"department": "Production",
-				"gender": 2
-			},
-			{
 				"id": 1410333,
 				"name": "Jeremy Johns",
 				"job": "Executive Producer",
@@ -636,6 +629,13 @@
 				"id": 72447,
 				"name": "Andrew Golov",
 				"job": "Executive Producer",
+				"department": "Production",
+				"gender": 2
+			},
+			{
+				"id": 3678499,
+				"name": "Derek Hogue",
+				"job": "Producer",
 				"department": "Production",
 				"gender": 2
 			},
