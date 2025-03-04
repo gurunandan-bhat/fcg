@@ -1,8 +1,8 @@
 +++
-title = 'This is the Zodiac Speaking'
+title = 'This Is the Zodiac Speaking'
 date = 2024-10-26T13:22:10+05:30
 draft = false
-mreviews = ['This is the Zodiac Speaking']
+mreviews = ['This Is the Zodiac Speaking']
 critics = ['Rohan Naahar']
 publication = ''
 subtitle = "The most famous unsolved murder case in American history gets the Netflix treatment"
