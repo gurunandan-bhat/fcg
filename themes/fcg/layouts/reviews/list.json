@@ -1,6 +1,6 @@
 {{ $index := dict }}
 {{ $maxReviews := 75 }}
-{{ range first $maxReviews .RegularPages }}
+{{ range .RegularPages }}
     {{ $this := dict "author" (index .Params.critics 0) "film" .Title "path" (printf "%s.md" .Path) "link" .Permalink "media" .Params.media "date" .Date }}
     {{ $value := slice }}
     {{ if isset $index .LinkTitle }}
