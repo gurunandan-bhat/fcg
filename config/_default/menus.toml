@@ -9,14 +9,19 @@ pageRef = '/awards/awards-2024'
 weight  = 20
 
 [[main]]
+name    = 'Nominees 2025 (New!)'
+pageRef = '/awards/awards-2025'
+weight  = 30
+
+[[main]]
 name    = 'Reviews'
 pageRef = '/reviews'
-weight  = 20
+weight  = 40
 
 [[main]]
 name    = 'The Guild'
 pageRef = '/guild'
-weight  = 40
+weight  = 50
 
 [[main]]
 name    = 'Join Us'

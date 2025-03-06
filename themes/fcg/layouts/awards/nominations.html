@@ -7,7 +7,7 @@
             class="img-responsive w-100" />
     </div>
     <div class="container mt-5">
-        <nav aria-label="breadcrumb">
+        <nav aria-label="breadcrumb" class="mb-5">
             <ol class="breadcrumb">
                 <h6
                     class="fw-bold d-inline-block px-2"
@@ -35,30 +35,14 @@
         </nav>
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
-                <div>
+                <div class="mb-5">
                     <h1>{{ .Title }}</h1>
                     {{ .Summary }}
                 </div>
             </div>
-            {{ with $awards.special.winners }}
-                {{ range . }}
-                    <div class="col-lg pb-4">
-                        <h5
-                            class="fw-bold text-center mb-2"
-                            style="height: 3.2rem;">
-                            {{ .title }}
-                            {{ $year }}
-                        </h5>
-                        <img
-                            src="{{ .img }}"
-                            class="img-responsive w-100 pb-4" />
-                    </div>
-                    <hr class="show-on-phone" />
-                {{ end }}
-            {{ end }}
         </div>
-        <div class="row">
-            <div class="col-lg-4 pb-4">
+        <div class="row mb-5">
+            <div class="col-lg-5 pb-4 offset-lg-1">
                 <h5 class="fw-bold text-center my-3">
                     Feature Films
                     {{ $year }}
@@ -66,17 +50,27 @@
                 {{- partial "carousel.html" (dict "year" $year "category" "feature" "winners" $awards.feature.winners) -}}
                 <hr class="show-on-phone" />
             </div>
-            <div class="col-lg-4 pb-4">
+            <div class="col-lg-5 pb-4">
                 <h5 class="fw-bold text-center my-3">Web Series {{ $year }}</h5>
                 {{- partial "carousel.html" (dict "year" $year "category" "web" "winners" $awards.web.winners) -}}
                 <hr class="show-on-phone" />
             </div>
-            <div class="col-lg-4 pb-4">
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-5 pb-4 offset-lg-1">
                 <h5 class="fw-bold text-center my-3">
                     Short Films
                     {{ $year }}
                 </h5>
                 {{- partial "carousel.html" (dict "year" $year "category" "short" "winners" $awards.short.winners) -}}
+                <hr class="show-on-phone" />
+            </div>
+            <div class="col-lg-5 pb-4">
+                <h5 class="fw-bold text-center my-3">
+                    Documentary Films
+                    {{ $year }}
+                </h5>
+                {{- partial "carousel.html" (dict "year" $year "category" "documentary" "winners" $awards.documentary.winners) -}}
                 <hr class="show-on-phone" />
             </div>
         </div>
