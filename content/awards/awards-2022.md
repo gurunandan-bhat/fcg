@@ -1,5 +1,5 @@
 +++
-title = 'Critics Choice Awards 2022'
+title = "Critics' Choice Awards 2022"
 date = 2024-10-03T16:59:09+05:30
 draft = false
 dataFile = 'awards2022'
