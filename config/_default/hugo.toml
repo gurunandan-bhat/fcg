@@ -21,4 +21,4 @@ mreview = 'mreviews'
 reviews = 'images/reviews'
 
 [outputs]
-taxonomy = ['html']
+taxonomy = ['html', 'json']
