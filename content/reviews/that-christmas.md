@@ -1,13 +1,13 @@
 +++
-title = 'That Christmas Movie'
+title = 'That Christmas'
 date = 2024-12-23T08:06:54+05:30
 draft = false
-mreviews = ['That Christmas Movie']
+mreviews = ['That Christmas']
 critics = ['Sonal Pandya']
 publication = ''
 subtitle = "Richard Curtis's Overstuffed Animated Family Film Can't Recreate Love Actually's Charm"
 opening = "The animated feature about the Christmas spirit in a small English town suffers from too many subplots."
-img = 'that-christmas-movie.webp'
+img = 'that-christmas.webp'
 media = 'print'
 source = "https://www.timesnownews.com/entertainment-news/reviews/that-christmas-movie-review-richard-curtiss-overstuffed-animated-family-film-cant-recreate-love-actuallys-charm-review-115976649"
 +++
