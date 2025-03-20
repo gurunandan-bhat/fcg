@@ -10,4 +10,4 @@ Since 2018, the Film Critics Guild and Motion Content Group in collaboration wit
 
 In our fourth edition, we awarded content across 23 categories, in a glorious ceremony that took place in Mumbai in March 2022. The Awards ceremony brought together some of India's most talented and sought after actors, directors, producers, writers and technicians, all under the same roof.
 
-The Film Critics Guild Critics Choice Awards for 2022 follow.
+The Film Critics Guild Critics' Choice Awards for 2022 follow.

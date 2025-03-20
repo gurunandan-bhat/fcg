@@ -1,5 +1,5 @@
 +++
-title = "Best of Critics Choice Awards Screened at Lakhisarai Children's Film Festival 2024"
+title = "Best of Critics' Choice Awards Screened at Lakhisarai Children's Film Festival 2024"
 date = 2024-11-20T12:46:30+05:30
 draft = false
 img = "lakhisarai-childrens-film-festival.jpeg"

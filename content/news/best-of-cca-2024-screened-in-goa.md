@@ -1,5 +1,5 @@
 +++
-title = 'Best of Critics Choice Awards 2024 Screened in Goa'
+title = "Best of Critics' Choice Awards 2024 Screened in Goa"
 date = 2024-10-10T19:09:45+05:30
 draft = false
 img = 'best-of-cca-in-goa.png'
