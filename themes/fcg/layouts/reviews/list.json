@@ -1,19 +1,18 @@
-{{ $index := dict }}
-{{ $maxReviews := 75 }}
-{{ range .RegularPages }}
-    {{ $this := dict "author" (index .Params.critics 0) "film" .Title "path" (printf "%s.md" .Path) "link" .Permalink "media" .Params.media "date" .Date }}
-    {{ $value := slice }}
-    {{ if isset $index .LinkTitle }}
-        {{ $value = index $index .LinkTitle }}
-    {{ end }}
-    {{ $value = append $this $value }}
-    {{ $index = merge $index (dict .LinkTitle $value) }}
-{{ end }}
+{{- $index := dict }}
+{{- range .RegularPages }}
+    {{- $this := dict "author" (index .Params.critics 0) "film" .Title "path" (printf "%s.md" .Path) "link" .Permalink "media" .Params.media "date" .Date }}
+    {{- $value := slice }}
+    {{- if isset $index .LinkTitle }}
+        {{- $value = index $index .LinkTitle }}
+    {{- end }}
+    {{- $value = append $this $value }}
+    {{- $index = merge $index (dict .LinkTitle $value) }}
+{{- end }}
 
-{{ $reviews := slice }}
-{{ range $k, $v := $index }}
-    {{ $nv := sort $v ".author" "asc" }}
-    {{ $elem := dict "film" $k "reviews" $nv }}
-    {{ $reviews = append $elem $reviews }}
-{{ end }}
-{{ $reviews | jsonify }}
+{{- $reviews := slice }}
+{{- range $k, $v := $index }}
+    {{- $nv := sort $v ".author" "asc" }}
+    {{- $elem := dict "film" $k "reviews" $nv }}
+    {{- $reviews = append $elem $reviews }}
+{{- end }}
+{{- $reviews | jsonify }}

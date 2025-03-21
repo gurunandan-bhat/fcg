@@ -8,6 +8,6 @@
         {{- $date = .Page.PublishDate }}
         {{- $title = .Page.LinkTitle }}
     {{- end }}
-    {{- $slice = append (slice (dict "title" $title "count" $revCount "date" $date)) $slice }}
+    {{- $slice = append (slice (dict "title" $title "count" $revCount "date" $date "path" .Page.Path)) $slice }}
 {{- end }}
 {{- $slice | jsonify }}
