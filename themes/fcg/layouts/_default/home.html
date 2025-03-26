@@ -23,7 +23,6 @@
     </div>
     <div class="container">
         {{ partial "navigate.html" . }}
-        <hr class="pb-4" />
     </div>
     <div class="container">
         <div class="d-flex justify-content-center">
@@ -31,7 +30,6 @@
         </div>
         <p>Read all recent news items <a href="/news">here</a></p>
         {{ partial "top-n.html" (dict "section" "news" "n" 4) }}
-        <hr class="pb-4" />
     </div>
     <div
         class="container-fluid pt-5 pb-1 my-5"
@@ -107,7 +105,9 @@
                     {{- partial "carousel.html" (dict "year" "2025" "category" "short" "winners" .Site.Data.awards2025.short.winners) -}}
                 </div>
                 <div class="col-lg-5 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Documentary Films 2025</h5>
+                    <h5 class="fw-bold text-center mb-4">
+                        Documentary Films 2025
+                    </h5>
                     {{- partial "carousel.html" (dict "year" "2025" "category" "documentary" "winners" .Site.Data.awards2025.documentary.winners) -}}
                 </div>
             </div>
