@@ -14,11 +14,6 @@ pageRef = '/awards/awards-2025'
 weight  = 30
 
 [[main]]
-name    = 'Reviews'
-pageRef = '/reviews'
-weight  = 40
-
-[[main]]
 name    = 'The Guild'
 pageRef = '/guild'
 weight  = 50

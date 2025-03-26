@@ -10,7 +10,11 @@
             {{ range .Pages }}
                 <div class="col-lg-3 col-md-6 mb-3">
                     <h6 style="margin-bottom:0.1rem;">
-                        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        <a
+                            href="https://fcgreviews.com{{ .RelPermalink }}"
+                            target="_blank"
+                            >{{ .LinkTitle }}</a
+                        >
                         <div class="float-end">
                             {{ partial "social-media-links.html" .Params.soc_media }}
                         </div>
