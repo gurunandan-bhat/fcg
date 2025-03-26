@@ -40,7 +40,7 @@
             <div class="row mt-3 mb-5">
                 <div class="d-flex justify-content-center">
                     <h2 class="fw-bold mb-5 bg-awards">
-                        Critics' Choice Awards 2024
+                        Critics' Choice Awards 2025
                     </h2>
                 </div>
                 <div class="col-lg-6">
@@ -70,39 +70,45 @@
                     </p>
                     <p>
                         View earlier years from
-                        <a href="/awards/awards-2023">here</a>
+                        <a href="/awards/awards-2024">here</a>
                     </p>
                 </div>
                 <div class="col-lg-6">
                     <div class="row mb-3">
                         <h5 class="fw-bold text-center mb-4">
-                            Special Awards 2024
+                            Special Awards 2025
                         </h5>
                         <div class="col-lg-6 mb-4">
                             <img
-                                src="/images/awards/2024/2024-Extraordinary-Contribution.png"
+                                src="/images/awards/2025/Extraordinary-Contribution.png"
                                 class="img-responsive w-100" />
                         </div>
                         <div class="col-lg-6">
                             <img
-                                src="/images/awards/2024/2024-Gender-Sensitivity.png"
+                                src="/images/awards/2025/Gender-Sensitivity.png"
                                 class="img-responsive w-100" />
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col-lg-4 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Feature Films 2024</h5>
-                    {{- partial "carousel.html" (dict "year" "2024" "category" "feature" "winners" .Site.Data.awards2024.feature.winners) -}}
+                <div class="col-lg-5 offset-lg-1 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Feature Films 2025</h5>
+                    {{- partial "carousel.html" (dict "year" "2025" "category" "feature" "winners" .Site.Data.awards2025.feature.winners) -}}
                 </div>
-                <div class="col-lg-4 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Web Series 2024</h5>
-                    {{- partial "carousel.html" (dict "year" "2024" "category" "web" "winners" .Site.Data.awards2024.web.winners) -}}
+                <div class="col-lg-5 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Web Series 2025</h5>
+                    {{- partial "carousel.html" (dict "year" "2025" "category" "web" "winners" .Site.Data.awards2025.web.winners) -}}
                 </div>
-                <div class="col-lg-4 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Short Films 2024</h5>
-                    {{- partial "carousel.html" (dict "year" "2024" "category" "short" "winners" .Site.Data.awards2024.short.winners) -}}
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-5 offset-lg-1 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Short Films 2025</h5>
+                    {{- partial "carousel.html" (dict "year" "2025" "category" "short" "winners" .Site.Data.awards2025.short.winners) -}}
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <h5 class="fw-bold text-center mb-4">Documentary Films 2025</h5>
+                    {{- partial "carousel.html" (dict "year" "2025" "category" "documentary" "winners" .Site.Data.awards2025.documentary.winners) -}}
                 </div>
             </div>
         </div>

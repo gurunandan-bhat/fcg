@@ -5,13 +5,8 @@ weight  = 10
 
 [[main]]
 name    = 'Awards'
-pageRef = '/awards/awards-2024'
-weight  = 20
-
-[[main]]
-name    = 'Nominees 2025 (New!)'
 pageRef = '/awards/awards-2025'
-weight  = 30
+weight  = 20
 
 [[main]]
 name    = 'The Guild'
