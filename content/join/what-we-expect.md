@@ -11,7 +11,7 @@ draft = false
 - Members shall not steal goods or services from studio representatives, theatres or other Guild (FCG) members.
 - The objectives of the Film Critics Guild (FCG) are of prime importance. Members must bear in mind these objectives and abide by the FCG Bye-Laws at all times.
 - Members shall not use their Guild (FCG) membership to demand special treatment (this includes demanding promotional items for personal use, demanding extra screening passes or demanding free passes to films that have already opened)
-- Members shall not allow gifts or favors to influence the content of reviews.
+- Members shall not allow gifts or favours to influence the content of reviews.
 - Members shall not review films they have not seen.
 - Members shall not review films that they have walked out of or turned off without revealing that they did not see them in their entirety.
 - Members shall not review films in which they have a creative or financial interest.
