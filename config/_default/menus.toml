@@ -4,12 +4,7 @@ pageRef = '/'
 weight  = 10
 
 [[main]]
-name    = 'CC Awards Nominees 2026 (NEW)'
-pageRef = '/nominations'
-weight  = 20
-
-[[main]]
-name    = 'Previous Awards'
+name    = 'Awards'
 pageRef = '/awards/awards-2025'
 weight  = 30
 
