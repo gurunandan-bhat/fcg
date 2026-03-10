@@ -1,18 +1,60 @@
-{{ define "main" }}
+{{- define "main" }}
     <div class="container" style="margin-top: 70px;">
-        <div class="col-lg-7">
-            <h1>{{ .Title }}</h1>
-            <p>Using the NOMINATIONS single template for {{ .Title }}</p>
-            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-            {{ $dateHuman := .Date | time.Format ":date_long" }}
-            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        <h1>{{- .Title }}</h1>
+        <p>Using the NOMINATIONS single template for {{- .Title }}</p>
+        {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{- $dateHuman := .Date | time.Format ":date_long" }}
+        <time datetime="{{- $dateMachine }}">{{- $dateHuman }}</time>
 
-            {{ .Content }}
-            {{ $data := index hugo.Data "nominations2026" }}
-            <pre>{{ debug.Dump $data }}</pre>
-            {{ range index $data (lower .LinkTitle) }}
-                <pre>{{ . }}</pre>
-            {{ end }}
+        {{- .Content }}
+        {{ range .CurrentSection.Pages }}
+            <pre>{{- .LinkTitle }}</pre>
+        {{ end }}
+        {{- $type := .Params.data }}
+        {{- $data := index (index hugo.Data.nominations2026 $type) "data" }}
+        <div class="row">
+            {{- range $data }}
+                {{- $vals := split . "," }}
+                {{- $title := index $vals 0 }}
+                {{- $count := index $vals 1 }}
+                {{- $carID := lower (replace $title " " "") }}
+                <div class="offset-lg-3 col-lg-6 pb-5">
+                    <h5>{{ $title }}</h5>
+                    <div
+                        class="carousel slide carousel-fade mb-5"
+                        id="{{- $carID }}"
+                        data-bs-ride="carousel">
+                        <div
+                            class="carousel-inner px-1 py-1 border border-subtle">
+                            {{ $imgPath := printf "/images/nominations2026/%s/%s" $type $title }}
+                            {{- range seq 1 $count }}
+                                {{- $imgSrc := printf "%s/%d.png" $imgPath . }}
+                                <div
+                                    class="carousel-item {{ if not (sub . 1) }}
+                                        active
+                                    {{ end }}">
+                                    <img
+                                        src="{{- $imgSrc }}"
+                                        class="d-block w-100"
+                                        alt="..." />
+                                </div>
+                            {{ end }}
+                        </div>
+                        <div class="carousel-indicators mb-2">
+                            {{ range seq 1 $count }}
+                                <button
+                                    type="button"
+                                    data-bs-target="#{{- $carID }}"
+                                    data-bs-slide-to="{{- sub . 1 }}"
+                                    {{ if eq . 1 }}
+                                        class="active" aria-current="true"
+                                    {{ end }}
+                                    aria-label="Slide {{- . }}"></button>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            {{- end }}
         </div>
     </div>
-{{ end }}
+{{- end }}

@@ -1,9 +1,9 @@
 data = [
-    'Best Web Series,6',
-    'Best Director Web Series,6',
-    'Best Actor Web Series,6',
-    'Best Actress Web Series,6',
-    'Best Supporting Actor Web Series,6',
-    'Best Supporting Actress Web Series,6',
-    'Best Writing Web Series,6',
+    "Best Web Series,6",
+    "Best Director Web Series,6",
+    "Best Actor Web Series,6",
+    "Best Actress Web Series,6",
+    "Best Supporting Actor Web Series,6",
+    "Best Supporting Actress Web Series,6",
+    "Best Writing Web Series,6",
 ]

@@ -8,9 +8,10 @@
             <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
             {{ .Content }}
-            {{- range .Pages }}
-                <pre>{{ .Title }}</pre>
-            {{- end }}
+            {{ range .Pages }}
+                <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                {{ .Summary }}
+            {{ end }}
         </div>
     </div>
 {{ end }}

@@ -1,8 +1,8 @@
 data = [
-    'Best Short Film,6',
-    'Best Director Short Film,6',
-    'Best Actor Short Film,6',
-    'Best Actress Short Film,6',
-    'Best Cinemtography Short Film,6',
-    'Best Writing Short Film,6',
+    "Best Short Film,6",
+    "Best Director Short Film,6",
+    "Best Actor Short Film,6",
+    "Best Actress Short Film,6",
+    "Best Cinemtography Short Film,6",
+    "Best Writing Short Film,6",
 ]
