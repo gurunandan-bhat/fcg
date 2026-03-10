@@ -1,0 +1,11 @@
+data = [
+    '01 Best Feature Film,11',
+    '02 Best Director Feature Film,6',
+    '03 Best Actor Feature Film,6',
+    '04 Best Actress Feature Film,6',
+    '05 Best Supporting Actor Feature Film,6',
+    '06 Best Supporting Actress Feature Film,6',
+    '07 Best Cinematography Feature Film,6',
+    '08 Best Editing Feature Film,6',
+    '09 Best Writing Feature Film,6',
+]
