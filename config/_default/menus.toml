@@ -4,7 +4,7 @@ pageRef = '/'
 weight  = 10
 
 [[main]]
-name    = 'CC Awards Nominees 2026 (NEW!)'
+name    = 'CCA 2026 Nominees (NEW!)'
 pageRef = '/nominations'
 weight  = 20
 
