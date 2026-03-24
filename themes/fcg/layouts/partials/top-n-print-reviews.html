@@ -13,7 +13,7 @@
     {{ if ge ($stories | len) $countMax }}{{ break }}{{ end }}
 {{ end }}
 
-{{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+{{ $extLinkIcon := index hugo.Data.svgicons.icons "externalLink" }}
 <div class="row">
     {{ range $stories }}
         <div class="col-lg-{{- $colWidth }} mb-3">
@@ -24,7 +24,7 @@
 </div>
 
 {{ define "partials/inline/print-review" }}
-    {{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
+    {{ $extLinkIcon := index hugo.Data.svgicons.icons "externalLink" }}
     {{ $critic := index .Params.critics 0 }}
     <h6 class="fw-bold">
         <span class="d-inline-block pb-2">{{ .Title }} {{ with .Params.translatedTitle }}( {{- . -}} ){{ end }}</span>
@@ -37,7 +37,7 @@
     <h6 class="fw-bold small pb-2" style="height: 3rem;">
         {{ .Params.subtitle | safeHTML }}
     </h6>
-    {{/* 
+    {{/*
     <p class="summary small text-primary-emphasis">
         {{ .Params.opening }}
     </p>

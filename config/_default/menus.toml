@@ -4,13 +4,13 @@ pageRef = '/'
 weight  = 10
 
 [[main]]
-name    = 'CCA 2026 Nominees (NEW!)'
-pageRef = '/nominations'
+name    = 'CCA 2026 Winners (NEW!)'
+pageRef = '/#current-awards'
 weight  = 20
 
 [[main]]
 name    = 'Awards'
-pageRef = '/awards/awards-2025'
+pageRef = '/awards/awards-2026'
 weight  = 30
 
 [[main]]

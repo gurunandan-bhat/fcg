@@ -1,5 +1,5 @@
-{{ $extLinkIcon := index site.Data.svgicons.icons "externalLink" }}
-{{ $intLinkIcon := index site.Data.svgicons.icons "internalLink" }}
+{{ $extLinkIcon := index hugo.Data.svgicons.icons "externalLink" }}
+{{ $intLinkIcon := index hugo.Data.svgicons.icons "internalLink" }}
 {{ $critic := index .Params.critics 0 }}
 {{ $revCount := .Site.Taxonomies.mreviews.Count .Title }}
 {{ $revPage := index .Site.Taxonomies.mreviews (lower .Title) }}

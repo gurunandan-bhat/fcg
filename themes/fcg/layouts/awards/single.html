@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ $year := .Params.awardYear }}
-    {{ $awards := index .Site.Data .Params.dataFile }}
+    {{ $awards := index hugo.Data .Params.dataFile }}
     <div class="container-fluid mt-4">
         <img
             src="/images/awards/{{- .Params.awardYear -}}-banner.png"

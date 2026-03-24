@@ -1,12 +1,12 @@
-{{ $icons := site.Data.svgicons.icons }}
+{{ $icons := hugo.Data.svgicons.icons }}
 {{ $data := . }}
 {{ $plats := slice "instagram" "twitter" "youtube" "facebook" }}
 <div class="soc-media-icons">
-  {{ range $i, $plat := $plats }}
-    {{ with index $data . }}
-      <a target="_blank" class="d-inline-block px-1" href="{{ . }}">
-        {{ index $icons $plat | safeHTML }}
-      </a>
+    {{ range $i, $plat := $plats }}
+        {{ with index $data . }}
+            <a target="_blank" class="d-inline-block px-1" href="{{ . }}">
+                {{ index $icons $plat | safeHTML }}
+            </a>
+        {{ end }}
     {{ end }}
-  {{ end }}
 </div>

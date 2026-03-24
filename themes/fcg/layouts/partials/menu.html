@@ -44,7 +44,7 @@
 {{- define "partials/inline/menu/walk.html" }}
     {{- $page := .page }}
     {{- range .menuEntries }}
-        {{- $linkAttrs := dict "class" "nav-link" "href" .URL }}
+        {{- $linkAttrs := dict "class" "nav-link" "href" .PageRef }}
         {{- if or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }}
             {{- $linkAttrs = merge $linkAttrs (dict "class" "nav-link active" "aria-current" "page") }}
         {{- end }}

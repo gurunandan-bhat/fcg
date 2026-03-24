@@ -32,13 +32,14 @@
         {{ partial "top-n.html" (dict "section" "news" "n" 4) }}
     </div>
     <div
+        id="current-awards"
         class="container-fluid pt-5 pb-1 my-5"
-        style="background-color: #eef5fb">
+        style="background-color: #eef5fb; scroll-margin-top: 30px;">
         <div class="container">
             <div class="row mt-3 mb-5">
                 <div class="d-flex justify-content-center">
                     <h2 class="fw-bold mb-5 bg-awards">
-                        Critics' Choice Awards 2025
+                        Critics' Choice Awards 2026
                     </h2>
                 </div>
                 <div class="col-lg-6">
@@ -67,23 +68,23 @@
                         industry.
                     </p>
                     <p>
-                        View earlier years from
-                        <a href="/awards/awards-2024">here</a>
+                        View earlier years from 2025
+                        <a href="/awards/awards-2025">here</a>
                     </p>
                 </div>
                 <div class="col-lg-6">
                     <div class="row mb-3">
                         <h5 class="fw-bold text-center mb-4">
-                            Special Awards 2025
+                            Special Awards 2026
                         </h5>
                         <div class="col-lg-6 mb-4">
                             <img
-                                src="/images/awards/2025/Extraordinary-Contribution.png"
+                                src="/images/awards/2026/Extraordinary-Contribution.png"
                                 class="img-responsive w-100" />
                         </div>
                         <div class="col-lg-6">
                             <img
-                                src="/images/awards/2025/Gender-Sensitivity.png"
+                                src="/images/awards/2026/Gender-Sensitivity.png"
                                 class="img-responsive w-100" />
                         </div>
                     </div>
@@ -91,24 +92,24 @@
             </div>
             <div class="row mb-5">
                 <div class="col-lg-5 offset-lg-1 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Feature Films 2025</h5>
-                    {{- partial "carousel.html" (dict "year" "2025" "category" "feature" "winners" .Site.Data.awards2025.feature.winners) -}}
+                    <h5 class="fw-bold text-center mb-4">Feature Films 2026</h5>
+                    {{- partial "carousel.html" (dict "year" "2026" "category" "feature" "winners" hugo.Data.awards2026.feature.winners) -}}
                 </div>
                 <div class="col-lg-5 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Web Series 2025</h5>
-                    {{- partial "carousel.html" (dict "year" "2025" "category" "web" "winners" .Site.Data.awards2025.web.winners) -}}
+                    <h5 class="fw-bold text-center mb-4">Web Series 2026</h5>
+                    {{- partial "carousel.html" (dict "year" "2026" "category" "web" "winners" hugo.Data.awards2026.web.winners) -}}
                 </div>
             </div>
             <div class="row mb-5">
                 <div class="col-lg-5 offset-lg-1 mb-5">
-                    <h5 class="fw-bold text-center mb-4">Short Films 2025</h5>
-                    {{- partial "carousel.html" (dict "year" "2025" "category" "short" "winners" .Site.Data.awards2025.short.winners) -}}
+                    <h5 class="fw-bold text-center mb-4">Short Films 2026</h5>
+                    {{- partial "carousel.html" (dict "year" "2026" "category" "short" "winners" hugo.Data.awards2026.short.winners) -}}
                 </div>
                 <div class="col-lg-5 mb-5">
                     <h5 class="fw-bold text-center mb-4">
-                        Documentary Films 2025
+                        Documentary Films 2026
                     </h5>
-                    {{- partial "carousel.html" (dict "year" "2025" "category" "documentary" "winners" .Site.Data.awards2025.documentary.winners) -}}
+                    {{- partial "carousel.html" (dict "year" "2026" "category" "documentary" "winners" hugo.Data.awards2026.documentary.winners) -}}
                 </div>
             </div>
         </div>

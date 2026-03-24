@@ -1,4 +1,4 @@
-{{ $images := site.Data.banner.images }}
+{{ $images := hugo.Data.banner.images }}
 {{ $first := index $images 0 }}
 {{ $lastn := sub ( $images | len ) 1 }}
 <div
