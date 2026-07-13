@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div class="container" style="margin-top: 70px;">
+    <div class="offset-lg-3 col-lg-6">
+      <h1>{{ .Title }}</h1>
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format ":date_long" }}
+      {{- with .Params.author }}
+      <h6>
+        {{ . }} | <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+      </h6>
+      {{- end }}
+        <hr class="mb-5"/>
+        {{- with .Params.image }}
+            {{- $image := fmt.Printf "/images/articles/%s" . }}
+            {{- with resources.Get $image }}
+                <img src="{{ .RelPermalink }}" class="img-fluid w-100 mb-5 p-1 border" />
+            {{- end }}
+        {{- end }}
+      {{ .Content }}
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+  </div>
+{{ end }}
