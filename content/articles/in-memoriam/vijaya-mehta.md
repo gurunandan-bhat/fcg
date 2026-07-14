@@ -1,5 +1,5 @@
 +++
-title = 'Vijaya Mehta'
+title = 'Vijaya Mehta (1934 - 2026)'
 date = 2026-07-13T12:21:01+05:30
 draft = false
 image = 'vijaya-mehta.jpeg'

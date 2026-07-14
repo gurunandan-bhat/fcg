@@ -1,5 +1,5 @@
 +++
-title = 'Bharathiraja'
+title = 'Bharathiraja (1941 - 2026)'
 date = 2026-07-13T12:22:14+05:30
 draft = false
 image = 'bharathiraja.jpg'
