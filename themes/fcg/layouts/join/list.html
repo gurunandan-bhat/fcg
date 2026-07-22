@@ -71,4 +71,22 @@
             </div>
         </div>
     </div>
+    {{ with index (where .RegularPages "LinkTitle" "Guidelines for Reviews on Social Media") 0 }}
+        <hr class="my-5 show-on-phone" />
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-lg-10 offset-lg-1">
+                        <h4 class="fw-bold mb-4 ps-4">{{ .Title }}</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    {{ .Content }}
+                </div>
+            </div>
+            <hr class="my-5 show-on-phone" />
+        </div>
+    {{ end }}
+
 {{ end }}
