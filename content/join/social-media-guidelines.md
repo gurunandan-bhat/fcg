@@ -27,12 +27,12 @@ draft = false
 
 14. At least 10,000 readers on the page you’re looking to get accredited
 
-##### Additional for Audio Podcasts
+##### Additional Guidelines for Audio Podcasts
 
 15. At least 10,000 subscribers on the podcast broadcast platform
 16. Each qualifying episode must include structured film criticism, not just general discussion
 
-##### For existing members moving onto new media.
+##### Guidelines for existing members moving onto new media.
 
 1. If existing members start a new venture within their 6-month cool off period, they get another 6 months to build the new platform.
 2. A mix of formats/media is okay as long as the total number of output is 18 reviews in 6 months, to be posted within the review cycle of each film.
