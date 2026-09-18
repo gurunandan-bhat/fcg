@@ -1,0 +1,10 @@
++++
+title = "Suparna Sharma Wins 2026 Pulitzer for ‘trAPPed’ on Digital Arrest"
+date = 2026-09-17T23:30:09+05:30
+draft = false
+img = 'suparna-sharma-pulitzer.png'
++++
+
+Film Critics Guild member and journalist Suparna Sharma has won the 2026 Pulitzer Prize in the ‘Illustrated Reporting and Commentary’ category for [trAPPed](https://www.bloomberg.com/graphics/2025-india-digital-arrest-by-phone-graphic-novel/), along with Indian illustrator Anand R K and Natalie Obiko Pearson of Bloomberg. The 2026 Pulitzer Prizes were announced on May 4, 2026. The award-winning graphic story investigates the phenomenon of ‘Digital Arrest’ and the experiences of its victims.
+
+Sharma said, “I am delighted and overwhelmed that our graphic story on Digital Arrest for Bloomberg has been appreciated and has won the Pulitzer award. Life as a freelance investigative journalist in today’s environment is tough. It’s tough to pursue stories that really matter. It’s tough to find editors and publications that back you, invest time, effort and money in a story. I was lucky that Bloomberg found me for this story. It was an ambitious, challenging story, and the reporting was tough, often backbreaking, quite literally. We went to several small, sleepy towns in Bihar, Odisha and Uttar Pradesh to meet scammers, we visited seedy hotels where scammers operated, and we poured over almost 15 kgs of court documents. Yet it was an incredible experience to work on this story because of the editors, all of them world-class. Every edition session, every discussion with them was like attending a journalism masterclass. My reporting partner Natalie Obiko-Pearson was god-sent and Anand RK is an incredible, incredible artist. But most of all, it was Dr Ruchika Tandon, the victim of this Digital Arrest case, who, unlike most other victims, had the courage to speak up. She shared her ordeal, her trauma with us in detail and never lost her patience. I hope this story and the Pulitzer helps in getting her money back.”
