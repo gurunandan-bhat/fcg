@@ -22,3 +22,8 @@ weight  = 40
 name    = 'Join Us'
 pageRef = '/join'
 weight  = 50
+
+[[main]]
+name    = 'Newsletter'
+pageRef = 'https://www.fcgreviews.com/archive'
+weight  = 60
